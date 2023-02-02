@@ -15,15 +15,5 @@
 <script setup>
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import Character from './Character'
-
-const endura = [
-  { name: 'OwO', rank: 'S', core: true },
-  { name: 'Demon', rank: 'S', core: false },
-  { name: 'Kawa-Kawa', rank: 'A', core: false },
-  { name: 'Cinnabar', rank: 'A', core: false },
-  { name: 'Css. Chelsea', rank: 'A', core: false },
-  { name: 'Demolia', rank: 'B', core: false },
-  { name: 'Peggy', rank: 'B', core: false },
-  { name: 'KK', rank: 'B', core: false }
-]
+import endura from '@/data/endura.json'
 </script>

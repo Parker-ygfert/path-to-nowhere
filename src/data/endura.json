@@ -1,0 +1,106 @@
+[
+  {
+    "name": "OwO",
+    "rank": "S",
+    "core": true,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  },
+  {
+    "name": "Demon",
+    "rank": "S",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "Year One: Perishing Star",
+        "second": "Year One: Perishing Star",
+        "third": "Year One: Perishing Star"
+      }
+    ]
+  },
+  {
+    "name": "Kawa-Kawa",
+    "rank": "A",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar",
+    "rank": "A",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  },
+  {
+    "name": "Countess Chelsea",
+    "rank": "A",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  },
+  {
+    "name": "Demolia",
+    "rank": "B",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  },
+  {
+    "name": "Peggy",
+    "rank": "B",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  },
+  {
+    "name": "K.K.",
+    "rank": "B",
+    "core": false,
+    "crimebrands": [
+      {
+        "name": "Broken Frontline A",
+        "first": "",
+        "second": "",
+        "third": ""
+      }
+    ]
+  }
+]

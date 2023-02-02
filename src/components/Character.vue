@@ -10,7 +10,7 @@
   <div class="rank-img position-absolute">
     <img :src="getImageUrl(`ranks/${character.rank}.png`)" alt="" class="w-100 h-100">
   </div>
-  <div class="character-name position-absolute text-white font-18 fw-bold">{{ character.name }}</div>
+  <div class="character-name position-absolute text-white font-18 fw-bold">{{ $t(`${character.name}`) }}</div>
 </template>
 
 <style lang="sass" scoped>
