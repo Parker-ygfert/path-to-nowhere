@@ -1,7 +1,12 @@
 <template>
 <div class="d-flex flex-wrap">
-  <div v-for="character in endura" class="character-img position-relative me-1 mb-3">
-    <Character job="endura" :character="character" />
+  <div v-for="character in endura" class="character-img position-relative me-1 mb-1">
+    <router-link :to="{
+      name: 'crime-brands',
+      params: { name: character.name }
+    }">
+      <Character job="endura" :character="character" />
+    </router-link>
   </div>
 </div>
 </template>
@@ -13,7 +18,6 @@
 </style>
 
 <script setup>
-import { getImageUrl } from '@/scripts/get_image_url.js'
 import Character from './Character'
 import endura from '@/data/endura.json'
 </script>

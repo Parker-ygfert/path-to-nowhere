@@ -1,32 +1,59 @@
 [
   {
-    "name": "OwO",
+    "name": "owo",
     "rank": "S",
     "core": true,
     "crimebrands": [
       {
-        "name": "Broken Frontline A",
-        "first": "",
-        "second": "",
-        "third": ""
+        "name": "Recommend A",
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name"
       }
     ]
   },
   {
-    "name": "Demon",
+    "name": "demon",
     "rank": "S",
     "core": false,
     "crimebrands": [
       {
         "name": "Broken Frontline A",
-        "first": "Year One: Perishing Star",
-        "second": "Year One: Perishing Star",
-        "third": "Year One: Perishing Star"
+        "first": "year_one_perishing_star",
+        "second": "year_one_perishing_star",
+        "third": "year_one_perishing_star"
+      },
+      {
+        "name": "Broken Frontline B",
+        "first": "nightmare_revelation",
+        "second": "the_city_of_sins",
+        "third": "nightmare_revelation"
+      },
+      {
+        "name": "Universal",
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "在一般關卡以減傷阻擋為主可以無腦選"
+      },
+      {
+        "name": "Substitute",
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "creation",
+        "description": "疊盾流天下第一"
+      },
+      {
+        "name": "Recommend A",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation",
+        "description": "提升團隊開局輸出能力"
       }
     ]
   },
   {
-    "name": "Kawa-Kawa",
+    "name": "kawa_kawa",
     "rank": "A",
     "core": false,
     "crimebrands": [
@@ -39,7 +66,7 @@
     ]
   },
   {
-    "name": "Cinnabar",
+    "name": "cinnabar",
     "rank": "A",
     "core": false,
     "crimebrands": [
@@ -52,7 +79,7 @@
     ]
   },
   {
-    "name": "Countess Chelsea",
+    "name": "countess_chelsea",
     "rank": "A",
     "core": false,
     "crimebrands": [
@@ -65,7 +92,7 @@
     ]
   },
   {
-    "name": "Demolia",
+    "name": "demolia",
     "rank": "B",
     "core": false,
     "crimebrands": [
@@ -78,7 +105,7 @@
     ]
   },
   {
-    "name": "Peggy",
+    "name": "peggy",
     "rank": "B",
     "core": false,
     "crimebrands": [
@@ -91,7 +118,7 @@
     ]
   },
   {
-    "name": "K.K.",
+    "name": "kk",
     "rank": "B",
     "core": false,
     "crimebrands": [

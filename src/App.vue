@@ -10,7 +10,7 @@
   <ul class="nav nav-tabs flex-nowrap">
     <li v-for="job in jobs" class="nav-item">
       <router-link
-        :to="job"
+        :to="{ name: job }"
         class="nav-link p-1 font-20"
         :class="{ active: isActive(job) }">
         {{ $t(`${job}`) }}

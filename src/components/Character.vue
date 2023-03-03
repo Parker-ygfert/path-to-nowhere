@@ -43,7 +43,7 @@
   left: 12px
   bottom: 0
 .character-name
-  right: 12px
+  right: 14px
   bottom: 6px
 </style>
 
