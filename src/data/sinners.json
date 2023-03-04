@@ -1046,7 +1046,35 @@
       "name": "gekkabijin",
       "rank": "B",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套可快速啟動"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "universal",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "疊攻速能力較為優秀，潘多拉收益也不錯"
+        },
+        {
+          "name": "recommend_a",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "必殺可以頻繁使用，正義套可以頻繁觸發"
+        }
+      ]
     },
     {
       "name": "labyrinth",
