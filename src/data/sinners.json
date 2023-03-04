@@ -872,7 +872,29 @@
       "name": "lynn",
       "rank": "A",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "recommend_a",
+          "first": "reunion_day",
+          "second": "reunion_day",
+          "third": "reunion_day",
+          "description": "有爆擊機制，可加快充能"
+        },
+        {
+          "name": "recommend_b",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套可快速啟動"
+        },
+        {
+          "name": "recommend_c",
+          "first": "tower",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高 155，可選的輸出套件"
+        }
+      ]
     },
     {
       "name": "mc_queen",
