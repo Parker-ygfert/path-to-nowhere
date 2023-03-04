@@ -667,9 +667,42 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "",
-          "second": "",
-          "third": ""
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "substitute",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "技能加攻速，可以考慮潘多拉"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "corridor_echo",
+          "description": "充能套屬性適配"
+        },
+        {
+          "name": "recommend_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation",
+          "description": "公會戰可以當作加攻速工具人上場，三枷鎖效果還不錯"
         }
       ]
     },
