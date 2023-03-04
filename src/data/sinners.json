@@ -804,7 +804,41 @@
       "name": "crache",
       "rank": "S",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "可以提升破核後的爆發輸出"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "premonition",
+          "second": "shattered_battlefront",
+          "third": "shattered_battlefront"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "recommend_a",
+          "first": "premonition",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高符合要求，屬性可觀"
+        },
+        {
+          "name": "recommend_b",
+          "first": "turning_zero",
+          "second": "shattered_battlefront",
+          "third": "shattered_battlefront",
+          "description": "30 秒內解決 BOSS 可以帶這一套"
+        }
+      ]
     },
     {
       "name": "bai_yi",
