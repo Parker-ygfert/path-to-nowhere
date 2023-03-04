@@ -1,50 +1,49 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Endura from '/src/components/Endura.vue'
-import Fury from '/src/components/Fury.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
+import Job from '/src/components/Job.vue'
 import CrimeBrands from '/src/components/CrimeBrands.vue'
 
-let history = createWebHistory()
+let history = createWebHashHistory()
 let routes = [
   {
     path: '/',
-    redirect: '/path-to-nowhere/endura'
+    redirect: '/endura'
   },
   {
     path: '/path-to-nowhere',
-    redirect: '/path-to-nowhere/endura'
+    redirect: '/endura'
   },
   {
-    path: '/path-to-nowhere/endura',
+    path: '/endura',
     name: 'endura',
-    component: Endura
+    component: Job
   },
   {
-    path: '/path-to-nowhere/fury',
+    path: '/fury',
     name: 'fury',
-    component: Fury
+    component: Job
   },
   {
-    path: '/path-to-nowhere/umbra',
+    path: '/umbra',
     name: 'umbra',
-    component: Endura
+    component: Job
   },
   {
-    path: '/path-to-nowhere/reticle',
+    path: '/reticle',
     name: 'reticle',
-    component: Endura
+    component: Job
   },
   {
-    path: '/path-to-nowhere/arcane',
+    path: '/arcane',
     name: 'arcane',
-    component: Endura
+    component: Job
   },
   {
-    path: '/path-to-nowhere/catalyst',
+    path: '/catalyst',
     name: 'catalyst',
-    component: Endura
+    component: Job
   },
   {
-    path: '/path-to-nowhere/crime-brands/:name',
+    path: '/crime-brands/:job/:name',
     name: 'crime-brands',
     component: CrimeBrands
   }

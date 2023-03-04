@@ -6,7 +6,7 @@
   </select>
 </div>
 
-<header class="mb-2" @click=reRender()>
+<header class="mb-2">
   <ul class="nav nav-tabs flex-nowrap">
     <li v-for="job in jobs" class="nav-item">
       <router-link
@@ -19,7 +19,7 @@
   </ul>
 </header>
 
-<router-view />
+<router-view :key="$route.name" />
 </template>
 
 <style lang="sass" scoped>
@@ -40,15 +40,5 @@ watch(locale, (newLocale) => {
 const jobs = ['endura', 'fury', 'umbra', 'reticle', 'arcane', 'catalyst']
 const isActive = (job) => {
   return job == window.location.pathname.replace('/', '')
-}
-</script>
-
-<script>
-export default {
-  methods: {
-    reRender() {
-      this.$forceUpdate()
-    }
-  }
 }
 </script>

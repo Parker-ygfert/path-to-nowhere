@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex">
     <div class="character-img position-relative me-3">
-      <Character job="endura" :character="currentCharacter" />
+      <Character :job="job" :character="currentCharacter" />
     </div>
 
     <div class="cb-box overflow-auto">
@@ -50,12 +50,13 @@
 import { useRoute } from 'vue-router'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import Character from './Character'
-import endura from '@/data/endura.json'
+import sinners from '@/data/sinners.json'
 import crimebrands from '@/data/crimebrands.json'
 
 const route = useRoute()  
-let currentCharacter = endura.find(({ name }) => name === route.params.name )
-let cbRank = (cbName) => {
+const job = route.params.job
+const currentCharacter = sinners[job].find(({ name }) => name === route.params.name )
+const cbRank = (cbName) => {
   let cb = crimebrands.find(({ name }) => name === cbName)
   return cb.rank
 }
