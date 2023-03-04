@@ -20,5 +20,6 @@ export default defineConfig({
     extensions: [
       '.vue'
     ]
-  }
+  },
+  base: '/path-to-nowhere/'
 })

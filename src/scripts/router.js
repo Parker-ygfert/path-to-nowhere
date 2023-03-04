@@ -7,40 +7,44 @@ let history = createWebHistory()
 let routes = [
   {
     path: '/',
-    redirect: '/endura'
+    redirect: '/path-to-nowhere/endura'
   },
   {
-    path: '/endura',
+    path: '/path-to-nowhere',
+    redirect: '/path-to-nowhere/endura'
+  },
+  {
+    path: '/path-to-nowhere/endura',
     name: 'endura',
     component: Endura
   },
   {
-    path: '/fury',
+    path: '/path-to-nowhere/fury',
     name: 'fury',
     component: Endura
   },
   {
-    path: '/umbra',
+    path: '/path-to-nowhere/umbra',
     name: 'umbra',
     component: Endura
   },
   {
-    path: '/reticle',
+    path: '/path-to-nowhere/reticle',
     name: 'reticle',
     component: Endura
   },
   {
-    path: '/arcane',
+    path: '/path-to-nowhere/arcane',
     name: 'arcane',
     component: Endura
   },
   {
-    path: '/catalyst',
+    path: '/path-to-nowhere/catalyst',
     name: 'catalyst',
     component: Endura
   },
   {
-    path: '/crime-brands/:name',
+    path: '/path-to-nowhere/crime-brands/:name',
     name: 'crime-brands',
     component: CrimeBrands
   }
