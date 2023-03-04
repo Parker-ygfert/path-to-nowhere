@@ -514,7 +514,7 @@
           "first": "ground_zero",
           "second": "creed_of_bulwark",
           "third": "ground_zero",
-          "descriptioin": "優秀的回復能力，適合拿來當坦克去打，有範圍破核能力"
+          "description": "優秀的回復能力，適合拿來當坦克去打，有範圍破核能力"
         },
         {
           "name": "recommend_a",
@@ -713,9 +713,42 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "",
-          "second": "",
-          "third": ""
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "substitute",
+          "first": "eastside_dream",
+          "second": "eastside_dream",
+          "third": "eastside_dream",
+          "description": "初期使用時勉強打點輸出"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高符合要求，可選"
+        },
+        {
+          "name": "recommend_b",
+          "first": "ground_zero",
+          "second": "creed_of_bulwark",
+          "third": "ground_zero",
+          "description": "優秀的回復能力，適合拿來當坦克去打"
         }
       ]
     }
