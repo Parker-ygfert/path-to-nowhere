@@ -566,9 +566,30 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "",
-          "second": "",
-          "third": ""
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "可以提升破核後的爆發輸出"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "depth_of_restricted_area",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero",
+          "description": "大幅提升屬性，部分場景適用"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "疊攻速能力較為優秀，潘多拉收益也不錯"
         }
       ]
     },
