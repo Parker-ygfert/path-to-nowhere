@@ -22,6 +22,8 @@
             <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
               {{ $t(cbName) }}
             </span>
+            <!-- <div :class="rank-deco-${cbRank(cbName)}"></div> -->
+            <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
           </div>
         </div>
 
@@ -44,6 +46,20 @@
       right: 4px
       bottom: 0
       text-shadow: -1px 0 2px #000, 0 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000
+    .rank-deco
+      display: inline-block
+      bottom: 0
+      right: 0
+      position: absolute
+      pointer-events: none
+      width: 98px
+      height: 5px
+    .deco-s
+      background-image: linear-gradient(rgba(255,0,0,0),rgba(255,220,93,1) 75% )
+    .deco-a
+      background-image: linear-gradient(rgba(255,0,0,0),rgba(241,174,255,1) 75% )
+    .deco-b
+      background-image: linear-gradient(rgba(255,0,0,0),rgba(117,171,240,1) 75% )
 </style>
 
 <script setup>
