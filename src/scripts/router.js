@@ -21,7 +21,7 @@ let routes = [
   {
     path: '/path-to-nowhere/fury',
     name: 'fury',
-    component: Endura
+    component: Fury
   },
   {
     path: '/path-to-nowhere/umbra',
