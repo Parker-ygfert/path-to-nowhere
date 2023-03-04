@@ -1080,7 +1080,35 @@
       "name": "labyrinth",
       "rank": "B",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "必殺可以頻繁使用，正義套可以頻繁觸發"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套可快速啟動"
+        },
+        {
+          "name": "substitute",
+          "first": "depths_of_oblivion",
+          "second": "singularity",
+          "third": "depths_of_oblivion"
+        },
+        {
+          "name": "recommend_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "可以提升破核後的爆發輸出"
+        }
+      ]
     }
   ]
 }
