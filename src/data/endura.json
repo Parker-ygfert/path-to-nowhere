@@ -74,9 +74,42 @@
     "crimebrands": [
       {
         "name": "broken_frontline_a",
-        "first": "",
-        "second": "",
-        "third": ""
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained"
+      },
+      {
+        "name": "broken_frontline_b",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
+      },
+      {
+        "name": "universal",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo"
+      },
+      {
+        "name": "substitute",
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "在一般關卡以減傷阻擋為主可以無腦選"
+      },
+      {
+        "name": "recommend_a",
+        "first": "final_prologue",
+        "second": "final_prologue",
+        "third": "final_prologue",
+        "description": "治療套也適用於卡瓦卡瓦技能組"
+      },
+      {
+        "name": "recommend_b",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation",
+        "description": "提升團隊開局輸出能力"
       }
     ]
   },

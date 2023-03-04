@@ -43,7 +43,7 @@
     .crimebrands-name
       right: 4px
       bottom: 0
-      text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000
+      text-shadow: -1px 0 2px #000, 0 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000
 </style>
 
 <script setup>
