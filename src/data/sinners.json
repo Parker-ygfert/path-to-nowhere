@@ -844,7 +844,29 @@
       "name": "bai_yi",
       "rank": "S",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "reunion_day",
+          "second": "reunion_day",
+          "third": "reunion_day",
+          "description": "當前最適合白逸的套裝，兼顧破核輸出"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "競速環境下需要白逸快速開出必殺"
+        },
+        {
+          "name": "substitute",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life",
+          "description": "觸發被動後刀刀爆擊，前期容易湊齊，增傷可選"
+        }
+      ]
     },
     {
       "name": "lynn",

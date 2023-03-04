@@ -44,7 +44,7 @@
     height: 100px
     .crimebrands-name
       right: 4px
-      bottom: 0
+      bottom: 1px
       text-shadow: -1px 0 2px #000, 0 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000
     .rank-deco
       display: inline-block
