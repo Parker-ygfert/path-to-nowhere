@@ -16,6 +16,10 @@
     "rank": "s"
   },
   {
+    "name": "depths_of_oblivion",
+    "rank": "s"
+  },
+  {
     "name": "embrace_of_the_dead",
     "rank": "s"
   },
@@ -93,6 +97,10 @@
   },
   {
     "name": "justice",
+    "rank": "b"
+  },
+  {
+    "name": "syndicate_glory",
     "rank": "b"
   }
 ]

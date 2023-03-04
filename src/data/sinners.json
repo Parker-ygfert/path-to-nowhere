@@ -532,9 +532,30 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "",
-          "second": "",
-          "third": ""
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "depths_of_oblivion",
+          "second": "the_city_of_sins",
+          "third": "depths_of_oblivion",
+          "description": "忘卻契合角色疊傷機制"
+        },
+        {
+          "name": "substitute",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory",
+          "description": "純法傷輸出，辛迪加套收益較高"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高符合要求，可選"
         }
       ]
     },

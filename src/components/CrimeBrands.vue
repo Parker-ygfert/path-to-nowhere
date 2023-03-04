@@ -19,7 +19,7 @@
             <img v-if="cbName"
                  :src="getImageUrl(`crimebrands/${cbName}.png`)" alt=""
                  class="w-100 h-100">
-            <span class="crimebrands-name position-absolute font-16 fw-bold text-white">
+            <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
               {{ $t(cbName) }}
             </span>
           </div>
