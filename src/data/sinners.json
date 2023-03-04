@@ -493,9 +493,35 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "",
-          "second": "",
-          "third": ""
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "universal",
+          "first": "in_hosts_name",
+          "second": "creed_of_bulwark",
+          "third": "in_hosts_name"
+        },
+        {
+          "name": "substitute",
+          "first": "ground_zero",
+          "second": "creed_of_bulwark",
+          "third": "ground_zero",
+          "descriptioin": "優秀的回復能力，適合拿來當坦克去打，有範圍破核能力"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "creed_of_bulwark",
+          "third": "corridor_echo",
+          "description": "增加阻擋+快速啟動"
         }
       ]
     },
