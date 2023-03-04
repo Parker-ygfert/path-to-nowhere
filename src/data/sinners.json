@@ -900,7 +900,34 @@
       "name": "mc_queen",
       "rank": "A",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "creation",
+          "description": "主要依賴幻象爆炸傷害，開專配合迪蒙這一套最實用"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "creation"
+        },
+        {
+          "name": "substitute",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "creation"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "作為破 2 核工具人時可考慮攜帶"
+        }
+      ]
     },
     {
       "name": "sumire",
