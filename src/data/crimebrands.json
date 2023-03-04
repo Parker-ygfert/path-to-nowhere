@@ -16,7 +16,7 @@
     "rank": "s"
   },
   {
-    "name": "forerunner",
+    "name": "pioneer",
     "rank": "s"
   },
   {
@@ -48,6 +48,10 @@
     "rank": "s"
   },
   {
+    "name": "diverged_ends",
+    "rank": "a"
+  },
+  {
     "name": "final_prologue",
     "rank": "a"
   },
@@ -66,6 +70,10 @@
   {
     "name": "turning_zero",
     "rank": "a"
+  },
+  {
+    "name": "eastside_dream",
+    "rank": "b"
   },
   {
     "name": "justice",
