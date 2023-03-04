@@ -418,9 +418,24 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "",
-          "second": "",
-          "third": ""
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "可以提升破核後的爆發輸出"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "eastside_dream",
+          "second": "eastside_dream",
+          "third": "eastside_dream",
+          "description": "過渡期，提升普攻傷害"
+        },
+        {
+          "name": "universal",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "彌補莓絲錘型態傷害，攻速屬性加速疊攻擊力"
         }
       ]
     },
