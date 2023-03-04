@@ -1,5 +1,9 @@
 [
   {
+    "name": "corridor_echo",
+    "rank": "s"
+  },
+  {
     "name": "creation",
     "rank": "s"
   },
@@ -30,5 +34,9 @@
   {
     "name": "turning_zero",
     "rank": "a"
+  },
+  {
+    "name": "justice",
+    "rank": "b"
   }
 ]

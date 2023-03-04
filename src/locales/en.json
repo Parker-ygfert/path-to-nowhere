@@ -13,12 +13,21 @@
   "demolia": "Demolia",
   "peggy": "Peggy",
   "kk": "K.K.",
+  "corridor_echo": "Corridor Echo",
   "creation": "Creation",
   "creed_of_bulwark": "Creed Of Bulwark",
   "hope": "Hope",
   "in_hosts_name": "In Host's Name",
+  "justice": "Justice",
   "nightmare_revelation": "Nightmare Revelation",
   "the_city_of_sins": "The City Of Sins",
   "turning_zero": "Turning: Zero",
-  "year_one_perishing_star": "Year One: Perishing Star"
+  "year_one_perishing_star": "Year One: Perishing Star",
+  "broken_frontline_a": "Broken Frontline A",
+  "broken_frontline_b": "Broken Frontline B",
+  "recommend_a": "Recommend A",
+  "recommend_b": "Recommend B",
+  "recommend_c": "Recommend C",
+  "substitute": "Substitute",
+  "universal": "Universal"
 }

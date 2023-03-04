@@ -13,12 +13,21 @@
   "demolia": "德莫莉",
   "peggy": "佩姬",
   "kk": "K.K.",
+  "corridor_echo": "迴廊空響",
   "creation": "造物",
   "creed_of_bulwark": "鐵壁信條",
   "hope": "希望",
   "in_hosts_name": "至高之名",
+  "justice": "正義",
   "nightmare_revelation": "夢魘的啟示",
   "the_city_of_sins": "狂慾之城",
   "turning_zero": "調律・零",
-  "year_one_perishing_star": "元年·殞星"
+  "year_one_perishing_star": "元年·殞星",
+  "broken_frontline_a": "破碎防線 A",
+  "broken_frontline_b": "破碎防線 B",
+  "recommend_a": "推薦 A",
+  "recommend_b": "推薦 B",
+  "recommend_c": "推薦 C",
+  "substitute": "替補",
+  "universal": "通用"
 }
