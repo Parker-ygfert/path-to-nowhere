@@ -933,7 +933,34 @@
       "name": "sumire",
       "rank": "A",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套可快速啟動"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "substitute",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "可以提供不錯的持續輸出能力"
+        }
+      ]
     },
     {
       "name": "iron",
