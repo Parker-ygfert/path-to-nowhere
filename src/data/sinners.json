@@ -752,5 +752,67 @@
         }
       ]
     }
+  ],
+  "umbra": [
+    {
+      "name": "serpent",
+      "rank": "S",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "crache",
+      "rank": "S",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "bai_yi",
+      "rank": "S",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "lynn",
+      "rank": "A",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "mc_queen",
+      "rank": "A",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "sumire",
+      "rank": "A",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "iron",
+      "rank": "A",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "tetra",
+      "rank": "A",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "gekkabijin",
+      "rank": "B",
+      "core": true,
+      "crimebrands": []
+    },
+    {
+      "name": "labyrinth",
+      "rank": "B",
+      "core": true,
+      "crimebrands": []
+    }
   ]
 }
