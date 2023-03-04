@@ -640,9 +640,23 @@
       "crimebrands": [
         {
           "name": "broken_frontline_a",
-          "first": "turning_zero",
-          "second": "shattered_battlefront",
-          "third": "shattered_battlefront"
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo",
+          "description": "優秀的破核增傷工具人，BOSS 場景適用魂之裂痕的最佳人選"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "substitute",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "常規關卡中，正義套裝可以在破核後給隊友增加攻擊"
         }
       ]
     },
