@@ -1006,7 +1006,41 @@
       "name": "tetra",
       "rank": "A",
       "core": true,
-      "crimebrands": []
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "有爆擊機制，可加快充能"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "reunion_day",
+          "second": "reunion_day",
+          "third": "reunion_day"
+        },
+        {
+          "name": "substitute",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life"
+        },
+        {
+          "name": "recommend_a",
+          "first": "tower",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套可快速啟動"
+        },
+        {
+          "name": "recommend_b",
+          "first": "white_sands_apostle",
+          "second": "white_sands_apostle",
+          "third": "white_sands_apostle",
+          "description": "可以觸發三枷鎖的被動"
+        }
+      ]
     },
     {
       "name": "gekkabijin",
