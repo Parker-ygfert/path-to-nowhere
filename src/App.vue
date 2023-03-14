@@ -30,6 +30,7 @@
 <script setup>
 import { watch } from 'vue'
 import { useI18n } from 'vue-i18n'
+import sinners from '@/data/sinners.json'
 
 const { t, locale } = useI18n()
 
@@ -37,7 +38,7 @@ watch(locale, (newLocale) => {
   localStorage.setItem('locale', newLocale)
 })
 
-const jobs = ['endura', 'fury', 'umbra', 'reticle', 'arcane', 'catalyst']
+const jobs = Object.keys(sinners)
 const isActive = (job) => {
   return job == window.location.pathname.replace('/', '')
 }

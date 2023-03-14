@@ -1110,5 +1110,308 @@
         }
       ]
     }
-  ]
+  ],
+  "reticle": [
+    {
+      "name": "oak_casket",
+      "rank": "S",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "recommend_a",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "完美適配"
+        }
+      ]
+    },
+    {
+      "name": "summer",
+      "rank": "S",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "servant",
+          "second": "the_city_of_sins",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "servant",
+          "second": "the_city_of_sins",
+          "third": "creation",
+          "description": "夏音目前最強套裝，所有屬性完美契合夏音"
+        },
+        {
+          "name": "substitute",
+          "first": "servant",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "輸出效率尚可，可選"
+        },
+        {
+          "name": "recommend_a",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life",
+          "description": "爆擊套適用，下位替代"
+        }
+      ]
+    },
+    {
+      "name": "langley",
+      "rank": "S",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "潘多拉的傷害可以觸發因果律的傷害，傷害非常可觀"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "universal",
+          "first": "premonition",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage"
+        },
+        {
+          "name": "substitute",
+          "first": "depths_of_oblivion",
+          "second": "singularity",
+          "third": "depths_of_oblivion"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套競速環境適用"
+        },
+        {
+          "name": "recommend_b",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "roulecca",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "用於破碎防線凹分首選亡者之擁，總有一把輸出高"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "substitute",
+          "first": "year_one_perishing_star",
+          "second": "year_one_perishing_star",
+          "third": "year_one_perishing_star"
+        },
+        {
+          "name": "recommend_a",
+          "first": "tower",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高符合要求，屬性可觀"
+        }
+      ]
+    },
+    {
+      "name": "pricilla",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "ground_zero",
+          "second": "hope",
+          "third": "ground_zero"
+        },
+        {
+          "name": "universal",
+          "first": "servant",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage"
+        },
+        {
+          "name": "substitute",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero",
+          "description": "長線戰鬥可選"
+        },
+        {
+          "name": "recommend_a",
+          "first": "tower",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "大部分情況是高攻速普希拉的最優解"
+        },
+        {
+          "name": "recommend_b",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "破碎防線可選"
+        }
+      ]
+    },
+    {
+      "name": "wolverine",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo",
+          "description": "跨隊執法懂的都懂"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "substitute",
+          "first": "year_one_perishing_star",
+          "second": "year_one_perishing_star",
+          "third": "year_one_perishing_star"
+        },
+        {
+          "name": "recommend_a",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        },
+        {
+          "name": "recommend_b",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "作為減防工具人快速開啟大招"
+        }
+      ]
+    },
+    {
+      "name": "emp",
+      "rank": "B",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "universal",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life",
+          "description": "常規關卡中，擊殺後必爆讓 EMP 大招可以吃到爆擊傷害加成"
+        },
+        {
+          "name": "substitute",
+          "first": "year_one_perishing_star",
+          "second": "year_one_perishing_star",
+          "third": "year_one_perishing_star"
+        },
+        {
+          "name": "recommend_a",
+          "first": "tower",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高符合要求，屬性可觀"
+        },
+        {
+          "name": "recommend_b",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "flora",
+      "rank": "B",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "可以提升破核後的爆發輸出"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life",
+          "description": "常駐爆擊高，爆擊套適用"
+        },
+        {
+          "name": "universal",
+          "first": "reunion_day",
+          "second": "reunion_day",
+          "third": "reunion_day",
+          "description": "常駐爆擊高，攻速快，可頻繁觸發，加快大招刷新"
+        }
+      ]
+    }
+  ],
+  "arcane": [],
+  "catalyst": []
 }

@@ -22,7 +22,6 @@
             <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
               {{ $t(cbName) }}
             </span>
-            <!-- <div :class="rank-deco-${cbRank(cbName)}"></div> -->
             <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
           </div>
         </div>
