@@ -1791,5 +1791,318 @@
       ]
     }
   ],
-  "catalyst": []
+  "catalyst": [
+    {
+      "name": "enfer",
+      "rank": "S",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套快速啟動適用"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "substitute",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "為隊伍增加攻擊，增傷工具人"
+        }
+      ]
+    },
+    {
+      "name": "hamel",
+      "rank": "S",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "競速工具人套件適用"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "universal",
+          "first": "scarlet_bewitchment",
+          "second": "scarlet_bewitchment",
+          "third": "scarlet_bewitchment",
+          "description": "兼顧治療和輸出"
+        },
+        {
+          "name": "substitute",
+          "first": "justice",
+          "second": "justice",
+          "third": "final_prologue"
+        },
+        {
+          "name": "recommend_a",
+          "first": "final_prologue",
+          "second": "final_prologue",
+          "third": "final_prologue",
+          "description": "治療團隊為主，適用大部分場景"
+        }
+      ]
+    },
+    {
+      "name": "dudu",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "recommend_a",
+          "first": "justice",
+          "second": "justice",
+          "third": "final_prologue",
+          "description": "工具人套件加強增傷能力"
+        },
+        {
+          "name": "recommend_b",
+          "first": "nightmare_revelation",
+          "second": "obsession",
+          "third": "nightmare_revelation",
+          "description": "競速工具人套件適用"
+        }
+      ]
+    },
+    {
+      "name": "chameleon",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套盡可能多位隊友加 Buff"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "substitute",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained",
+          "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
+        },
+        {
+          "name": "recommend_a",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "大招 CD 快，可以頻繁觸發正義套裝效果，夢魘的啟示也適用"
+        }
+      ]
+    },
+    {
+      "name": "anne",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "universal",
+          "first": "final_prologue",
+          "second": "final_prologue",
+          "third": "final_prologue",
+          "description": "治療團隊為主，適用大部分場景"
+        },
+        {
+          "name": "substitute",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套，部分環境適用"
+        }
+      ]
+    },
+    {
+      "name": "mr_fox",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained",
+          "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "universal",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "大招 CD 快，可以頻繁觸發正義套裝效果"
+        },
+        {
+          "name": "substitute",
+          "first": "white_sands_apostle",
+          "second": "white_sands_apostle",
+          "third": "white_sands_apostle"
+        },
+        {
+          "name": "recommend_a",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation",
+          "description": "競速工具人套件適用"
+        }
+      ]
+    },
+    {
+      "name": "ariel",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "universal",
+          "first": "final_prologue",
+          "second": "final_prologue",
+          "third": "final_prologue",
+          "description": "治療團隊為主，適用大部分場景"
+        },
+        {
+          "name": "substitute",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套，部分環境適用"
+        }
+      ]
+    },
+    {
+      "name": "macchiato",
+      "rank": "B",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "universal",
+          "first": "final_prologue",
+          "second": "final_prologue",
+          "third": "final_prologue",
+          "description": "治療團隊為主，適用大部分場景"
+        },
+        {
+          "name": "substitute",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "充能套，部分環境適用"
+        }
+      ]
+    },
+    {
+      "name": "lisa",
+      "rank": "B",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "universal",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "競速工具人套件適用"
+        },
+        {
+          "name": "substitute",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "大招 CD 較快，作為減速工具人可以頻繁觸發正義套裝效果"
+        }
+      ]
+    }
+  ]
 }

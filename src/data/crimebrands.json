@@ -48,6 +48,10 @@
     "rank": "s"
   },
   {
+    "name": "scarlet_bewitchment",
+    "rank": "s"
+  },
+  {
     "name": "servant",
     "rank": "s"
   },
@@ -105,6 +109,10 @@
   },
   {
     "name": "in_hosts_name",
+    "rank": "a"
+  },
+  {
+    "name": "obsession",
     "rank": "a"
   },
   {
