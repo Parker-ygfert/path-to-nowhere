@@ -1,16 +1,22 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Job from '/src/components/Job.vue'
 import CrimeBrands from '/src/components/CrimeBrands.vue'
+import Job from '/src/components/Job.vue'
+import Source from '/src/components/Source.vue'
 
 let history = createWebHashHistory()
 let routes = [
   {
     path: '/',
-    redirect: '/endura'
+    redirect: '/source'
   },
   {
     path: '/path-to-nowhere',
-    redirect: '/endura'
+    redirect: '/source'
+  },
+  {
+    path: '/source',
+    name: 'source',
+    component: Source
   },
   {
     path: '/endura',

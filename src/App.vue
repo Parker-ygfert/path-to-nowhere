@@ -8,6 +8,14 @@
 
 <header class="mb-2">
   <ul class="nav nav-tabs flex-nowrap">
+    <li class="nav-item">
+      <router-link
+        :to="{ name: 'source' }"
+        class="nav-link p-1 font-20"
+        :class="{ active: isActive('source') }">
+        {{ $t('source_of_information') }}
+      </router-link>
+    </li>
     <li v-for="job in jobs" class="nav-item">
       <router-link
         :to="{ name: job }"
