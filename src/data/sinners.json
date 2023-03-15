@@ -1412,6 +1412,384 @@
       ]
     }
   ],
-  "arcane": [],
+  "arcane": [
+    {
+      "name": "stargazer",
+      "rank": "S",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "servant",
+          "second": "the_city_of_sins",
+          "third": "creation",
+          "description": "新烙印受益者之一，當前最優套裝"
+        },
+        {
+          "name": "substitute",
+          "first": "justice",
+          "second": "justice",
+          "third": "creation"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "creation",
+          "description": "充能套件適用，加速必殺啟動"
+        }
+      ]
+    },
+    {
+      "name": "eirene",
+      "rank": "S",
+      "core": true,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "破碎防線拿到 Buff 後的伊琳娜配合亡者之擁堪稱最強核彈"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "depths_of_oblivion",
+          "second": "the_city_of_sins",
+          "third": "depths_of_oblivion"
+        },
+        {
+          "name": "substitute",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory",
+          "description": "適用於大部分場景，增傷穩定"
+        },
+        {
+          "name": "recommend_a",
+          "first": "depths_of_oblivion",
+          "second": "hope",
+          "third": "depths_of_oblivion",
+          "description": "使用背水打法時可選"
+        }
+      ]
+    },
+    {
+      "name": "luvia_ray",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "破碎防線拿到 Buff 作為主 C 配合專屬可以在破核後打出高額傷害"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "shackles_of_life",
+          "second": "shackles_of_life",
+          "third": "shackles_of_life",
+          "description": "主要靠平 A 打輸出，有著穩定的爆擊，適用大部分場景"
+        },
+        {
+          "name": "substitute",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "recommend_a",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "hecate",
+      "rank": "A",
+      "core": true,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "universal",
+          "first": "servant",
+          "second": "the_city_of_sins",
+          "third": "creation",
+          "description": "開專屬後這一套在法傷隊也能用"
+        },
+        {
+          "name": "substitute",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "作為法穿破核工具人上場，可以配戴充能套快速破核"
+        },
+        {
+          "name": "recommend_b",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "victoria",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "低能耗高倍率，可以作為主 C 打破碎防線"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory",
+          "description": "適用於大部分場景，增傷穩定"
+        },
+        {
+          "name": "substitute",
+          "first": "fury_cb",
+          "second": "the_city_of_sins",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "recommend_a",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "ignis",
+      "rank": "A",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead",
+          "description": "破碎防線拿到 Buff 作為主 C 配合專屬可以在破核後打出高額傷害"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "depths_of_oblivion",
+          "second": "the_city_of_sins",
+          "third": "depths_of_oblivion",
+          "description": "可利用忘卻深處的取消後搖機制"
+        },
+        {
+          "name": "universal",
+          "first": "depths_of_oblivion",
+          "second": "singularity",
+          "third": "depths_of_oblivion"
+        },
+        {
+          "name": "substitute",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory"
+        },
+        {
+          "name": "recommend_a",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "oliver",
+      "rank": "A",
+      "core": true,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "universal",
+          "first": "depths_of_oblivion",
+          "second": "the_city_of_sins",
+          "third": "depths_of_oblivion"
+        },
+        {
+          "name": "substitute",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高符合要求，屬性可觀"
+        },
+        {
+          "name": "recommend_b",
+          "first": "depths_of_oblivion",
+          "second": "hope",
+          "third": "depths_of_oblivion",
+          "description": "忘卻契合角色必殺充能，可選"
+        },
+        {
+          "name": "recommend_c",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        }
+      ]
+    },
+    {
+      "name": "kelvin",
+      "rank": "B",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "universal",
+          "first": "white_sands_apostle",
+          "second": "white_sands_apostle",
+          "third": "white_sands_apostle"
+        },
+        {
+          "name": "substitute",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained"
+        },
+        {
+          "name": "recommend_a",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        },
+        {
+          "name": "recommend_b",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "工具人套件可以考慮"
+        },
+        {
+          "name": "recommend_c",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory",
+          "description": "適用於大部分場景，增傷穩定"
+        }
+      ]
+    },
+    {
+      "name": "joan",
+      "rank": "B",
+      "core": false,
+      "crimebrands": [
+        {
+          "name": "broken_frontline_a",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation"
+        },
+        {
+          "name": "broken_frontline_b",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "universal",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "ground_zero"
+        },
+        {
+          "name": "substitute",
+          "first": "syndicate_glory",
+          "second": "syndicate_glory",
+          "third": "syndicate_glory"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo",
+          "description": "一般作為減法抗工具人上場，考慮充能套最優"
+        },
+        {
+          "name": "recommend_b",
+          "first": "dance",
+          "second": "dance",
+          "third": "dance",
+          "description": "增傷較高，需要注意站位"
+        },
+        {
+          "name": "recommend_c",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "工具人套件可以考慮"
+        }
+      ]
+    }
+  ],
   "catalyst": []
 }
