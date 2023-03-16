@@ -763,7 +763,8 @@
           "name": "broken_frontline_a",
           "first": "embrace_of_the_dead",
           "second": "embrace_of_the_dead",
-          "third": "embrace_of_the_dead"
+          "third": "embrace_of_the_dead",
+          "description": "可以提升破核後的爆發輸出"
         },
         {
           "name": "broken_frontline_b",
@@ -790,13 +791,6 @@
           "second": "the_city_of_sins",
           "third": "corridor_echo",
           "description": "充能套適用"
-        },
-        {
-          "name": "recommend_b",
-          "first": "embrace_of_the_dead",
-          "second": "embrace_of_the_dead",
-          "third": "embrace_of_the_dead",
-          "description": "可以提升破核後的爆發輸出"
         }
       ]
     },

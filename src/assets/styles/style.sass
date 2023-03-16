@@ -1,14 +1,14 @@
-.font-14
-  font-size: 14px !important
+@import './_rwd'
+@import './_font'
 
-.font-16
-  font-size: 16px !important
+// Sizing
+.h-fit
+  height: fit-content !important
 
-.font-18
-  font-size: 18px !important
+.container
+  @include tablet
+    padding: .25rem !important
 
-.font-20
-  font-size: 20px !important
-
-.font-30
-  font-size: 30px !important
+// Cursor
+.cursor-pointer
+  cursor: pointer

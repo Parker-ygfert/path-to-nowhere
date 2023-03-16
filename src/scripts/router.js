@@ -1,57 +1,62 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import CrimeBrands from '/src/components/CrimeBrands.vue'
-import Job from '/src/components/Job.vue'
-import Source from '/src/components/Source.vue'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 
-let history = createWebHashHistory()
+let history = createWebHistory(import.meta.env.BASE_URL)
 let routes = [
   {
+    path: '',
+    redirect: '/homepage'
+  },
+  {
     path: '/',
-    redirect: '/source'
+    redirect: '/homepage'
   },
   {
     path: '/path-to-nowhere',
-    redirect: '/source'
+    redirect: '/homepage'
   },
   {
-    path: '/source',
-    name: 'source',
-    component: Source
+    path: '/homepage',
+    name: 'homepage',
+    component: () => import('@/components/Source')
   },
   {
     path: '/endura',
     name: 'endura',
-    component: Job
+    component: () => import('@/components/Job')
   },
   {
     path: '/fury',
     name: 'fury',
-    component: Job
+    component: () => import('@/components/Job')
   },
   {
     path: '/umbra',
     name: 'umbra',
-    component: Job
+    component: () => import('@/components/Job')
   },
   {
     path: '/reticle',
     name: 'reticle',
-    component: Job
+    component: () => import('@/components/Job')
   },
   {
     path: '/arcane',
     name: 'arcane',
-    component: Job
+    component: () => import('@/components/Job')
   },
   {
     path: '/catalyst',
     name: 'catalyst',
-    component: Job
+    component: () => import('@/components/Job')
   },
   {
     path: '/crime-brands/:job/:name',
     name: 'crime-brands',
-    component: CrimeBrands
+    component: () => import('@/components/CrimeBrands')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: 'homepage'
   }
 ]
 

@@ -21,5 +21,5 @@ export default defineConfig({
       '.vue'
     ]
   },
-  base: '/path-to-nowhere/'
+  base: '/path-to-nowhere'
 })

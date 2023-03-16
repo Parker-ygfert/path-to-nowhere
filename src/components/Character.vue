@@ -1,16 +1,18 @@
 <template>
-  <img :src="getImageUrl(`${props.job}/${character.name}.png`)" alt="" class="w-100 h-100">
-  <div :class="`rank-bar-${character.rank}`" class="rank-bar position-absolute overflow-hidden"></div>
-  <div class="job-bg position-absolute overflow-hidden" :class="character.core ? 'core-bg' : 'normal-bg'">
-    <div class="job-img position-absolute overflow-hidden">
-      <img :src="getImageUrl('jobs/endura.png')" alt="" class="w-100 h-100">
+  <div>
+    <img :src="getImageUrl(`${props.job}/${character.name}.png`)" alt="" class="w-100 h-100">
+    <div :class="`rank-bar-${character.rank}`" class="rank-bar position-absolute overflow-hidden"></div>
+    <div class="job-bg position-absolute overflow-hidden" :class="character.core ? 'core-bg' : 'normal-bg'">
+      <div class="job-img position-absolute overflow-hidden">
+        <img :src="getImageUrl(`jobs/${job}.png`)" alt="" class="w-100 h-100">
+      </div>
     </div>
+    <div class="footer-bg position-absolute overflow-hidden"></div>
+    <div class="rank-img position-absolute">
+      <img :src="getImageUrl(`ranks/${character.rank}.png`)" alt="" class="w-100 h-100">
+    </div>
+    <div class="character-name position-absolute text-white font-18 fw-bold">{{ $t(`${character.name}`) }}</div>
   </div>
-  <div class="footer-bg position-absolute overflow-hidden"></div>
-  <div class="rank-img position-absolute">
-    <img :src="getImageUrl(`ranks/${character.rank}.png`)" alt="" class="w-100 h-100">
-  </div>
-  <div class="character-name position-absolute text-white font-18 fw-bold">{{ $t(`${character.name}`) }}</div>
 </template>
 
 <style lang="sass" scoped>

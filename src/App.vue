@@ -1,53 +1,38 @@
 <template>
-<div class="font-16">
-  <select v-model="locale">
+<div class="d-flex justify-content-end align-items-center mb-1 font-16">
+  <span>{{ $t('language') }}</span>
+  <select v-model="locale"
+          class="form-select form-select-sm ms-1 font-14"
+          aria-label="Default select example">
     <option>zh-TW</option>
     <option>en</option>
   </select>
 </div>
 
-<header class="mb-2">
-  <ul class="nav nav-tabs flex-nowrap">
-    <li class="nav-item">
-      <router-link
-        :to="{ name: 'source' }"
-        class="nav-link p-1 font-20"
-        :class="{ active: isActive('source') }">
-        {{ $t('source_of_information') }}
-      </router-link>
-    </li>
-    <li v-for="job in jobs" class="nav-item">
-      <router-link
-        :to="{ name: job }"
-        class="nav-link p-1 font-20"
-        :class="{ active: isActive(job) }">
-        {{ $t(`${job}`) }}
-      </router-link>
-    </li>
-  </ul>
-</header>
-
+<NavLink :key="$route.name" />
 <router-view :key="$route.name" />
+<ScrollTop />
 </template>
 
 <style lang="sass" scoped>
-.nav-link
-  text-transform: capitalize
+.form-select
+  width: 90px
+  padding: 5px 14px
+  background-position: right 0.2rem center
+  &:focus
+    border-color: var(--bs-border-color)
+    box-shadow: none
 </style>
 
 <script setup>
 import { watch } from 'vue'
 import { useI18n } from 'vue-i18n'
-import sinners from '@/data/sinners.json'
+import NavLink from '@/components/NavLink'
+import ScrollTop from '@/components/ScrollTop'
 
 const { t, locale } = useI18n()
 
 watch(locale, (newLocale) => {
   localStorage.setItem('locale', newLocale)
 })
-
-const jobs = Object.keys(sinners)
-const isActive = (job) => {
-  return job == window.location.pathname.replace('/', '')
-}
 </script>
