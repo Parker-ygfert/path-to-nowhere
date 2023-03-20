@@ -23,19 +23,14 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import sinners from '@/data/sinners.json'
 
 onMounted(() => {
   const job = location.pathname.split('/')[2]
-  if (!location.hash) {
-    setTimeout(() => {
-      location.hash = job
-    }, 100);
-  }
+  const link = document.querySelector(`#${job}`)
+  if (link) link.scrollIntoView({ block: 'nearest' })
 })
 
-let links = Object.keys(sinners)
-links.unshift('homepage')
+const links = ['homepage', 'endura', 'fury', 'umbra', 'reticle', 'arcane', 'catalyst']
 
 const isActive = route => {
   return route == location.pathname.split('/').at(-1)

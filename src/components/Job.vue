@@ -30,6 +30,8 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
+import { db } from '@/firebase/index.js'
+// import { collection, getDocs } from 'firebase/firestore'
 import Character from './Character'
 import sinners from '@/data/sinners.json'
 
@@ -38,10 +40,7 @@ const characters = sinners[route.name]
 
 onMounted(() => {
   const sinner = route.query.sinner
-  if (sinner) {
-    setTimeout(() => {
-      location.hash = sinner
-    }, 100)
-  }
-});
+  const sinnerElement = document.querySelector(`#${sinner}`)
+  if (sinnerElement) sinnerElement.scrollIntoView()
+})
 </script>
