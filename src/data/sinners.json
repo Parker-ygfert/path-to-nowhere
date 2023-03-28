@@ -4,6 +4,12 @@
       "name": "owo",
       "rank": "S",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 3 },
+        { "skill": 2, "order": 2, "level": 9 },
+        { "skill": 3, "order": 4, "level": 3 },
+        { "skill": 4, "order": 1, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "recommend_a",
@@ -32,6 +38,12 @@
       "name": "demon",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 4, "level": 3 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -72,6 +84,12 @@
       "name": "kawa_kawa",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 3 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 2, "level": 3 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -118,6 +136,12 @@
       "name": "cinnabar",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 2, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -158,6 +182,12 @@
       "name": "countess_chelsea",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 2, "level": 3 },
+        { "skill": 4, "order": 3, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -211,6 +241,12 @@
       "name": "demolia",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 2, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -244,6 +280,12 @@
       "name": "peggy",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 3, "level": 3 },
+        { "skill": 3, "order": 2, "level": 3 },
+        { "skill": 4, "order": 1, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -277,6 +319,12 @@
       "name": "kk",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 3, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -312,6 +360,12 @@
       "name": "deren",
       "rank": "S",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 10 },
+        { "skill": 2, "order": 2, "level": 10 },
+        { "skill": 3, "order": 3, "level": 10 },
+        { "skill": 4, "order": 1, "level": 10 }
+      ],
       "crimebrands": [
         {
           "name": "recommend_a",
@@ -340,6 +394,12 @@
       "name": "nox",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 4, "level": 3 },
+        { "skill": 4, "order": 2, "level": 10 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -381,6 +441,12 @@
       "name": "zoya",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 9 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 3, "level": 3 },
+        { "skill": 4, "order": 4, "level": 8, "threshold": true }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -415,6 +481,12 @@
       "name": "mess",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 10 },
+        { "skill": 2, "order": 3, "level": 7 },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -443,6 +515,12 @@
       "name": "dolly",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 3, "level": 7 },
+        { "skill": 3, "order": 4, "level": 3 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -490,6 +568,12 @@
       "name": "horo",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 3, "level": 3 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -529,6 +613,12 @@
       "name": "pacassi",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 7 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -563,6 +653,12 @@
       "name": "ninety_nine",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 4, "level": 7 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -597,6 +693,12 @@
       "name": "wendy",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -637,6 +739,12 @@
       "name": "che",
       "rank": "B",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 3 },
+        { "skill": 2, "order": 4, "level": 3 },
+        { "skill": 3, "order": 1, "level": 9 },
+        { "skill": 4, "order": 2, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -664,6 +772,12 @@
       "name": "pepper",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 4, "level": 7, "threshold": true },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 3, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -710,6 +824,12 @@
       "name": "hella",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 3, "level": 3 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -758,6 +878,12 @@
       "name": "serpent",
       "rank": "S",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 9 },
+        { "skill": 2, "order": 3, "level": 9 },
+        { "skill": 3, "order": 4, "level": 7 },
+        { "skill": 4, "order": 1, "level": 10 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -798,6 +924,12 @@
       "name": "crache",
       "rank": "S",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 2, "level": 9 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -838,6 +970,12 @@
       "name": "bai_yi",
       "rank": "S",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 4, "level": 7 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -866,6 +1004,12 @@
       "name": "lynn",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 3, "level": 9 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "recommend_a",
@@ -894,6 +1038,12 @@
       "name": "mc_queen",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 3 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 4, "level": 3 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -927,6 +1077,12 @@
       "name": "sumire",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 7 },
+        { "skill": 2, "order": 3, "level": 7 },
+        { "skill": 3, "order": 2, "level": 9 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -960,6 +1116,12 @@
       "name": "iron",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 4, "level": 7 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 2, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1000,6 +1162,12 @@
       "name": "tetra",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 4, "level": 9 },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 1, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1040,6 +1208,12 @@
       "name": "gekkabijin",
       "rank": "B",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 3, "level": 3 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1074,6 +1248,12 @@
       "name": "labyrinth",
       "rank": "B",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 4, "level": 7 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1110,6 +1290,12 @@
       "name": "oak_casket",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 2, "level": 9 },
+        { "skill": 4, "order": 4, "level": 8 }
+      ],
       "crimebrands": [
         {
           "name": "recommend_a",
@@ -1124,6 +1310,12 @@
       "name": "summer",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 4, "level": 9, "threshold": true },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1158,6 +1350,12 @@
       "name": "langley",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 3, "level": 9 },
+        { "skill": 3, "order": 2, "level": 9 },
+        { "skill": 4, "order": 4, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1204,6 +1402,12 @@
       "name": "roulecca",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 3, "level": 3, "threshold": true },
+        { "skill": 4, "order": "", "level": "" }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1243,6 +1447,12 @@
       "name": "pricilla",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 9 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 3, "level": 9 },
+        { "skill": 4, "order": 2, "level": 10 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1289,6 +1499,12 @@
       "name": "wolverine",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 9 },
+        { "skill": 2, "order": 4, "level": 7 },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1335,6 +1551,12 @@
       "name": "emp",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 7 },
+        { "skill": 2, "order": 2, "level": 9 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1381,6 +1603,12 @@
       "name": "flora",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1408,9 +1636,27 @@
   ],
   "arcane": [
     {
+      "name": "itte",
+      "rank": "S",
+      "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 9 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 3, "level": 9, "threshold": true },
+        { "skill": 4, "order": 4, "level": "?" }
+      ],
+      "skill_des": "被動二升不升級取決於有沒有四枷鎖"
+    },
+    {
       "name": "stargazer",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 3, "level": 9 },
+        { "skill": 4, "order": 2, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1444,6 +1690,12 @@
       "name": "eirene",
       "rank": "S",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 7 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 3, "level": 9 },
+        { "skill": 4, "order": 2, "level": 10 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1478,6 +1730,12 @@
       "name": "luvia_ray",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 10 },
+        { "skill": 2, "order": 4, "level": 6, "threshold": true },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 3, "level": 5, "threshold": true }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1512,6 +1770,12 @@
       "name": "hecate",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 7 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 4, "level": 7 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1558,6 +1822,12 @@
       "name": "victoria",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 4, "level": 3 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1592,6 +1862,12 @@
       "name": "ignis",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1632,6 +1908,12 @@
       "name": "oliver",
       "rank": "A",
       "core": true,
+      "skills": [
+        { "skill": 1, "order": 1, "level": 7 },
+        { "skill": 2, "order": 3, "level": 7 },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 4, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1684,6 +1966,12 @@
       "name": "kelvin",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 2, "level": 3 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1736,6 +2024,12 @@
       "name": "joan",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 7 },
+        { "skill": 2, "order": 4, "level": 6, "threshold": true },
+        { "skill": 3, "order": 1, "level": 9 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1790,6 +2084,12 @@
       "name": "enfer",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 7 },
+        { "skill": 2, "order": 1, "level": 10 },
+        { "skill": 3, "order": 2, "level": 10 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1817,6 +2117,12 @@
       "name": "hamel",
       "rank": "S",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 2, "level": 9 },
+        { "skill": 2, "order": 3, "level": 9 },
+        { "skill": 3, "order": 4, "level": 9 },
+        { "skill": 4, "order": 1, "level": 9 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1857,6 +2163,12 @@
       "name": "dudu",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 3 },
+        { "skill": 2, "order": 4, "level": 3 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 2, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "recommend_a",
@@ -1878,6 +2190,12 @@
       "name": "chameleon",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 7 },
+        { "skill": 2, "order": 1, "level": 9 },
+        { "skill": 3, "order": 3, "level": 7 },
+        { "skill": 4, "order": 2, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1912,6 +2230,12 @@
       "name": "anne",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 3 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1951,6 +2275,12 @@
       "name": "mr_fox",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 2, "level": 3 },
+        { "skill": 3, "order": 1, "level": 9 },
+        { "skill": 4, "order": 3, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -1991,6 +2321,12 @@
       "name": "ariel",
       "rank": "A",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 1, "level": 7 },
+        { "skill": 3, "order": 2, "level": 7 },
+        { "skill": 4, "order": 4, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -2030,6 +2366,12 @@
       "name": "macchiato",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 3, "level": 7 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",
@@ -2069,6 +2411,12 @@
       "name": "lisa",
       "rank": "B",
       "core": false,
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": 2, "level": 7 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 3, "level": 3 }
+      ],
       "crimebrands": [
         {
           "name": "broken_frontline_a",

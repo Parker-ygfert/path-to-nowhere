@@ -30,7 +30,7 @@
 .job-bg
   width: 34px
   height: 34px
-  top: 14px
+  top: 22px
   right: 20px
   &.core-bg
     background: linear-gradient(to top, #fb445b 1%, #bcd0f9 65%)

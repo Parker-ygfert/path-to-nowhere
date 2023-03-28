@@ -50,13 +50,13 @@ let routes = [
     component: () => import('@/components/Job')
   },
   {
-    path: '/crime-brands/:job/:name',
-    name: 'crime-brands',
-    component: () => import('@/components/CrimeBrands')
+    path: '/sinner/:job/:name',
+    name: 'sinner',
+    component: () => import('@/components/Sinner')
   },
   {
     path: '/:pathMatch(.*)*',
-    redirect: 'homepage'
+    redirect: '/homepage'
   }
 ]
 

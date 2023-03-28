@@ -4,13 +4,13 @@
        :id="character.name"
        class="character-img position-relative me-1 mb-1">
     <router-link :to="{
-                   name: 'crime-brands',
+                   name: 'sinner',
                    params: {
                      job: $route.name,
                      name: character.name
                    }
                  }">
-      <Character :id="character.name" :job="$route.name" :character="character" />
+      <CharacterImg :id="character.name" :job="$route.name" :character="character" />
     </router-link>
   </div>
 </div>
@@ -30,9 +30,9 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { db } from '@/firebase/index.js'
+// import { db } from '@/firebase/index.js'
 // import { collection, getDocs } from 'firebase/firestore'
-import Character from './Character'
+import CharacterImg from './CharacterImg'
 import sinners from '@/data/sinners.json'
 
 const route = useRoute()
@@ -43,4 +43,12 @@ onMounted(() => {
   const sinnerElement = document.querySelector(`#${sinner}`)
   if (sinnerElement) sinnerElement.scrollIntoView()
 })
+
+// onMounted(async () => {
+//   const querySnapshot = await getDocs(collection(db, 'sinners'))
+//   querySnapshot.forEach((doc) => {
+//     // doc.data() is never undefined for query doc snapshots
+//     console.log(doc.id, " => ", doc.data())
+//   })
+// })
 </script>
