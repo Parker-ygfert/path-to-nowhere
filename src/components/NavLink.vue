@@ -26,6 +26,8 @@ import { onMounted } from 'vue'
 
 onMounted(() => {
   const job = location.pathname.split('/')[2]
+  if (!job) return
+
   const link = document.querySelector(`#${job}`)
   if (link) link.scrollIntoView({ block: 'nearest' })
 })

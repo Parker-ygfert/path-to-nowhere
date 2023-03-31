@@ -1,0 +1,26 @@
+@function tint-color($color, $percentage)
+  @return mix(white, $color, $percentage)
+
+@function shade-color($color, $percentage)
+  @return mix(black, $color, $percentage)
+
+$red: #dc3545 !default
+
+.red-100
+  color: tint-color($red, 80%) !important
+.red-200
+  color: tint-color($red, 60%) !important
+.red-300
+  color: tint-color($red, 40%) !important
+.red-400
+  color: tint-color($red, 20%) !important
+.red-500
+  color: $red !important
+.red-600
+  color: shade-color($red, 20%) !important
+.red-700
+  color: shade-color($red, 40%) !important
+.red-800
+  color: shade-color($red, 60%) !important
+.red-900
+  color: shade-color($red, 80%) !important

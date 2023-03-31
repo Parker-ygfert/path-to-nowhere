@@ -7,8 +7,16 @@
       <i class="bi bi-box-arrow-left float-start me-1 font-30"></i>
     </router-link>
 
-    <div class="character-img position-relative me-1 me-lg-2">
-      <CharacterImg :job="job" :character="sinner" />
+    <div class="img-box w-fit me-1 me-lg-2">
+      <div class="sinner-img position-relative mx-auto">
+        <CharacterImg :job="job" :character="sinner" />
+      </div>
+      <div class="wiki-link h-fit my-1 text-center">
+        <a :href="sinner?.wiki" target="_blank" class="align-middle font-16">Wiki</a>
+      </div>
+      <template v-for="tag in sinner?.tags">
+        <div class="tag w-fit mx-auto px-1 rounded-pill text-center text-nowrap font-14 text-bg-dark" v-html="tag"></div>
+      </template>
     </div>
 
     <div class="info-box mt-1 me-1 me-lg-2 font-16">
@@ -16,12 +24,12 @@
         <tbody align="center">
           <tr>
             <th scope="row">{{ $t('shackle') }}</th>
-            <td>{{ sinner.shackle }}</td>
+            <td>{{ sinner?.shackle }}</td>
           </tr>
           <tr>
             <th scope="row" valign="middle" class="text-nowrap">{{ $t('exclusive') }}</th>
-            <td :class="sinner.exclusive.emphasis">
-            <span v-html="sinner.exclusive.text"></span>
+            <td :class="sinner?.exclusive?.emphasis">
+            <span v-html="sinner?.exclusive?.text"></span>
             </td>
           </tr>
         </tbody>
@@ -34,7 +42,7 @@
           </tr>
         </thead>
         <tbody align="center">
-          <template v-for="strength in sinner.strength">
+          <template v-for="strength in sinner?.strength">
             <tr>
               <td>{{ $t(strength.map) }}</td>
               <td>{{ decode(strength.strength) }}</td>
@@ -52,7 +60,7 @@
           </tr>
         </thead>
         <tbody align="center">
-          <template v-for="skill in sinner.skills">
+          <template v-for="skill in sinner?.skills">
             <tr>
               <th scope="row" class="px-2">{{ skill.skill}}</th>
               <td>{{ skill.order}}</td>
@@ -60,25 +68,31 @@
             </tr>
           </template>
         </tbody>
-        <caption v-if="sinner.skill_des" class="pt-0">{{ sinner.skill_des }}</caption>
+        <caption class="pt-0">
+          不同攻略推薦順序略有差別<br>
+          {{ sinner.skill_des }}
+        </caption>
       </table>
     </div>
 
     <div class="cb-box">
-      <div class="text-center font-30">—— {{ $t('crimebrands_recommends') }} ——</div>
-      <div v-for="cb in sinner.crimebrands"
-            class="cb-set mb-1 font-18">
-        <header class="font-20 text-primary">{{ $t(cb.name) }}</header>
+      <div class="text-center font-30">
+        —— {{ $t('crimebrands_recommends') }} ——
+        <div class="font-12 text-danger">紅色表示通用性較高</div>
+      </div>
+      <div v-for="cb in sinner?.crimebrands"
+            class="cb-set my-1 font-18">
+        <header class="font-20" :class="{ 'text-danger' : cb.emphasis }">◎{{ $t(cb.name) }}</header>
         <div class="d-flex">
           <div v-for="position in ['first', 'second', 'third']"
-                :set="cbName = cb[position]"
-                class="crimebrands-img position-relative flex-shrink-0 border border-dark">
+               :set="cbName = cb[position]"
+               class="crimebrands-img position-relative flex-shrink-0 border border-dark">
             <img v-if="cbName"
-                  :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)" alt=""
-                  class="position-absolute">
+                 :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)" alt=""
+                 class="position-absolute">
             <img v-if="cbName"
-                  :src="getImageUrl(`crimebrands/${cbName}.png`)" alt=""
-                  class="w-100 h-100">
+                 :src="getImageUrl(`crimebrands/${cbName}.png`)" alt=""
+                 class="w-100 h-100">
             <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
               {{ $t(cbName) }}
             </span>
@@ -100,14 +114,23 @@
   .bi-box-arrow-left
     @include tablet
       margin: 0 !important
-  .character-img
-    min-width: 180px
-    width: 180px
-    height: 270px
+  .img-box
     @include tablet
-      margin-bottom: .25rem
-      margin-left: auto
-      margin-right: auto !important
+      width: auto !important
+    .wiki-link
+      line-height: 16px
+    .sinner-img
+      min-width: 180px
+      width: 180px
+      height: 270px
+      @include tablet
+        margin-left: auto
+        margin-right: auto !important
+    .tag
+      padding-top: 4px
+      padding-bottom: 4px
+      &:nth-child(n + 3)
+        margin-top: 4px
   .info-box
     @include tablet
       margin-left: auto !important
@@ -152,20 +175,24 @@
 </style>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import CharacterImg from './CharacterImg'
 import sinners from '@/data/sinners.json'
 import crimebrands from '@/data/crimebrands.json'
 
-onMounted(() => {
-  window.scroll(0, 0)
-})
-
 const route = useRoute()  
 const job = route.params.job
 const sinner = sinners[job].find(({ name }) => name === route.params.name )
+
+onBeforeMount(() => {
+  if (!sinner) location.href = `${import.meta.env.VITE_PATH}/homepage`
+})
+
+onMounted(() => {
+  window.scroll(0, 0)
+})
 
 const cbRank = cbName => {
   let cb = crimebrands.find(({ name }) => name === cbName)

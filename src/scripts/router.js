@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 
-let history = createWebHistory(import.meta.env.BASE_URL)
+const env = import.meta.env
+let history = createWebHistory(env.BASE_URL)
 let routes = [
   {
     path: '',
@@ -11,7 +12,7 @@ let routes = [
     redirect: '/homepage'
   },
   {
-    path: '/path-to-nowhere',
+    path: env.VITE_PATH,
     redirect: '/homepage'
   },
   {

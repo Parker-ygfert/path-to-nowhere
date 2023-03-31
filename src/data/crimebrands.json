@@ -73,7 +73,8 @@
   },
   {
     "name": "overthrown_tower",
-    "rank": "s"
+    "rank": "s",
+    "set_bonus": "爆擊率 + 12%"
   },
   {
     "name": "reunion_day",
