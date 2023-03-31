@@ -4,6 +4,7 @@
     <div class="fw-bold">
       —— {{ $t('source_of_information') }} ——
     </div>
+
     <template v-for="source in sources">
       <template v-if="source.complementary">
         <div class="d-flex justify-content-center mt-1">
