@@ -7,79 +7,70 @@
       <i class="bi bi-box-arrow-left float-start me-1 font-30"></i>
     </router-link>
 
-    <div class="character-img position-relative me-3">
-      <CharacterImg :job="job" :character="currentCharacter" />
+    <div class="character-img position-relative me-1 me-lg-2">
+      <CharacterImg :job="job" :character="sinner" />
+    </div>
 
-      <table class="pc-show table table-sm table-bordered mx-auto mt-3 w-fit h-fit font-16">
+    <div class="info-box mt-1 me-1 me-lg-2 font-16">
+      <table width="100%" class="table table-sm table-bordered mb-1">
         <thead align="center">
           <tr>
-            <th scope="col">{{ $t('skill') }}</th>
-            <th scope="row">{{ $t('upgrade_order') }}</th>
-            <th scope="row">{{ $t('recommended_grade') }}</th>
+            <th scope="col" colspan="2">{{ $t('overall_strength') }}</th>
           </tr>
         </thead>
         <tbody align="center">
-          <template v-for="skill in currentCharacter.skills">
+          <template v-for="strength in sinner.strength">
             <tr>
-              <th scope="col" class="px-2">{{ skill.skill}}</th>
-              <td scope="col">{{ skill.order}}</td>
-              <td scope="col" :class="{ 'fw-bold text-danger' : skill.threshold }">{{ skill.level}}</td>
+              <td>{{ $t(strength.map) }}</td>
+              <td>{{ decode(strength.strength) }}</td>
             </tr>
           </template>
         </tbody>
-        <caption class="pt-0">{{ currentCharacter.skill_des }}</caption>
       </table>
-    </div>
 
-    <div>
-      <table class="tablet-show table table-sm table-bordered mx-auto mb-2 w-fit h-fit font-16">
+      <table width="100%" class="table table-sm table-bordered mb-1">
         <thead align="center">
           <tr>
-            <th scope="col" class="text-nowrap">{{ $t('skill') }}</th>
-            <template v-for="skill in currentCharacter.skills">
-              <th scope="col" class="px-2">{{ skill.skill}}</th>
-            </template>
+            <th scope="col">{{ $t('skill') }}</th>
+            <th scope="col">{{ $t('upgrade_order') }}</th>
+            <th scope="col">{{ $t('recommended_grade') }}</th>
           </tr>
         </thead>
         <tbody align="center">
-          <tr>
-            <th scope="row" class="text-nowrap">{{ $t('upgrade_order') }}</th>
-            <template v-for="skill in currentCharacter.skills">
-              <td scope="col">{{ skill.order}}</td>
-            </template>
-          </tr>
-          <tr>
-            <th scope="row" class="text-nowrap">{{ $t('recommended_grade') }}</th>
-            <template v-for="skill in currentCharacter.skills">
-              <td scope="col" :class="{ 'fw-bold text-danger' : skill.threshold }">{{ skill.level}}</td>
-            </template>
-          </tr>
+          <template v-for="skill in sinner.skills">
+            <tr>
+              <th scope="row" class="px-2">{{ skill.skill}}</th>
+              <td>{{ skill.order}}</td>
+              <td :class="{ 'fw-bold text-danger' : skill.threshold }">{{ skill.level}}</td>
+            </tr>
+          </template>
         </tbody>
-        <caption class="pt-0">{{ currentCharacter.skill_des }}</caption>
+        <caption v-if="sinner.skill_des" class="pt-0">{{ sinner.skill_des }}</caption>
       </table>
+    </div>
 
-      <div class="cb-box h-fit overflow-auto">
-        <div v-for="cb in currentCharacter.crimebrands"
-             class="cb-set mb-1 font-20">
-          <header class="font-30">{{ $t(cb.name) }}</header>
-          <div class="d-flex">
-            <div v-for="position in ['first', 'second', 'third']"
-                 :set="cbName = cb[position]"
-                 class="crimebrands-img position-relative flex-shrink-0 border border-dark">
-              <img v-if="cbName"
-                   :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)" alt=""
-                   class="position-absolute">
-              <img v-if="cbName"
-                   :src="getImageUrl(`crimebrands/${cbName}.png`)" alt=""
-                   class="w-100 h-100">
-              <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
-                {{ $t(cbName) }}
-              </span>
-              <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
-            </div>
+    <div class="cb-box">
+      <div class="text-center font-30">—— {{ $t('crimebrands_recommends') }} ——</div>
+      <div v-for="cb in sinner.crimebrands"
+            class="cb-set mb-1 font-18">
+        <header class="font-20 text-primary">{{ $t(cb.name) }}</header>
+        <div class="d-flex">
+          <div v-for="position in ['first', 'second', 'third']"
+                :set="cbName = cb[position]"
+                class="crimebrands-img position-relative flex-shrink-0 border border-dark">
+            <img v-if="cbName"
+                  :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)" alt=""
+                  class="position-absolute">
+            <img v-if="cbName"
+                  :src="getImageUrl(`crimebrands/${cbName}.png`)" alt=""
+                  class="w-100 h-100">
+            <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
+              {{ $t(cbName) }}
+            </span>
+            <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
           </div>
-          <div>{{ cb.description }}</div>
         </div>
+        <div class="text-secondary">{{ cb.description }}</div>
       </div>
     </div>
   </div>
@@ -99,13 +90,15 @@
     width: 180px
     height: 270px
     @include tablet
-      margin-bottom: 1rem
+      margin-bottom: .25rem
       margin-left: auto
       margin-right: auto !important
-  .cb-box
-    height: 80vh
+  .info-box
     @include tablet
-      overflow: unset !important
+      margin-left: auto !important
+      margin-right: auto !important
+      max-width: 300px
+  .cb-box
     .cb-set
       width: 300px !important
       @include tablet
@@ -132,6 +125,15 @@
           background-image: linear-gradient(rgba(255,0,0,0),rgba(241,174,255,1) 75% )
         .deco-b
           background-image: linear-gradient(rgba(255,0,0,0),rgba(117,171,240,1) 75% )
+
+.table
+  &.table-sm
+    flex-grow: 0
+    flex-shrink: 0
+    flex-basis: 300px
+    th, td
+      padding-top: .1rem
+      padding-bottom: .1rem
 </style>
 
 <script setup>
@@ -148,7 +150,7 @@ onMounted(() => {
 
 const route = useRoute()  
 const job = route.params.job
-const currentCharacter = sinners[job].find(({ name }) => name === route.params.name )
+const sinner = sinners[job].find(({ name }) => name === route.params.name )
 
 const cbRank = cbName => {
   let cb = crimebrands.find(({ name }) => name === cbName)
@@ -157,5 +159,11 @@ const cbRank = cbName => {
 
 const backTo = () => {
   return location.pathname.split('/')[3]
+}
+
+const decode = html => {
+  const decoder = document.createElement('div')
+  decoder.innerHTML = html
+  return decoder.textContent
 }
 </script>
