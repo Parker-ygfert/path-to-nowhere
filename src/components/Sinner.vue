@@ -13,6 +13,21 @@
 
     <div class="info-box mt-1 me-1 me-lg-2 font-16">
       <table width="100%" class="table table-sm table-bordered mb-1">
+        <tbody align="center">
+          <tr>
+            <th scope="row">{{ $t('shackle') }}</th>
+            <td>{{ sinner.shackle }}</td>
+          </tr>
+          <tr>
+            <th scope="row" valign="middle" class="text-nowrap">{{ $t('exclusive') }}</th>
+            <td :class="sinner.exclusive.emphasis">
+            <span v-html="sinner.exclusive.text"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table width="100%" class="table table-sm table-bordered mb-1">
         <thead align="center">
           <tr>
             <th scope="col" colspan="2">{{ $t('overall_strength') }}</th>

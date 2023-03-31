@@ -23,31 +23,45 @@
   <div class="mt-2">
     <div>『{{ $t('pool_info') }}』：</div>
     <div class="font-16">當前：</div>
-    <div class="indent">哈梅爾（我們都愛哈梅爾🌭🤡🥖）</div>
+    <div class="indent">
+      <a href="/path-to-nowhere/sinner/catalyst/hamel">哈梅爾</a>
+      <span class="font-16 text-secondary">（我們都愛哈梅爾🌭🤡🥖）</span>
+    </div>
 
     <div class="mt-1 font-16">未來：</div>
     <div class="indent">
-      黛倫<span class="font-16 text-secondary">（限定角，all in，至少一鎖）</span>
+      <a href="/path-to-nowhere/sinner/fury/deren">黛倫</a>
+      <span class="font-16 text-secondary">（限定角，all in）</span>
     </div>
     <div class="indent">
-      嗷嗚<span class="font-16 text-secondary">（這麼可愛你能忍住不抽）</span>
+      <a href="/path-to-nowhere/sinner/endura/owo">嗷嗚</a>
+      <span class="font-16 text-secondary">（這麼可愛你能忍住不抽）</span>
     </div>
     <div class="indent">
-      NOX<span class="font-16 text-secondary">（真神不解釋，至少一鎖）</span>
+      <a href="/path-to-nowhere/sinner/fury/nox">NOX</a>
+      <span class="font-16 text-secondary">（真神不解釋）</span>
     </div>
     <div class="indent">
-      愛緹<span class="font-16 text-secondary">（新法隊輸出、表現不錯）</span>
+      <a href="/path-to-nowhere/sinner/arcane/itte">愛緹</a>
+      <span class="font-16 text-secondary">（新法隊輸出、表現不錯）</span>
     </div>
     <div class="indent">
-      柯希<span class="font-16 text-secondary">（喜歡可以抽）</span>
+      <a href="/path-to-nowhere/sinner/umbra/crache">柯希</a>
+      <span class="font-16 text-secondary">（喜歡可以抽）</span>
     </div>
     <div class="indent">
-      迪蒙、白逸、蘭利、伊琳娜
+      <a href="/path-to-nowhere/sinner/endura/demon">迪蒙</a>
+      、
+      <a href="/path-to-nowhere/sinner/umbra/bai_yi">白逸</a>
+      、
+      <a href="/path-to-nowhere/sinner/reticle/langley">蘭利</a>
+      、
+      <a href="/path-to-nowhere/sinner/arcane/eirene">伊琳娜</a>
     </div>
-    <div class="indent font-16 text-secondary">（迪蒙：想玩疊盾就抽滿吧）</div>
+    <div class="indent font-16 text-secondary">（迪蒙：想玩疊盾可以抽）</div>
       <div class="indent font-16 text-secondary">（白逸：既然你都練白老闆了那想必是真愛吧！抽滿！）</div>
-      <div class="indent font-16 text-secondary">（蘭利：已有的話建議抽到 1 枷鎖）</div>
-      <div class="indent font-16 text-secondary">（伊琳娜：已有的話建議抽到 1 枷鎖）</div>
+      <div class="indent font-16 text-secondary">（蘭利：媽咪就是好用）</div>
+      <div class="indent font-16 text-secondary">（伊琳娜：貼貼）</div>
     <div class="indent">渡鴉</div>
   </div>
 </div>

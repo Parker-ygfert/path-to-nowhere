@@ -4,6 +4,8 @@
       "name": "owo",
       "rank": "S",
       "core": true,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -44,6 +46,8 @@
       "name": "demon",
       "rank": "S",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T0&#8673;" },
@@ -77,14 +81,14 @@
           "description": "在一般關卡以減傷阻擋為主可以無腦選"
         },
         {
-          "name": "substitute",
+          "name": "recommend_a",
           "first": "turning_zero",
           "second": "the_city_of_sins",
           "third": "creation",
-          "description": "疊盾流天下第一"
+          "description": "昆門 / 疊盾流天下第一"
         },
         {
-          "name": "recommend_a",
+          "name": "recommend_b",
           "first": "nightmare_revelation",
           "second": "hope",
           "third": "nightmare_revelation",
@@ -96,6 +100,8 @@
       "name": "levy",
       "rank": "A",
       "core": false,
+      "shackle": "2",
+      "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8673;" },
         { "map": "broken_frontline", "strength": "T2&#8673;" },
@@ -107,6 +113,8 @@
       "name": "kawa_kawa",
       "rank": "A",
       "core": false,
+      "shackle": "1",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -165,6 +173,8 @@
       "name": "cinnabar",
       "rank": "A",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T3" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -217,6 +227,8 @@
       "name": "countess_chelsea",
       "rank": "A",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -282,6 +294,8 @@
       "name": "demolia",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8675;" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -320,6 +334,20 @@
           "first": "fury_cb",
           "second": "creed_of_bulwark",
           "third": "in_hosts_name"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "creation",
+          "description": "昆門"
+        },
+        {
+          "name": "recommend_b",
+          "first": "nightmare_revelation",
+          "second": "the_city_of_sins",
+          "third": "nightmare_revelation",
+          "description": "昆門次選"
         }
       ]
     },
@@ -327,6 +355,8 @@
       "name": "peggy",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -372,6 +402,8 @@
       "name": "kk",
       "rank": "B",
       "core": false,
+      "shackle": "1",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8675;" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -419,6 +451,8 @@
       "name": "deren",
       "rank": "S",
       "core": true,
+      "shackle": "1、3、4",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -434,7 +468,7 @@
       "crimebrands": [
         {
           "name": "recommend_a",
-          "first": "tower",
+          "first": "overthrown_tower",
           "second": "the_city_of_sins",
           "third": "pioneer",
           "description": "黛神不用多說"
@@ -459,6 +493,8 @@
       "name": "nox",
       "rank": "S",
       "core": false,
+      "shackle": "1、3、4",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -512,6 +548,8 @@
       "name": "zoya",
       "rank": "S",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -558,6 +596,8 @@
       "name": "mess",
       "rank": "A",
       "core": false,
+      "shackle": "2",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -598,6 +638,8 @@
       "name": "dolly",
       "rank": "A",
       "core": false,
+      "shackle": "1、4",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -649,7 +691,7 @@
           "first": "eastside_dream",
           "second": "eastside_dream",
           "third": "eastside_dream",
-          "description": "新城套適用"
+          "description": "普攻增傷"
         }
       ]
     },
@@ -657,6 +699,8 @@
       "name": "horo",
       "rank": "A",
       "core": true,
+      "shackle": "3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -686,7 +730,8 @@
           "name": "universal",
           "first": "in_hosts_name",
           "second": "creed_of_bulwark",
-          "third": "in_hosts_name"
+          "third": "in_hosts_name",
+          "description": "坦裝兼範圍破核"
         },
         {
           "name": "substitute",
@@ -708,6 +753,8 @@
       "name": "pacassi",
       "rank": "A",
       "core": true,
+      "shackle": "1",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -732,7 +779,7 @@
           "first": "depths_of_oblivion",
           "second": "the_city_of_sins",
           "third": "depths_of_oblivion",
-          "description": "忘卻契合角色疊傷機制"
+          "description": "忘卻契合角色疊傷機制，大招清怪"
         },
         {
           "name": "substitute",
@@ -754,6 +801,8 @@
       "name": "ninety_nine",
       "rank": "A",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -800,6 +849,8 @@
       "name": "wendy",
       "rank": "A",
       "core": false,
+      "shackle": "2",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -841,6 +892,13 @@
         },
         {
           "name": "recommend_b",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation",
+          "description": "提升團隊開局輸出"
+        },
+        {
+          "name": "recommend_c",
           "first": "turning_zero",
           "second": "providence",
           "third": "providence",
@@ -852,6 +910,8 @@
       "name": "che",
       "rank": "B",
       "core": true,
+      "shackle": "3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -891,6 +951,8 @@
       "name": "pepper",
       "rank": "B",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T3" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -949,6 +1011,8 @@
       "name": "hella",
       "rank": "B",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -985,7 +1049,7 @@
           "first": "eastside_dream",
           "second": "eastside_dream",
           "third": "eastside_dream",
-          "description": "初期使用時勉強打點輸出"
+          "description": "普攻增傷、初期使用時勉強打點輸出"
         },
         {
           "name": "recommend_a",
@@ -1000,6 +1064,13 @@
           "second": "creed_of_bulwark",
           "third": "ground_zero",
           "description": "優秀的回復能力，適合拿來當坦克去打"
+        },
+        {
+          "name": "recommend_c",
+          "first": "in_hosts_name",
+          "second": "creed_of_bulwark",
+          "third": "in_hosts_name",
+          "description": "當坦用"
         }
       ]
     }
@@ -1009,6 +1080,8 @@
       "name": "serpent",
       "rank": "S",
       "core": true,
+      "shackle": "1、3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1046,7 +1119,7 @@
           "first": "syndicate_glory",
           "second": "syndicate_glory",
           "third": "syndicate_glory",
-          "description": "適用法傷套，大部分場合可用"
+          "description": "普攻增傷，適用法傷套，大部分場合可用"
         },
         {
           "name": "recommend_a",
@@ -1061,6 +1134,8 @@
       "name": "crache",
       "rank": "S",
       "core": true,
+      "shackle": "4",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -1105,7 +1180,7 @@
           "first": "turning_zero",
           "second": "shattered_battlefront",
           "third": "shattered_battlefront",
-          "description": "30 秒內解決 BOSS 可以帶這一套"
+          "description": "30 秒內速攻解決 BOSS 可以帶這一套"
         }
       ]
     },
@@ -1113,6 +1188,8 @@
       "name": "bai_yi",
       "rank": "S",
       "core": true,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升<br>+<br>推薦升級", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1153,6 +1230,8 @@
       "name": "lynn",
       "rank": "A",
       "core": true,
+      "shackle": "2、4",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1171,7 +1250,7 @@
           "first": "reunion_day",
           "second": "reunion_day",
           "third": "reunion_day",
-          "description": "有爆擊機制，可加快充能"
+          "description": "有爆擊機制，可加快充能，破核兼輸出"
         },
         {
           "name": "recommend_b",
@@ -1182,10 +1261,17 @@
         },
         {
           "name": "recommend_c",
-          "first": "tower",
+          "first": "overthrown_tower",
           "second": "the_city_of_sins",
           "third": "pioneer",
           "description": "身高 155，可選的輸出套件"
+        },
+        {
+          "name": "recommend_d",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "疊攻速"
         }
       ]
     },
@@ -1193,6 +1279,8 @@
       "name": "mc_queen",
       "rank": "A",
       "core": true,
+      "shackle": "2、4",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1211,7 +1299,7 @@
           "first": "turning_zero",
           "second": "hope",
           "third": "creation",
-          "description": "主要依賴幻象爆炸傷害，開專配合迪蒙這一套最實用"
+          "description": "昆門，主要依賴幻象爆炸傷害，開專配合迪蒙這一套最實用"
         },
         {
           "name": "broken_frontline_b",
@@ -1238,6 +1326,8 @@
       "name": "sumire",
       "rank": "A",
       "core": true,
+      "shackle": "2",
+      "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1276,6 +1366,13 @@
           "second": "the_pandora_cage",
           "third": "the_pandora_cage",
           "description": "可以提供不錯的持續輸出能力"
+        },
+        {
+          "name": "recommend_a",
+          "first": "turning_zero",
+          "second": "creed_of_bulwark",
+          "third": "corridor_echo",
+          "description": "阻擋 + 快速啟動"
         }
       ]
     },
@@ -1283,6 +1380,8 @@
       "name": "iron",
       "rank": "A",
       "core": true,
+      "shackle": "4",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1328,6 +1427,13 @@
           "second": "soul_rift",
           "third": "corridor_echo",
           "description": "可以考慮的工具人套件"
+        },
+        {
+          "name": "recommend_c",
+          "first": "depths_of_oblivion",
+          "second": "the_city_of_sins",
+          "third": "depths_of_oblivion",
+          "description": "大招清怪"
         }
       ]
     },
@@ -1335,6 +1441,8 @@
       "name": "tetra",
       "rank": "A",
       "core": true,
+      "shackle": "1",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1369,7 +1477,7 @@
         },
         {
           "name": "recommend_a",
-          "first": "tower",
+          "first": "overthrown_tower",
           "second": "hope",
           "third": "corridor_echo",
           "description": "充能套可快速啟動"
@@ -1380,6 +1488,13 @@
           "second": "white_sands_apostle",
           "third": "white_sands_apostle",
           "description": "可以觸發三枷鎖的被動"
+        },
+        {
+          "name": "recommend_c",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "疊攻速"
         }
       ]
     },
@@ -1387,6 +1502,8 @@
       "name": "gekkabijin",
       "rank": "B",
       "core": true,
+      "shackle": "2、4",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1433,6 +1550,8 @@
       "name": "labyrinth",
       "rank": "B",
       "core": true,
+      "shackle": "2、4",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1472,6 +1591,13 @@
           "second": "embrace_of_the_dead",
           "third": "embrace_of_the_dead",
           "description": "可以提升破核後的爆發輸出"
+        },
+        {
+          "name": "recommend_b",
+          "first": "turning_zero",
+          "second": "the_pandora_cage",
+          "third": "the_pandora_cage",
+          "description": "加攻速"
         }
       ]
     }
@@ -1481,6 +1607,8 @@
       "name": "oak_casket",
       "rank": "S",
       "core": false,
+      "shackle": "2、4",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1496,9 +1624,9 @@
       "crimebrands": [
         {
           "name": "recommend_a",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "完美適配"
         }
       ]
@@ -1507,6 +1635,8 @@
       "name": "summer",
       "rank": "S",
       "core": false,
+      "shackle": "2、3、4、5",
+      "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1553,6 +1683,8 @@
       "name": "langley",
       "rank": "S",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1600,9 +1732,9 @@
         },
         {
           "name": "recommend_b",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         }
       ]
@@ -1611,6 +1743,8 @@
       "name": "roulecca",
       "rank": "A",
       "core": false,
+      "shackle": "1",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T3-T0" },
         { "map": "broken_frontline", "strength": "T3-T0" },
@@ -1651,10 +1785,17 @@
         },
         {
           "name": "recommend_a",
-          "first": "tower",
+          "first": "overthrown_tower",
           "second": "the_city_of_sins",
           "third": "pioneer",
           "description": "身高符合要求，屬性可觀"
+        },
+        {
+          "name": "recommend_b",
+          "first": "overthrown_tower",
+          "second": "the_city_of_sins",
+          "third": "corridor_echo",
+          "description": "阻擋 + 快速啟動"
         }
       ]
     },
@@ -1662,6 +1803,8 @@
       "name": "pricilla",
       "rank": "A",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1702,7 +1845,7 @@
         },
         {
           "name": "recommend_a",
-          "first": "tower",
+          "first": "overthrown_tower",
           "second": "the_pandora_cage",
           "third": "the_pandora_cage",
           "description": "大部分情況是高攻速普希拉的最優解"
@@ -1713,6 +1856,13 @@
           "second": "embrace_of_the_dead",
           "third": "embrace_of_the_dead",
           "description": "破碎防線可選"
+        },
+        {
+          "name": "recommend_c",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高可選"
         }
       ]
     },
@@ -1720,6 +1870,8 @@
       "name": "wolverine",
       "rank": "A",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1760,9 +1912,9 @@
         },
         {
           "name": "recommend_a",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         },
         {
@@ -1778,6 +1930,8 @@
       "name": "emp",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1818,16 +1972,23 @@
         },
         {
           "name": "recommend_a",
-          "first": "tower",
+          "first": "overthrown_tower",
           "second": "the_city_of_sins",
           "third": "pioneer",
           "description": "身高符合要求，屬性可觀"
         },
         {
           "name": "recommend_b",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "ground_zero",
+          "second": "the_city_of_sins",
+          "third": "pioneer",
+          "description": "身高可選"
+        },
+        {
+          "name": "recommend_c",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         }
       ]
@@ -1836,6 +1997,8 @@
       "name": "flora",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1878,6 +2041,8 @@
       "name": "itte",
       "rank": "S",
       "core": false,
+      "shackle": "1、3、4",
+      "exclusive": { "text": "極為推薦、質變提升<br>+<br>推薦升級", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1&#8673;" },
         { "map": "broken_frontline", "strength": "T0&#8673;" },
@@ -1896,6 +2061,8 @@
       "name": "stargazer",
       "rank": "S",
       "core": false,
+      "shackle": "2、4",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1941,6 +2108,8 @@
       "name": "eirene",
       "rank": "S",
       "core": true,
+      "shackle": "1、3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1987,6 +2156,8 @@
       "name": "luvia_ray",
       "rank": "A",
       "core": false,
+      "shackle": "3、4",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -2022,9 +2193,9 @@
         },
         {
           "name": "recommend_a",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         }
       ]
@@ -2033,6 +2204,8 @@
       "name": "hecate",
       "rank": "A",
       "core": true,
+      "shackle": "1、3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -2063,7 +2236,7 @@
           "first": "servant",
           "second": "the_city_of_sins",
           "third": "creation",
-          "description": "開專屬後這一套在法傷隊也能用"
+          "description": "開專屬烙印後這一套在法傷隊也能用"
         },
         {
           "name": "substitute",
@@ -2080,9 +2253,9 @@
         },
         {
           "name": "recommend_b",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         }
       ]
@@ -2091,6 +2264,8 @@
       "name": "victoria",
       "rank": "A",
       "core": false,
+      "shackle": "1",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2126,9 +2301,9 @@
         },
         {
           "name": "recommend_a",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         }
       ]
@@ -2137,6 +2312,8 @@
       "name": "ignis",
       "rank": "A",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2178,9 +2355,9 @@
         },
         {
           "name": "recommend_a",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         }
       ]
@@ -2189,6 +2366,8 @@
       "name": "oliver",
       "rank": "A",
       "core": true,
+      "shackle": "1、3",
+      "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2242,10 +2421,16 @@
         },
         {
           "name": "recommend_c",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
+        },
+        {
+          "name": "recommend_d",
+          "first": "soul_rift",
+          "second": "soul_rift",
+          "third": "corridor_echo"
         }
       ]
     },
@@ -2253,6 +2438,8 @@
       "name": "kelvin",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -2292,9 +2479,9 @@
         },
         {
           "name": "recommend_a",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         },
         {
@@ -2317,6 +2504,8 @@
       "name": "joan",
       "rank": "B",
       "core": false,
+      "shackle": "1、4",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2363,9 +2552,9 @@
         },
         {
           "name": "recommend_b",
-          "first": "dance",
-          "second": "dance",
-          "third": "dance",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance",
           "description": "增傷較高，需要注意站位"
         },
         {
@@ -2383,6 +2572,8 @@
       "name": "enfer",
       "rank": "S",
       "core": false,
+      "shackle": "1、3、4",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -2422,6 +2613,8 @@
       "name": "hamel",
       "rank": "S",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -2474,6 +2667,8 @@
       "name": "dudu",
       "rank": "A",
       "core": false,
+      "shackle": "2、4",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -2507,6 +2702,8 @@
       "name": "chameleon",
       "rank": "A",
       "core": false,
+      "shackle": "2、5",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -2553,6 +2750,8 @@
       "name": "anne",
       "rank": "A",
       "core": false,
+      "shackle": "1、3、4",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -2604,6 +2803,8 @@
       "name": "mr_fox",
       "rank": "A",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -2656,6 +2857,8 @@
       "name": "ariel",
       "rank": "A",
       "core": false,
+      "shackle": "3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2707,6 +2910,8 @@
       "name": "macchiato",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2758,6 +2963,8 @@
       "name": "lisa",
       "rank": "B",
       "core": false,
+      "shackle": "1、3",
+      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
