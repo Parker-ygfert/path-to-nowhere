@@ -99,8 +99,28 @@ onBeforeMount(() => {
 
 onMounted(() => {
   window.scroll(0, 0)
+
+  const crimebrands = document.querySelectorAll('.crimebrands-img')
+  crimebrands.forEach(cb => {
+    const cbName = crimebrand(cb.dataset.bsTitle)
+    const tooltip = new Tooltip(cb, {
+      title: cbName.set_bonus || ""
+    })
+  })
 })
 
+<<<<<<< HEAD
+=======
+const crimebrand = cbName => {
+  return crimebrands.find(({ name }) => name === cbName)
+}
+
+const cbRank = cbName => {
+  let cb = crimebrand(cbName)
+  return cb.rank
+}
+
+>>>>>>> 4269050 (add crimebrands tooltip)
 const backTo = () => {
   return location.pathname.split('/')[3]
 }
