@@ -24,12 +24,6 @@
     <div>『{{ $t('pool_info') }}』：</div>
     <div class="font-16">當前：</div>
     <div class="indent">
-      <a :href="sinnerPath('catalyst/hamel')">哈梅爾</a>
-      <span class="font-16 text-secondary">（我們都愛哈梅爾🌭🤡🥖）</span>
-    </div>
-
-    <div class="mt-1 font-16">未來：</div>
-    <div class="indent">
       <a :href="sinnerPath('fury/deren')">黛倫</a>
       <span class="font-16 text-secondary">（限定角，all in）</span>
     </div>
@@ -37,6 +31,12 @@
       <a :href="sinnerPath('endura/owo')">嗷嗚</a>
       <span class="font-16 text-secondary">（這麼可愛你能忍住不抽）</span>
     </div>
+    <!-- <div class="indent">
+      <a :href="sinnerPath('catalyst/hamel')">哈梅爾</a>
+      <span class="font-16 text-secondary">（我們都愛哈梅爾🌭🤡🥖）</span>
+    </div> -->
+
+    <div class="mt-1 font-16">未來：</div>
     <div class="indent">
       <a :href="sinnerPath('fury/nox')">NOX</a>
       <span class="font-16 text-secondary">（真神不解釋）</span>
@@ -64,6 +64,11 @@
       <div class="indent font-16 text-secondary">（伊琳娜：貼貼）</div>
     <div class="indent">
       <a :href="sinnerPath('arcane/raven')">渡鴉</a>
+      <span class="font-16 text-secondary">（新法隊輸出、表現不錯）</span>
+    </div>
+    <div class="indent">
+      <a :href="sinnerPath('catalyst/enfer')">恩菲爾</a>
+      <span class="font-16 text-secondary">（能增傷 & 破核，相當好用的輔助角）</span>
     </div>
   </div>
 </div>

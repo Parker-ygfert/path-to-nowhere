@@ -86,7 +86,8 @@
         <div class="d-flex">
           <div v-for="position in ['first', 'second', 'third']"
                :set="cbName = cb[position]"
-               class="crimebrands-img position-relative flex-shrink-0 border border-dark">
+               class="crimebrands-img position-relative flex-shrink-0 border border-dark"
+               data-bs-toggle="tooltip" data-bs-placement="top" :data-bs-title="cbName" data-bs-html="true">
             <img v-if="cbName"
                  :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)" alt=""
                  class="position-absolute">
@@ -178,6 +179,7 @@
 import { onMounted, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
 import { getImageUrl } from '@/scripts/get_image_url.js'
+import { Tooltip } from 'bootstrap'
 import CharacterImg from './CharacterImg'
 import sinners from '@/data/sinners.json'
 import crimebrands from '@/data/crimebrands.json'
@@ -192,10 +194,22 @@ onBeforeMount(() => {
 
 onMounted(() => {
   window.scroll(0, 0)
+
+  const crimebrands = document.querySelectorAll('.crimebrands-img')
+  crimebrands.forEach(cb => {
+    const cbName = crimebrand(cb.dataset.bsTitle)
+    const tooltip = new Tooltip(cb, {
+      title: cbName.set_bonus || ""
+    })
+  })
 })
 
+const crimebrand = cbName => {
+  return crimebrands.find(({ name }) => name === cbName)
+}
+
 const cbRank = cbName => {
-  let cb = crimebrands.find(({ name }) => name === cbName)
+  let cb = crimebrand(cbName)
   return cb.rank
 }
 
