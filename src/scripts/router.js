@@ -61,6 +61,11 @@ let routes = [
     component: () => import('@/components/Sinner')
   },
   {
+    path: '/reply',
+    name: 'reply',
+    component: () => import('@/components/CommentReply')
+  },
+  {
     path: '/:pathMatch(.*)*',
     redirect: '/homepage'
   }

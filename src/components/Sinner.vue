@@ -109,18 +109,6 @@ onMounted(() => {
   })
 })
 
-<<<<<<< HEAD
-=======
-const crimebrand = cbName => {
-  return crimebrands.find(({ name }) => name === cbName)
-}
-
-const cbRank = cbName => {
-  let cb = crimebrand(cbName)
-  return cb.rank
-}
-
->>>>>>> 4269050 (add crimebrands tooltip)
 const backTo = () => {
   return location.pathname.split('/')[3]
 }
