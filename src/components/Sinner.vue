@@ -43,6 +43,9 @@
   
     <CrimeBrand :sinner="sinner" />
   </div>
+
+  <hr class="my-1">
+  <Comment :sinner="sinner" />
 </div>
 </template>
 
@@ -84,6 +87,7 @@ import { getImageUrl } from '@/scripts/get_image_url.js'
 import SinnerImg from './Sinner/Img'
 import SinnerInfo from './Sinner/Info'
 import CrimeBrand from './CrimeBrand'
+import Comment from './Comment'
 import jobs from '@/data/jobs.json'
 import sinners from '@/data/sinners.json'
 
@@ -99,14 +103,6 @@ onBeforeMount(() => {
 
 onMounted(() => {
   window.scroll(0, 0)
-
-  const crimebrands = document.querySelectorAll('.crimebrands-img')
-  crimebrands.forEach(cb => {
-    const cbName = crimebrand(cb.dataset.bsTitle)
-    const tooltip = new Tooltip(cb, {
-      title: cbName.set_bonus || ""
-    })
-  })
 })
 
 const backTo = () => {

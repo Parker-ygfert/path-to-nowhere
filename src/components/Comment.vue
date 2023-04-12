@@ -3,22 +3,36 @@
     <div v-for="comment in comments">
       <div class="border-bottom p-1">
         <blockquote class="blockquote mb-0 font-18">
-          <p class="mb-1">{{ comment.content }}</p>
-          <div class="d-flex justify-content-between align-items-center font-14">
-            <!-- <p class="mb-0 cursor-pointer text-secondary">{{ $t('reply') }}</p> -->
-            <component :is="CommentReply" />
-            <footer class="blockquote-footer mt-0">
-              {{  comment.created_at.toLocaleString() }}
-            </footer>
-          </div>
+          <p class="mb-1 blue-700 fw-bold">
+            {{ comment.content }}
+          </p>
+          <footer class="blockquote-footer mt-0 mb-1 ms-auto font-12 text-end">
+            {{  comment.created_at.toLocaleString() }}
+          </footer>
         </blockquote>
+
+        <div class="d-flex justify-content-between align-items-center font-14">
+          <p
+            @click="showReply(comment.id)"
+            :id="`reply_btn_${comment.id}`"
+            class="mb-0 cursor-pointer text-success"
+          >
+            {{ $t('comment.reply') }}
+          </p>
+          <component
+            :is="CommentReply"
+            :id="`reply_${comment.id}`"
+            :commentId="comment.id"
+            class="d-none"
+          />
+        </div>
       </div>
     </div>
 
     <form class="mt-2 font-16" @submit.prevent="addComment">
       <div class="mb-1">
         <label for="comment" class="form-label mb-1">
-          {{ $t('comment') }}：
+          {{ $t('comment.comment') }}：
         </label>
         <textarea
           v-model="newCommentContent"
@@ -34,13 +48,15 @@
         type="submit"
         class="btn btn-sm btn-primary d-block ms-auto px-2 rounded-0 font-16"
       >
-        {{ $t('submit') }}
+        {{ $t('comment.submit') }}
       </button>
     </form>
   </div>
 </template>
 
 <style lang="sass" scoped>
+@import '@/assets/styles/_color.sass'
+
 button
   padding-top: .15rem
   padding-bottom: .15rem
@@ -61,6 +77,7 @@ textarea
 import { onMounted, ref } from 'vue'
 import { db } from '@/firebase/index.js'
 import { collection, query, where, addDoc, onSnapshot, Timestamp } from 'firebase/firestore'
+import CommentReply from './CommentReply'
 
 const props = defineProps({
   sinner: String
@@ -69,7 +86,8 @@ const props = defineProps({
 // const comments = ref([])
 const comments = ref([
   {
-    content: 'asdf',
+    id: '1',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sunt, numquam corporis maiores harum iste et, eveniet, placeat soluta dolor sequi fugit magni inventore delectus similique? Odit dolor illum officiis?',
     created_at: new Date()
   }
 ])
@@ -111,18 +129,10 @@ const addComment = async () => {
   const docRef = await addDoc(collection(db, 'comments'), data)
 }
 
-import { computed } from 'vue'
-import { useRouter, useRoute } from 'vue-router'
-
-import CommentReply from './CommentReply'
-
-const router = useRouter()
-const route = useRoute()
-
-const layouts = {
-  CommentReply: CommentReply
-};
-
-const defaultLayout = 'default'
-const layout = computed(() => layouts[route.meta.layout || defaultLayout] )
+const showReply = id => {
+  const replyBtn = document.querySelector(`#reply_btn_${id}`)
+  const reply = document.querySelector(`#reply_${id}`)
+  replyBtn.classList.add('d-none')
+  reply.classList.remove('d-none')
+}
 </script>
