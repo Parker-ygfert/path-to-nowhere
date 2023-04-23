@@ -11,7 +11,11 @@
         "<strong>範圍增傷能力不俗</strong>",
         "<strong>可移動獅頭輔助效果不錯</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "2-3" }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -67,7 +71,12 @@
         "<strong style='color: #f1aeb5;'>疊盾流打法核心 (需 4 枷鎖)</strong>",
         "(護盾量 0.5% 加攻)"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3、4",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "2-3" },
+        { "shackle": "3-4" }
+      ],
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -139,7 +148,7 @@
       "tags": [
         "<strong>流血隊核心增傷 + 坦克</strong>"
       ],
-      "shackle": "2",
+      "qualitative_shackles": "2",
       "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8673;" },
@@ -186,7 +195,7 @@
         "<strong>輔助隊友回血</strong>",
         "<strong>更加突出法術扛傷</strong>"
       ],
-      "shackle": "1",
+      "qualitative_shackles": "1",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -252,7 +261,7 @@
         "<strong>群體護盾施加</strong>",
         "<strong>她是女的 + 更像輔助</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T3" },
@@ -313,7 +322,7 @@
         "<strong>擁有多重回血機制</strong>",
         "<strong>激活專屬烙印質變</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -392,7 +401,7 @@
         "<strong>擋 3 堅韌、配合專烙可擋 4</strong>",
         "<strong>昆門造像體系盾爹平替</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8675;" },
@@ -470,7 +479,7 @@
         "<strong>護盾施加</strong>",
         "<strong>護盾自回血機制</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -535,7 +544,7 @@
         "<strong>群體友方物防提升</strong>",
         "<strong>大招具有嘲諷控制</strong>"
       ],
-      "shackle": "1",
+      "qualitative_shackles": "1",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8675;" },
@@ -604,7 +613,11 @@
         "<strong>專烙 3 拳毀天滅地</strong>",
         "<strong>無期版本一拳超人</strong>"
       ],
-      "shackle": "1、3、4",
+      "qualitative_shackles": "1、3、4",
+      "recommended_shackle": 3,
+      "supplement_shackles": [
+        { "shackle": "0-5", "emphasis": true }
+      ],
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -660,7 +673,13 @@
         "<strong>群體減防工具人</strong>",
         "(最高減防 40.5%)"
       ],
-      "shackle": "1、3、4",
+      "qualitative_shackles": "1、3、4",
+      "recommended_shackle": 1,
+      "supplement_shackles": [
+        { "shackle": "0-1" },
+        { "shackle": "2-3" },
+        { "shackle": "3-4" }
+      ],
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -729,7 +748,12 @@
         "<strong>坦度不俗、可當半個阻擋用</strong>",
         "(專屬烙印最高 40% 減傷)"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
+      "recommended_shackle": 1,
+      "supplement_shackles": [
+        { "shackle": "0-1" },
+        { "shackle": "2-3" }
+      ],
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -796,7 +820,7 @@
         "<strong>至多 2 人輔助 15s 加攻</strong>",
         "(最高提升莓絲攻擊 6%)"
       ],
-      "shackle": "2",
+      "qualitative_shackles": "2",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -843,7 +867,7 @@
         "<strong>攻速小能手 + 群體輸出</strong>",
         "<strong>需要時間暖機</strong>"
       ],
-      "shackle": "1、4",
+      "qualitative_shackles": "1、4",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -923,7 +947,7 @@
         "<strong>橫掃群攻 + 吸血</strong>",
         "<strong style='color: #f1aeb5;'>破核</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -991,7 +1015,7 @@
         "<strong>法術輸出</strong>",
         "<strong>群體減速工具人</strong>"
       ],
-      "shackle": "1",
+      "qualitative_shackles": "1",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -1056,7 +1080,7 @@
         "<strong>不死狂戰、延遲傷害</strong>",
         "<strong>吸血</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1121,7 +1145,7 @@
         "<strong>大招 + 被動群體輸出</strong>",
         "<strong>對無核心敵人有增傷</strong>"
       ],
-      "shackle": "2",
+      "qualitative_shackles": "2",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -1194,7 +1218,7 @@
         "<strong>概率回能</strong>",
         "<strong>追蹤最多輔助增傷 22.5%</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -1248,7 +1272,7 @@
         "<strong>群體友方攻速提升</strong>",
         "(10% 攻速輔助)"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T3" },
@@ -1318,7 +1342,7 @@
       "tags": [
         "<strong>自身回血機制</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1406,7 +1430,11 @@
         "<strong>被動九宮格範圍輸出</strong>",
         "<strong>法術輸出</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "2-3", "emphasis": true }
+      ],
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -1475,7 +1503,11 @@
         "<strong>4 枷鎖全隊增傷 (最高 12%)</strong>",
         "<strong>各類內卷副本凹分小能手</strong>"
       ],
-      "shackle": "4",
+      "qualitative_shackles": "4",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "3-4" }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1543,7 +1575,11 @@
         "<strong>不容忽視的單體輸出</strong>",
         "(理論最高 176.8% 加攻)"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
+      "recommended_shackle": 1,
+      "supplement_shackles": [
+        { "shackle": "0-1" }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升<br>+<br>推薦升級", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -1598,7 +1634,7 @@
         "<strong>激光炮大招傷害足但吃地形</strong>",
         "<strong>爆擊體系增傷核心</strong>"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1667,7 +1703,7 @@
         "<strong>召喚物可選擇繼承屬性來源</strong>",
         "(需激活專烙)"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -1721,7 +1757,7 @@
         "<strong>生命流逝持續傷害</strong>",
         "(已被 Bug 修復)"
       ],
-      "shackle": "2",
+      "qualitative_shackles": "2",
       "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1794,7 +1830,7 @@
         "<strong>自身 + 友方物穿提升</strong>",
         "<strong>降低敵方攻擊</strong>"
       ],
-      "shackle": "4",
+      "qualitative_shackles": "4",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1867,7 +1903,7 @@
         "<strong style='color: #f1aeb5;'>範圍破核</strong>",
         "<strong>爆擊後暈眩控制</strong>"
       ],
-      "shackle": "1",
+      "qualitative_shackles": "1",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -1947,7 +1983,7 @@
         "<strong>大招可充能 2 次</strong>",
         "<strong>自身攻速提升</strong>"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -2010,7 +2046,7 @@
         "<strong>背後攻擊有加攻效果</strong>",
         "<strong>可原地移動破核</strong>"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -2080,7 +2116,11 @@
         "<strong>大招可充能 3 層爆發</strong>",
         "<strong>全場地圖砲射擊</strong>"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "1-2" }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -2122,7 +2162,12 @@
         "<strong>0 枷鎖人稱夏水道</strong>",
         "<strong>適合長線作戰副本</strong>"
       ],
-      "shackle": "2、3、4、5",
+      "qualitative_shackles": "2、3、4、5",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "1-2" },
+        { "shackle": "4-5" }
+      ],
       "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -2184,7 +2229,11 @@
         "<strong>激活專屬烙印質變</strong>",
         "(最高 30% 物理穿透)"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
+      "recommended_shackle": 1,
+      "supplement_shackles": [
+        { "shackle": "0-1", "emphasis": true }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -2263,7 +2312,7 @@
         "<strong>賭徒一般的輸出角色</strong>",
         "<strong>適合 S/L 凹分</strong>"
       ],
-      "shackle": "1",
+      "qualitative_shackles": "1",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T3-T0" },
@@ -2348,7 +2397,7 @@
         "<strong>攻速小能手</strong>",
         "<strong>適合長線副本</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -2428,7 +2477,7 @@
         "<strong>減防工具人</strong>",
         "(20% 物理防禦降低)"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -2502,7 +2551,7 @@
         "<strong>大招擊殺後刷新充能</strong>",
         "<strong>擊殺後自身提高攻擊</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -2580,7 +2629,7 @@
         "<strong>輸出頗為平穩且亮眼</strong>",
         "<strong>專屬烙印提供暈眩控制</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -2631,6 +2680,11 @@
       "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%B8%A1%E9%B8%A6",
       "rank": "S",
       "core": true,
+      "qualitative_shackles": "3",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "2-3", "emphasis": true }
+      ],
       "exclusive": {}
     },
     {
@@ -2643,7 +2697,13 @@
         "<strong>看臉寶石輔助</strong>",
         "<strong>看臉普攻天宿</strong>"
       ],
-      "shackle": "1、3、4",
+      "qualitative_shackles": "1、3、4",
+      "recommended_shackle": 1,
+      "supplement_shackles": [
+        { "shackle": "0-1", "emphasis": true },
+        { "shackle": "2-3" },
+        { "shackle": "3-4", "emphasis": true }
+      ],
       "exclusive": { "text": "極為推薦、質變提升<br>+<br>推薦升級", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1&#8673;" },
@@ -2702,7 +2762,11 @@
         "<strong>召喚物可九宮格定時輸出</strong>",
         "<strong>昆門造像最佳增傷伴侶</strong>"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "0" }
+      ],
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -2756,7 +2820,12 @@
         "<strong>輔助自身 + 局長回能</strong>",
         "<strong>3 枷鎖全隊輔助增傷</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
+      "recommended_shackle": 3,
+      "supplement_shackles": [
+        { "shackle": "0-1", "emphasis": true },
+        { "shackle": "2-3", "emphasis": true }
+      ],
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -2810,7 +2879,7 @@
         "<strong>普攻變相 aoe 輸出</strong>",
         "<strong>攻速小能手 (鬼畜級別)</strong>"
       ],
-      "shackle": "3、4",
+      "qualitative_shackles": "3、4",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -2870,7 +2939,7 @@
         "<strong>全隊輔助法穿</strong>",
         "<strong>專屬烙印召喚物可當阻擋用</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -2940,7 +3009,7 @@
       "tags": [
         "<strong>自殘輸出、小幅回血</strong>"
       ],
-      "shackle": "1",
+      "qualitative_shackles": "1",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -2993,7 +3062,7 @@
         "<strong>大招群體隕石輸出</strong>",
         "<strong>燃燒持續傷害</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3054,7 +3123,7 @@
         "<strong>自身法穿提升</strong>",
         "<strong>使敵人承受傷害提升</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "不推薦、自找沒趣" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3131,7 +3200,7 @@
         "<strong>群體減速控制、冰凍控制</strong>",
         "<strong>單體友方減傷</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -3209,7 +3278,7 @@
         "<strong>暈眩控制</strong>",
         "(最多降低 30% 法抗)"
       ],
-      "shackle": "1、4",
+      "qualitative_shackles": "1、4",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3285,7 +3354,12 @@
         "<strong>恐懼永久群傷</strong>",
         "(需要 3 枷鎖)"
       ],
-      "shackle": "1、3、4",
+      "qualitative_shackles": "1、3、4",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "2-3" },
+        { "shackle": "3-4" }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -3339,7 +3413,11 @@
         "<strong>最大全屏減傷 + 增傷</strong>",
         "<strong>不佔空間 0 阻擋</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
+      "recommended_shackle": 0,
+      "supplement_shackles": [
+        { "shackle": "2-3" }
+      ],
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
@@ -3409,7 +3487,7 @@
         "<strong>專烙可提供單格永久增傷</strong>",
         "(需激活專烙)"
       ],
-      "shackle": "2、4",
+      "qualitative_shackles": "2、4",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3475,7 +3553,7 @@
         "<strong>攻速輔助</strong>",
         "<strong>普攻增傷輔助</strong>"
       ],
-      "shackle": "2、5",
+      "qualitative_shackles": "2、5",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3528,7 +3606,7 @@
       "tags": [
         "<strong>單體奶媽</strong>"
       ],
-      "shackle": "1、3、4",
+      "qualitative_shackles": "1、3、4",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3594,7 +3672,7 @@
         "<strong>擊破核心時間提升最多 4 秒</strong>",
         "<strong>群體對擊破核心敵人增傷</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "一般推薦、較小提升" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
@@ -3659,7 +3737,7 @@
       "tags": [
         "<strong>群體奶媽</strong>"
       ],
-      "shackle": "3",
+      "qualitative_shackles": "3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -3723,7 +3801,7 @@
       "tags": [
         "<strong>鞭撻回血、減傷輔助</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
@@ -3788,7 +3866,7 @@
         "<strong>群體減速控制</strong>",
         "<strong>專屬烙印使敵人受傷提升最多 15%</strong>"
       ],
-      "shackle": "1、3",
+      "qualitative_shackles": "1、3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
       "strength": [
         { "map": "main_stage", "strength": "T2" },

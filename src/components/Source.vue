@@ -19,6 +19,9 @@
     <a href="https://b23.tv/WKv2MQH" target="_blank">
       <div>技能升級推薦 3.0 - 啊颓Yyan</div>
     </a>
+    <a href="https://b23.tv/z1cCrZg" target="_blank">
+      <div>狂級枷鎖推薦 - 啊颓Yyan</div>
+    </a>
   </div>
   <div class="mt-2">
     <div>『{{ $t('pool_info') }}』：</div>

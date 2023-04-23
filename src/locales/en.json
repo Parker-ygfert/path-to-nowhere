@@ -124,9 +124,11 @@
   "main_stage": "Main stage",
   "overall_strength": "Overall Strength",
   "pool_info": "Pool Information",
-  "shackle": "Shackle",
-  "upgrade_order": "Upgrade order",
+  "qualitative_shackles": "Qualitative Shackles",
   "recommended_grade": "Recommended grade",
+  "recommended_shackle": "Recommend Shackle",
   "skill": "Skill",
-  "source": "Source of Information"
+  "source": "Source of Information",
+  "supplement_shackles": "Supplement Shackles",
+  "upgrade_order": "Upgrade order"
 }
