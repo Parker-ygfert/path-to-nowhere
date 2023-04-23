@@ -808,7 +808,51 @@
       "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E6%96%AF%E6%B4%9B",
       "rank": "A",
       "core": false,
-      "exclusive": {}
+      "qualitative_shackles": "2",
+      "skills": [
+        { "skill": 1, "order": 3, "level": 7 },
+        { "skill": 2, "order": 4, "level": 7 },
+        { "skill": 3, "order": 1, "level": 7 },
+        { "skill": 4, "order": 2, "level": 7 }
+      ],
+      "crimebrands": [
+        {
+          "name": "formula_a",
+          "first": "blue_rain",
+          "second": "blue_rain",
+          "third": "blue_rain"
+        },
+        {
+          "name": "formula_b",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "formula_c",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "formula_d",
+          "first": "turning_zero",
+          "second": "the_city_of_sins",
+          "third": "pioneer"
+        },
+        {
+          "name": "formula_e",
+          "first": "overthrown_tower",
+          "second": "the_city_of_sins",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "formula_f",
+          "first": "overthrown_tower",
+          "second": "the_city_of_sins",
+          "third": "pioneer"
+        }
+      ]
     },
     {
       "name": "mess",
@@ -2680,12 +2724,91 @@
       "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%B8%A1%E9%B8%A6",
       "rank": "S",
       "core": true,
+      "tags": [
+        "<strong><span style='color: #f1aeb5;'>範圍破 2 核</span></strong>",
+        "<strong>全隊增傷</strong>",
+        "<strong>攻擊範圍內被動破解「隱匿」效果</strong>"
+      ],
       "qualitative_shackles": "3",
       "recommended_shackle": 0,
       "supplement_shackles": [
         { "shackle": "2-3", "emphasis": true }
       ],
-      "exclusive": {}
+      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "skills": [
+        { "skill": 1, "order": 4, "level": 3 },
+        { "skill": 2, "order": "2|3", "level": 7 },
+        { "skill": 3, "order": "1|2", "level": 8 },
+        { "skill": 4, "order": "3|1", "level": 7 }
+      ],
+      "crimebrands": [
+        {
+          "name": "formula_a",
+          "first": "fantasy_moon",
+          "second": "fantasy_moon",
+          "third": "pioneer",
+          "description": "短線爆發"
+        },
+        {
+          "name": "formula_b",
+          "first": "fantasy_moon",
+          "second": "fantasy_moon",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "formula_c",
+          "first": "depths_of_oblivion",
+          "second": "the_city_of_sins",
+          "third": "depths_of_oblivion",
+          "description": "長線可選"
+        },
+        {
+          "name": "formula_d",
+          "first": "premonition",
+          "second": "motto",
+          "third": "motto",
+          "description": "必殺和羽毛各破 1 核可觸發預知夢 2 次"
+        },
+        {
+          "name": "formula_e",
+          "first": "solo_dance",
+          "second": "solo_dance",
+          "third": "solo_dance"
+        },
+        {
+          "name": "formula_f",
+          "first": "embrace_of_the_dead",
+          "second": "embrace_of_the_dead",
+          "third": "embrace_of_the_dead"
+        },
+        {
+          "name": "formula_g",
+          "first": "turning_zero",
+          "second": "hope",
+          "third": "corridor_echo"
+        },
+        {
+          "name": "formula_h",
+          "first": "nightmare_revelation",
+          "second": "hope",
+          "third": "nightmare_revelation",
+          "description": "短線輔助可選"
+        },
+        {
+          "name": "formula_i",
+          "first": "justice",
+          "second": "justice",
+          "third": "corridor_echo",
+          "description": "長線輔助可選"
+        },
+        {
+          "name": "formula_j",
+          "first": "turning_zero",
+          "second": "paradise_regained",
+          "third": "paradise_regained",
+          "description": "長線輔助可選"
+        }
+      ]
     },
     {
       "name": "itte",

@@ -2,7 +2,7 @@
   {
     "name": "corridor_echo",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>初始能量 + 8"
+    "set_bonus": "套裝效果：<br>初始能量 + 8"
   },
   {
     "name": "creation",
@@ -12,22 +12,22 @@
   {
     "name": "creed_of_bulwark",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>阻擋 + 1"
-  },
-  {
-    "name": "solo_dance",
-    "rank": "s",
-    "set_bonus": "套裝效果：<br>九宮格範圍內不存在敵人時，<br>普攻傷害提高 25%<br>反之，必殺傷害提高 25%"
+    "set_bonus": "套裝效果：<br>阻擋 + 1"
   },
   {
     "name": "depth_of_restricted_area",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>戰鬥開始後，自身 20 秒內不會受到普通攻擊的傷害"
+    "set_bonus": "套裝效果：<br>戰鬥開始後，自身 20 秒內不會受到普通攻擊的傷害"
   },
   {
     "name": "depths_of_oblivion",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>必殺傷害每秒增加 1%，最多疊加 30 層<br>使用必殺後，該效果重置"
+    "set_bonus": "套裝效果：<br>必殺傷害每秒增加 1%，最多疊加 30 層<br>使用必殺後，該效果重置"
+  },
+  {
+    "name": "fantasy_moon",
+    "rank": "s",
+    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
   },
   {
     "name": "embrace_of_the_dead",
@@ -37,27 +37,32 @@
   {
     "name": "ground_zero",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>自身每 3 秒增加 1% 攻擊，最多疊加 10 次<br>移動後該效果重置"
+    "set_bonus": "套裝效果：<br>自身每 3 秒增加 1% 攻擊，最多疊加 10 次<br>移動後該效果重置"
+  },
+  {
+    "name": "motto",
+    "rank": "s",
+    "set_bonus": "套裝效果：<br>普攻15次後，下次使用必殺時，技能傷害提高25%，持續5秒"
   },
   {
     "name": "nightmare_revelation",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>戰鬥開始時，我方全體禁閉者攻擊力提高 6%，<br>攻擊速度提高 10%，持續 30 秒"
+    "set_bonus": "套裝效果：<br>戰鬥開始時，我方全體禁閉者攻擊力提高 6%，<br>攻擊速度提高 10%，持續 30 秒"
   },
   {
     "name": "paradise_regained",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>每隔 15 秒生成可拾取的精靈，<br>佩戴該套裝的角色拾取後，<br>立即對戰場中核心最多的怪物造成 1 點核心傷害<br>精靈最多同時存在 2 個"
+    "set_bonus": "套裝效果：<br>每隔 15 秒生成可拾取的精靈，<br>佩戴該套裝的角色拾取後，<br>立即對戰場中核心最多的怪物造成 1 點核心傷害<br>精靈最多同時存在 2 個"
   },
   {
     "name": "pioneer",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>若佩戴者的身高不高於 155cm，增加 6% 攻擊，<br>反之只增加 3% 攻擊"
+    "set_bonus": "套裝效果：<br>若佩戴者的身高不高於 155cm，增加 6% 攻擊，<br>反之只增加 3% 攻擊"
   },
   {
     "name": "premonition",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>造成核心傷害時，附加自身攻擊力 120% 的真實傷害"
+    "set_bonus": "套裝效果：<br>造成核心傷害時，附加自身攻擊力 120% 的真實傷害"
   },
   {
     "name": "scarlet_bewitchment",
@@ -67,12 +72,17 @@
   {
     "name": "servant",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>召喚物造成傷害時，有 40% 機率為主人回復 2 能量<br>每 3 秒最多觸發 1 次"
+    "set_bonus": "套裝效果：<br>召喚物造成傷害時，有 40% 機率為主人回復 2 能量<br>每 3 秒最多觸發 1 次"
   },
   {
     "name": "singularity",
     "rank": "s",
     "set_bonus": "套裝效果：<br>移動後，自身攻速提高 12%，持續 10 秒"
+  },
+  {
+    "name": "solo_dance",
+    "rank": "s",
+    "set_bonus": "套裝效果：<br>九宮格範圍內不存在敵人時，<br>普攻傷害提高 25%<br>反之，必殺傷害提高 25%"
   },
   {
     "name": "soul_rift",
@@ -82,12 +92,12 @@
   {
     "name": "the_city_of_sins",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>自身每激活 1 個套裝，增加 3% 攻擊和 5% 生命<br>最多疊加 3 次"
+    "set_bonus": "套裝效果：<br>自身每激活 1 個套裝，增加 3% 攻擊和 5% 生命<br>最多疊加 3 次"
   },
   {
     "name": "the_pandora_cage",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>每進行 3 次普通攻擊，<br>即對第 3 次被攻擊的敵人造成 1 次額外物理傷害，<br>傷害量相當於自身攻擊力的 80%"
+    "set_bonus": "套裝效果：<br>每進行 3 次普通攻擊，<br>即對第 3 次被攻擊的敵人造成 1 次額外物理傷害，<br>傷害量相當於自身攻擊力的 80%"
   },
   {
     "name": "overthrown_tower",
@@ -97,52 +107,52 @@
   {
     "name": "reunion_day",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>普通攻擊暴擊時，回复 3 能量，每 3 秒最多觸發 1 次"
+    "set_bonus": "套裝效果：<br>普通攻擊暴擊時，回复 3 能量，每 3 秒最多觸發 1 次"
   },
   {
     "name": "white_sands_apostle",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>攻擊時，有機率使目標眩暈 2 秒<br>對有核心的怪物觸發率 100%<br>每 10 秒最多觸發 1 次"
+    "set_bonus": "套裝效果：<br>攻擊時，有機率使目標眩暈 2 秒<br>對有核心的怪物觸發率 100%<br>每 10 秒最多觸發 1 次"
   },
   {
     "name": "year_one_perishing_star",
     "rank": "s",
-    "set_bonus":"套裝效果：<br>自身生命提高 20%，攻擊提高 15%<br>但是無法移動"
+    "set_bonus": "套裝效果：<br>自身生命提高 20%，攻擊提高 15%<br>但是無法移動"
   },
   {
     "name": "blue_rain",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>移動次數 + 6<br>該套裝無法疊加，只有一套生效"
+    "set_bonus": "套裝效果：<br>移動次數 + 6<br>該套裝無法疊加，只有一套生效"
   },
   {
     "name": "diverged_ends",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>擊殺敵人後，自身造成的傷害提高12%，<br>持續10秒"
+    "set_bonus": "套裝效果：<br>擊殺敵人後，自身造成的傷害提高12%，<br>持續10秒"
   },
   {
     "name": "final_prologue",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>造成治療效果 + 25%"
+    "set_bonus": "套裝效果：<br>造成治療效果 + 25%"
   },
   {
     "name": "fury_cb",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>使用必殺後，立即回復自身 20% 生命，<br>每 8 秒最多觸發 1 次"
+    "set_bonus": "套裝效果：<br>使用必殺後，立即回復自身 20% 生命，<br>每 8 秒最多觸發 1 次"
   },
   {
     "name": "hope",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>初始能量 + 5"
+    "set_bonus": "套裝效果：<br>初始能量 + 5"
   },
   {
     "name": "in_hosts_name",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>每阻擋一個敵人，受到的傷害降低 8%"
+    "set_bonus": "套裝效果：<br>每阻擋一個敵人，受到的傷害降低 8%"
   },
   {
     "name": "obsession",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>每隔15秒，自動驅散 1 個負面效果"
+    "set_bonus": "套裝效果：<br>每隔15秒，自動驅散 1 個負面效果"
   },
   {
     "name": "shackles_of_life",
@@ -152,31 +162,31 @@
   {
     "name": "shattered_battlefront",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>戰鬥開始時，攻擊 + 15%，持續 30 秒"
+    "set_bonus": "套裝效果：<br>戰鬥開始時，攻擊 + 15%，持續 30 秒"
   },
   {
     "name": "turning_zero",
     "rank": "a",
-    "set_bonus":"套裝效果：<br>使用局長技能後，自身獲得 3 點能量，<br>每 10 秒最多觸發 1 次"
+    "set_bonus": "套裝效果：<br>使用局長技能後，自身獲得 3 點能量，<br>每 10 秒最多觸發 1 次"
   },
   {
     "name": "eastside_dream",
     "rank": "b",
-    "set_bonus":"套裝效果：<br>普通攻擊造成的傷害提高 15％"
+    "set_bonus": "套裝效果：<br>普通攻擊造成的傷害提高 15％"
   },
   {
     "name": "justice",
     "rank": "b",
-    "set_bonus":"套裝效果：<br>使用必殺後，除自身所有禁閉者攻擊 + 5％，<br>持續 10 秒"
+    "set_bonus": "套裝效果：<br>使用必殺後，除自身所有禁閉者攻擊 + 5％，<br>持續 10 秒"
   },
   {
     "name": "providence",
     "rank": "b",
-    "set_bonus":"套裝效果：<br>攻擊 + 6％"
+    "set_bonus": "套裝效果：<br>攻擊 + 6％"
   },
   {
     "name": "syndicate_glory",
     "rank": "b",
-    "set_bonus":"套裝效果：<br>法術傷害 + 15%，自身受到傷害 + 25％"
+    "set_bonus": "套裝效果：<br>法術傷害 + 15%，自身受到傷害 + 25％"
   }
 ]

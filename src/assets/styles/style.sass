@@ -5,6 +5,44 @@
 html, body, #app
   font-family: 'Oxygen Mono', monospace
 
+body
+  position: relative
+
+.slider-container
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: -1
+  div
+    position: absolute
+    width: 100%
+    height: 100%
+    opacity: 0
+    animation: bground 300s linear infinite
+    &:nth-child(1)
+      background-image: url('../images/bg-1.jpg')
+      animation-delay: 0s
+    &:nth-child(2)
+      background-image: url('../images/bg-2.jpg')
+      animation-delay: 60s
+    &:nth-child(3)
+      background-image: url('../images/bg-3.jpg')
+      animation-delay: 120s
+    &:nth-child(4)
+      background-image: url('../images/bg-4.jpg')
+      animation-delay: 180s
+    &:nth-child(5)
+      background-image: url('../images/bg-5.jpg')
+      animation-delay: 240s
+
+@keyframes bground
+  1%
+    opacity: 1
+  80%
+    opacity: 1
+  90%
+    opacity: 0
+
 .pc-show
   @media only screen and (max-width: 768px)
     display: none !important
@@ -21,8 +59,9 @@ html, body, #app
   height: fit-content !important
 
 .container
-  @include desktop
-    max-width: 860px !important
+  background-color: rgba(255, 255, 255, 0.9)
+  min-height: 100vh
+  max-width: 988px !important
   @include tablet
     padding: .25rem !important
 
@@ -36,3 +75,4 @@ html, body, #app
   padding: .2rem !important
   font-size: 14px !important
   text-align: left !important
+  border: solid 1px white

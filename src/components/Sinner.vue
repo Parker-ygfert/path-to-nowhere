@@ -20,15 +20,15 @@
     </div>
 
     <div class="info-box mt-1 me-1 me-lg-2 font-16">
-      <table width="100%" class="table table-sm table-bordered mb-1">
+      <table width="100%" class="table table-sm table-bordered mb-1 border-secondary">
         <tbody align="center">
           <tr v-if="isPresent(sinner.recommended_shackle)">
             <th scope="row">{{ $t('recommended_shackle') }}</th>
             <td>{{ sinner.recommended_shackle }}</td>
           </tr>
-          <tr>
+          <tr v-if="isPresent(sinner.qualitative_shackles)">
             <th scope="row">{{ $t('qualitative_shackles') }}</th>
-            <td class="text-nowrap">{{ sinner?.qualitative_shackles }}</td>
+            <td class="text-nowrap">{{ sinner.qualitative_shackles }}</td>
           </tr>
           <tr v-if="isPresent(sinner.supplement_shackles)">
             <th scope="row" valign="middle">{{ $t('supplement_shackles') }}</th>
@@ -39,23 +39,24 @@
               </div>
             </td>
           </tr>
-          <tr>
+          <tr v-if="isPresent(sinner.exclusive)">
             <th scope="row" valign="middle" class="text-nowrap">{{ $t('exclusive') }}</th>
-            <td class="text-nowrap" :class="sinner?.exclusive?.emphasis">
-            <span v-html="sinner?.exclusive?.text"></span>
+            <td class="text-nowrap" :class="sinner.exclusive.emphasis">
+            <span v-html="sinner.exclusive.text"></span>
             </td>
           </tr>
         </tbody>
       </table>
 
-      <table width="100%" class="table table-sm table-bordered mb-1">
+      <table v-if="isPresent(sinner.strength)"
+             width="100%" class="table table-sm table-bordered mb-1 border-secondary">
         <thead align="center">
           <tr>
             <th scope="col" colspan="2">{{ $t('overall_strength') }}</th>
           </tr>
         </thead>
         <tbody align="center">
-          <template v-for="strength in sinner?.strength">
+          <template v-for="strength in sinner.strength">
             <tr>
               <td>{{ $t(strength.map) }}</td>
               <td>{{ decode(strength.strength) }}</td>
@@ -64,7 +65,8 @@
         </tbody>
       </table>
 
-      <table width="100%" class="table table-sm table-bordered mb-1">
+      <table v-if="isPresent(sinner.skills)"
+             width="100%" class="table table-sm table-bordered mb-1 border-secondary">
         <thead align="center">
           <tr>
             <th scope="col">{{ $t('skill') }}</th>
