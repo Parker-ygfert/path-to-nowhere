@@ -1,85 +1,134 @@
 <template>
-  <div class="crime-brand-box d-flex">
+<div
+  id="scroll-box"
+  class="overflow-scroll"
+>
+  <div class="crime-brand-box d-flex justify-content-center">
     <router-link :to="{
-                   name: backTo(),
-                   query: { sinner: route.params.name }
-                 }">
+                    name: backTo(),
+                    query: { sinner: route.params.name }
+                  }"
+                  class="tablet-show">
       <i class="bi bi-box-arrow-left float-start me-1 font-30"></i>
     </router-link>
-
+  
     <div class="img-box w-fit me-1 me-lg-2">
       <div class="sinner-img position-relative mx-auto">
-        <CharacterImg :job="job" :character="sinner" />
+        <SinnerImg :job="job" :character="sinner" />
       </div>
       <div class="wiki-link h-fit my-1 text-center">
-        <a :href="sinner?.wiki" target="_blank" class="align-middle font-16">Wiki</a>
+        <a :href="sinner?.wiki" target="_blank" class="align-middle font-16">
+          Wiki
+        </a>
       </div>
       <template v-for="tag in sinner?.tags">
-        <div class="tag w-fit mx-auto px-1 rounded-pill text-center text-nowrap font-14 text-bg-dark" v-html="tag"></div>
+        <div
+          class="tag w-fit mx-auto px-1 rounded-pill text-center text-nowrap font-14 text-bg-dark"
+          v-html="tag"
+        >
+        </div>
       </template>
     </div>
-
+  
     <div class="info-box mt-1 me-1 me-lg-2 font-16">
       <table width="100%" class="table table-sm table-bordered mb-1 border-secondary">
         <tbody align="center">
           <tr v-if="isPresent(sinner.recommended_shackle)">
-            <th scope="row">{{ $t('recommended_shackle') }}</th>
-            <td>{{ sinner.recommended_shackle }}</td>
+            <th scope="row">
+              {{ $t('recommended_shackle') }}
+            </th>
+            <td>
+              {{ sinner.recommended_shackle }}
+            </td>
           </tr>
           <tr v-if="isPresent(sinner.qualitative_shackles)">
-            <th scope="row">{{ $t('qualitative_shackles') }}</th>
-            <td class="text-nowrap">{{ sinner.qualitative_shackles }}</td>
+            <th scope="row">
+              {{ $t('qualitative_shackles') }}
+            </th>
+            <td class="text-nowrap">
+              {{ sinner.qualitative_shackles }}
+            </td>
           </tr>
           <tr v-if="isPresent(sinner.supplement_shackles)">
-            <th scope="row" valign="middle">{{ $t('supplement_shackles') }}</th>
+            <th scope="row" valign="middle">
+              {{ $t('supplement_shackles') }}
+            </th>
             <td>
-              <div v-for="shackle in sinner.supplement_shackles"
-                   :class="{ 'text-danger' : shackle.emphasis }">
+              <div
+                v-for="shackle in sinner.supplement_shackles"
+                :class="{ 'text-danger' : shackle.emphasis }"
+              >
                 {{ shackle.shackle }}
               </div>
             </td>
           </tr>
           <tr v-if="isPresent(sinner.exclusive)">
-            <th scope="row" valign="middle" class="text-nowrap">{{ $t('exclusive') }}</th>
+            <th scope="row" valign="middle" class="text-nowrap">
+              {{ $t('exclusive') }}
+            </th>
             <td class="text-nowrap" :class="sinner.exclusive.emphasis">
             <span v-html="sinner.exclusive.text"></span>
             </td>
           </tr>
         </tbody>
       </table>
-
-      <table v-if="isPresent(sinner.strength)"
-             width="100%" class="table table-sm table-bordered mb-1 border-secondary">
+  
+      <table
+        v-if="isPresent(sinner.strength)"
+        width="100%"
+        class="table table-sm table-bordered mb-1 border-secondary"
+      >
         <thead align="center">
           <tr>
-            <th scope="col" colspan="2">{{ $t('overall_strength') }}</th>
+            <th scope="col" colspan="2">
+              {{ $t('overall_strength') }}
+            </th>
           </tr>
         </thead>
         <tbody align="center">
           <template v-for="strength in sinner.strength">
             <tr>
-              <td>{{ $t(strength.map) }}</td>
-              <td>{{ decode(strength.strength) }}</td>
+              <td>
+                {{ $t(strength.map) }}
+              </td>
+              <td>
+                {{ decode(strength.strength) }}
+              </td>
             </tr>
           </template>
         </tbody>
       </table>
-
-      <table v-if="isPresent(sinner.skills)"
-             width="100%" class="table table-sm table-bordered mb-1 border-secondary">
+  
+      <table
+        v-if="isPresent(sinner.skills)"
+        width="100%"
+        class="table table-sm table-bordered mb-1 border-secondary"
+      >
         <thead align="center">
           <tr>
-            <th scope="col">{{ $t('skill') }}</th>
-            <th scope="col">{{ $t('upgrade_order') }}</th>
-            <th scope="col">{{ $t('recommended_grade') }}</th>
+            <th scope="col">
+              {{ $t('skill') }}
+            </th>
+            <th scope="col">
+              {{ $t('upgrade_order') }}
+            </th>
+            <th scope="col">
+              {{ $t('recommended_grade') }}
+            </th>
           </tr>
         </thead>
         <tbody align="center">
           <template v-for="skill in sinner?.skills">
             <tr>
-              <th scope="row" class="px-2">{{ skill.skill}}</th>
-              <td>{{ skill.order}}</td>
-              <td :class="{ 'fw-bold text-danger' : skill.threshold }">{{ skill.level}}</td>
+              <th scope="row" class="px-2">
+                {{ skill.skill }}
+              </th>
+              <td>
+                {{ skill.order }}
+              </td>
+              <td :class="{ 'fw-bold text-danger' : skill.threshold }">
+                {{ skill.level }}
+              </td>
             </tr>
           </template>
         </tbody>
@@ -89,40 +138,65 @@
         </caption>
       </table>
     </div>
-
+  
     <div class="cb-box">
       <div class="text-center font-30">
         —— {{ $t('crimebrands_recommends') }} ——
         <div class="font-12 text-danger">紅色表示通用性較高</div>
       </div>
-      <div v-for="cb in sinner?.crimebrands"
-            class="cb-set my-1 font-18">
-        <header class="font-20" :class="{ 'text-danger' : cb.emphasis }">◎{{ $t(cb.name) }}</header>
-        <div class="d-flex">
-          <div v-for="position in ['first', 'second', 'third']"
-               :set="cbName = cb[position]"
-               class="crimebrands-img position-relative flex-shrink-0 border border-dark"
-               data-bs-toggle="tooltip" data-bs-placement="top" :data-bs-title="cbName" data-bs-html="true">
-            <img v-if="cbName"
-                 :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)" alt=""
-                 class="position-absolute">
-            <img v-if="cbName"
-                 :src="getImageUrl(`crimebrands/${cbName}.png`)" alt=""
-                 class="w-100 h-100">
-            <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
-              {{ $t(cbName) }}
-            </span>
-            <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
+      <div class="cb-formula overflow-scroll">
+        <div
+          v-for="cb in sinner?.crimebrands"
+          class="cb-set my-1 font-18"
+        >
+          <header class="font-20" :class="{ 'text-danger' : cb.emphasis }">
+            ◎{{ $t(cb.name) }}
+          </header>
+          <div class="d-flex">
+            <div
+              v-for="position in ['first', 'second', 'third']"
+              :set="cbName = cb[position]"
+              class="crimebrands-img position-relative flex-shrink-0 border border-dark"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              :data-bs-title="cbName"
+              data-bs-html="true"
+            >
+              <img
+                v-if="cbName"
+                :src="getImageUrl(`crimebrands/${cbRank(cbName)}.png`)"
+                alt=""
+                loading="lazy"
+                class="position-absolute"
+              >
+              <img
+                v-if="cbName"
+                :src="getImageUrl(`crimebrands/${cbName}.png`)"
+                alt=""
+                loading="lazy"
+                class="w-100 h-100"
+              >
+              <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
+                {{ $t(cbName) }}
+              </span>
+              <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
+            </div>
+          </div>
+          <div class="text-secondary">
+            {{ cb.description }}
           </div>
         </div>
-        <div class="text-secondary">{{ cb.description }}</div>
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <style lang="sass" scoped source="../assets/styles/style.sass">
 @import '@/assets/styles/_rwd.sass'
+
+#scroll-box
+  max-height: calc(100vh - 165px)
 
 .crime-brand-box
   @include tablet
@@ -153,32 +227,36 @@
       margin-right: auto !important
       max-width: 300px
   .cb-box
-    .cb-set
-      width: 300px !important
+    .cb-formula
+      max-height: calc(100vh - 228px)
       @include tablet
-        width: fit-content
-        margin: auto
-      .crimebrands-img
-        width: 100px
-        height: 100px
-        .crimebrands-name
-          right: 4px
-          bottom: 1px
-          text-shadow: -1px 0 2px #000, 0 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000
-        .rank-deco
-          display: inline-block
-          bottom: 0
-          right: 0
-          position: absolute
-          pointer-events: none
-          width: 98px
-          height: 5px
-        .deco-s
-          background-image: linear-gradient(rgba(255,0,0,0),rgba(255,220,93,1) 75% )
-        .deco-a
-          background-image: linear-gradient(rgba(255,0,0,0),rgba(241,174,255,1) 75% )
-        .deco-b
-          background-image: linear-gradient(rgba(255,0,0,0),rgba(117,171,240,1) 75% )
+        max-height: fit-content
+      .cb-set
+        width: 300px !important
+        @include tablet
+          width: fit-content
+          margin: auto
+        .crimebrands-img
+          width: 100px
+          height: 100px
+          .crimebrands-name
+            right: 4px
+            bottom: 1px
+            text-shadow: -1px 0 2px #000, 0 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000
+          .rank-deco
+            display: inline-block
+            bottom: 0
+            right: 0
+            position: absolute
+            pointer-events: none
+            width: 98px
+            height: 5px
+          .deco-s
+            background-image: linear-gradient(rgba(255,0,0,0),rgba(255,220,93,1) 75% )
+          .deco-a
+            background-image: linear-gradient(rgba(255,0,0,0),rgba(241,174,255,1) 75% )
+          .deco-b
+            background-image: linear-gradient(rgba(255,0,0,0),rgba(117,171,240,1) 75% )
 
 .table
   &.table-sm
@@ -195,7 +273,7 @@ import { onMounted, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import { Tooltip } from 'bootstrap'
-import CharacterImg from './CharacterImg'
+import SinnerImg from './SinnerImg'
 import sinners from '@/data/sinners.json'
 import crimebrands from '@/data/crimebrands.json'
 

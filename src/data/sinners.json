@@ -68,7 +68,7 @@
         "<strong>自身 + 群體護盾</strong>",
         "<strong>小幅度群體友方加成</strong>",
         "<strong style='color: #f1aeb5;'>昆門造像體系核心</strong>",
-        "<strong style='color: #f1aeb5;'>疊盾流打法核心 (需 4 枷鎖)</strong>",
+        "<strong style='color: #f1aeb5;'>疊盾流打法核心 (需 4+)</strong>",
         "(護盾量 0.5% 加攻)"
       ],
       "qualitative_shackles": "3、4",
@@ -139,6 +139,12 @@
           "third": "nightmare_revelation"
         }
       ]
+    },
+    {
+      "name": "uni",
+      "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%B0%A4%E5%B0%BC",
+      "rank": "A",
+      "core": false
     },
     {
       "name": "levy",
@@ -1544,7 +1550,7 @@
       "tags": [
         "<strong>大招直線 4 格群體破核</strong>",
         "<strong>影匿 + 影子增傷</strong>",
-        "<strong>4 枷鎖全隊增傷 (最高 12%)</strong>",
+        "<strong>4+ 全隊增傷 (最高 12%)</strong>",
         "<strong>各類內卷副本凹分小能手</strong>"
       ],
       "qualitative_shackles": "4",
@@ -2151,6 +2157,12 @@
   ],
   "reticle": [
     {
+      "name": "dreya",
+      "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%BE%B7%E9%9B%B7%E9%9B%85",
+      "rank": "S",
+      "core": true
+    },
+    {
       "name": "oak_casket",
       "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%A9%A1%E6%9C%A8%E5%8C%A3",
       "rank": "S",
@@ -2727,7 +2739,7 @@
       "tags": [
         "<strong><span style='color: #f1aeb5;'>範圍破 2 核</span></strong>",
         "<strong>全隊增傷</strong>",
-        "<strong>攻擊範圍內被動破解「隱匿」效果</strong>"
+        "<strong>攻擊範圍被動破解\"隱匿\"</strong>"
       ],
       "qualitative_shackles": "3",
       "recommended_shackle": 0,
@@ -2939,7 +2951,8 @@
       "rank": "S",
       "core": true,
       "tags": [
-        "<strong>三重變化大招 + <span style='color: #f1aeb5;'>斜十字破 2 核</span></strong>",
+        "<strong>三重變化大招</strong>",
+        "<strong style='color: #f1aeb5;'>斜十字破 2 核</strong>",
         "<strong>輔助自身 + 局長回能</strong>",
         "<strong>3 枷鎖全隊輔助增傷</strong>"
       ],
@@ -3987,7 +4000,7 @@
       "core": false,
       "tags": [
         "<strong>群體減速控制</strong>",
-        "<strong>專屬烙印使敵人受傷提升最多 15%</strong>"
+        "<strong>專烙易傷提升最多 15%</strong>"
       ],
       "qualitative_shackles": "1、3",
       "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },

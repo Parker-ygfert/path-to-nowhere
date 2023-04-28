@@ -1,0 +1,91 @@
+[
+  {
+    "name": "indelible_mark",
+    "current": true,
+    "genre": "exclusive",
+    "start": "2023-04-11 14:00",
+    "end": "2023-05-02 04:59",
+    "ups": [
+      { "name": "deren", "job": "fury" },
+      { "name": "lynn", "job": "umbra" },
+      { "name": "oliver", "job": "arcane" },
+      { "name": "wolverine", "job": "reticle" }
+    ]
+  },
+  {
+    "name": "beast_of_fortune",
+    "current": true,
+    "genre": "event",
+    "start": "2023-04-11 14:00",
+    "end": "2023-05-02 04:59",
+    "ups": [
+      { "name": "owo", "job": "endura" },
+      { "name": "lynn", "job": "umbra" },
+      { "name": "oliver", "job": "arcane" },
+      { "name": "wolverine", "job": "reticle" }
+    ]
+  },
+  {
+    "name": "light_in_ocean_abyss",
+    "genre": "routine",
+    "start": "2023-05-02 05:00",
+    "end": "2023-05-16 14:00",
+    "ups": [
+      { "name": "nox", "job": "fury" }
+    ]
+  },
+  {
+    "name": "異界主宰",
+    "genre": "event",
+    "ups": [
+      { "name": "itte", "job": "arcane" },
+      { "name": "levy", "job": "endura" },
+      { "name": "pricilla", "job": "reticle" },
+      { "name": "chameleon", "job": "catalyst" }
+    ]
+  },
+  {
+    "name": "叛逆之影",
+    "genre": "routine",
+    "ups": [
+      { "name": "crache", "job": "umbra" }
+    ]
+  },
+  {
+    "name": "隱秘深淵",
+    "genre": "combine",
+    "ups": [
+      { "name": "demon", "job": "endura" },
+      { "name": "bai_yi", "job": "umbra" },
+      { "name": "langley", "job": "reticle" },
+      { "name": "eirene", "job": "arcane" }
+    ]
+  },
+  {
+    "name": "破曉鴉歌",
+    "genre": "event",
+    "ups": [
+      { "name": "raven", "job": "arcane" },
+      { "name": "casro", "job": "fury" },
+      { "name": "mr_fox", "job": "catalyst" },
+      { "name": "horo", "job": "fury" }
+    ]
+  },
+  {
+    "name": "真我覆色",
+    "genre": "routine",
+    "ups": [
+      { "name": "enfer", "job": "catalyst" }
+    ]
+  },
+  {
+    "name": "穹界幽影",
+    "genre": "event",
+    "ups": [
+      { "name": "dreya", "job": "reticle" },
+      { "name": "uni", "job": "endura" },
+      { "name": "ninety_nine", "job": "fury" },
+      { "name": "mc_queen", "job": "umbra" }
+    ]
+  }
+]

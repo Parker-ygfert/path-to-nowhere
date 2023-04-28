@@ -1,5 +1,6 @@
 @import './_rwd'
 @import './_font'
+@import './_color'
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Oxygen+Mono&display=swap')
 
 html, body, #app
@@ -55,13 +56,16 @@ body
 .w-fit
   width: fit-content !important
 
+.min-w-fit
+  min-width: fit-content !important
+
 .h-fit
   height: fit-content !important
 
 .container
   background-color: rgba(255, 255, 255, 0.9)
   min-height: 100vh
-  max-width: 988px !important
+  max-width: 844px !important
   @include tablet
     padding: .25rem !important
 

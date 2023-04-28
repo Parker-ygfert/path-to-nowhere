@@ -21,6 +21,11 @@ let routes = [
     component: () => import('@/components/Source')
   },
   {
+    path: '/pool',
+    name: 'pool',
+    component: () => import('@/components/Pool')
+  },
+  {
     path: '/endura',
     name: 'endura',
     component: () => import('@/components/Job')

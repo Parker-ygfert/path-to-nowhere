@@ -3,6 +3,12 @@
 # 當發生錯誤時終止腳本運行
 set -e
 
+yarn build
+
+cp ./dist/index.html ./public/404.html
+git add .
+git cmne
+
 # 打包
 yarn build
 

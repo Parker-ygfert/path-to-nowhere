@@ -4,7 +4,87 @@
 @function shade-color($color, $percentage)
   @return mix(black, $color, $percentage)
 
+$blue: #0d6efd !default
+$indigo: #6610f2 !default
+$orange: #fd7e14 !default
+$purple: #6f42c1 !default
 $red: #dc3545 !default
+
+.blue-100
+  color: tint-color($blue, 80%) !important
+.blue-200
+  color: tint-color($blue, 60%) !important
+.blue-300
+  color: tint-color($blue, 40%) !important
+.blue-400
+  color: tint-color($blue, 20%) !important
+.blue-500
+  color: $blue !important
+.blue-600
+  color: shade-color($blue, 20%) !important
+.blue-700
+  color: shade-color($blue, 40%) !important
+.blue-800
+  color: shade-color($blue, 60%) !important
+.blue-900
+  color: shade-color($blue, 80%) !important
+
+.indigo-100
+  color: tint-color($indigo, 80%) !important
+.indigo-200
+  color: tint-color($indigo, 60%) !important
+.indigo-300
+  color: tint-color($indigo, 40%) !important
+.indigo-400
+  color: tint-color($indigo, 20%) !important
+.indigo-500
+  color: $indigo !important
+.indigo-600
+  color: shade-color($indigo, 20%) !important
+.indigo-700
+  color: shade-color($indigo, 40%) !important
+.indigo-800
+  color: shade-color($indigo, 60%) !important
+.indigo-900
+  color: shade-color($indigo, 80%) !important
+
+.bg-orange-100
+  background-color: tint-color($orange, 80%) !important
+.bg-orange-200
+  background-color: tint-color($orange, 60%) !important
+.bg-orange-300
+  background-color: tint-color($orange, 40%) !important
+.bg-orange-400
+  background-color: tint-color($orange, 20%) !important
+.bg-orange-500
+  background-color: $orange !important
+.bg-orange-600
+  background-color: shade-color($orange, 20%) !important
+.bg-orange-700
+  background-color: shade-color($orange, 40%) !important
+.bg-orange-800
+  background-color: shade-color($orange, 60%) !important
+.bg-orange-900
+  background-color: shade-color($orange, 80%) !important
+
+.purple-100
+  color: tint-color($purple, 80%) !important
+.purple-200
+  color: tint-color($purple, 60%) !important
+.purple-300
+  color: tint-color($purple, 40%) !important
+.purple-400
+  color: tint-color($purple, 20%) !important
+.purple-500
+  color: $purple !important
+.purple-600
+  color: shade-color($purple, 20%) !important
+.purple-700
+  color: shade-color($purple, 40%) !important
+.purple-800
+  color: shade-color($purple, 60%) !important
+.purple-900
+  color: shade-color($purple, 80%) !important
 
 .red-100
   color: tint-color($red, 80%) !important

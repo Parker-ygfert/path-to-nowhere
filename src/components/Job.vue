@@ -1,16 +1,19 @@
 <template>
-<div class="d-flex flex-wrap">
+<div
+  id="scroll-box"
+  class="job-box d-flex flex-wrap gap-1 m-auto overflow-scroll"
+>
   <div v-for="character in characters"
-       :id="character.name"
-       class="character-img position-relative me-1 mb-1">
+        :id="character.name"
+        class="character-img position-relative">
     <router-link :to="{
-                   name: 'sinner',
-                   params: {
-                     job: $route.name,
-                     name: character.name
-                   }
-                 }">
-      <CharacterImg :id="character.name" :job="$route.name" :character="character" />
+                    name: 'sinner',
+                    params: {
+                      job: $route.name,
+                      name: character.name
+                    }
+                  }">
+      <SinnerImg :id="character.name" :job="$route.name" :character="character" />
     </router-link>
   </div>
 </div>
@@ -19,6 +22,11 @@
 <style lang="sass" scoped>
 @import '@/assets/styles/_rwd'
 
+#scroll-box
+  max-height: calc(100vh - 165px)
+
+.job-box
+  max-width: 758px
 .character-img
   width: 180px
   height: 270px
@@ -30,9 +38,7 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-// import { db } from '@/firebase/index.js'
-// import { collection, getDocs } from 'firebase/firestore'
-import CharacterImg from './CharacterImg'
+import SinnerImg from './SinnerImg'
 import sinners from '@/data/sinners.json'
 
 const route = useRoute()
@@ -43,12 +49,4 @@ onMounted(() => {
   const sinnerElement = document.querySelector(`#${sinner}`)
   if (sinnerElement) sinnerElement.scrollIntoView()
 })
-
-// onMounted(async () => {
-//   const querySnapshot = await getDocs(collection(db, 'sinners'))
-//   querySnapshot.forEach((doc) => {
-//     // doc.data() is never undefined for query doc snapshots
-//     console.log(doc.id, " => ", doc.data())
-//   })
-// })
 </script>

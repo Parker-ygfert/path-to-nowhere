@@ -17,6 +17,7 @@
 
 <script setup>
 const toTop = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  const scrollBox = document.querySelector('#scroll-box')
+  if (scrollBox) scrollBox.scrollTo({ top: 0, behavior: 'smooth' })
 }
 </script>
