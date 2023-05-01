@@ -5,8 +5,8 @@
     <link rel="icon" type="image/png" href="/path-to-nowhere/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Path To Nowhere</title>
-    <script type="module" crossorigin src="/path-to-nowhere/assets/index-467068ec.js"></script>
-    <link rel="stylesheet" href="/path-to-nowhere/assets/index-4653b4e9.css">
+    <script type="module" crossorigin src="/path-to-nowhere/assets/index-f4fc3cc5.js"></script>
+    <link rel="stylesheet" href="/path-to-nowhere/assets/index-64770c39.css">
   </head>
   <body>
     <div class="slider-container">
@@ -16,9 +16,16 @@
       <div></div>
       <div></div>
     </div>
-    <div class="container px-1 pt-1 pb-3">
+    <div class="container px-1 pt-1 pb-1 pb-md-3">
       <div id="app"></div>
       
     </div>
   </body>
+
+  <script>
+    (() => {
+      let vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    })()
+  </script>
 </html>
