@@ -3,17 +3,17 @@
   id="scroll-box"
   class="job-box d-flex flex-wrap gap-1 m-auto overflow-scroll"
 >
-  <div v-for="character in characters"
-        :id="character.name"
-        class="character-img position-relative">
+  <div v-for="sinner in currentSinners"
+        :id="sinner.name"
+        class="sinner-img position-relative">
     <router-link :to="{
                     name: 'sinner',
                     params: {
                       job: $route.name,
-                      name: character.name
+                      name: sinner.name
                     }
                   }">
-      <SinnerImg :id="character.name" :job="$route.name" :character="character" />
+      <SinnerImg :id="sinner.name" :job="$route.name" :sinner="sinner" />
     </router-link>
   </div>
 </div>
@@ -27,7 +27,7 @@
 
 .job-box
   max-width: 758px
-.character-img
+.sinner-img
   width: 180px
   height: 270px
   @include tablet
@@ -42,7 +42,7 @@ import SinnerImg from './SinnerImg'
 import sinners from '@/data/sinners.json'
 
 const route = useRoute()
-const characters = sinners[route.name]
+const currentSinners = sinners[route.name]
 
 onMounted(() => {
   const sinner = route.query.sinner

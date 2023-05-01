@@ -16,7 +16,14 @@
       "supplement_shackles": [
         { "shackle": "2-3" }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -77,7 +84,13 @@
         { "shackle": "2-3" },
         { "shackle": "3-4" }
       ],
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T0&#8673;" },
@@ -155,7 +168,13 @@
         "<strong>流血隊核心增傷 + 坦克</strong>"
       ],
       "qualitative_shackles": "2",
-      "exclusive": { "text": "不推薦、自找沒趣" },
+      "exclusive": {
+        "text": "不推薦、自找沒趣"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8673;" },
         { "map": "broken_frontline", "strength": "T2&#8673;" },
@@ -202,7 +221,14 @@
         "<strong>更加突出法術扛傷</strong>"
       ],
       "qualitative_shackles": "1",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -268,7 +294,13 @@
         "<strong>她是女的 + 更像輔助</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "不推薦、自找沒趣" },
+      "exclusive": {
+        "text": "不推薦、自找沒趣"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T3" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -329,7 +361,14 @@
         "<strong>激活專屬烙印質變</strong>"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -408,7 +447,10 @@
         "<strong>昆門造像體系盾爹平替</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8675;" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -486,7 +528,13 @@
         "<strong>護盾自回血機制</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T3",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -551,7 +599,14 @@
         "<strong>大招具有嘲諷控制</strong>"
       ],
       "qualitative_shackles": "1",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2&#8675;" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -624,7 +679,15 @@
       "supplement_shackles": [
         { "shackle": "0-5", "emphasis": true }
       ],
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -686,7 +749,14 @@
         { "shackle": "2-3" },
         { "shackle": "3-4" }
       ],
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -760,7 +830,13 @@
         { "shackle": "0-1" },
         { "shackle": "2-3" }
       ],
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -871,7 +947,15 @@
         "(最高提升莓絲攻擊 6%)"
       ],
       "qualitative_shackles": "2",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -918,7 +1002,14 @@
         "<strong>需要時間暖機</strong>"
       ],
       "qualitative_shackles": "1、4",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -998,7 +1089,14 @@
         "<strong style='color: #f1aeb5;'>破核</strong>"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -1066,7 +1164,13 @@
         "<strong>群體減速工具人</strong>"
       ],
       "qualitative_shackles": "1",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1131,7 +1235,14 @@
         "<strong>吸血</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T3",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1196,7 +1307,14 @@
         "<strong>對無核心敵人有增傷</strong>"
       ],
       "qualitative_shackles": "2",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -1269,7 +1387,13 @@
         "<strong>追蹤最多輔助增傷 22.5%</strong>"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1323,7 +1447,14 @@
         "(10% 攻速輔助)"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "不推薦、自找沒趣" },
+      "exclusive": {
+        "text": "不推薦、自找沒趣"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T3" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1393,7 +1524,14 @@
         "<strong>自身回血機制</strong>"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1485,7 +1623,14 @@
       "supplement_shackles": [
         { "shackle": "2-3", "emphasis": true }
       ],
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1558,7 +1703,14 @@
       "supplement_shackles": [
         { "shackle": "3-4" }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -1630,7 +1782,14 @@
       "supplement_shackles": [
         { "shackle": "0-1" }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升<br>+<br>推薦升級", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升<br>+<br>推薦升級",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1685,7 +1844,13 @@
         "<strong>爆擊體系增傷核心</strong>"
       ],
       "qualitative_shackles": "2、4",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -1754,7 +1919,15 @@
         "(需激活專烙)"
       ],
       "qualitative_shackles": "2、4",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -1808,7 +1981,13 @@
         "(已被 Bug 修復)"
       ],
       "qualitative_shackles": "2",
-      "exclusive": { "text": "不推薦、自找沒趣" },
+      "exclusive": {
+        "text": "不推薦、自找沒趣"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1881,7 +2060,13 @@
         "<strong>降低敵方攻擊</strong>"
       ],
       "qualitative_shackles": "4",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -1954,7 +2139,13 @@
         "<strong>爆擊後暈眩控制</strong>"
       ],
       "qualitative_shackles": "1",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -2034,7 +2225,14 @@
         "<strong>自身攻速提升</strong>"
       ],
       "qualitative_shackles": "2、4",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -2097,7 +2295,13 @@
         "<strong>可原地移動破核</strong>"
       ],
       "qualitative_shackles": "2、4",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -2159,6 +2363,9 @@
     {
       "name": "dreya",
       "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%BE%B7%E9%9B%B7%E9%9B%85",
+      "evaluations": [
+        { "name": "德雷雅角色全方位测评及烙印推荐", "link": "https://b23.tv/dPgvHRe" }
+      ],
       "rank": "S",
       "core": true
     },
@@ -2177,7 +2384,14 @@
       "supplement_shackles": [
         { "shackle": "1-2" }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2224,7 +2438,13 @@
         { "shackle": "1-2" },
         { "shackle": "4-5" }
       ],
-      "exclusive": { "text": "不推薦、自找沒趣" },
+      "exclusive": {
+        "text": "不推薦、自找沒趣"
+      },
+      "exclusive_priority": {
+        "tier": "T3",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -2290,7 +2510,14 @@
       "supplement_shackles": [
         { "shackle": "0-1", "emphasis": true }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -2369,7 +2596,14 @@
         "<strong>適合 S/L 凹分</strong>"
       ],
       "qualitative_shackles": "1",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T3-T0" },
         { "map": "broken_frontline", "strength": "T3-T0" },
@@ -2454,7 +2688,14 @@
         "<strong>適合長線副本</strong>"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2534,7 +2775,14 @@
         "(20% 物理防禦降低)"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2608,7 +2856,14 @@
         "<strong>擊殺後自身提高攻擊</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2686,7 +2941,15 @@
         "<strong>專屬烙印提供暈眩控制</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2746,7 +3009,10 @@
       "supplement_shackles": [
         { "shackle": "2-3", "emphasis": true }
       ],
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
       "skills": [
         { "skill": 1, "order": 4, "level": 3 },
         { "skill": 2, "order": "2|3", "level": 7 },
@@ -2839,7 +3105,15 @@
         { "shackle": "2-3" },
         { "shackle": "3-4", "emphasis": true }
       ],
-      "exclusive": { "text": "極為推薦、質變提升<br>+<br>推薦升級", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升<br>+<br>推薦升級",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1&#8673;" },
         { "map": "broken_frontline", "strength": "T0&#8673;" },
@@ -2902,7 +3176,13 @@
       "supplement_shackles": [
         { "shackle": "0" }
       ],
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -2962,7 +3242,14 @@
         { "shackle": "0-1", "emphasis": true },
         { "shackle": "2-3", "emphasis": true }
       ],
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -3016,7 +3303,15 @@
         "<strong>攻速小能手 (鬼畜級別)</strong>"
       ],
       "qualitative_shackles": "3、4",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -3076,7 +3371,14 @@
         "<strong>專屬烙印召喚物可當阻擋用</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -3146,7 +3448,14 @@
         "<strong>自殘輸出、小幅回血</strong>"
       ],
       "qualitative_shackles": "1",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -3199,7 +3508,13 @@
         "<strong>燃燒持續傷害</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -3260,7 +3575,13 @@
         "<strong>使敵人承受傷害提升</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "不推薦、自找沒趣" },
+      "exclusive": {
+        "text": "不推薦、自找沒趣"
+      },
+      "exclusive_priority": {
+        "tier": "T3",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -3337,7 +3658,14 @@
         "<strong>單體友方減傷</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "極為推薦、質變提升", "emphasis": "fw-bold text-danger" },
+      "exclusive": {
+        "text": "極為推薦、質變提升",
+        "emphasis": "fw-bold text-danger"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -3415,7 +3743,14 @@
         "(最多降低 30% 法抗)"
       ],
       "qualitative_shackles": "1、4",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3",
+        "emphasis": "fw-bold text-danger"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -3496,7 +3831,14 @@
         { "shackle": "2-3" },
         { "shackle": "3-4" }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T0" },
@@ -3554,7 +3896,14 @@
       "supplement_shackles": [
         { "shackle": "2-3" }
       ],
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T0" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -3624,7 +3973,14 @@
         "(需激活專烙)"
       ],
       "qualitative_shackles": "2、4",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T2&#8675;" },
@@ -3690,7 +4046,13 @@
         "<strong>普攻增傷輔助</strong>"
       ],
       "qualitative_shackles": "2、5",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T1",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -3743,7 +4105,13 @@
         "<strong>單體奶媽</strong>"
       ],
       "qualitative_shackles": "1、3、4",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T3",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
@@ -3809,7 +4177,13 @@
         "<strong>群體對擊破核心敵人增傷</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "一般推薦、較小提升" },
+      "exclusive": {
+        "text": "一般推薦、較小提升"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T1" },
@@ -3874,7 +4248,14 @@
         "<strong>群體奶媽</strong>"
       ],
       "qualitative_shackles": "3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -3938,7 +4319,14 @@
         "<strong>鞭撻回血、減傷輔助</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T2",
+        "level": "1"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T1" },
         { "map": "broken_frontline", "strength": "T2" },
@@ -4003,7 +4391,14 @@
         "<strong>專烙易傷提升最多 15%</strong>"
       ],
       "qualitative_shackles": "1、3",
-      "exclusive": { "text": "比較推薦、大幅提升", "emphasis": "fw-bold" },
+      "exclusive": {
+        "text": "比較推薦、大幅提升",
+        "emphasis": "fw-bold"
+      },
+      "exclusive_priority": {
+        "tier": "T0",
+        "level": "3"
+      },
       "strength": [
         { "map": "main_stage", "strength": "T2" },
         { "map": "broken_frontline", "strength": "T3" },
