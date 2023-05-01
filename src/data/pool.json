@@ -1,7 +1,117 @@
 [
   {
+    "name": "make_or_break",
+    "genre": "routine",
+    "start": "2022-10-27",
+    "end": "2022-11-10 04:59",
+    "ups": [
+      { "name": "zoya", "job": "fury" }
+    ]
+  },
+  {
+    "name": "strange_thoughts",
+    "genre": "routine",
+    "start": "2022-10-27",
+    "end": "2022-11-10 04:59",
+    "ups": [
+      { "name": "summer", "job": "reticle" }
+    ]
+  },
+  {
+    "name": "dream_of_lost_ark",
+    "genre": "event",
+    "start": "2022-11-10 18:00",
+    "end": "2022-11-24 13:59",
+    "ups": [
+      { "name": "stargazer", "job": "arcane" },
+      { "name": "kawa_kawa", "job": "endura" },
+      { "name": "anne", "job": "catalyst" },
+      { "name": "iron", "job": "umbra" }
+    ]
+  },
+  {
+    "name": "the_chessmasters_conquest",
+    "genre": "routine",
+    "start": "2022-11-24 17:00",
+    "end": "2022-12-20 13:59",
+    "ups": [
+      { "name": "eirene", "job": "arcane" }
+    ]
+  },
+  {
+    "name": "blissful_arcadia",
+    "genre": "event",
+    "start": "2022-12-20 14:00",
+    "end": "2023-01-03 13:59",
+    "ups": [
+      { "name": "serpent", "job": "umbra" },
+      { "name": "mess", "job": "fury" },
+      { "name": "roulecca", "job": "reticle" },
+      { "name": "victoria", "job": "arcane" }
+    ]
+  },
+  {
+    "name": "steady_through_battles",
+    "genre": "routine",
+    "start": "2023-01-03 14:00",
+    "end": "2023-01-17 13:59",
+    "ups": [
+      { "name": "demon", "job": "endura" }
+    ]
+  },
+  {
+    "name": "true_colors_event",
+    "genre": "event",
+    "start": "2023-01-17 17:00",
+    "end": "2023-02-07 13:59",
+    "ups": [
+      { "name": "enfer", "job": "catalyst" },
+      { "name": "mc_queen", "job": "umbra" },
+      { "name": "ignis", "job": "arcane" },
+      { "name": "dolly", "job": "fury" }
+    ]
+  },
+  {
+    "name": "law_of_alligators",
+    "genre": "routine",
+    "start": "2023-02-07 14:00",
+    "end": "2023-02-21 13:59",
+    "ups": [
+      { "name": "langley", "job": "reticle" }
+    ]
+  },
+  {
+    "name": "unbridled_wander",
+    "genre": "routine",
+    "start": "2023-02-21 14:00",
+    "end": "2023-03-07 13:59",
+    "ups": [
+      { "name": "bai_yi", "job": "umbra" }
+    ]
+  },
+  {
+    "name": "aftersound_of_death",
+    "genre": "event",
+    "start": "2023-03-07 14:00",
+    "end": "2023-03-21 13:59",
+    "ups": [
+      { "name": "oak_casket", "job": "reticle" },
+      { "name": "dudu", "job": "catalyst" },
+      { "name": "pacassi", "job": "fury" },
+      { "name": "luvia_ray", "job": "arcane" }
+    ]
+  },
+  {
+    "name": "dance_of_radiance",
+    "genre": "routine",
+    "start": "2023-03-21 14:00",
+    "end": "2023-04-11 13:59",
+    "ups": [
+      { "name": "hamel", "job": "catalyst" }
+    ]
+  },
+  {
     "name": "indelible_mark",
-    "current": true,
     "genre": "exclusive",
     "start": "2023-04-11 14:00",
     "end": "2023-05-02 04:59",
@@ -14,7 +124,6 @@
   },
   {
     "name": "beast_of_fortune",
-    "current": true,
     "genre": "event",
     "start": "2023-04-11 14:00",
     "end": "2023-05-02 04:59",
@@ -72,7 +181,7 @@
     ]
   },
   {
-    "name": "真我覆色",
+    "name": "true_colors_routine",
     "genre": "routine",
     "ups": [
       { "name": "enfer", "job": "catalyst" }

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/path-to-nowhere/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Path To Nowhere</title>
-    <script type="module" crossorigin src="/path-to-nowhere/assets/index-d5c94956.js"></script>
-    <link rel="stylesheet" href="/path-to-nowhere/assets/index-d546a13d.css">
+    <script type="module" crossorigin src="/path-to-nowhere/assets/index-6f582434.js"></script>
+    <link rel="stylesheet" href="/path-to-nowhere/assets/index-1371eed0.css">
   </head>
   <body>
     <div class="slider-container">
@@ -16,9 +16,16 @@
       <div></div>
       <div></div>
     </div>
-    <div class="container px-1 pt-1 pb-3">
+    <div class="container px-1 pt-1 pb-1 pb-md-3">
       <div id="app"></div>
       
     </div>
   </body>
+
+  <script>
+    (() => {
+      let vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    })()
+  </script>
 </html>

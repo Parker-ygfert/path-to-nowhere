@@ -6,15 +6,14 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import App from './App.vue'
-import lazyloadImgInit, { LazyloadImg } from 'vue3-lazyload-img'
 import router from './scripts/router.js'
 import en from './locales/en.json'
 import tw from './locales/zh-TW.json'
 
 const i18n = createI18n({
   legacy: false,
-  locale: localStorage.getItem('locale') ?? 'en',
-  fallbackLocale: 'en',
+  locale: localStorage.getItem('locale') ?? 'zh-TW',
+  fallbackLocale: 'zh-TW',
   messages: {
     'en': en,
     'zh-TW': tw
@@ -24,5 +23,4 @@ const i18n = createI18n({
 const app = createApp(App)
 app.use(router)
    .use(i18n)
-   .use(lazyloadImgInit, { retryLoad: 0 })
    .mount('#app')

@@ -12,9 +12,9 @@
       <tbody>
         <tr
           v-for="pool in pools"
-          :class="{ 'bg-orange-100': pool.current }"
           align="center"
           valign="middle"
+          :class="{ 'current-pool bg-orange-100': isCurrentArrest(pool) }"
         >
           <td class="p-0">
             <img
@@ -79,7 +79,7 @@
     white-space: break-spaces !important
 
 .pool-box
-  max-height: calc(100vh - 228px)
+  max-height: calc(calc(var(--vh, 1vh) * 100) - 228px)
   @include mobile
     font-size: 12px
   .pool-detail, .pool-ups
@@ -107,6 +107,7 @@
 </style>
 
 <script setup>
+import { onMounted } from 'vue'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import pools from '@/data/pool.json'
 
@@ -126,4 +127,19 @@ const poolGenreColor = genre => {
       return 'text-success'
   }
 }
+
+const isCurrentArrest = pool => {
+  const current = new Date().getTime()
+  const poolStart = new Date(pool.start).getTime()
+  const poolEnd = new Date(pool.end).getTime()
+
+  return current >= poolStart && current <= poolEnd
+}
+
+onMounted(() => {
+  const currentPool = document.querySelector('.current-pool')
+  setTimeout(() => {
+    currentPool.scrollIntoView()
+  }, 600);
+})
 </script>

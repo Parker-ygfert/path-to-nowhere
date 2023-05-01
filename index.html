@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/logo.png" />
@@ -14,9 +14,16 @@
       <div></div>
       <div></div>
     </div>
-    <div class="container px-1 pt-1 pb-3">
+    <div class="container px-1 pt-1 pb-1 pb-md-3">
       <div id="app"></div>
       <script type="module" src="/src/main.js"></script>
     </div>
   </body>
+
+  <script>
+    (() => {
+      let vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    })()
+  </script>
 </html>

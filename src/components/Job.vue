@@ -23,7 +23,7 @@
 @import '@/assets/styles/_rwd'
 
 #scroll-box
-  max-height: calc(100vh - 165px)
+  max-height: calc(calc(var(--vh, 1vh) * 100) - 165px)
 
 .job-box
   max-width: 758px

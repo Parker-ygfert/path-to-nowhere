@@ -6,8 +6,26 @@
 html, body, #app
   font-family: 'Oxygen Mono', monospace
 
+html, .container
+  height: calc(var(--vh, 1vh) * 100)
+
+html
+  &:lang(en)
+    font-size: 18px
+
+body, .slider-container
+  min-height: 100vh
+  max-height: 100vh
+  @include tablet
+    min-height: -webkit-fill-available
+    max-height: -webkit-fill-available
+
 body
   position: relative
+
+.container
+  background-color: rgba(255, 255, 255, 0.9)
+  max-width: 856px !important
 
 .slider-container
   position: absolute
@@ -44,6 +62,7 @@ body
   90%
     opacity: 0
 
+// RWD
 .pc-show
   @media only screen and (max-width: 768px)
     display: none !important
@@ -61,13 +80,6 @@ body
 
 .h-fit
   height: fit-content !important
-
-.container
-  background-color: rgba(255, 255, 255, 0.9)
-  min-height: 100vh
-  max-width: 844px !important
-  @include tablet
-    padding: .25rem !important
 
 // Cursor
 .cursor-pointer

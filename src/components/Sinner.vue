@@ -1,7 +1,7 @@
 <template>
 <div
   id="scroll-box"
-  class="overflow-scroll"
+  class="overflow-x-hidden overflow-y-scroll"
 >
   <div class="main-box d-flex justify-content-center">
     <router-link :to="{
@@ -50,7 +50,7 @@
 @import '@/assets/styles/_rwd.sass'
 
 #scroll-box
-  max-height: calc(100vh - 165px)
+  max-height: calc(calc(var(--vh, 1vh) * 100) - 165px)
 
 .main-box
   @include tablet

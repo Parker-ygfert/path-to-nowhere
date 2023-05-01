@@ -65,6 +65,7 @@ const { t, locale } = useI18n()
 
 watch(locale, (newLocale) => {
   localStorage.setItem('locale', newLocale)
+  document.documentElement.lang = newLocale
 })
 
 const switchLocale = e => {
