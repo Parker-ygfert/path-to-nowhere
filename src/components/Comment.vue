@@ -3,7 +3,7 @@
     <div v-for="comment in comments">
       <div class="border-bottom p-1">
         <blockquote class="blockquote mb-0 font-18">
-          <p class="mb-1 blue-700 fw-bold">
+          <p class="mb-1 blue-700">
             {{ comment.content }}
           </p>
           <footer class="blockquote-footer mt-0 mb-1 ms-auto font-12 text-end">
@@ -34,17 +34,33 @@
         <label for="comment" class="form-label mb-1">
           {{ $t('comment.comment') }}：
         </label>
-        <textarea
-          v-model="newCommentContent"
-          type="email"
-          id="comment"
-          class="form-control p-1 rounded-0 font-16"
-          aria-describedby="emailHelp"
-        >
-        </textarea>
+        <div class="position-relative">
+          <textarea
+            v-model="newCommentContent"
+            id="comment"
+            class="form-control p-1 rounded-0 font-16"
+            @keypress="typingListener"
+          >
+          </textarea>
+          <div
+            ref="submitting"
+            class="submitting d-none position-absolute top-0 start-0 w-100 h-100"
+          >
+            <div class="w-100 h-100 bg-white opacity-50"></div>
+            <div class="loading position-absolute top-50 start-50">
+              <div
+                class="spinner-border w-100 h-100 text-primary"
+                role="status"
+              >
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <button
         :disabled="!newCommentContent"
+        ref="submitBtn"
         type="submit"
         class="btn btn-sm btn-primary d-block ms-auto px-2 rounded-0 font-16"
       >
@@ -71,19 +87,25 @@ textarea
   &.form-control
     &:focus
       box-shadow: 0 0 0 4px rgba(13,110,253,.25)
+
+.loading
+  width: 40px
+  height: 40px
+  transform: translate(-50%, -50%)
 </style>
 
 <script setup>
 import { onMounted, ref } from 'vue'
 import { db } from '@/firebase/index.js'
-import { collection, query, where, addDoc, onSnapshot, Timestamp } from 'firebase/firestore'
+import { collection, query, where, orderBy, addDoc, onSnapshot, Timestamp } from 'firebase/firestore'
 import CommentReply from './CommentReply'
 
 const props = defineProps({
   sinner: String
 })
 
-// const comments = ref([])
+const sinner = props.sinner
+
 const comments = ref([
   {
     id: '1',
@@ -91,12 +113,17 @@ const comments = ref([
     created_at: new Date()
   }
 ])
+// const comments = ref([])
+const submitting = ref(null)
+const submitBtn = ref(null)
 
-// onMounted(async () => {
+onMounted(async () => {
+  // console.log(submitting.value);
 //   const q = query(
 //     collection(db, 'comments'),
-//     where('sinner', '==', props.sinner),
-//     where('verify', '==', true)
+//     where('sinner', '==', sinner),
+//     where('verify', '==', true),
+//     orderBy('created_at', 'desc')
 //   )
 
 //   onSnapshot(q, querySnapshot => {
@@ -115,18 +142,44 @@ const comments = ref([
 
 //     comments.value = fbComments
 //   })
-// })
+})
 
 const newCommentContent = ref('')
+// const newCommentContent = ref('asdf')
 
-const addComment = async () => {
+const typingListener = (e) => {
+  if (!e.shiftKey && e.key === 'Enter') addComment()
+}
+
+const addComment = () => {
+  const content = newCommentContent.value.trim() 
+  if (!content) return 
+
+  writeComment(content)
+}
+
+const writeComment = async (content) => {
+  submitting.value.classList.remove('d-none')
+  submitBtn.value.disabled = true
+
+  let ip
+
+  await fetch('https://jsonip.com', { mode: 'cors' })
+    .then(response => response.json())
+    .then(data => ip = data)
+
   const data = {
-    sinner: props.sinner,
-    content: newCommentContent.value.trim(),
+    sinner: sinner,
+    content: content,
+    ip: ip.ip,
+    country: ip.country,
     verify: true,
     created_at: Timestamp.fromDate(new Date())
   }
-  const docRef = await addDoc(collection(db, 'comments'), data)
+  addDoc(collection(db, 'comments'), data)
+
+  newCommentContent.value = ''
+  submitting.value.classList.add('d-none')
 }
 
 const showReply = id => {

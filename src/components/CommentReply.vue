@@ -2,6 +2,7 @@
   <div class="row flex-nowrap align-items-center m-0">
     <div class="col p-0">
       <input
+        v-model="newCommentContent"
         type="text"
         id="inputPassword6"
         class="form-control rounded-0 font-14"
@@ -10,6 +11,7 @@
     </div>
     <div class="col flex-grow-0 ms-1 p-0">
       <button
+        :disabled="!newCommentContent"
         type="submit"
         class="btn btn-sm btn-primary rounded-0 font-14 text-nowrap"
       >
@@ -40,9 +42,13 @@
 </style>
 
 <script setup>
+import { ref } from 'vue'
+
 const props = defineProps({
-  commentId: Number
+  commentId: String
 })
+
+const newCommentContent = ref('')
 
 const removeReply = id => {
   const replyBtn = document.querySelector(`#reply_btn_${id}`)

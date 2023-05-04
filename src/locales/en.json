@@ -1,4 +1,10 @@
 {
+  "comment": {
+    "cancel": "Cancel",
+    "comment": "Comment",
+    "submit": "Submit",
+    "reply": "Reply"
+  },
   "nav": {
     "arcane": "Arcane",
     "catalyst": "Catalyst",
@@ -114,8 +120,6 @@
   "year_one_perishing_star": "Year One: Perishing Star",
   "__other__": "Other",
   "broken_frontline": "Broken Frontline",
-  "cancel": "Cancel",
-  "comment": "Comment",
   "crimebrands_recommends": "CrimeBrands Recommends",
   "dis_shadows": "EX Dis shadows",
   "exclusive": "Exclusive",

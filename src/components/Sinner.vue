@@ -45,7 +45,7 @@
   </div>
 
   <hr class="my-1">
-  <Comment :sinner="sinner" />
+  <Comment :sinner="sinner.name" />
 </div>
 </template>
 
