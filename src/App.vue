@@ -56,7 +56,7 @@
 </style>
 
 <script setup>
-import { watch } from 'vue'
+import { watch, onUpdated } from 'vue'
 import { useI18n } from 'vue-i18n'
 import NavLink from '@/components/NavLink'
 import ScrollTop from '@/components/ScrollTop'
@@ -71,4 +71,9 @@ watch(locale, (newLocale) => {
 const switchLocale = e => {
   locale.value = e.target.value
 }
+
+onUpdated(() => {
+  const tooltips = document.querySelectorAll('.tooltip')
+  for (let tooltip of tooltips) tooltip.remove()
+})
 </script>

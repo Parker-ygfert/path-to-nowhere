@@ -1,0 +1,324 @@
+{
+  "endura": [
+    {
+      "name": "owo",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "demon",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "uni",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "levy",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "kawa_kawa",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "cinnabar",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "countess_chelsea",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "demolia",
+      "rank": "B",
+      "core": false
+    },
+    {
+      "name": "peggy",
+      "rank": "B",
+      "core": false
+    },
+    {
+      "name": "kk",
+      "rank": "B",
+      "core": false
+    }
+  ],
+  "fury": [
+    {
+      "name": "deren",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "nox",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "zoya",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "casro",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "mess",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "dolly",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "horo",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "pacassi",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "ninety_nine",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "wendy",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "che",
+      "rank": "B",
+      "core": true
+    },
+    {
+      "name": "pepper",
+      "rank": "B",
+      "core": false
+    },
+    {
+      "name": "hella",
+      "rank": "B",
+      "core": false
+    }
+  ],
+  "umbra": [
+    {
+      "name": "serpent",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "crache",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "bai_yi",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "lynn",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "mc_queen",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "sumire",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "iron",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "tetra",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "gekkabijin",
+      "rank": "B",
+      "core": true
+    },
+    {
+      "name": "labyrinth",
+      "rank": "B",
+      "core": true
+    }
+  ],
+  "reticle": [
+    {
+      "name": "dreya",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "oak_casket",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "summer",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "langley",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "roulecca",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "pricilla",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "wolverine",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "emp",
+      "rank": "B",
+      "core": false
+    },
+    {
+      "name": "flora",
+      "rank": "B",
+      "core": false
+    }
+  ],
+  "arcane": [
+    {
+      "name": "raven",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "itte",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "stargazer",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "eirene",
+      "rank": "S",
+      "core": true
+    },
+    {
+      "name": "luvia_ray",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "hecate",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "victoria",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "ignis",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "oliver",
+      "rank": "A",
+      "core": true
+    },
+    {
+      "name": "kelvin",
+      "rank": "B",
+      "core": false
+    },
+    {
+      "name": "joan",
+      "rank": "B",
+      "core": false
+    }
+  ],
+  "catalyst": [
+    {
+      "name": "enfer",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "hamel",
+      "rank": "S",
+      "core": false
+    },
+    {
+      "name": "dudu",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "chameleon",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "anne",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "mr_fox",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "ariel",
+      "rank": "A",
+      "core": false
+    },
+    {
+      "name": "macchiato",
+      "rank": "B",
+      "core": false
+    },
+    {
+      "name": "lisa",
+      "rank": "B",
+      "core": false
+    }
+  ]
+}

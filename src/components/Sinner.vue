@@ -14,7 +14,7 @@
   
     <div class="img-box w-fit me-1 me-lg-2">
       <div class="sinner-img position-relative mx-auto">
-        <SinnerImg :job="job" :sinner="sinner" />
+        <SinnerImg :job="sinnerJob" :sinner="sinner" />
       </div>
       <div class="wiki-link h-fit my-1 text-center">
         <a :href="sinner?.wiki" target="_blank" class="align-middle font-16">
@@ -81,14 +81,17 @@
 import { onMounted, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
 import { getImageUrl } from '@/scripts/get_image_url.js'
-import SinnerImg from './SinnerImg'
-import SinnerInfo from './SinnerInfo'
+import SinnerImg from './Sinner/Img'
+import SinnerInfo from './Sinner/Info'
 import CrimeBrand from './CrimeBrand'
+import jobs from '@/data/jobs.json'
 import sinners from '@/data/sinners.json'
 
 const route = useRoute()  
-const job = route.params.job
-const sinner = sinners[job].find(({ name }) => name === route.params.name )
+const sinnerJob = route.params.job
+const sinnerName = route.params.name
+let sinner = jobs[sinnerJob].find(({ name }) => name === sinnerName)
+sinner = Object.assign(sinner, sinners[sinnerName])
 
 onBeforeMount(() => {
   if (!sinner) location.href = `${import.meta.env.VITE_PATH}/homepage`

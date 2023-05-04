@@ -25,6 +25,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
+import jobs from '@/data/jobs.json'
 
 onMounted(() => {
   const job = location.pathname.split('/')[2]
@@ -34,7 +35,7 @@ onMounted(() => {
   if (link) link.scrollIntoView({ block: 'nearest' })
 })
 
-const links = ['homepage', 'pool', 'endura', 'fury', 'umbra', 'reticle', 'arcane', 'catalyst']
+const links = ['homepage', 'pool'].concat(Object.keys(jobs))
 
 const isActive = route => {
   return route == location.pathname.split('/').at(-1)

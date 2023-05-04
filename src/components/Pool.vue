@@ -109,7 +109,7 @@
 <script setup>
 import { onMounted } from 'vue'
 import { getImageUrl } from '@/scripts/get_image_url.js'
-import pools from '@/data/pool.json'
+import pools from '@/data/pools.json'
 
 const sinnerPath = string => {
   return `${import.meta.env.VITE_PATH}/sinner/${string}`

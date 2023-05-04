@@ -38,11 +38,11 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import SinnerImg from './SinnerImg'
-import sinners from '@/data/sinners.json'
+import SinnerImg from './Sinner/Img'
+import jobs from '@/data/jobs.json'
 
 const route = useRoute()
-const currentSinners = sinners[route.name]
+const currentSinners = jobs[route.name]
 
 onMounted(() => {
   const sinner = route.query.sinner
