@@ -39,7 +39,6 @@
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { db } from '@/firebase/index.js'
-// import { collection, getDocs } from 'firebase/firestore'
 import SinnerImg from './Sinner/Img'
 import jobs from '@/data/jobs.json'
 

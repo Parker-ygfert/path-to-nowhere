@@ -56,6 +56,11 @@ let routes = [
     component: () => import('@/components/Job')
   },
   {
+    path: '/guide',
+    name: 'guide',
+    component: () => import('@/components/Guide')
+  },
+  {
     path: '/sinner/:job/:name',
     name: 'sinner',
     component: () => import('@/components/Sinner')

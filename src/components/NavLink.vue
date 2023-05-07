@@ -35,7 +35,8 @@ onMounted(() => {
   if (link) link.scrollIntoView({ block: 'nearest' })
 })
 
-const links = ['homepage', 'pool'].concat(Object.keys(jobs))
+const links = ['homepage', 'pool', 'guide']
+links.splice.apply(links, [2, 0].concat(Object.keys(jobs)))
 
 const isActive = route => {
   return route == location.pathname.split('/').at(-1)
