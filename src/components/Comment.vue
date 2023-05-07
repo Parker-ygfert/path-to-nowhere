@@ -1,17 +1,31 @@
 <template>
   <div class="m-1">
-    <div v-for="comment in comments">
-      <div class="border-bottom p-1">
+    <template v-for="comment in comments">
+      <div class="comment-box border-top border-2 p-1" >
         <blockquote class="blockquote mb-0 font-18">
           <p class="mb-1 blue-700">
             {{ comment.content }}
           </p>
           <footer class="blockquote-footer mt-0 mb-1 ms-auto font-12 text-end">
-            {{  comment.created_at.toLocaleString() }}
+            {{ createdAt(comment) }}
           </footer>
+          <template v-for="reply in comment.replies">
+            <div
+              v-if="reply.verified"
+              class="reply-box d-flex flex-wrap justify-content-between align-items-center
+                     w-90 ms-auto mb-0 py-1 border-top border-1 font-14"
+            >
+              <p class="d-inline-block mb-0">
+                {{ reply.content }}
+              </p>
+              <footer class="blockquote-footer ms-auto my-0 text-secondary">
+                {{ createdAt(reply) }}
+              </footer>
+            </div>
+          </template>
         </blockquote>
 
-        <div class="d-flex justify-content-between align-items-center font-14">
+        <div class="d-flex justify-content-between align-items-center mt-1 font-14">
           <p
             @click="showReply(comment.id)"
             :id="`reply_btn_${comment.id}`"
@@ -27,9 +41,12 @@
           />
         </div>
       </div>
-    </div>
+    </template>
 
-    <form class="mt-2 font-16" @submit.prevent="addComment">
+    <form
+      @submit.prevent="addComment"
+      class="mt-2 font-16"
+    >
       <div class="mb-1">
         <label for="comment" class="form-label mb-1">
           {{ $t('comment.comment') }}：
@@ -73,6 +90,16 @@
 <style lang="sass" scoped>
 @import '@/assets/styles/_color.sass'
 
+.comment-box
+  border-color: darkGray !important
+  &:last-of-type
+    border-bottom-style: solid
+  .reply-box
+    border-color: Silver !important
+    &:last-child
+      border-bottom-style: solid
+      border-bottom-width: 1px
+
 button
   padding-top: .15rem
   padding-bottom: .15rem
@@ -98,6 +125,7 @@ textarea
 import { onMounted, ref } from 'vue'
 import { db } from '@/firebase/index.js'
 import { collection, query, where, orderBy, addDoc, onSnapshot, Timestamp } from 'firebase/firestore'
+import { getIp } from '@/scripts/get_ip.js'
 import CommentReply from './CommentReply'
 
 const props = defineProps({
@@ -105,47 +133,44 @@ const props = defineProps({
 })
 
 const sinner = props.sinner
-
-const comments = ref([
-  {
-    id: '1',
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sunt, numquam corporis maiores harum iste et, eveniet, placeat soluta dolor sequi fugit magni inventore delectus similique? Odit dolor illum officiis?',
-    created_at: new Date()
-  }
-])
-// const comments = ref([])
+const comments = ref([])
 const submitting = ref(null)
 const submitBtn = ref(null)
 
 onMounted(async () => {
-  // console.log(submitting.value);
-//   const q = query(
-//     collection(db, 'comments'),
-//     where('sinner', '==', sinner),
-//     where('verify', '==', true),
-//     orderBy('created_at', 'desc')
-//   )
+  const q = query(
+    collection(db, 'comments'),
+    where('sinner', '==', sinner),
+    where('verified', '==', true),
+    orderBy('created_at', 'desc')
+  )
 
-//   onSnapshot(q, querySnapshot => {
-//     const fbComments = []
+  onSnapshot(q, querySnapshot => {
+    const fbComments = []
 
-//     querySnapshot.forEach((doc) => {
-//       const data = doc.data()
-//       const comment = {
-//         id: doc.id,
-//         content: data.content,
-//         created_at: new Date(data.created_at.seconds)
-//       }
+    querySnapshot.forEach((doc) => {
+      const data = doc.data()
+      const comment = {
+        id: doc.id,
+        content: data.content,
+        replies: data.replies,
+        created_at: data.created_at
+      }
 
-//       fbComments.push(comment)
-//     })
+      fbComments.push(comment)
+    })
 
-//     comments.value = fbComments
-//   })
+    comments.value = fbComments
+  })
 })
 
 const newCommentContent = ref('')
-// const newCommentContent = ref('asdf')
+
+const createdAt = data => {
+  const milliseconds = data.created_at.seconds * 1000
+
+  return new Date(milliseconds).toLocaleString()
+}
 
 const typingListener = (e) => {
   if (!e.shiftKey && e.key === 'Enter') addComment()
@@ -162,20 +187,16 @@ const writeComment = async (content) => {
   submitting.value.classList.remove('d-none')
   submitBtn.value.disabled = true
 
-  let ip
-
-  await fetch('https://jsonip.com', { mode: 'cors' })
-    .then(response => response.json())
-    .then(data => ip = data)
-
+  const ip = await getIp()
   const data = {
     sinner: sinner,
     content: content,
     ip: ip.ip,
     country: ip.country,
-    verify: true,
+    verified: true,
     created_at: Timestamp.fromDate(new Date())
   }
+
   addDoc(collection(db, 'comments'), data)
 
   newCommentContent.value = ''
