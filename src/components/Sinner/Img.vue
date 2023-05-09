@@ -26,7 +26,7 @@
     <div class="footer-bg position-absolute overflow-hidden"></div>
     <div class="rank-img position-absolute">
       <img
-        :src="getImageUrl(`ranks/${sinner.rank}.png`)"
+        :src="getImageUrl(`rank/${sinner.rank}.png`)"
         alt=""
         loading="lazy"
         class="w-100 h-100"

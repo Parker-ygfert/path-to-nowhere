@@ -16,7 +16,7 @@
           valign="middle"
           :class="{ 'current-pool bg-orange-100': isCurrentArrest(pool) }"
         >
-          <td class="p-0">
+          <td class="td-flexing p-0">
             <img
               :src="getImageUrl(`pool/${pool.name}.png`)"
               alt=""
@@ -24,45 +24,61 @@
               class="w-100"
             >
           </td>
-          <td class="pool-detail">
+          <td
+            align="center"
+            class="pool-detail td-flexing"
+          >
             <div>
               {{ $t(`pool.${pool.name}`) }}
+
+              <span
+                class="pool-genre"
+                :class="poolGenreColor(pool.genre)"
+              >
+                {{ $t(`pool.${pool.genre}`) }}
+              </span>
             </div>
-            <div
-              class="pool-genre mt-1"
-              :class="poolGenreColor(pool.genre)"
-            >
-              {{ $t(`pool.${pool.genre}`) }}
-            </div>
+
             <div class="pool-time mt-1 font-14">
               {{ pool.start }}
             </div>
+
             <div
               v-if="pool.end"
               class="pool-time font-14"
             >
               ~
             </div>
+
             <div class="pool-time font-14">
               {{ pool.end }}
             </div>
-          </td>
-          <td class="pool-ups py-1">
-            <div
-              v-for="up in pool.ups"
-              class="pool-up"
-              :class="pool.genre"
-            >
-              <router-link :to="{
-                            name: 'sinner',
-                            params: {
-                              job: up.job,
-                              name: up.name
-                            }
-                          }">
-                {{ $t(`sinner.${up.name}`) }}
-              </router-link>
+
+            <div class="d-grid justify-content-center my-1">
+              <div
+                v-for="up in pool.ups"
+                :key="up.name"
+                class="pool-up g-col-3 p-0 border border-dark"
+                :class="pool.genre"
+              >
+                <router-link :to="{
+                              name: 'sinner',
+                              params: {
+                                job: up.job,
+                                name: up.name,
+                              }
+                              }">
+                  <img
+                    :set="sinner = currentSinner(up)"
+                    :src="getImageUrl(`avatar/${sinner.name}.png`)"
+                    alt=""
+                    class="avatar"
+                    :class="`rank-${sinner?.rank}`"
+                  >
+                </router-link>
+              </div>
             </div>
+
           </td>
         </tr>
       </tbody>
@@ -77,39 +93,49 @@
 .table
   @include mobile
     white-space: break-spaces !important
+  .td-flexing
+    @include mobile
+      display: block
 
 .pool-box
   max-height: calc(calc(var(--vh, 1vh) * 100) - 228px)
-  @include mobile
-    font-size: 12px
   .pool-detail, .pool-ups
     @include mobile
       padding: 8px
   .pool-detail
     @include mobile
       min-width: 100px
-    div
-      @include mobile
-        margin-top: 0 !important
     .pool-time
       @include mobile
         font-size: 12px !important
   .pool-ups
     min-width: 180px
+    padding: .25rem
     @include mobile
       min-width: 0
       white-space: nowrap !important
-    .pool-up
-      &:nth-child(n+2)
-        margin-top: .25rem
-        @include mobile
-          margin-top: 0
+  .pool-up
+    width: 60px
+    height: 60px
+    .avatar
+      width: 100%
+      &.rank-S
+        background-image: linear-gradient(to bottom, #ffaf3f, transparent 20%, transparent 80%, #ffaf3f)
+      &.rank-A
+        background-image: linear-gradient(to bottom, #bc6fff, transparent 20%, transparent 80%, #bc6fff)
+      &.rank-B
+        background-image: linear-gradient(to bottom, transparent 85%, #43a3fe)
+
+.d-grid
+  grid-auto-flow: column
+  grid-column-gap: 2px
 </style>
 
 <script setup>
 import { onMounted } from 'vue'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import pools from '@/data/pools.json'
+import jobs from '@/data/jobs.json'
 
 const sinnerPath = string => {
   return `${import.meta.env.VITE_PATH}/sinner/${string}`
@@ -134,6 +160,12 @@ const isCurrentArrest = pool => {
   const poolEnd = new Date(pool.end).getTime()
 
   return current >= poolStart && current <= poolEnd
+}
+
+const currentSinner = up => {
+  let data = jobs[up.job].find(({ name }) => name == up.name )
+
+  return  { ...up, ...data }
 }
 
 onMounted(() => {

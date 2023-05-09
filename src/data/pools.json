@@ -39,7 +39,7 @@
     ]
   },
   {
-    "name": "blissful_arcadia",
+    "name": "blissful_arcadia_event",
     "genre": "event",
     "start": "2022-12-20 14:00",
     "end": "2023-01-03 13:59",
@@ -195,6 +195,13 @@
       { "name": "uni", "job": "endura" },
       { "name": "ninety_nine", "job": "fury" },
       { "name": "mc_queen", "job": "umbra" }
+    ]
+  },
+  {
+    "name": "blissful_arcadia_routine",
+    "genre": "routine",
+    "ups": [
+      { "name": "serpent", "job": "umbra" }
     ]
   }
 ]
