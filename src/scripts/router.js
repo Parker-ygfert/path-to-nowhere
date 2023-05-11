@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 
 const env = import.meta.env
-let history = createWebHistory(env.BASE_URL)
-let routes = [
+const routes = [
   {
     path: '',
     redirect: '/homepage'
@@ -76,4 +75,18 @@ let routes = [
   }
 ]
 
-export default createRouter({ history, routes })
+const router = createRouter({
+  history: createWebHistory(env.BASE_URL),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      document.getElementById(to.hash.slice(1)).scrollIntoView()
+    } else if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  }
+})
+
+export default router

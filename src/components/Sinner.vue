@@ -6,7 +6,7 @@
   <div class="main-box d-flex justify-content-center">
     <router-link :to="{
                     name: backTo(),
-                    query: { sinner: route.params.name }
+                    hash: `#${sinner.name}`
                   }"
                   class="tablet-show">
       <i class="bi bi-box-arrow-left float-start me-1 font-30"></i>
@@ -80,9 +80,8 @@
 </style>
 
 <script setup>
-import { onMounted, onBeforeMount } from 'vue'
+import { onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
-import { getImageUrl } from '@/scripts/get_image_url.js'
 import SinnerImg from './Sinner/Img'
 import SinnerInfo from './Sinner/Info'
 import CrimeBrand from './CrimeBrand'
@@ -98,10 +97,6 @@ sinner = Object.assign(sinner, sinners[sinnerName])
 
 onBeforeMount(() => {
   if (!sinner) location.href = `${import.meta.env.VITE_PATH}/homepage`
-})
-
-onMounted(() => {
-  window.scroll(0, 0)
 })
 
 const backTo = () => {

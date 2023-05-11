@@ -12,6 +12,7 @@
       <tbody>
         <tr
           v-for="pool in pools"
+          :id="`${pool.name}`"
           align="center"
           valign="middle"
           :class="{ 'current-pool bg-orange-100': isCurrentArrest(pool) }"
@@ -24,13 +25,13 @@
               class="w-100"
             >
           </td>
+
           <td
             align="center"
             class="pool-detail td-flexing"
           >
             <div>
               {{ $t(`pool.${pool.name}`) }}
-
               <span
                 class="pool-genre"
                 :class="poolGenreColor(pool.genre)"
@@ -42,14 +43,12 @@
             <div class="pool-time mt-1 font-14">
               {{ pool.start }}
             </div>
-
             <div
               v-if="pool.end"
               class="pool-time font-14"
             >
               ~
             </div>
-
             <div class="pool-time font-14">
               {{ pool.end }}
             </div>
@@ -78,8 +77,8 @@
                 </router-link>
               </div>
             </div>
-
           </td>
+
         </tr>
       </tbody>
     </table>
@@ -132,7 +131,6 @@
 </style>
 
 <script setup>
-import { onMounted } from 'vue'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import pools from '@/data/pools.json'
 import jobs from '@/data/jobs.json'
@@ -167,11 +165,4 @@ const currentSinner = up => {
 
   return  { ...up, ...data }
 }
-
-onMounted(() => {
-  const currentPool = document.querySelector('.current-pool')
-  setTimeout(() => {
-    currentPool.scrollIntoView()
-  }, 600);
-})
 </script>

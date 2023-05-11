@@ -36,18 +36,10 @@
 </style>
 
 <script setup>
-import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { db } from '@/firebase/index.js'
 import SinnerImg from './Sinner/Img'
 import jobs from '@/data/jobs.json'
 
 const route = useRoute()
 const currentSinners = jobs[route.name]
-
-onMounted(() => {
-  const sinner = route.query.sinner
-  const sinnerElement = document.querySelector(`#${sinner}`)
-  if (sinnerElement) sinnerElement.scrollIntoView()
-})
 </script>

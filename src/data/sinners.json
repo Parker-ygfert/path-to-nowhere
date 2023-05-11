@@ -170,7 +170,7 @@
       { "map": "dis_shadows", "strength": "T2&#8673;" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 7 },
+      { "skill": 1, "order": 4, "level": 3 },
       { "skill": 2, "order": 3, "level": 7 },
       { "skill": 3, "order": 2, "level": 9 },
       { "skill": 4, "order": 1, "level": 9 }
@@ -1406,12 +1406,12 @@
       { "map": "dis_shadows", "strength": "T3" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": "4|3", "level": 7, "threshold": true },
-      { "skill": 3, "order": 2, "level": 7 },
-      { "skill": 4, "order": "3|4", "level": 3 }
+      { "skill": 1, "order": 4, "level": 3 },
+      { "skill": 2, "order": 3, "level": 7, "threshold": true },
+      { "skill": 3, "order": 1, "level": 9 },
+      { "skill": 4, "order": 2, "level": 7 }
     ],
-    "skill_des": "流血隊只需要三技能 9 + 專三",
+    "skill_des": "流血隊僅需 1191 + 專三",
     "crimebrands": [
       {
         "name": "formula_a",
@@ -1924,9 +1924,9 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "1|2", "level": 7 },
+      { "skill": 1, "order": 2, "level": 7 },
       { "skill": 2, "order": 3, "level": 7 },
-      { "skill": 3, "order": "2|1", "level": 9 },
+      { "skill": 3, "order": 1, "level": 9 },
       { "skill": 4, "order": 4, "level": 7 }
     ],
     "crimebrands": [
@@ -2285,11 +2285,14 @@
     "evaluations": [
       { "name": "德雷雅角色全方位测评及烙印推荐", "link": "https://b23.tv/dPgvHRe" }
     ],
+    "exclusive_priority": {
+      "level": "3"
+    },
     "skills": [
-      { "skill": 1, "order": "", "level": 7 },
-      { "skill": 2, "order": "", "level": 9 },
-      { "skill": 3, "order": "", "level": 9 },
-      { "skill": 4, "order": "", "level": 9 }
+      { "skill": 1, "order": "", "level": 10 },
+      { "skill": 2, "order": "", "level": 10 },
+      { "skill": 3, "order": "", "level": 10 },
+      { "skill": 4, "order": "", "level": 10 }
     ]
   },
   "oak_casket": {
