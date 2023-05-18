@@ -19,6 +19,8 @@
           class="crimebrands-img position-relative flex-shrink-0 border border-dark"
           data-bs-toggle="tooltip"
           data-bs-placement="top"
+          :data-position="position"
+          :data-cb-name="cbName"
           :data-bs-title="cbName"
           data-bs-html="true"
         >
@@ -90,11 +92,11 @@ import { Tooltip } from 'bootstrap'
 import crimebrands from '@/data/crimebrands.json'
 
 onMounted(() => {
-  const crimebrands = document.querySelectorAll('.crimebrands-img')
-  crimebrands.forEach(cb => {
-    const cbName = crimebrand(cb.dataset.bsTitle)
-    const tooltip = new Tooltip(cb, {
-      title: cbName.set_bonus || ""
+  const cbBoxes = document.querySelectorAll('.crimebrands-img')
+  cbBoxes.forEach(cbBox => {
+    const cb = crimebrand(cbBox.dataset.cbName, cbBox.dataset.position)
+    const tooltip = new Tooltip(cbBox, {
+      title: `${cb.attributes}<br>${cb.set_bonus}` || ""
     })
   })
 })
@@ -105,8 +107,12 @@ const props = defineProps({
 
 const sinner = props.sinner
 
-const crimebrand = cbName => {
-  return crimebrands.find(({ name }) => name === cbName)
+const crimebrand = (cbName, cbPosition) => {
+  if (cbPosition) {
+    return crimebrands.find(({ name, position }) => name === cbName && position == cbPosition)
+  } else {
+    return crimebrands.find(({ name }) => name === cbName)
+  }
 }
 
 const cbRank = cbName => {
