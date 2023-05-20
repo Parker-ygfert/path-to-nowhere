@@ -149,7 +149,7 @@
     "start": "2023-05-16 13:00",
     "end": "2023-05-30 13:59",
     "ups": [
-      { "name": "itte", "job": "arcane" },
+      { "name": "etti", "job": "arcane" },
       { "name": "levy", "job": "endura" },
       { "name": "pricilla", "job": "reticle" },
       { "name": "chameleon", "job": "catalyst" }
@@ -177,7 +177,7 @@
     "genre": "event",
     "ups": [
       { "name": "raven", "job": "arcane" },
-      { "name": "casro", "job": "fury" },
+      { "name": "corso", "job": "fury" },
       { "name": "mr_fox", "job": "catalyst" },
       { "name": "horo", "job": "fury" }
     ]
