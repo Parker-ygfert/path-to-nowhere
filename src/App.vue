@@ -1,5 +1,5 @@
 <template>
-<div class="d-flex justify-content-end align-items-center font-16">
+<div class="d-flex justify-content-end align-items-center pb-1 font-16">
   <span>{{ $t('language') }}</span>
   <select
     v-model="locale"

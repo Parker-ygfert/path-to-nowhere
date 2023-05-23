@@ -33,7 +33,7 @@
       >
     </div>
     <div class="sinner-name position-absolute text-white font-18 fw-bold">
-      {{ $t(`sinner.${sinner.name}`) }}
+      {{ $t(`sinner.name.${sinner.name}`) }}
     </div>
   </div>
 </template>

@@ -2,512 +2,366 @@
   {
     "name": "corridor_echo",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊速度 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>初始能量 + 8"
+    "position": "third"
   },
   {
     "name": "creation",
     "rank": "s",
-    "position": "third",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>召喚物造成的傷害提高 25%"
+    "position": "third"
   },
   {
     "name": "creed_of_bulwark",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>阻擋 + 1"
+    "position": "second"
   },
   {
     "name": "depth_of_restricted_area",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>戰鬥開始後，自身 20 秒內不會受到普通攻擊的傷害"
+    "position": "first"
   },
   {
     "name": "depths_of_oblivion",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>必殺傷害每秒增加 1%，最多疊加 30 層<br>使用必殺後，該效果重置"
+    "position": "first"
   },
   {
     "name": "depths_of_oblivion",
     "rank": "s",
-    "position": "third",
-    "attributes": "技能傷害提高 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>必殺傷害每秒增加 1%，最多疊加 30 層<br>使用必殺後，該效果重置"
+    "position": "third"
   },
   {
     "name": "fantasy_moon",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
+    "position": "first"
   },
   {
     "name": "fantasy_moon",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
+    "position": "second"
   },
   {
     "name": "embrace_of_the_dead",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>對核心被擊破的敵人造成的傷害提高 40%"
+    "position": "first"
   },
   {
     "name": "embrace_of_the_dead",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>對核心被擊破的敵人造成的傷害提高 40%"
+    "position": "second"
   },
   {
     "name": "embrace_of_the_dead",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>對核心被擊破的敵人造成的傷害提高 40%"
+    "position": "third"
   },
   {
     "name": "ground_zero",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>自身每 3 秒增加 1% 攻擊，最多疊加 10 次<br>移動後該效果重置"
+    "position": "first"
   },
   {
     "name": "ground_zero",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊速度 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>自身每 3 秒增加 1% 攻擊，最多疊加 10 次<br>移動後該效果重置"
+    "position": "third"
   },
   {
     "name": "motto",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>普攻15次後，下次使用必殺時，技能傷害提高25%，持續5秒"
+    "position": "second"
   },
   {
     "name": "motto",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊速度 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>普攻15次後，下次使用必殺時，技能傷害提高25%，持續5秒"
+    "position": "third"
   },
   {
     "name": "nightmare_revelation",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>戰鬥開始時，我方全體禁閉者攻擊力提高 6%，<br>攻擊速度提高 10%，持續 30 秒"
+    "position": "first"
   },
   {
     "name": "nightmare_revelation",
     "rank": "s",
-    "position": "third",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>戰鬥開始時，我方全體禁閉者攻擊力提高 6%，<br>攻擊速度提高 10%，持續 30 秒"
+    "position": "third"
   },
   {
     "name": "paradise_regained",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>每隔 15 秒生成可拾取的精靈，<br>佩戴該套裝的角色拾取後，<br>立即對戰場中核心最多的怪物造成 1 點核心傷害<br>精靈最多同時存在 2 個"
+    "position": "second"
   },
   {
     "name": "paradise_regained",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>每隔 15 秒生成可拾取的精靈，<br>佩戴該套裝的角色拾取後，<br>立即對戰場中核心最多的怪物造成 1 點核心傷害<br>精靈最多同時存在 2 個"
+    "position": "third"
   },
   {
     "name": "pioneer",
     "rank": "s",
-    "position": "third",
-    "attributes": "傷害提高 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>若佩戴者的身高不高於 155cm，增加 6% 攻擊，<br>反之只增加 3% 攻擊"
+    "position": "third"
   },
   {
     "name": "premonition",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>造成核心傷害時，附加自身攻擊力 120% 的真實傷害"
+    "position": "first"
   },
   {
     "name": "scarlet_bewitchment",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>不攻擊時，攻擊力每秒+1%，最多疊加20次<br>攻擊後重置"
+    "position": "first"
   },
   {
     "name": "scarlet_bewitchment",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>不攻擊時，攻擊力每秒+1%，最多疊加20次<br>攻擊後重置"
+    "position": "second"
   },
   {
     "name": "scarlet_bewitchment",
     "rank": "s",
-    "position": "third",
-    "attributes": "法抗 + 5%（滿級 + 10%）",
-    "set_bonus": "套裝效果：<br>不攻擊時，攻擊力每秒+1%，最多疊加20次<br>攻擊後重置"
+    "position": "third"
   },
   {
     "name": "servant",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>召喚物造成傷害時，有 40% 機率為主人回復 2 能量<br>每 3 秒最多觸發 1 次"
+    "position": "first"
   },
   {
     "name": "singularity",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>移動後，自身攻速提高 12%，持續 10 秒"
+    "position": "second"
   },
   {
     "name": "solo_dance",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>九宮格範圍內不存在敵人時，<br>普攻傷害提高 25%<br>反之，必殺傷害提高 25%"
+    "position": "first"
   },
   {
     "name": "solo_dance",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>九宮格範圍內不存在敵人時，<br>普攻傷害提高 25%<br>反之，必殺傷害提高 25%"
+    "position": "second"
   },
   {
     "name": "solo_dance",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>九宮格範圍內不存在敵人時，<br>普攻傷害提高 25%<br>反之，必殺傷害提高 25%"
+    "position": "third"
   },
   {
     "name": "soul_rift",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>每次普通攻擊降低目標4%防禦，持續5秒<br>最多疊加3次"
+    "position": "first"
   },
   {
     "name": "soul_rift",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>每次普通攻擊降低目標4%防禦，持續5秒<br>最多疊加3次"
+    "position": "second"
   },
   {
     "name": "the_city_of_sins",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>自身每激活 1 個套裝，增加 3% 攻擊和 5% 生命<br>最多疊加 3 次"
+    "position": "second"
   },
   {
     "name": "the_pandora_cage",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>每進行 3 次普通攻擊，<br>即對第 3 次被攻擊的敵人造成 1 次額外物理傷害，<br>傷害量相當於自身攻擊力的 80%"
+    "position": "second"
   },
   {
     "name": "the_pandora_cage",
     "rank": "s",
-    "position": "third",
-    "attributes": "攻擊速度 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>每進行 3 次普通攻擊，<br>即對第 3 次被攻擊的敵人造成 1 次額外物理傷害，<br>傷害量相當於自身攻擊力的 80%"
+    "position": "third"
   },
   {
     "name": "overthrown_tower",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>爆擊率 + 12%"
+    "position": "first"
   },
   {
     "name": "reunion_day",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>普通攻擊暴擊時，回复 3 能量，每 3 秒最多觸發 1 次"
+    "position": "first"
   },
   {
     "name": "reunion_day",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>普通攻擊暴擊時，回复 3 能量，每 3 秒最多觸發 1 次"
+    "position": "second"
   },
   {
     "name": "reunion_day",
     "rank": "s",
-    "position": "third",
-    "attributes": "暴擊率 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>普通攻擊暴擊時，回复 3 能量，每 3 秒最多觸發 1 次"
+    "position": "third"
   },
   {
     "name": "white_sands_apostle",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>攻擊時，有機率使目標眩暈 2 秒<br>對有核心的怪物觸發率 100%<br>每 10 秒最多觸發 1 次"
+    "position": "first"
   },
   {
     "name": "white_sands_apostle",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>攻擊時，有機率使目標眩暈 2 秒<br>對有核心的怪物觸發率 100%<br>每 10 秒最多觸發 1 次"
+    "position": "second"
   },
   {
     "name": "white_sands_apostle",
     "rank": "s",
-    "position": "third",
-    "attributes": "普攻傷害提高 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>攻擊時，有機率使目標眩暈 2 秒<br>對有核心的怪物觸發率 100%<br>每 10 秒最多觸發 1 次"
+    "position": "third"
   },
   {
     "name": "year_one_perishing_star",
     "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>自身生命提高 20%，攻擊提高 15%<br>但是無法移動"
+    "position": "first"
   },
   {
     "name": "year_one_perishing_star",
     "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>自身生命提高 20%，攻擊提高 15%<br>但是無法移動"
+    "position": "second"
   },
   {
     "name": "year_one_perishing_star",
     "rank": "s",
-    "position": "third",
-    "attributes": "暴擊率 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>自身生命提高 20%，攻擊提高 15%<br>但是無法移動"
+    "position": "third"
   },
   {
     "name": "blue_rain",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>移動次數 + 6<br>該套裝無法疊加，只有一套生效"
+    "position": "first"
   },
   {
     "name": "blue_rain",
     "rank": "a",
-    "position": "second",
-    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>移動次數 + 6<br>該套裝無法疊加，只有一套生效"
+    "position": "second"
   },
   {
     "name": "blue_rain",
     "rank": "a",
-    "position": "third",
-    "attributes": "法抗 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>移動次數 + 6<br>該套裝無法疊加，只有一套生效"
+    "position": "third"
   },
   {
     "name": "diverged_ends",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>擊殺敵人後，自身造成的傷害提高12%，<br>持續10秒"
+    "position": "first"
   },
   {
     "name": "diverged_ends",
     "rank": "a",
-    "position": "third",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>擊殺敵人後，自身造成的傷害提高12%，<br>持續10秒"
+    "position": "third"
   },
   {
     "name": "final_prologue",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>造成治療效果 + 25%"
+    "position": "first"
   },
   {
     "name": "final_prologue",
     "rank": "a",
-    "position": "second",
-    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>造成治療效果 + 25%"
+    "position": "second"
   },
   {
     "name": "final_prologue",
     "rank": "a",
-    "position": "third",
-    "attributes": "治療效果提高 + 4.0％（滿級 + 8.0％）",
-    "set_bonus": "套裝效果：<br>造成治療效果 + 25%"
+    "position": "third"
   },
   {
     "name": "fury",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>使用必殺後，立即回復自身 20% 生命，<br>每 8 秒最多觸發 1 次"
+    "position": "first"
   },
   {
     "name": "hope",
     "rank": "a",
-    "position": "second",
-    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>初始能量 + 5"
+    "position": "second"
   },
   {
     "name": "in_hosts_name",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>每阻擋一個敵人，受到的傷害降低 8%"
+    "position": "first"
   },
   {
     "name": "in_hosts_name",
     "rank": "a",
-    "position": "third",
-    "attributes": "防禦 + 4.0％（滿級 + 8.0％）",
-    "set_bonus": "套裝效果：<br>每阻擋一個敵人，受到的傷害降低 8%"
+    "position": "third"
   },
   {
     "name": "obsession",
     "rank": "a",
-    "position": "second",
-    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>每隔15秒，自動驅散 1 個負面效果"
+    "position": "second"
   },
   {
     "name": "shackles_of_life",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>爆擊傷害 + 50%"
+    "position": "first"
   },
   {
     "name": "shackles_of_life",
     "rank": "a",
-    "position": "second",
-    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>爆擊傷害 + 50%"
+    "position": "second"
   },
   {
     "name": "shackles_of_life",
     "rank": "a",
-    "position": "third",
-    "attributes": "暴擊率 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>爆擊傷害 + 50%"
+    "position": "third"
   },
   {
     "name": "shattered_battlefront",
     "rank": "a",
-    "position": "second",
-    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>戰鬥開始時，攻擊 + 15%，持續 30 秒"
+    "position": "second"
   },
   {
     "name": "shattered_battlefront",
     "rank": "a",
-    "position": "third",
-    "attributes": "攻擊速度 + 4.0%（滿級 + 8.0%）",
-    "set_bonus": "套裝效果：<br>戰鬥開始時，攻擊 + 15%，持續 30 秒"
+    "position": "third"
   },
   {
     "name": "turning_zero",
     "rank": "a",
-    "position": "first",
-    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
-    "set_bonus": "套裝效果：<br>使用局長技能後，自身獲得 3 點能量，<br>每 10 秒最多觸發 1 次"
+    "position": "first"
   },
   {
     "name": "eastside_dream",
     "rank": "b",
-    "position": "first",
-    "attributes": "攻擊 + 1.8%（滿級 + 3.6%）",
-    "set_bonus": "套裝效果：<br>普通攻擊造成的傷害提高 15％"
+    "position": "first"
   },
   {
     "name": "eastside_dream",
     "rank": "b",
-    "position": "second",
-    "attributes": "生命 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>普通攻擊造成的傷害提高 15％"
+    "position": "second"
   },
   {
     "name": "eastside_dream",
     "rank": "b",
-    "position": "third",
-    "attributes": "普通傷害提高 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>普通攻擊造成的傷害提高 15％"
+    "position": "third"
   },
   {
     "name": "justice",
     "rank": "b",
-    "position": "first",
-    "attributes": "攻擊 + 1.8%（滿級 + 3.6%）",
-    "set_bonus": "套裝效果：<br>使用必殺後，除自身所有禁閉者攻擊 + 5％，<br>持續 10 秒"
+    "position": "first"
   },
   {
     "name": "justice",
     "rank": "b",
-    "position": "second",
-    "attributes": "生命 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>使用必殺後，除自身所有禁閉者攻擊 + 5％，<br>持續 10 秒"
+    "position": "second"
   },
   {
     "name": "providence",
     "rank": "b",
-    "position": "second",
-    "attributes": "生命 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>攻擊 + 6％"
+    "position": "second"
   },
   {
     "name": "providence",
     "rank": "b",
-    "position": "third",
-    "attributes": "暴擊率 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>攻擊 + 6％"
+    "position": "third"
   },
   {
     "name": "syndicate_glory",
     "rank": "b",
-    "position": "first",
-    "attributes": "攻擊 + 1.8%（滿級 + 3.6%）",
-    "set_bonus": "套裝效果：<br>法術傷害 + 15%，自身受到傷害 + 25％"
+    "position": "first"
   },
   {
     "name": "syndicate_glory",
     "rank": "b",
-    "position": "second",
-    "attributes": "生命 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>法術傷害 + 15%，自身受到傷害 + 25％"
+    "position": "second"
   },
   {
     "name": "syndicate_glory",
     "rank": "b",
-    "position": "third",
-    "attributes": "法術傷害提高 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>法術傷害 + 15%，自身受到傷害 + 25％"
+    "position": "third"
   }
 ]

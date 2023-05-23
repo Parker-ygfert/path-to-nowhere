@@ -1,8 +1,10 @@
 <template>
 <div class="cb-box">
   <div class="text-center font-30">
-    —— {{ $t('crimebrands_recommends') }} ——
-    <div class="font-12 text-danger">紅色表示通用性較高</div>
+    —— {{ $t('crimebrand.recommends') }} ——
+    <div class="font-12 text-danger">
+      {{ $t('crimebrand.prompt') }}
+    </div>
   </div>
   <div class="cb-formula">
     <div
@@ -10,7 +12,7 @@
       class="cb-set my-1 font-18"
     >
       <header class="font-20" :class="{ 'text-danger' : cb.emphasis }">
-        ◎{{ $t(cb.name) }}
+        ◎{{ $t(`crimebrand.${cb.name}`) }}
       </header>
       <div class="d-flex">
         <div
@@ -39,14 +41,14 @@
             class="w-100 h-100"
           >
           <span class="crimebrands-name position-absolute font-14 fw-bold text-white">
-            {{ $t(`crimebrands.${cbName}`) }}
+            {{ $t(`crimebrand.${cbName}.name`) }}
           </span>
           <div class="rank-deco" :class="'deco-' + cbRank(cbName)"></div>
         </div>
       </div>
       <div
         class="text-secondary"
-        v-html="cb.description"
+        v-html="$t(`sinner.${sinner.name}.${cb.name}`)"
       >
       </div>
     </div>
@@ -87,16 +89,20 @@
 
 <script setup>
 import { onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { getImageUrl } from '@/scripts/get_image_url.js'
 import { Tooltip } from 'bootstrap'
 import crimebrands from '@/data/crimebrands.json'
+
+const { t } = useI18n()
 
 onMounted(() => {
   const cbBoxes = document.querySelectorAll('.crimebrands-img')
   cbBoxes.forEach(cbBox => {
     const cb = crimebrand(cbBox.dataset.cbName, cbBox.dataset.position)
+    let key = `crimebrand.${cb.name}`
     const tooltip = new Tooltip(cbBox, {
-      title: `${cb.attributes}<br>${cb.set_bonus}` || ""
+      title: `${t(`${key}.${cb.position}`)}<br>${t(`${key}.set_bonus`)}` || ""
     })
   })
 })

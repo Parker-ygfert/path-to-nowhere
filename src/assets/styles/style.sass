@@ -1,6 +1,7 @@
-@import './_rwd'
-@import './_font'
 @import './_color'
+@import './_en'
+@import './_font'
+@import './_rwd'
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Oxygen+Mono&display=swap')
 
 html, body, #app
@@ -8,10 +9,6 @@ html, body, #app
 
 html, .container
   height: calc(var(--vh, 1vh) * 100)
-
-html
-  &:lang(en)
-    font-size: 18px
 
 body, .slider-container
   min-height: 100vh
@@ -25,7 +22,7 @@ body
 
 .container
   background-color: rgba(255, 255, 255, 0.9)
-  max-width: 856px !important
+  // max-width: 856px !important
 
 .slider-container
   position: absolute

@@ -30,7 +30,7 @@
             align="center"
             class="pool-detail td-flexing"
           >
-            <div>
+            <div class="pool-title">
               {{ $t(`pool.${pool.name}`) }}
               <span
                 class="pool-genre"

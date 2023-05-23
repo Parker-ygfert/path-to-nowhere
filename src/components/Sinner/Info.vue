@@ -4,7 +4,7 @@
         <tbody align="center">
           <tr v-if="isPresent(sinner.recommended_shackle)">
             <th scope="row">
-              {{ $t('recommended_shackle') }}
+              {{ $t('shackle.recommended') }}
             </th>
             <td>
               {{ sinner.recommended_shackle }}
@@ -13,7 +13,7 @@
 
           <tr v-if="isPresent(sinner.qualitative_shackles)">
             <th scope="row">
-              {{ $t('qualitative_shackles') }}
+              {{ $t('shackle.qualitative') }}
             </th>
             <td class="text-nowrap">
               {{ sinner.qualitative_shackles }}
@@ -22,7 +22,7 @@
 
           <tr v-if="isPresent(sinner.supplement_shackles)">
             <th scope="row" valign="middle">
-              {{ $t('supplement_shackles') }}
+              {{ $t('shackle.supplement') }}
             </th>
             <td>
               <div
@@ -36,20 +36,20 @@
 
           <tr v-if="isPresent(sinner.exclusive)">
             <th scope="row" valign="middle" class="text-nowrap">
-              {{ $t('exclusive') }}
+              {{ $t('exclusive.exclusive') }}
             </th>
             <td
               class="text-nowrap"
               :class="sinner.exclusive.emphasis"
+              v-html="$t(`sinner.${sinner.name}.exclusive`)"
             >
-              <span v-html="sinner.exclusive.text"></span>
             </td>
           </tr>
 
           <template v-if="isPresent(sinner.exclusive_priority)">
             <tr>
               <th scope="row" valign="middle" class="text-nowrap">
-                {{ $t('exclusive_priority') }}
+                {{ $t('exclusive.priority') }}
               </th>
               <td class="text-nowrap">
                 {{ sinner.exclusive_priority.tier }}
@@ -58,7 +58,7 @@
 
             <tr>
               <th scope="row" valign="middle" class="text-nowrap">
-                {{ $t('exclusive_level') }}
+                {{ $t('exclusive.level') }}
               </th>
               <td
                 class="position-relative text-nowrap"
@@ -85,7 +85,7 @@
         <thead align="center">
           <tr>
             <th scope="col" colspan="2">
-              {{ $t('overall_strength') }}
+              {{ $t('other.overall_strength') }}
             </th>
           </tr>
         </thead>
@@ -93,7 +93,7 @@
           <template v-for="strength in sinner.strength">
             <tr>
               <td>
-                {{ $t(strength.map) }}
+                {{ $t(`other.${strength.map}`) }}
               </td>
               <td>
                 {{ decode(strength.strength) }}
@@ -111,13 +111,13 @@
         <thead align="center">
           <tr>
             <th scope="col">
-              {{ $t('skill') }}
+              {{ $t('skill.skill') }}
             </th>
             <th scope="col">
-              {{ $t('upgrade_order') }}
+              {{ $t('skill.upgrade_order') }}
             </th>
             <th scope="col">
-              {{ $t('recommended_grade') }}
+              {{ $t('skill.recommended') }}
             </th>
           </tr>
         </thead>
@@ -137,8 +137,8 @@
           </template>
         </tbody>
         <caption class="pt-0">
-          不同攻略推薦順序略有差別<br>
-          {{ sinner.skill_des }}
+          {{ $t('skill.prompt') }}<br>
+          {{ sinner.skill_des && $t(`sinner.${sinner.name}.skill_des`) }}
         </caption>
       </table>
     </div>

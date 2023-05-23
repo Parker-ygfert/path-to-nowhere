@@ -3,10 +3,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%97%B7%E5%91%9C",
     "job": "endura",
     "tags": [
-      "<strong style='color: #f1aeb5;'>九宮格範圍破 2 核</strong>",
-      "<strong>爆擊體系增傷核心</strong>",
-      "<strong>範圍增傷能力不俗</strong>",
-      "<strong>可移動獅頭輔助效果不錯</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 0,
@@ -14,7 +14,6 @@
       { "shackle": "2-3" }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -38,8 +37,7 @@
         "name": "formula_a",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
@@ -51,26 +49,24 @@
         "name": "formula_c",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>快速啟動，開啟必殺為團隊提供 BUFF"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "長線方案<br>工具人套件"
+        "third": "corridor_echo"
       }
     ]
   },
   "demon": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%BF%AA%E8%92%99",
     "tags": [
-      "<strong>自身 + 群體護盾</strong>",
-      "<strong>小幅度群體友方加成</strong>",
-      "<strong style='color: #f1aeb5;'>昆門造像體系核心</strong>",
-      "<strong style='color: #f1aeb5;'>疊盾流打法核心 (需 4+)</strong>",
-      "(護盾量 0.5% 加攻)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "emphasis": true },
+      { "order": "tag_4", "emphasis": true },
+      { "order": "tag_5", "normal": true }
     ],
     "qualitative_shackles": "3、4",
     "recommended_shackle": 0,
@@ -78,9 +74,7 @@
       { "shackle": "2-3" },
       { "shackle": "3-4" }
     ],
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T2",
       "level": "1"
@@ -103,8 +97,7 @@
         "emphasis": true,
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "在一般關卡以減傷阻擋為主可以無腦選"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
@@ -117,8 +110,7 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "長短線皆可用<br>昆門 / 疊盾流天下第一"
+        "third": "creation"
       },
       {
         "name": "formula_d",
@@ -136,8 +128,7 @@
         "name": "formula_f",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_g",
@@ -169,12 +160,10 @@
   "levy": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%9D%8E%E7%BB%B4",
     "tags": [
-      "<strong>流血隊核心增傷 + 坦克</strong>"
+      { "order": "tag_1" }
     ],
     "qualitative_shackles": "2",
-    "exclusive": {
-      "text": "不推薦、自找沒趣"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "3"
@@ -196,15 +185,13 @@
         "name": "formula_a",
         "first": "turning_zero",
         "second": "creed_of_bulwark",
-        "third": "scarlet_bewitchment",
-        "description": "短線方案"
+        "third": "scarlet_bewitchment"
       },
       {
         "name": "formula_b",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "scarlet_bewitchment",
-        "description": "長線方案"
+        "third": "scarlet_bewitchment"
       },
       {
         "name": "formula_c",
@@ -216,8 +203,7 @@
         "name": "formula_d",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_e",
@@ -230,13 +216,12 @@
   "kawa_kawa": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E7%93%A6%E5%8D%A1%E7%93%A6",
     "tags": [
-      "<strong>自我回血機制</strong>",
-      "<strong>輔助隊友回血</strong>",
-      "<strong>更加突出法術扛傷</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -260,8 +245,7 @@
         "name": "formula_a",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
@@ -285,36 +269,31 @@
         "name": "formula_e",
         "first": "final_prologue",
         "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "治療套也適用於卡瓦卡瓦技能組"
+        "third": "final_prologue"
       },
       {
         "name": "formula_f",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
   "cinnabar": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%BE%B0%E7%A0%82",
     "tags": [
-      "<strong>大招減 2 阻擋...</strong>",
-      "<strong>群體護盾施加</strong>",
-      "<strong>她是女的 + 更像輔助</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1、3",
-    "exclusive": {
-      "text": "不推薦、自找沒趣"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T2",
       "level": "1"
@@ -336,15 +315,13 @@
         "name": "formula_a",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "公會戰不需要阻擋，辰砂的盾可以幫助隊友吃不少傷害"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
@@ -362,29 +339,26 @@
         "name": "formula_e",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_f",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
   "countess_chelsea": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%88%87%E5%B0%94%E8%A5%BF%E4%BC%AF%E7%88%B5",
     "tags": [
-      "<strong>一人一寵雙重阻擋</strong>",
-      "<strong>概率石化控制</strong>",
-      "<strong>擁有多重回血機制</strong>",
-      "<strong>激活專屬烙印質變</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "3",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -408,22 +382,19 @@
         "name": "formula_a",
         "first": "servant",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "長短線皆可用"
+        "third": "creation"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "快速召喚西迪"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_d",
@@ -435,8 +406,7 @@
         "name": "formula_e",
         "first": "servant",
         "second": "creed_of_bulwark",
-        "third": "creation",
-        "description": "可提升西迪屬性加速必殺回轉"
+        "third": "creation"
       },
       {
         "name": "formula_f",
@@ -448,8 +418,7 @@
         "name": "formula_g",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_h",
@@ -462,13 +431,12 @@
   "demolia": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%BE%B7%E8%8E%AB%E8%8E%89",
     "tags": [
-      "<strong>多重回血機制</strong>",
-      "<strong>擋 3 堅韌、配合專烙可擋 4</strong>",
-      "<strong>昆門造像體系盾爹平替</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "strength": [
@@ -488,8 +456,7 @@
         "name": "formula_a",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>老實當好肉盾"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
@@ -519,42 +486,36 @@
         "name": "formula_f",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_g",
         "first": "nightmare_revelation",
         "second": "the_city_of_sins",
-        "third": "nightmare_revelation",
-        "description": "昆門次選"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_h",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "昆門"
+        "third": "creation"
       },
       {
         "name": "formula_i",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
   "peggy": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E4%BD%A9%E5%A7%AC",
     "tags": [
-      "<strong>護盾施加</strong>",
-      "<strong>護盾自回血機制</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、3",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T3",
       "level": "1"
@@ -576,8 +537,7 @@
         "name": "formula_a",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>老實當好肉盾"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
@@ -601,8 +561,7 @@
         "name": "formula_e",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_f",
@@ -614,22 +573,19 @@
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
-
     ]
   },
   "kk": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%94%BB%E8%94%BB",
     "tags": [
-      "<strong>物理抗性非常可觀</strong>",
-      "<strong>群體友方物防提升</strong>",
-      "<strong>大招具有嘲諷控制</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -653,8 +609,7 @@
         "name": "formula_a",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>老實當好肉盾"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_b",
@@ -678,8 +633,7 @@
         "name": "formula_e",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_f",
@@ -691,8 +645,7 @@
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
@@ -700,11 +653,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%BB%9B%E4%BC%A6",
     "job": "fury",
     "tags": [
-      "<strong style='color: #f1aeb5;'>直線兩格範圍破 1 核</strong>",
-      "<strong>大招可充能 2 次</strong>",
-      "<strong>超強 3 技能被動質變</strong>",
-      "<strong>專烙 3 拳毀天滅地</strong>",
-      "<strong>無期版本一拳超人</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" },
+      { "order": "tag_5" }
     ],
     "qualitative_shackles": "1、3、4",
     "recommended_shackle": 3,
@@ -712,7 +665,6 @@
       { "shackle": "0-5", "emphasis": true }
     ],
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -738,35 +690,31 @@
         "emphasis": true,
         "first": "reunion_day",
         "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "替補方案<br>長線依然是黛神"
+        "third": "reunion_day"
       },
       {
         "name": "formula_b",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "短線方案<br>黛神不用多說"
-      },
-      {
-        "name": "formula_b",
-        "first": "overthrown_tower",
-        "second": "the_city_of_sins",
-        "third": "reunion_day",
-        "description": "短線方案<br>低枷鎖推薦帶 重逢III"
+        "third": "pioneer"
       },
       {
         "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "the_city_of_sins",
+        "third": "reunion_day"
+      },
+      {
+        "name": "formula_d",
         "first": "overthrown_tower",
         "second": "singularity",
         "third": "corridor_echo"
       },
       {
-        "name": "formula_d",
+        "name": "formula_e",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       }
     ]
   },
@@ -774,10 +722,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%AF%BA%E5%85%8B%E6%96%AF",
     "job": "fury",
     "tags": [
-      "<strong>核心群體輸出</strong> (版本最強)",
-      "<strong style='color: #f1aeb5;'>專屬烙印九宮格破核</strong>",
-      "<strong>群體減防工具人</strong>",
-      "(最高減防 40.5%)"
+      { "order": "tag_1" },
+      { "order": "tag_2", "emphasis": true },
+      { "order": "tag_3" },
+      { "order": "tag_4", "normal": true }
     ],
     "qualitative_shackles": "1、3、4",
     "recommended_shackle": 1,
@@ -787,7 +735,6 @@
       { "shackle": "3-4" }
     ],
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -812,8 +759,7 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "長短線皆可用<br>充能套件，狂欲之城可以提供不錯的屬性，泛用性高，123號位均可靈活變通"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
@@ -826,22 +772,19 @@
         "name": "formula_c",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>可以大幅提高普攻傷害，大部分場景適用"
+        "third": "eastside_dream"
       },
       {
         "name": "formula_d",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_e",
         "first": "diverged_ends",
         "second": "the_city_of_sins",
-        "third": "diverged_ends",
-        "description": "怪海關卡可選"
+        "third": "diverged_ends"
       },
       {
         "name": "formula_f",
@@ -855,9 +798,9 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%93%E5%A8%85",
     "job": "fury",
     "tags": [
-      "<strong>大招群控、單體真傷</strong>",
-      "<strong>坦度不俗、可當半個阻擋用</strong>",
-      "(專屬烙印最高 40% 減傷)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "normal": true }
     ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 1,
@@ -865,9 +808,7 @@
       { "shackle": "0-1" },
       { "shackle": "2-3" }
     ],
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T2",
       "level": "1"
@@ -901,22 +842,19 @@
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套件，狂欲之城可以提供不錯的屬性，泛用性高，123號位均可靈活變通"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>可以大幅提高普攻傷害，大部分場景適用"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -935,15 +873,13 @@
         "name": "formula_a",
         "first": "blue_rain",
         "second": "blue_rain",
-        "third": "blue_rain",
-        "description": "替補方案"
+        "third": "blue_rain"
       },
       {
         "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_c",
@@ -975,13 +911,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%8E%93%E4%B8%9D",
     "job": "fury",
     "tags": [
-      "<strong>不俗物理爆發輸出</strong>",
-      "<strong>至多 2 人輔助 15s 加攻</strong>",
-      "(最高提升莓絲攻擊 6%)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "normal": true }
     ],
     "qualitative_shackles": "2",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -1006,22 +941,19 @@
         "name": "formula_a",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "彌補莓絲錘型態傷害，攻速屬性加速疊攻擊力"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_c",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>過渡期，提升普攻傷害"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -1029,8 +961,8 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A4%9A%E8%8E%89",
     "job": "fury",
     "tags": [
-      "<strong>攻速小能手 + 群體輸出</strong>",
-      "<strong>需要時間暖機</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、4",
     "exclusive": {
@@ -1059,8 +991,7 @@
         "emphasis": true,
         "first": "overthrown_tower",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "短線方案"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_b",
@@ -1078,22 +1009,19 @@
         "name": "formula_d",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "高攻速適合潘多拉，角色有著較高的上限"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_e",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，可選"
+        "third": "pioneer"
       },
       {
         "name": "formula_f",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_g",
@@ -1105,8 +1033,7 @@
         "name": "formula_h",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>普攻增傷"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -1114,13 +1041,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%B5%AB%E7%BD%97",
     "job": "fury",
     "tags": [
-      "<strong>戰紋增傷 + 減傷</strong>",
-      "<strong>橫掃群攻 + 吸血</strong>",
-      "<strong style='color: #f1aeb5;'>破核</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "emphasis": true }
     ],
     "qualitative_shackles": "3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -1145,29 +1071,25 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "creed_of_bulwark",
-        "third": "corridor_echo",
-        "description": "增加阻擋 + 快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案<br>坦裝兼範圍破核"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線方案<br>坦裝兼範圍破核"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_d",
         "first": "ground_zero",
         "second": "creed_of_bulwark",
-        "third": "ground_zero",
-        "description": "優秀的回復能力，適合拿來當坦克去打，有範圍破核能力"
+        "third": "ground_zero"
       },
       {
         "name": "formula_e",
@@ -1179,8 +1101,7 @@
         "name": "formula_f",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       },
       {
         "name": "formula_g",
@@ -1194,15 +1115,13 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%B8%95%E5%8A%A0%E8%8C%9C",
     "job": "fury",
     "tags": [
-      "<strong style='color: #f1aeb5;'>範圍破核</strong>",
-      "<strong>多個範圍輻射場持續傷害</strong>",
-      "<strong>法術輸出</strong>",
-      "<strong>群體減速工具人</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "1",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T2",
       "level": "1"
@@ -1230,15 +1149,13 @@
         "name": "formula_b",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "長短線皆可用<br>忘卻契合角色疊傷機制，大招清怪"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，可選"
+        "third": "pioneer"
       },
       {
         "name": "formula_d",
@@ -1250,8 +1167,7 @@
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "替補方案"
+        "third": "solo_dance"
       },
       {
         "name": "formula_f",
@@ -1263,8 +1179,7 @@
         "name": "formula_g",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "純法傷輸出，辛迪加套收益較高"
+        "third": "syndicate_glory"
       }
     ]
   },
@@ -1272,12 +1187,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E4%B9%9D%E5%8D%81%E4%B9%9D",
     "job": "fury",
     "tags": [
-      "<strong>不死狂戰、延遲傷害</strong>",
-      "<strong>吸血</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -1301,22 +1215,19 @@
         "name": "formula_a",
         "first": "ground_zero",
         "second": "the_city_of_sins",
-        "third": "ground_zero",
-        "description": "大幅提升屬性，部分場景適用"
+        "third": "ground_zero"
       },
       {
         "name": "formula_b",
         "first": "overthrown_tower",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "短線方案"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "疊攻速能力較為優秀，潘多拉收益也不錯"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_d",
@@ -1334,15 +1245,13 @@
         "name": "formula_f",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>可以提升破核後的爆發輸出"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -1350,12 +1259,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%B8%A9%E8%92%82",
     "job": "fury",
     "tags": [
-      "<strong>大招 + 被動群體輸出</strong>",
-      "<strong>對無核心敵人有增傷</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "2",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -1379,22 +1287,19 @@
         "name": "formula_a",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案"
+        "third": "solo_dance"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套屬性適配"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "長線方案<br>主要靠大招清怪，忘卻深處適用"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_d",
@@ -1418,22 +1323,19 @@
         "name": "formula_g",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_h",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       },
       {
         "name": "formula_i",
         "first": "turning_zero",
         "second": "providence",
-        "third": "providence",
-        "description": "遊戲初期可以帶這一套"
+        "third": "providence"
       }
     ]
   },
@@ -1441,14 +1343,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%BE%88",
     "job": "fury",
     "tags": [
-      "<strong style='color: #f1aeb5;'>範圍群體破 2 核</strong>",
-      "<strong>概率回能</strong>",
-      "<strong>追蹤最多輔助增傷 22.5%</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "3",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "3"
@@ -1471,22 +1371,19 @@
         "emphasis": true,
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案<br>優秀的破核增傷工具人，BOSS 場景適用魂之裂痕的最佳人選"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>常規關卡中，正義套裝可以在破核後給隊友增加攻擊"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
@@ -1507,14 +1404,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%83%A1%E6%A4%92",
     "job": "fury",
     "tags": [
-      "<strong>生命流逝持續傷害</strong>",
-      "<strong>群體友方攻速提升</strong>",
-      "(10% 攻速輔助)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "normal": true }
     ],
     "qualitative_shackles": "3",
-    "exclusive": {
-      "text": "不推薦、自找沒趣"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T0",
       "level": "3",
@@ -1532,28 +1427,25 @@
       { "skill": 3, "order": 1, "level": 9 },
       { "skill": 4, "order": 2, "level": 7 }
     ],
-    "skill_des": "流血隊僅需 1191 + 專三",
+    "skill_des": true,
     "crimebrands": [
       {
         "name": "formula_a",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "短線方案<br>流血隊長線若無其他角色攜帶魂裂，也可作為長線方案使用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "技能加攻速，可以考慮潘多拉"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_d",
@@ -1565,22 +1457,19 @@
         "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       },
       {
         "name": "formula_f",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套屬性適配"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_g",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "公會戰可以當作加攻速工具人上場，三枷鎖效果還不錯"
+        "third": "nightmare_revelation"
       }
     ]
   },
@@ -1588,11 +1477,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%B5%B7%E6%8B%89",
     "job": "fury",
     "tags": [
-      "<strong>自身回血機制</strong>"
+      "<strong></strong>"
     ],
     "qualitative_shackles": "3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -1628,15 +1516,13 @@
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，可選"
+        "third": "pioneer"
       },
       {
         "name": "formula_d",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_e",
@@ -1648,8 +1534,7 @@
         "name": "formula_f",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>普攻增傷、初期使用時勉強打點輸出"
+        "third": "eastside_dream"
       },
       {
         "name": "formula_g",
@@ -1661,15 +1546,13 @@
         "name": "formula_h",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "當坦用"
+        "third": "in_hosts_name"
       },
       {
         "name": "formula_i",
         "first": "ground_zero",
         "second": "creed_of_bulwark",
-        "third": "ground_zero",
-        "description": "優秀的回復能力，適合拿來當坦克去打"
+        "third": "ground_zero"
       }
     ]
   },
@@ -1681,10 +1564,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A8%9C%E6%81%B0",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>九宮格破 1 核</strong>",
-      "<strong>九宮格專烙減速 + 持續傷害</strong>",
-      "<strong>被動九宮格範圍輸出</strong>",
-      "<strong>法術輸出</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 0,
@@ -1692,7 +1575,6 @@
       { "shackle": "2-3", "emphasis": true }
     ],
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -1717,8 +1599,7 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
@@ -1731,22 +1612,19 @@
         "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_d",
         "first": "depths_of_oblivion",
         "second": "singularity",
-        "third": "depths_of_oblivion",
-        "description": "短線方案"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_e",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案<br>普攻增傷，適用法傷套，大部分場合可用"
+        "third": "syndicate_glory"
       },
       {
         "name": "formula_f",
@@ -1760,10 +1638,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%A7%91%E5%B8%8C",
     "job": "umbra",
     "tags": [
-      "<strong>大招直線 4 格群體破核</strong>",
-      "<strong>影匿 + 影子增傷</strong>",
-      "<strong>4+ 全隊增傷 (最高 12%)</strong>",
-      "<strong>各類內卷副本凹分小能手</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "4",
     "recommended_shackle": 0,
@@ -1771,7 +1649,6 @@
       { "shackle": "3-4" }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -1795,22 +1672,19 @@
         "name": "formula_a",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_b",
         "first": "premonition",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "短線方案<br>身高符合要求，屬性可觀"
+        "third": "pioneer"
       },
       {
         "name": "formula_c",
         "first": "turning_zero",
         "second": "shattered_battlefront",
-        "third": "shattered_battlefront",
-        "description": "30 秒內速攻解決 BOSS 可以帶這一套"
+        "third": "shattered_battlefront"
       },
       {
         "name": "formula_d",
@@ -1834,8 +1708,7 @@
         "name": "formula_g",
         "first": "turning_zero",
         "second": "providence",
-        "third": "providence",
-        "description": "替補方案"
+        "third": "providence"
       }
     ]
   },
@@ -1843,11 +1716,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%99%BD%E9%80%B8",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>大招移動瞬破 3 核</strong>",
-      "<strong>超高爆擊累積</strong>",
-      "<strong>超高加攻上限</strong>",
-      "<strong>不容忽視的單體輸出</strong>",
-      "(理論最高 176.8% 加攻)"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" },
+      { "order": "tag_5", "normal": true }
     ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 1,
@@ -1855,7 +1728,6 @@
       { "shackle": "0-1" }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升<br>+<br>推薦升級",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -1880,22 +1752,19 @@
         "emphasis": true,
         "first": "reunion_day",
         "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "長短線皆可用<br>當前最適合白逸的套裝，兼顧破核輸出"
+        "third": "reunion_day"
       },
       {
         "name": "formula_b",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "觸發被動後刀刀爆擊，前期容易湊齊，增傷可選"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_c",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "競速環境下需要白逸快速開出必殺"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
@@ -1909,14 +1778,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%90%B3",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>直線範圍破核</strong>",
-      "<strong>激光炮大招傷害足但吃地形</strong>",
-      "<strong>爆擊體系增傷核心</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "2、4",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "1"
@@ -1939,15 +1806,13 @@
         "emphasis": true,
         "first": "reunion_day",
         "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "長線方案<br>有爆擊機制，可加快充能，破核兼輸出"
+        "third": "reunion_day"
       },
       {
         "name": "formula_b",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高 155，可選的輸出套件"
+        "third": "pioneer"
       },
       {
         "name": "formula_c",
@@ -1965,29 +1830,25 @@
         "name": "formula_e",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套可快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
         "first": "turning_zero",
         "second": "motto",
-        "third": "motto",
-        "description": "短線方案"
+        "third": "motto"
       },
       {
         "name": "formula_g",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "疊攻速"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_h",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案"
+        "third": "shackles_of_life"
       }
     ]
   },
@@ -1995,14 +1856,13 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%BA%A6%E6%98%86",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>召喚物消失九宮格破 2 核</strong>",
-      "<strong>造物複製體召喚</strong>",
-      "<strong>召喚物可選擇繼承屬性來源</strong>",
-      "(需激活專烙)"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4", "normal": true }
     ],
     "qualitative_shackles": "2、4",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -2028,15 +1888,13 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "hope",
-        "third": "creation",
-        "description": "長短線皆可用<br>昆門，主要依賴幻象爆炸傷害，開專配合迪蒙這一套最實用"
+        "third": "creation"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "作為破 2 核工具人時可考慮攜帶"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
@@ -2056,14 +1914,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A0%87",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>直線 4 格群體破 2 核</strong>",
-      "<strong>生命流逝持續傷害</strong>",
-      "(已被 Bug 修復)"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3", "normal": true }
     ],
     "qualitative_shackles": "2",
-    "exclusive": {
-      "text": "不推薦、自找沒趣"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "3"
@@ -2092,29 +1948,25 @@
         "name": "formula_b",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "短線方案"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_d",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套可快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_e",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "可以提供不錯的持續輸出能力"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_f",
@@ -2132,15 +1984,13 @@
         "name": "formula_h",
         "first": "turning_zero",
         "second": "creed_of_bulwark",
-        "third": "corridor_echo",
-        "description": "阻擋 + 快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_i",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2148,14 +1998,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%89%BE%E6%81%A9",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>範圍破核 (範圍很奇特)</strong>",
-      "<strong>自身 + 友方物穿提升</strong>",
-      "<strong>降低敵方攻擊</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "4",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "1"
@@ -2190,36 +2038,31 @@
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "短線方案<br>技能組有輸出能力，屬性套裝適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "大招清怪"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_e",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_f",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "可以考慮的工具人套件"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>下位備選輸出烙印"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2227,13 +2070,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%B3%B0%E7%89%B9%E6%8B%89",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>範圍破核</strong>",
-      "<strong>爆擊後暈眩控制</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "1"
@@ -2262,43 +2103,37 @@
         "name": "formula_b",
         "first": "reunion_day",
         "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "短線方案<br>有爆擊機制，可加快充能"
+        "third": "reunion_day"
       },
       {
         "name": "formula_c",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_d",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_e",
         "first": "overthrown_tower",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套可快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
         "first": "white_sands_apostle",
         "second": "white_sands_apostle",
-        "third": "white_sands_apostle",
-        "description": "可以觸發三枷鎖的被動"
+        "third": "white_sands_apostle"
       },
       {
         "name": "formula_g",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "疊攻速"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_h",
@@ -2312,13 +2147,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%98%99",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>破 2 核</strong>",
-      "<strong>大招可充能 2 次</strong>",
-      "<strong>自身攻速提升</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "2、4",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -2343,15 +2177,13 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>充能套可快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_c",
@@ -2369,15 +2201,13 @@
         "name": "formula_e",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>必殺可以頻繁使用，正義套可以頻繁觸發"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "疊攻速能力較為優秀，潘多拉收益也不錯"
+        "third": "the_pandora_cage"
       }
     ]
   },
@@ -2385,16 +2215,14 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%9B%B7%E6%AF%94%E5%B0%BC%E6%96%AF",
     "job": "umbra",
     "tags": [
-      "<strong style='color: #f1aeb5;'>大招群體破核</strong>",
-      "<strong>大招可充能 2 次</strong>",
-      "<strong>擊破核心後刷新充能</strong>",
-      "<strong>背後攻擊有加攻效果</strong>",
-      "<strong>可原地移動破核</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" },
+      { "order": "tag_5" }
     ],
     "qualitative_shackles": "2、4",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "3"
@@ -2417,22 +2245,19 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>充能套可快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>必殺可以頻繁使用，正義套可以頻繁觸發"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_d",
@@ -2444,8 +2269,7 @@
         "name": "formula_e",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "加攻速"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_f",
@@ -2475,22 +2299,19 @@
         "name": "formula_a",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案"
+        "third": "solo_dance"
       },
       {
         "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_c",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2498,9 +2319,9 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%A9%A1%E6%9C%A8%E5%8C%A3",
     "job": "reticle",
     "tags": [
-      "<strong>超強自我增傷能力</strong>",
-      "<strong>大招可充能 3 層爆發</strong>",
-      "<strong>全場地圖砲射擊</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "2、4",
     "recommended_shackle": 0,
@@ -2508,7 +2329,6 @@
       { "shackle": "1-2" }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -2533,15 +2353,13 @@
         "emphasis": true,
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "長短線皆可用<br>完美適配"
+        "third": "solo_dance"
       },
       {
         "name": "formula_b",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2549,10 +2367,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A4%8F%E9%9F%B3",
     "job": "reticle",
     "tags": [
-      "<strong>浮游砲召喚、需要時間暖機</strong>",
-      "<strong>滿枷鎖強度還算不錯</strong>",
-      "<strong>0 枷鎖人稱夏水道</strong>",
-      "<strong>適合長線作戰副本</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "2、3、4、5",
     "recommended_shackle": 0,
@@ -2560,9 +2378,7 @@
       { "shackle": "1-2" },
       { "shackle": "4-5" }
     ],
-    "exclusive": {
-      "text": "不推薦、自找沒趣"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T3",
       "level": "1"
@@ -2585,15 +2401,13 @@
         "emphasis": true,
         "first": "servant",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "短線方案<br>夏音目前最強套裝，所有屬性完美契合夏音"
+        "third": "creation"
       },
       {
         "name": "formula_b",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "長線方案"
+        "third": "creation"
       },
       {
         "name": "formula_c",
@@ -2605,15 +2419,13 @@
         "name": "formula_d",
         "first": "servant",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "輸出效率尚可，可選"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_e",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "爆擊套適用，下位替代"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_f",
@@ -2627,10 +2439,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%85%B0%E5%88%A9",
     "job": "reticle",
     "tags": [
-      "<strong>超遠射程、<span style='color: #f1aeb5;'>破核</span></strong>",
-      "<strong>因果律增傷 + 變相群攻效果</strong>",
-      "<strong>激活專屬烙印質變</strong>",
-      "(最高 30% 物理穿透)"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4", "normal": true }
     ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 1,
@@ -2638,7 +2450,6 @@
       { "shackle": "0-1", "emphasis": true }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -2663,8 +2474,7 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "短線方案<br>潘多拉的傷害可以觸發因果律的傷害，傷害非常可觀"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_b",
@@ -2682,15 +2492,13 @@
         "name": "formula_d",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套競速環境適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "長線方案<br>增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_f",
@@ -2708,8 +2516,7 @@
         "name": "formula_h",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2717,13 +2524,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%9C%B2%E8%8E%89%E8%89%BE%E5%8D%A1",
     "job": "reticle",
     "tags": [
-      "<strong>臉白逆天、臉黑XX</strong>",
-      "<strong>賭徒一般的輸出角色</strong>",
-      "<strong>適合 S/L 凹分</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -2753,8 +2559,7 @@
         "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>用於破碎防線凹分首選亡者之擁，總有一把輸出高"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_c",
@@ -2766,29 +2571,25 @@
         "name": "formula_d",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，屬性可觀"
+        "third": "pioneer"
       },
       {
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案"
+        "third": "solo_dance"
       },
       {
         "name": "formula_f",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "阻擋 + 快速啟動"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_g",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_h",
@@ -2806,8 +2607,7 @@
         "name": "formula_j",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "可以大幅提高普攻傷害，大部分場景適用"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2815,13 +2615,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%99%AE%E5%B8%8C%E6%8B%89",
     "job": "reticle",
     "tags": [
-      "<strong>單樁輸出最強角色之一</strong>",
-      "<strong>攻速小能手</strong>",
-      "<strong>適合長線副本</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "3",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -2846,8 +2645,7 @@
         "emphasis": true,
         "first": "overthrown_tower",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "長線方案<br>大部分情況是高攻速普希拉的最優解"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_b",
@@ -2859,22 +2657,19 @@
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "短線方案"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_d",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "破碎防線可選"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_e",
         "first": "ground_zero",
         "second": "the_city_of_sins",
-        "third": "ground_zero",
-        "description": "長線戰鬥可選"
+        "third": "ground_zero"
       },
       {
         "name": "formula_f",
@@ -2886,15 +2681,13 @@
         "name": "formula_g",
         "first": "ground_zero",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高可選"
+        "third": "pioneer"
       },
       {
         "name": "formula_h",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -2902,14 +2695,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%8B%BC%E7%8D%BE",
     "job": "reticle",
     "tags": [
-      "<strong>陷阱釋放 + 控制</strong>",
-      "<strong>減防工具人</strong>",
-      "(20% 物理防禦降低)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "normal": true }
     ],
     "qualitative_shackles": "3",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T0",
       "level": "3",
@@ -2932,15 +2723,13 @@
         "name": "formula_a",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "作為減防工具人快速開啟大招"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長短線皆可用<br>跨隊執法懂的都懂"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
@@ -2958,15 +2747,13 @@
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_f",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>可以大幅提高普攻傷害，大部分場景適用"
+        "third": "eastside_dream"
       },
       {
         "name": "formula_g",
@@ -2986,14 +2773,13 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%89%BE%E7%B1%B3%E6%BD%98",
     "job": "reticle",
     "tags": [
-      "<strong style='color: #f1aeb5;'>破核</strong>",
-      "<strong>大招單體爆破性傷害</strong>",
-      "<strong>大招擊殺後刷新充能</strong>",
-      "<strong>擊殺後自身提高攻擊</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -3017,36 +2803,31 @@
         "name": "formula_a",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，屬性可觀"
+        "third": "pioneer"
       },
       {
         "name": "formula_b",
         "first": "ground_zero",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高可選"
+        "third": "pioneer"
       },
       {
         "name": "formula_c",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "短線方案<br>常規關卡中，擊殺後必爆讓 EMP 大招可以吃到爆擊傷害加成"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_d",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "長線方案<br>增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_e",
         "first": "year_one_perishing_star",
         "second": "year_one_perishing_star",
-        "third": "year_one_perishing_star",
-        "description": "替補方案"
+        "third": "year_one_perishing_star"
       },
       {
         "name": "formula_f",
@@ -3072,12 +2853,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%8A%99%E6%B4%9B%E6%8B%89",
     "job": "reticle",
     "tags": [
-      "<strong>輸出頗為平穩且亮眼</strong>",
-      "<strong>專屬烙印提供暈眩控制</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -3102,22 +2882,19 @@
         "name": "formula_a",
         "first": "reunion_day",
         "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "常駐爆擊高，攻速快，可頻繁觸發，加快大招刷新"
+        "third": "reunion_day"
       },
       {
         "name": "formula_b",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案<br>常駐爆擊高，爆擊套適用"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_d",
@@ -3129,8 +2906,7 @@
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案"
+        "third": "solo_dance"
       }
     ]
   },
@@ -3138,9 +2914,9 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%B8%A1%E9%B8%A6",
     "job": "arcane",
     "tags": [
-      "<strong><span style='color: #f1aeb5;'>範圍破 2 核</span></strong>",
-      "<strong>全隊增傷</strong>",
-      "<strong>攻擊範圍被動破解\"隱匿\"</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "3",
     "recommended_shackle": 0,
@@ -3148,7 +2924,6 @@
       { "shackle": "2-3", "emphasis": true }
     ],
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "skills": [
@@ -3162,29 +2937,25 @@
         "name": "formula_a",
         "first": "fantasy_moon",
         "second": "fantasy_moon",
-        "third": "pioneer",
-        "description": "長線方案<br>短線爆發"
+        "third": "pioneer"
       },
       {
         "name": "formula_b",
         "first": "fantasy_moon",
         "second": "fantasy_moon",
-        "third": "corridor_echo",
-        "description": "短線方案"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "長線可選"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_d",
         "first": "premonition",
         "second": "motto",
-        "third": "motto",
-        "description": "必殺和羽毛各破 1 核可觸發預知夢 2 次"
+        "third": "motto"
       },
       {
         "name": "formula_e",
@@ -3208,29 +2979,25 @@
         "name": "formula_h",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "短線輔助可選"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_i",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "長線輔助可選"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_j",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "長線輔助可選"
+        "third": "paradise_regained"
       },
       {
         "name": "formula_k",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       }
     ]
   },
@@ -3238,9 +3005,9 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%88%B1%E7%BC%87",
     "job": "arcane",
     "tags": [
-      "<strong>超強大招單體爆發</strong>",
-      "<strong>看臉寶石輔助</strong>",
-      "<strong>看臉普攻天宿</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1、3、4",
     "recommended_shackle": 1,
@@ -3250,7 +3017,6 @@
       { "shackle": "3-4", "emphasis": true }
     ],
     "exclusive": {
-      "text": "極為推薦、質變提升<br>+<br>推薦升級",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -3283,8 +3049,7 @@
         "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_c",
@@ -3296,15 +3061,13 @@
         "name": "formula_d",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案"
+        "third": "solo_dance"
       },
       {
         "name": "formula_e",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       }
     ]
   },
@@ -3312,18 +3075,16 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%A7%82%E6%98%9F%E8%80%85",
     "job": "arcane",
     "tags": [
-      "<strong>召喚吉祥物勝利明星</strong>",
-      "<strong>召喚物可九宮格定時輸出</strong>",
-      "<strong>昆門造像最佳增傷伴侶</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "2、4",
     "recommended_shackle": 0,
     "supplement_shackles": [
       { "shackle": "0" }
     ],
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T2",
       "level": "1"
@@ -3346,15 +3107,13 @@
         "emphasis": true,
         "first": "servant",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "長短線皆可用<br>新烙印受益者之一，當前最優套裝"
+        "third": "creation"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
-        "third": "creation",
-        "description": "充能套件適用，加速必殺啟動"
+        "third": "creation"
       },
       {
         "name": "formula_c",
@@ -3372,20 +3131,18 @@
         "name": "formula_e",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       }
-
     ]
   },
   "eirene": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E4%BC%8A%E7%90%B3%E5%A8%9C",
     "job": "arcane",
     "tags": [
-      "<strong>三重變化大招</strong>",
-      "<strong style='color: #f1aeb5;'>斜十字破 2 核</strong>",
-      "<strong>輔助自身 + 局長回能</strong>",
-      "<strong>3 枷鎖全隊輔助增傷</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2", "emphasis": true },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 3,
@@ -3394,7 +3151,6 @@
       { "shackle": "2-3", "emphasis": true }
     ],
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -3419,15 +3175,13 @@
         "emphasis": true,
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用<br>破碎防線拿到 Buff 後的伊琳娜配合亡者之擁堪稱最強核彈"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_b",
         "first": "depths_of_oblivion",
         "second": "hope",
-        "third": "depths_of_oblivion",
-        "description": "使用背水打法時可選"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_c",
@@ -3439,8 +3193,7 @@
         "name": "formula_d",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案<br>適用於大部分場景，增傷穩定"
+        "third": "syndicate_glory"
       }
     ]
   },
@@ -3448,12 +3201,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%9C%B2%E8%96%87%E5%A8%85%C2%B7%E8%95%BE",
     "job": "arcane",
     "tags": [
-      "<strong>普攻變相 aoe 輸出</strong>",
-      "<strong>攻速小能手 (鬼畜級別)</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "3、4",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -3478,22 +3230,19 @@
         "name": "formula_a",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>破碎防線拿到 Buff 作為主 C 配合專屬可以在破核後打出高額傷害"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_b",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案<br>主要靠平 A 打輸出，有著穩定的爆擊，適用大部分場景"
+        "third": "shackles_of_life"
       },
       {
         "name": "formula_c",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案<br>增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_d",
@@ -3513,13 +3262,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%B5%AB%E5%8D%A1%E8%92%82",
     "job": "arcane",
     "tags": [
-      "<strong style='color: #f1aeb5;'>破 2 核</strong>",
-      "<strong>全隊輔助法穿</strong>",
-      "<strong>專屬烙印召喚物可當阻擋用</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -3543,8 +3291,7 @@
         "name": "formula_a",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>作為法穿破核工具人上場，可以配戴充能套快速破核"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
@@ -3556,22 +3303,19 @@
         "name": "formula_c",
         "first": "servant",
         "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "長線方案<br>開專屬烙印後這一套在法傷隊也能用"
+        "third": "creation"
       },
       {
         "name": "formula_d",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       },
       {
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_f",
@@ -3591,11 +3335,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A",
     "job": "arcane",
     "tags": [
-      "<strong>自殘輸出、小幅回血</strong>"
+      { "order": "tag_1" }
     ],
     "qualitative_shackles": "1",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -3619,22 +3362,19 @@
         "name": "formula_a",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用<br>低能耗高倍率，可以作為主 C 打破碎防線"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_b",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_c",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案<br>適用於大部分場景，增傷穩定"
+        "third": "syndicate_glory"
       },
       {
         "name": "formula_d",
@@ -3648,13 +3388,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E4%BC%8A%E6%A0%BC%E5%B0%BC",
     "job": "arcane",
     "tags": [
-      "<strong>大招群體隕石輸出</strong>",
-      "<strong>燃燒持續傷害</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、3",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "1"
@@ -3676,15 +3414,13 @@
         "name": "formula_a",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>破碎防線拿到 Buff 作為主 C 配合專屬可以在破核後打出高額傷害"
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_b",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "可利用忘卻深處的取消後搖機制"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_c",
@@ -3696,15 +3432,13 @@
         "name": "formula_d",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案<br>增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_e",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       }
     ]
   },
@@ -3712,15 +3446,13 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A5%A5%E5%88%A9%E5%BC%97",
     "job": "arcane",
     "tags": [
-      "<strong style='color: #f1aeb5;'>範圍破 1 核</strong>",
-      "<strong>傀儡持續傷害</strong>",
-      "<strong>自身法穿提升</strong>",
-      "<strong>使敵人承受傷害提升</strong>"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" }
     ],
     "qualitative_shackles": "1、3",
-    "exclusive": {
-      "text": "不推薦、自找沒趣"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T3",
       "level": "1"
@@ -3742,36 +3474,31 @@
         "name": "formula_a",
         "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，屬性可觀"
+        "third": "pioneer"
       },
       {
         "name": "formula_b",
         "first": "depths_of_oblivion",
         "second": "hope",
-        "third": "depths_of_oblivion",
-        "description": "忘卻契合角色必殺充能，可選"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_c",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "短線方案"
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_d",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_e",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       },
       {
         "name": "formula_f",
@@ -3795,22 +3522,19 @@
         "name": "formula_i",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "長線方案"
+        "third": "paradise_regained"
       }
-
     ]
   },
   "kelvin": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%BC%80%E5%B0%94%E6%96%87",
     "job": "arcane",
     "tags": [
-      "<strong>群體減速控制、冰凍控制</strong>",
-      "<strong>單體友方減傷</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
@@ -3840,8 +3564,7 @@
         "name": "formula_b",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "工具人套件可以考慮"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
@@ -3853,8 +3576,7 @@
         "name": "formula_d",
         "first": "blue_rain",
         "second": "blue_rain",
-        "third": "blue_rain",
-        "description": "替補方案"
+        "third": "blue_rain"
       },
       {
         "name": "formula_e",
@@ -3866,22 +3588,19 @@
         "name": "formula_f",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "長線方案"
+        "third": "paradise_regained"
       },
       {
         "name": "formula_g",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案<br>增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_h",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "適用於大部分場景，增傷穩定"
+        "third": "syndicate_glory"
       }
     ]
   },
@@ -3889,14 +3608,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%90%BC",
     "job": "arcane",
     "tags": [
-      "<strong>群體降低敵人法抗</strong>",
-      "<strong>暈眩控制</strong>",
-      "(最多降低 30% 法抗)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3", "normal": true }
     ],
     "qualitative_shackles": "1、4",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T0",
       "level": "3",
@@ -3920,22 +3637,19 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "一般作為減法抗工具人上場，考慮充能套最優"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "工具人套件可以考慮"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案<br>增傷較高，需要注意站位"
+        "third": "solo_dance"
       },
       {
         "name": "formula_d",
@@ -3959,15 +3673,13 @@
         "name": "formula_g",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
+        "third": "syndicate_glory"
       },
       {
         "name": "formula_h",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "third": "embrace_of_the_dead"
       }
     ]
   },
@@ -3975,10 +3687,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%81%A9%E8%8F%B2%E5%B0%94",
     "job": "catalyst",
     "tags": [
-      "<strong style='color: #f1aeb5;'>專烙單點破 2 核</strong>",
-      "<strong>多重高幅度單體增傷</strong>",
-      "<strong>恐懼永久群傷</strong>",
-      "(需要 3 枷鎖)"
+      { "order": "tag_1", "emphasis": true },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4", "normal": true }
     ],
     "qualitative_shackles": "1、3、4",
     "recommended_shackle": 0,
@@ -3987,7 +3699,6 @@
       { "shackle": "3-4" }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -4012,15 +3723,13 @@
         "emphasis": true,
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>為隊伍增加攻擊，增傷工具人"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>充能套快速啟動適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_c",
@@ -4038,8 +3747,7 @@
         "name": "formula_e",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
@@ -4047,9 +3755,9 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%93%88%E6%A2%85%E5%B0%94",
     "job": "catalyst",
     "tags": [
-      "<strong>最大全屏回血 + 傷害</strong>",
-      "<strong>最大全屏減傷 + 增傷</strong>",
-      "<strong>不佔空間 0 阻擋</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "3",
     "recommended_shackle": 0,
@@ -4057,7 +3765,6 @@
       { "shackle": "2-3" }
     ],
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -4082,8 +3789,7 @@
         "emphasis": true,
         "first": "final_prologue",
         "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "治療團隊為主，適用大部分場景"
+        "third": "final_prologue"
       },
       {
         "name": "formula_b",
@@ -4102,15 +3808,13 @@
         "name": "formula_d",
         "first": "scarlet_bewitchment",
         "second": "scarlet_bewitchment",
-        "third": "scarlet_bewitchment",
-        "description": "長線方案<br>兼顧治療和輸出"
+        "third": "scarlet_bewitchment"
       },
       {
         "name": "formula_e",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "短線方案<br>競速工具人套件適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
@@ -4128,15 +3832,14 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%98%9F%E5%98%9F",
     "job": "catalyst",
     "tags": [
-      "<strong>治療能力說實話不太及格</strong>",
-      "<strong>多重增傷能力比較驚豔</strong>",
-      "<strong>昆門造像新晉增傷伴侶</strong>",
-      "<strong>專烙可提供單格永久增傷</strong>",
-      "(需激活專烙)"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" },
+      { "order": "tag_4" },
+      { "order": "tag_5", "normal": true }
     ],
     "qualitative_shackles": "2、4",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -4161,16 +3864,14 @@
         "emphasis": true,
         "first": "final_prologue",
         "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "短線 & 替補方案"
+        "third": "final_prologue"
       },
       {
         "name": "formula_b",
         "emphasis": true,
         "first": "justice",
         "second": "justice",
-        "third": "final_prologue",
-        "description": "長線方案<br>工具人套件加強增傷能力"
+        "third": "final_prologue"
       },
       {
         "name": "formula_c",
@@ -4182,8 +3883,7 @@
         "name": "formula_d",
         "first": "nightmare_revelation",
         "second": "obsession",
-        "third": "nightmare_revelation",
-        "description": "競速工具人套件適用"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_e",
@@ -4203,13 +3903,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E7%B1%B3%E5%88%A9%E5%AE%89",
     "job": "catalyst",
     "tags": [
-      "<strong>攻速輔助</strong>",
-      "<strong>普攻增傷輔助</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "2、5",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T1",
       "level": "3"
@@ -4232,22 +3930,19 @@
         "emphasis": true,
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>充能套盡可能多位隊友加 Buff"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
+        "third": "paradise_regained"
       },
       {
         "name": "formula_c",
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>大招 CD 快，可以頻繁觸發正義套裝效果"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
@@ -4259,8 +3954,7 @@
         "name": "formula_e",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
@@ -4268,12 +3962,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%AE%89",
     "job": "catalyst",
     "tags": [
-      "<strong>單體奶媽</strong>"
+      { "order": "tag_1" }
     ],
     "qualitative_shackles": "1、3、4",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T3",
       "level": "1"
@@ -4296,8 +3988,7 @@
         "emphasis": true,
         "first": "final_prologue",
         "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "短線 & 替補方案<br>治療團隊為主，適用大部分場景"
+        "third": "final_prologue"
       },
       {
         "name": "formula_b",
@@ -4321,8 +4012,7 @@
         "name": "formula_e",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套，部分環境適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
@@ -4334,8 +4024,7 @@
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "third": "final_prologue"
       }
     ]
   },
@@ -4343,14 +4032,12 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%A6%8F%E5%85%8B%E6%96%AF%E5%85%88%E7%94%9F",
     "job": "catalyst",
     "tags": [
-      "<strong>群體免控 + 減傷</strong>",
-      "<strong>擊破核心時間提升最多 4 秒</strong>",
-      "<strong>群體對擊破核心敵人增傷</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" },
+      { "order": "tag_3" }
     ],
     "qualitative_shackles": "1、3",
-    "exclusive": {
-      "text": "一般推薦、較小提升"
-    },
+    "exclusive": true,
     "exclusive_priority": {
       "tier": "T2",
       "level": "1"
@@ -4373,15 +4060,13 @@
         "emphasis": true,
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>大招 CD 快，可以頻繁觸發正義套裝效果"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
+        "third": "paradise_regained"
       },
       {
         "name": "formula_c",
@@ -4393,15 +4078,13 @@
         "name": "formula_d",
         "first": "nightmare_revelation",
         "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "競速工具人套件適用"
+        "third": "nightmare_revelation"
       },
       {
         "name": "formula_e",
         "first": "blue_rain",
         "second": "blue_rain",
-        "third": "blue_rain",
-        "description": "短線方案"
+        "third": "blue_rain"
       },
       {
         "name": "formula_f",
@@ -4413,8 +4096,7 @@
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   },
@@ -4422,11 +4104,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%89%BE%E7%91%9E%E5%B0%94",
     "job": "catalyst",
     "tags": [
-      "<strong>群體奶媽</strong>"
+      { "order": "tag_1" }
     ],
     "qualitative_shackles": "3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -4451,8 +4132,7 @@
         "emphasis": true,
         "first": "final_prologue",
         "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "短線 & 替補方案<br>治療團隊為主，適用大部分場景"
+        "third": "final_prologue"
       },
       {
         "name": "formula_b",
@@ -4476,8 +4156,7 @@
         "name": "formula_e",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套，部分環境適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
@@ -4489,8 +4168,7 @@
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "third": "final_prologue"
       }
     ]
   },
@@ -4498,11 +4176,10 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%8E%9B%E5%A5%87%E6%9C%B5",
     "job": "catalyst",
     "tags": [
-      "<strong>鞭撻回血、減傷輔助</strong>"
+      { "order": "tag_1" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -4527,8 +4204,7 @@
         "emphasis": true,
         "first": "final_prologue",
         "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "治療團隊為主，適用大部分場景"
+        "third": "final_prologue"
       },
       {
         "name": "formula_b",
@@ -4546,8 +4222,7 @@
         "name": "formula_d",
         "first": "justice",
         "second": "justice",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "third": "final_prologue"
       },
       {
         "name": "formula_d",
@@ -4559,22 +4234,19 @@
         "name": "formula_e",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套，部分環境適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_f",
         "first": "blue_rain",
         "second": "blue_rain",
-        "third": "blue_rain",
-        "description": "短線方案"
+        "third": "blue_rain"
       },
       {
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "third": "final_prologue"
       }
     ]
   },
@@ -4582,12 +4254,11 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E4%B8%BD%E8%8E%8E",
     "job": "catalyst",
     "tags": [
-      "<strong>群體減速控制</strong>",
-      "<strong>專烙易傷提升最多 15%</strong>"
+      { "order": "tag_1" },
+      { "order": "tag_2" }
     ],
     "qualitative_shackles": "1、3",
     "exclusive": {
-      "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
@@ -4612,8 +4283,7 @@
         "emphasis": true,
         "first": "justice",
         "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>大招 CD 較快，作為減速工具人可以頻繁觸發正義套裝效果"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_b",
@@ -4625,22 +4295,19 @@
         "name": "formula_c",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "短線方案"
+        "third": "paradise_regained"
       },
       {
         "name": "formula_d",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo",
-        "description": "競速工具人套件適用"
+        "third": "corridor_echo"
       },
       {
         "name": "formula_e",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "corridor_echo"
       }
     ]
   }

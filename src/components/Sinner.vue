@@ -24,9 +24,10 @@
 
       <template v-for="tag in sinner?.tags">
         <div
-          class="tag w-fit mx-auto px-1 rounded-pill text-center text-nowrap font-14 text-bg-dark"
-          v-html="tag"
+          class="tag w-fit mx-auto px-1 rounded-pill text-center text-nowrap font-14 fw-bold text-bg-dark"
+          :class="{ 'emphasis': tag.emphasis, 'fst-normal': tag.normal }"
         >
+          {{ $t(`sinner.${sinner.name}.${tag.order}`) }}
         </div>
       </template>
 
@@ -77,6 +78,11 @@
       padding-bottom: 4px
       &:nth-child(n + 3)
         margin-top: 4px
+      &.emphasis
+        color: #f1aeb5 !important
+
+.fst-normal
+  font-weight: normal !important
 </style>
 
 <script setup>
