@@ -156,9 +156,8 @@
   "pool": {
     "aftersound_of_death": "Aftersound of Death",
     "beast_of_fortune": "Beast of Fortune",
-    "blissful_arcadia_event": "Blissful Arcadia",
-    "blissful_arcadia_event_routine": "Blissful Arcadia",
-    "combine": "統合追蹤",
+    "blissful_arcadia": "Blissful Arcadia",
+    "collective": "Collective",
     "dance_of_radiance": "Dance of Radiance",
     "dream_of_lost_ark": "Dream of Lost Ark",
     "event": "Event Arrest",
@@ -169,16 +168,17 @@
     "light_in_ocean_abyss": "Light in Ocean Abyss",
     "make_or_break": "Make or Break",
     "routine": "Routine Arrest",
+    "secret_abyss": "Secret Abyss",
+    "shadow_of_rebellion": "Shadow of Rebellion",
     "steady_through_battles": "Steady Through Battles",
     "strange_thoughts": "Strange Thoughts",
     "the_chessmasters_conquest": "The Chessmaster's Conquest",
-    "true_colors_event": "True Colors",
-    "true_colors_routine": "True Colors",
+    "true_colors": "True Colors",
     "unbridled_wander": "Unbridled Wander",
     "otherworld_overlord": "Otherworld Overlord",
-    "叛逆之影": "叛逆之影",
-    "隱秘深淵": "隱秘深淵",
     "破曉鴉歌": "破曉鴉歌",
-    "穹界幽影": "穹界幽影"
-  }
+    "穹界幽影": "穹界幽影",
+    "幽緒裁奪": "幽緒裁奪"
+  },
+  "evaluations": "角色測評"
 }

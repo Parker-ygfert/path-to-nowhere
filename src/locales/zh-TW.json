@@ -155,9 +155,8 @@
   "pool": {
     "aftersound_of_death": "殞音殘響",
     "beast_of_fortune": "瑞獸傳福",
-    "blissful_arcadia_event": "忘憂樂土",
-    "blissful_arcadia_routine": "忘憂樂土",
-    "combine": "統合追蹤",
+    "blissful_arcadia": "忘憂樂土",
+    "collective": "統合追蹤",
     "dance_of_radiance": "和光絕舞",
     "dream_of_lost_ark": "荒舟綺夢",
     "event": "活動追蹤",
@@ -168,16 +167,17 @@
     "light_in_ocean_abyss": "淵海曦光",
     "make_or_break": "不破不立",
     "routine": "常規追蹤",
+    "secret_abyss": "隱秘深淵",
     "steady_through_battles": "歷戰無惘",
+    "shadow_of_rebellion": "叛逆之影",
     "strange_thoughts": "怪誕異想",
     "the_chessmasters_conquest": "權變棋鋒",
-    "true_colors_event": "真我覆色",
-    "true_colors_routine": "真我覆色",
+    "true_colors": "真我覆色",
     "unbridled_wander": "率意縱遊",
     "otherworld_overlord": "異界主宰",
-    "叛逆之影": "叛逆之影",
-    "隱秘深淵": "隱秘深淵",
     "破曉鴉歌": "破曉鴉歌",
-    "穹界幽影": "穹界幽影"
-  }
+    "穹界幽影": "穹界幽影",
+    "幽緒裁奪": "幽緒裁奪"
+  },
+  "evaluations": "角色測評"
 }

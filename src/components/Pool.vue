@@ -19,7 +19,7 @@
         >
           <td class="td-flexing p-0">
             <img
-              :src="getImageUrl(`pool/${pool.name}.png`)"
+              :src="getImageUrl(`pool/${pool.genre}/${pool.name}.png`)"
               alt=""
               loading="lazy"
               class="w-100"
@@ -147,7 +147,7 @@ const poolGenreColor = genre => {
       return 'text-danger'
     case 'routine':
       return 'blue-400'
-    case 'combine':
+    case 'collective':
       return 'text-success'
   }
 }

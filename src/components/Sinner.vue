@@ -30,13 +30,25 @@
         </div>
       </template>
 
-      <!--
-      <template v-for="eva in sinner?.evaluations">
-        <div class="font-13 text-center">
-          <a :href="eva.link" target="_blank">{{ eva.link }}</a>
+      <template v-if="sinner.evaluations">
+        <div class="eva-box text-center">
+          <a
+            class="eva-link btn btn-outline-danger rounded-1 px-1 font-14"
+            data-bs-toggle="collapse"
+            href="#evaluationCollapse"
+            role="button"
+          >
+            {{ $t('evaluations') }}
+          </a>
+        </div>
+        <div class="collapse" id="evaluationCollapse">
+          <template v-for="eva in sinner?.evaluations">
+            <div class="mt-1 font-13 text-center">
+              <a :href="eva.link" target="_blank">{{ eva.name }}</a>
+            </div>
+          </template>
         </div>
       </template>
-      -->
     </div>
   
     <SinnerInfo :sinner="sinner" />
@@ -72,6 +84,16 @@
       @include tablet
         margin-left: auto
         margin-right: auto !important
+    .eva-box
+      margin-top: -0.1rem
+      margin-bottom: -0.25rem
+    .eva-link
+      padding-top: 6px
+      padding-bottom: 6px
+      &[aria-expanded="true"]
+        color: var(--bs-btn-hover-color)
+        background-color: var(--bs-btn-hover-bg)
+        border-color: var(--bs-btn-hover-border-color)
     .tag
       padding-top: 4px
       padding-bottom: 4px

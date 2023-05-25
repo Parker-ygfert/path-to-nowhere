@@ -39,7 +39,7 @@
     ]
   },
   {
-    "name": "blissful_arcadia_event",
+    "name": "blissful_arcadia",
     "genre": "event",
     "start": "2022-12-20 14:00",
     "end": "2023-01-03 13:59",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "true_colors_event",
+    "name": "true_colors",
     "genre": "event",
     "start": "2023-01-17 17:00",
     "end": "2023-02-07 13:59",
@@ -156,15 +156,19 @@
     ]
   },
   {
-    "name": "叛逆之影",
+    "name": "shadow_of_rebellion",
+    "start": "2023-05-30 14:00",
+    "end": "2023-06-20 13:59",
     "genre": "routine",
     "ups": [
       { "name": "crache", "job": "umbra" }
     ]
   },
   {
-    "name": "隱秘深淵",
-    "genre": "combine",
+    "name": "secret_abyss",
+    "genre": "collective",
+    "start": "2023-05-30 14:00",
+    "end": "2023-06-20 13:59",
     "ups": [
       { "name": "demon", "job": "endura" },
       { "name": "bai_yi", "job": "umbra" },
@@ -183,7 +187,7 @@
     ]
   },
   {
-    "name": "true_colors_routine",
+    "name": "true_colors",
     "genre": "routine",
     "ups": [
       { "name": "enfer", "job": "catalyst" }
@@ -200,10 +204,29 @@
     ]
   },
   {
-    "name": "blissful_arcadia_routine",
+    "name": "blissful_arcadia",
     "genre": "routine",
     "ups": [
       { "name": "serpent", "job": "umbra" }
+    ]
+  },
+  {
+    "name": "幽緒裁奪",
+    "genre": "event",
+    "ups": [
+      { "name": "adela", "job": "umbra" },
+      { "name": "letta", "job": "catalyst" },
+      { "name": "sumire", "job": "umbra" },
+      { "name": "cinnabar", "job": "endura" }
+    ]
+  },
+  {
+    "name": "beast_of_fortune",
+    "genre": "routine",
+    "start": "",
+    "end": "",
+    "ups": [
+      { "name": "owo", "job": "endura" }
     ]
   }
 ]
