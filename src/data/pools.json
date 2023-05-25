@@ -156,15 +156,19 @@
     ]
   },
   {
-    "name": "叛逆之影",
+    "name": "shadow_of_rebellion",
+    "start": "2023-05-30 14:00",
+    "end": "2023-06-30 13:59",
     "genre": "routine",
     "ups": [
       { "name": "crache", "job": "umbra" }
     ]
   },
   {
-    "name": "隱秘深淵",
-    "genre": "combine",
+    "name": "secret_abyss",
+    "genre": "collective",
+    "start": "2023-05-30 14:00",
+    "end": "2023-06-30 13:59",
     "ups": [
       { "name": "demon", "job": "endura" },
       { "name": "bai_yi", "job": "umbra" },
@@ -204,6 +208,16 @@
     "genre": "routine",
     "ups": [
       { "name": "serpent", "job": "umbra" }
+    ]
+  },
+  {
+    "name": "幽緒裁奪",
+    "genre": "event",
+    "ups": [
+      { "name": "adela", "job": "umbra" },
+      { "name": "letta", "job": "catalyst" },
+      { "name": "sumire", "job": "umbra" },
+      { "name": "cinnabar", "job": "endura" }
     ]
   }
 ]

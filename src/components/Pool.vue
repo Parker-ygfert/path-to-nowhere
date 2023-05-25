@@ -147,7 +147,7 @@ const poolGenreColor = genre => {
       return 'text-danger'
     case 'routine':
       return 'blue-400'
-    case 'combine':
+    case 'collective':
       return 'text-success'
   }
 }

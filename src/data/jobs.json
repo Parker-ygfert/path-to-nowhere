@@ -120,6 +120,11 @@
   ],
   "umbra": [
     {
+      "name": "adela",
+      "rank": "S",
+      "core": true
+    },
+    {
       "name": "serpent",
       "rank": "S",
       "core": true
@@ -283,6 +288,11 @@
     {
       "name": "hamel",
       "rank": "S",
+      "core": false
+    },
+    {
+      "name": "letta",
+      "rank": "A",
       "core": false
     },
     {

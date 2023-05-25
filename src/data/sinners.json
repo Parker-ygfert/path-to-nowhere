@@ -1673,6 +1673,10 @@
       }
     ]
   },
+  "adela": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%98%BF%E9%BB%9B%E6%8B%89",
+    "job": "umbra"
+  },
   "serpent": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A8%9C%E6%81%B0",
     "job": "umbra",
@@ -4115,6 +4119,10 @@
         "third": "paradise_regained"
       }
     ]
+  },
+  "letta": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%8E%B1%E5%A1%94",
+    "job": "catalyst"
   },
   "dudu": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%98%9F%E5%98%9F",
