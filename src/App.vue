@@ -1,9 +1,9 @@
 <template>
-<div class="d-flex justify-content-end align-items-center font-16">
+<div class="d-flex justify-content-end align-items-center pb-1 font-16">
   <span>{{ $t('language') }}</span>
   <select
     v-model="locale"
-    class="form-select form-select-sm dropdown-toggle ms-1 font-14"
+    class="form-select form-select-sm dropdown-toggle ms-1 rounded-1 font-14"
     data-bs-toggle="dropdown"
   >
     <option value="zh-TW" class="d-none">繁體中文</option>
@@ -43,8 +43,9 @@
 <style lang="sass" scoped>
 .form-select
   width: 106px
-  padding: 5px 14px
+  padding: 0 10px
   background-position: right 0.2rem center
+  border-radius: 5px !important
   &:focus
     border-color: var(--bs-border-color)
     box-shadow: none

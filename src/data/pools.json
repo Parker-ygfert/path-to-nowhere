@@ -177,8 +177,10 @@
     ]
   },
   {
-    "name": "破曉鴉歌",
+    "name": "first_light_crow_song",
     "genre": "event",
+    "start": "2023-06-20 14:00",
+    "end": "2023-07-04 13:59",
     "ups": [
       { "name": "raven", "job": "arcane" },
       { "name": "corso", "job": "fury" },

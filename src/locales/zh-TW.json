@@ -175,9 +175,12 @@
     "true_colors": "真我覆色",
     "unbridled_wander": "率意縱遊",
     "otherworld_overlord": "異界主宰",
-    "破曉鴉歌": "破曉鴉歌",
+    "first_light_crow_song": "破曉鴉歌",
     "穹界幽影": "穹界幽影",
     "幽緒裁奪": "幽緒裁奪"
   },
-  "evaluations": "角色測評"
+  "evaluations": "角色測評",
+  "other": {
+    "other": "其他"
+  }
 }

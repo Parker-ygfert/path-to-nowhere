@@ -176,9 +176,12 @@
     "true_colors": "True Colors",
     "unbridled_wander": "Unbridled Wander",
     "otherworld_overlord": "Otherworld Overlord",
-    "破曉鴉歌": "破曉鴉歌",
+    "first_light_crow_song": "First Light Crow Song",
     "穹界幽影": "穹界幽影",
     "幽緒裁奪": "幽緒裁奪"
   },
-  "evaluations": "角色測評"
+  "evaluations": "角色測評",
+  "other": {
+    "other": "Other"
+  }
 }
