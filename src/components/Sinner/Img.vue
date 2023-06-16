@@ -14,7 +14,7 @@
       class="job-bg position-absolute overflow-hidden"
       :class="sinner.core ? 'core-bg' : 'normal-bg'"
     >
-      <div class="job-img position-absolute overflow-hidden">
+      <div class="job-img position-absolute h-100 overflow-hidden">
         <img
           :src="getImageUrl(`jobs/${job}.png`)"
           alt=""
@@ -59,9 +59,6 @@
     background: linear-gradient(to top, #fb445b 1%, #bcd0f9 65%)
   &.normal-bg
     background: linear-gradient(to top, #bcd0f9, #bcd0f9 65%)
-  .job-img
-    top: -24px
-    left: 0
 .footer-bg
   width: 170px
   height: 70px
@@ -71,7 +68,7 @@
 .rank-img
   width: 40px
   left: 12px
-  bottom: 0
+  bottom: 10px
 .sinner-name
   right: 14px
   bottom: 6px

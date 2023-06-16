@@ -12,11 +12,11 @@
       <i class="bi bi-box-arrow-left float-start me-1 font-30"></i>
     </router-link>
   
-    <div class="img-box w-fit me-1 me-lg-2">
+    <div class="img-box w-fit me-md-3">
       <div class="sinner-img position-relative mx-auto">
         <SinnerImg :job="sinnerJob" :sinner="sinner" />
       </div>
-      <div class="wiki-link h-fit my-1 text-center">
+      <div class="wiki-link h-fit my-3 text-center">
         <a :href="sinner?.wiki" target="_blank" class="align-middle font-16">
           Wiki
         </a>
@@ -24,16 +24,16 @@
 
       <template v-for="tag in sinner?.tags">
         <div
-          class="tag w-fit mx-auto px-1 rounded-pill text-center text-nowrap font-14 text-bg-dark"
+          class="tag w-fit mx-auto px-3 rounded-pill text-center text-nowrap font-14 text-bg-dark"
           v-html="tag"
         >
         </div>
       </template>
 
       <template v-if="sinner.evaluations">
-        <div class="eva-box text-center">
+        <div class="eva-box text-center mt-3 mb-0">
           <a
-            class="eva-link btn btn-outline-danger rounded-1 px-1 font-14"
+            class="eva-link btn btn-outline-danger rounded-1 px-3 font-14"
             data-bs-toggle="collapse"
             href="#evaluationCollapse"
             role="button"
@@ -41,9 +41,9 @@
             {{ $t('evaluations') }}
           </a>
         </div>
-        <div class="collapse" id="evaluationCollapse">
+        <div class="collapse mt-3" id="evaluationCollapse">
           <template v-for="eva in sinner?.evaluations">
-            <div class="mt-1 font-13 text-center">
+            <div class="mt-2 font-13 text-center">
               <a :href="eva.link" target="_blank">{{ eva.name }}</a>
             </div>
           </template>

@@ -7,7 +7,7 @@
 
     <template v-for="source in sources">
       <template v-if="source.complementary">
-        <div class="d-flex justify-content-center mt-1">
+        <div class="d-flex justify-content-center mt-3">
           <a
             :href="source.link"
             target="_blank"
@@ -17,7 +17,7 @@
           <a
             :href="source.complementary.link"
             target="_blank"
-            class="ms-2"
+            class="ms-4"
           >
             <div>{{ source.complementary.name }}</div>
           </a>
@@ -28,7 +28,7 @@
         <a
           :href="source.link"
           target="_blank"
-          class="d-block mt-1"
+          class="d-block mt-2"
         >
           <div>{{ source.name }} - {{ source.author }}</div>
         </a>

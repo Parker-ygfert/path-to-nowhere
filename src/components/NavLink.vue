@@ -1,5 +1,5 @@
 <template>
-<header class="mb-1">
+<header class="mb-3">
   <ul class="nav nav-tabs flex-nowrap border-bottom border-secondary overflow-x-scroll overflow-y-hidden">
     <li v-for="link in links"
         :id="link"
@@ -8,7 +8,7 @@
         :to="{
           name: link,
         }"
-        class="nav-link px-1 font-20"
+        class="nav-link px-2 py-1 px-md-3 py-md-2 font-20"
         :class="{ active: isActive(link) }">
         {{ $t(`nav.${link}`) }}
       </router-link>
@@ -19,14 +19,14 @@
         ref="dropdownBtn"
         href="javascript:void(0)"
         id="other"
-        class="nav-link dropdown-btn border-0 px-1 font-20"
+        class="nav-link dropdown-btn border-0 px-2 py-1 px-md-3 py-md-2 font-20"
         :class="{ active: isActiveOther() }"
         data-bs-toggle="dropdown"
         data-bs-offset="0, -1"
       >
         {{ $t('other.other') }}
       </a>
-      <div class="dropdown-menu min-w-fit p-0 font-20" >
+      <div class="dropdown-menu min-w-fit mt-0 p-0 font-20" >
         <template v-for="link in otherLinks">
           <template v-if="link === 'pool'">
             <router-link
@@ -35,7 +35,7 @@
                 name: link,
                 hash: poolLink()
               }"
-              class="d-block px-2">
+              class="d-block px-3 py-1">
               {{ $t(`nav.${link}`) }}
             </router-link>
           </template>
@@ -44,7 +44,7 @@
               :to="{
                 name: link,
               }"
-              class="d-block px-2">
+              class="d-block px-3 py-1">
               {{ $t(`nav.${link}`) }}
             </router-link>
           </template>

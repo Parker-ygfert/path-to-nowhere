@@ -1,6 +1,6 @@
 <template>
-    <div class="info-box mt-1 me-1 me-lg-2 font-16">
-      <table width="100%" class="table table-sm table-bordered mb-1 border-secondary">
+    <div class="info-box mt-3 mt-md-0 me-3 font-16">
+      <table width="100%" class="table table-sm table-bordered mb-3 border-secondary">
         <tbody align="center">
           <tr v-if="isPresent(sinner.recommended_shackle)">
             <th scope="row">
@@ -80,7 +80,7 @@
       <table
         v-if="isPresent(sinner.strength)"
         width="100%"
-        class="table table-sm table-bordered mb-1 border-secondary"
+        class="table table-sm table-bordered mb-3 border-secondary"
       >
         <thead align="center">
           <tr>
@@ -106,7 +106,7 @@
       <table
         v-if="isPresent(sinner.skills)"
         width="100%"
-        class="table table-sm table-bordered mb-1 border-secondary"
+        class="table table-sm table-bordered mb-3 border-secondary"
       >
         <thead align="center">
           <tr>
@@ -124,7 +124,7 @@
         <tbody align="center">
           <template v-for="skill in sinner?.skills">
             <tr>
-              <th scope="row" class="px-2">
+              <th scope="row" class="px-3">
                 {{ skill.skill }}
               </th>
               <td>
@@ -162,8 +162,10 @@
     flex-shrink: 0
     flex-basis: 300px
     th, td
-      padding-top: .1rem
-      padding-bottom: .1rem
+      padding-top: .25rem
+      padding-bottom: .25rem
+      padding-left: .75rem
+      padding-right: .75rem
 </style>
 
 <script setup>

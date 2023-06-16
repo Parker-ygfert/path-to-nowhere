@@ -1,12 +1,12 @@
 <template>
-<div class="mt-2 font-20">
+<div class="font-20">
   <div class="text-center fw-bold">
     —— {{ $t('pool.info') }} ——
   </div>
 
   <div
     id="scroll-box"
-    class="pool-box mt-1 overflow-scroll"
+    class="pool-box mt-3 overflow-scroll"
   >
     <table class="table table-bordered border-secondary mb-0 text-nowrap">
       <tbody>
@@ -45,7 +45,7 @@
             </div>
             <div
               v-if="pool.end"
-              class="pool-time font-14"
+              class="pool-time -my-1 font-14"
             >
               ~
             </div>
@@ -53,7 +53,7 @@
               {{ pool.end }}
             </div>
 
-            <div class="d-grid justify-content-center my-1">
+            <div class="d-grid justify-content-center my-3">
               <div
                 v-for="up in pool.ups"
                 :key="up.name"

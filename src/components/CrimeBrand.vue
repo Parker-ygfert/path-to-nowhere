@@ -7,7 +7,7 @@
   <div class="cb-formula">
     <div
       v-for="cb in sinner?.crimebrands"
-      class="cb-set my-1 font-18"
+      class="cb-set my-3 font-18"
     >
       <header class="font-20" :class="{ 'text-danger' : cb.emphasis }">
         ◎{{ $t(cb.name) }}

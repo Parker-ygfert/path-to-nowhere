@@ -12,7 +12,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       2. NOX 新手任務：
     </div>
@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       3. 必練角色：
     </div>
@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       4. 體力：
     </div>
@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       5. 主線：
     </div>
@@ -48,7 +48,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       6. 好友：
     </div>
@@ -57,7 +57,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       7. 秘盟：
     </div>
@@ -66,7 +66,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       8. 濁暗之阱：
     </div>
@@ -75,7 +75,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       9. 記憶風暴：
     </div>
@@ -84,7 +84,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       10. 破碎防線：
     </div>
@@ -93,7 +93,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       11. 戰勳兌換：
     </div>
@@ -102,7 +102,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       12. 樣本兌換：
     </div>
@@ -111,7 +111,7 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       13. 烙印兌換：
     </div>
@@ -120,16 +120,18 @@
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       14. 監管任務：
     </div>
     <div class="detail font-18">
-      到 https://b23.tv/DvDVmbc 看選項
+      到
+      <a href="https://b23.tv/DvDVmbc" target="_blank">https://b23.tv/DvDVmbc</a>
+      看選項
     </div>
   </div>
 
-  <div class="mt-1">
+  <div class="mt-3">
     <div class="fw-bold text-danger">
       15. 服從度：
     </div>

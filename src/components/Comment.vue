@@ -1,12 +1,12 @@
 <template>
-  <div class="m-1">
+  <div class="mt-3">
     <template v-for="comment in comments">
-      <div class="comment-box border-top border-2 p-1" >
+      <div class="comment-box border-top border-2 p-3" >
         <blockquote class="blockquote mb-0 font-18">
           <p class="mb-1 blue-700">
             {{ comment.content }}
           </p>
-          <footer class="blockquote-footer mt-0 mb-1 ms-auto font-12 text-end">
+          <footer class="blockquote-footer mt-0 mb-2 ms-auto font-12 text-end">
             {{ createdAt(comment) }}
           </footer>
           <template v-for="reply in comment.replies">
@@ -25,7 +25,7 @@
           </template>
         </blockquote>
 
-        <div class="d-flex justify-content-between align-items-center mt-1 font-14">
+        <div class="d-flex justify-content-between align-items-center mt-2 font-14">
           <p
             @click="showReply(comment.id)"
             :id="`reply_btn_${comment.id}`"
@@ -47,15 +47,15 @@
       @submit.prevent="addComment"
       class="mt-2 font-16"
     >
-      <div class="mb-1">
-        <label for="comment" class="form-label mb-1">
+      <div class="mb-2">
+        <label for="comment" class="form-label my-2">
           {{ $t('comment.comment') }}：
         </label>
         <div class="position-relative">
           <textarea
             v-model="newCommentContent"
             id="comment"
-            class="form-control p-1 rounded-0 font-16"
+            class="form-control p-3 rounded-0 font-16"
             @keypress="typingListener"
           >
           </textarea>
@@ -79,7 +79,7 @@
         :disabled="!newCommentContent"
         ref="submitBtn"
         type="submit"
-        class="btn btn-sm btn-primary d-block ms-auto px-2 rounded-0 font-16"
+        class="btn btn-sm btn-primary d-block ms-auto me-1 px-3 py-1 rounded-0 font-16"
       >
         {{ $t('comment.submit') }}
       </button>
@@ -101,8 +101,6 @@
       border-bottom-width: 1px
 
 button
-  padding-top: .15rem
-  padding-bottom: .15rem
   &:disabled
     cursor: not-allowed !important
     pointer-events: all !important

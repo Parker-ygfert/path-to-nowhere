@@ -16,7 +16,7 @@
           aria-describedby="passwordHelpInline"
         >
       </div>
-      <div class="col flex-grow-0 ms-1 p-0">
+      <div class="col flex-grow-0 ms-3 p-0">
         <button
           :disabled="!newReplyContent"
           type="submit"
@@ -27,7 +27,7 @@
       </div>
     </fieldset>
 
-    <div class="col flex-grow-0 ms-1 p-0">
+    <div class="col flex-grow-0 ms-3 p-0">
       <button
         @click="removeReply(props.commentId)"
         ref="cancelBtn"
