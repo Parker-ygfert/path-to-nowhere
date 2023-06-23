@@ -22,6 +22,7 @@
     "ariel": "Ariel",
     "bai_yi": "Bai Yi",
     "corso": "Corso",
+    "cabernet": "Cabernet",
     "chameleon": "Chameleon",
     "che": "Che",
     "cinnabar": "Cinnabar",
@@ -51,6 +52,7 @@
     "kk": "K.K.",
     "labyrinth": "Labyrinth",
     "langley": "Langley",
+    "lamia": "Lamia",
     "letta": "Letta",
     "levy": "Levy",
     "lisa": "Lisa",
@@ -82,7 +84,6 @@
     "wolverine": "Wolverine",
     "zoya": "Zoya"
   },
-  "__crimebrands__": "Crimebrands",
   "crimebrands": {
     "blue_rain": "Blue_rain",
     "corridor_echo": "Corridor Echo",
@@ -178,7 +179,8 @@
     "otherworld_overlord": "Otherworld Overlord",
     "first_light_crow_song": "First Light Crow Song",
     "穹界幽影": "穹界幽影",
-    "幽緒裁奪": "幽緒裁奪"
+    "幽緒裁奪": "幽緒裁奪",
+    "饕餮客": "饕餮客"
   },
   "evaluations": "角色測評",
   "other": {

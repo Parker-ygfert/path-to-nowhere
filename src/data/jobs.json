@@ -244,6 +244,11 @@
       "core": true
     },
     {
+      "name": "lamia",
+      "rank": "A",
+      "core": false
+    },
+    {
       "name": "luvia_ray",
       "rank": "A",
       "core": false
@@ -280,6 +285,11 @@
     }
   ],
   "catalyst": [
+    {
+      "name": "cabernet",
+      "rank": "S",
+      "core": false
+    },
     {
       "name": "enfer",
       "rank": "S",

@@ -191,6 +191,8 @@
   {
     "name": "true_colors",
     "genre": "routine",
+    "start": "",
+    "end": "",
     "ups": [
       { "name": "enfer", "job": "catalyst" }
     ]
@@ -198,6 +200,8 @@
   {
     "name": "穹界幽影",
     "genre": "event",
+    "start": "",
+    "end": "",
     "ups": [
       { "name": "dreya", "job": "reticle" },
       { "name": "uni", "job": "endura" },
@@ -208,6 +212,8 @@
   {
     "name": "blissful_arcadia",
     "genre": "routine",
+    "start": "",
+    "end": "",
     "ups": [
       { "name": "serpent", "job": "umbra" }
     ]
@@ -215,6 +221,8 @@
   {
     "name": "幽緒裁奪",
     "genre": "event",
+    "start": "",
+    "end": "",
     "ups": [
       { "name": "adela", "job": "umbra" },
       { "name": "letta", "job": "catalyst" },
@@ -229,6 +237,18 @@
     "end": "",
     "ups": [
       { "name": "owo", "job": "endura" }
+    ]
+  },
+  {
+    "name": "饕餮客",
+    "genre": "event",
+    "start": "",
+    "end": "",
+    "ups": [
+      { "name": "cabernet", "job": "catalyst" },
+      { "name": "lamia", "job": "arcane" },
+      { "name": "mess", "job": "fury" },
+      { "name": "ariel", "job": "catalyst" }
     ]
   }
 ]
