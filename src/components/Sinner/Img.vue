@@ -35,6 +35,8 @@
     <div class="sinner-name position-absolute text-white font-18 fw-bold">
       {{ $t(`sinner.${sinner.name}`) }}
     </div>
+
+    <slot></slot>
   </div>
 </template>
 

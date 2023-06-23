@@ -13,9 +13,18 @@
     </router-link>
   
     <div class="img-box w-fit me-md-3">
-      <div class="sinner-img position-relative mx-auto">
-        <SinnerImg :job="sinnerJob" :sinner="sinner" />
+      <div
+        @click="triggerCost"
+        class="sinner-img position-relative mx-auto cursor-pointer"
+      >
+        <SinnerImg :job="sinnerJob" :sinner="sinner">
+          <div class="cost-bg d-none position-absolute top-0 w-100 h-100 bg-black opacity-50"></div>
+          <span class="cost-prompt d-none position-absolute top-50 start-50 text-white">
+            {{ $t('other.material_cost') }}
+          </span>
+        </SinnerImg>
       </div>
+
       <div class="wiki-link h-fit my-3 text-center">
         <a :href="sinner?.wiki" target="_blank" class="align-middle font-16">
           Wiki
@@ -84,6 +93,11 @@
       @include tablet
         margin-left: auto
         margin-right: auto !important
+      .cost-prompt
+        transform: translate(-50%, -50%)
+      &:hover
+        .cost-bg, .cost-prompt
+          display: block !important
     .eva-box
       margin-top: -0.1rem
       margin-bottom: -0.25rem
@@ -102,7 +116,7 @@
 </style>
 
 <script setup>
-import { onBeforeMount } from 'vue'
+import { onBeforeMount, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import SinnerImg from './Sinner/Img'
 import SinnerInfo from './Sinner/Info'
@@ -111,7 +125,7 @@ import Comment from './Comment'
 import jobs from '@/data/jobs.json'
 import sinners from '@/data/sinners.json'
 
-const route = useRoute()  
+const route = useRoute()
 const sinnerJob = route.params.job
 const sinnerName = route.params.name
 let sinner = jobs[sinnerJob].find(({ name }) => name === sinnerName)
@@ -123,5 +137,10 @@ onBeforeMount(() => {
 
 const backTo = () => {
   return location.pathname.split('/')[3]
+}
+
+const triggerCost = () => {
+  const abc = document.querySelector(`#cost-${sinner.name}`)
+  console.log(abc.click());
 }
 </script>

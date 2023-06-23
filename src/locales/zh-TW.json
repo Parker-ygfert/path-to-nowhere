@@ -184,6 +184,7 @@
   },
   "evaluations": "角色測評",
   "other": {
+    "material_cost": "培養材料",
     "other": "其他"
   }
 }

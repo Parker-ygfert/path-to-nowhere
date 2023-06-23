@@ -37,6 +37,12 @@
 
 <NavLink :key="$route.name" />
 <router-view :key="$route.name" />
+
+<MaterialCost
+  v-if="sinner"
+  :key="sinner"
+  :sinner="sinner"
+/>
 <ScrollTop />
 </template>
 
@@ -57,24 +63,29 @@
 </style>
 
 <script setup>
-import { watch, onUpdated } from 'vue'
+import { watch, onUpdated, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import NavLink from '@/components/NavLink'
 import ScrollTop from '@/components/ScrollTop'
+import MaterialCost from '@/components/Sinner/MaterialCost'
 
 const { t, locale } = useI18n()
+const sinner = ref(null)
 
 watch(locale, (newLocale) => {
   localStorage.setItem('locale', newLocale)
   document.documentElement.lang = newLocale
 })
 
-const switchLocale = e => {
-  locale.value = e.target.value
-}
-
 onUpdated(() => {
   const tooltips = document.querySelectorAll('.tooltip')
   for (let tooltip of tooltips) tooltip.remove()
+
+  const paths = location.pathname.split('/')
+  if (paths.includes('sinner')) sinner.value = paths.pop()
 })
+
+const switchLocale = e => {
+  locale.value = e.target.value
+}
 </script>
