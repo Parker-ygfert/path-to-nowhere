@@ -1,4 +1,17 @@
 {
+  "rahu": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%BD%97%E7%9D%BA",
+    "job": "endura",
+    "evaluations": [
+      { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV1W94y1q7TJ" },
+      { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1Jk4y1G7sb" },
+      { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1Uh4y1L7tQ" },
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1a8411U7ST" },
+      { "name": "在下老袜", "link": "https://www.bilibili.com/video/BV1ku4y1S79s" },
+      { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1FP411r7kp" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1oN411Y79y" }
+    ]
+  },
   "owo": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%97%B7%E5%91%9C",
     "job": "endura",
@@ -1703,6 +1716,10 @@
   "serpent": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%A8%9C%E6%81%B0",
     "job": "umbra",
+    "evaluations": [
+      { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1PM4y187zb" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Gk4y177B1" }
+    ],
     "tags": [
       "<strong style='color: #f1aeb5;'>九宮格破 1 核</strong>",
       "<strong>九宮格專烙減速 + 持續傷害</strong>",
@@ -1929,6 +1946,14 @@
         "second": "eastside_dream",
         "third": "eastside_dream"
       }
+    ]
+  },
+  "carofano": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8A%A0%E6%B4%9B%E6%B3%95%E8%AF%BA",
+    "job": "umbra",
+    "evaluations": [
+      { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1Y94y1q7PU" },
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1a8411U7ST/?t=123" }
     ]
   },
   "lynn": {
@@ -2498,7 +2523,7 @@
       "level": "3"
     },
     "skills": [
-      { "skill": 1, "order": "", "level": 10 },
+      { "skill": 1, "order": "", "level": 9 },
       { "skill": 2, "order": "", "level": 10 },
       { "skill": 3, "order": "", "level": 10 },
       { "skill": 4, "order": "", "level": 10 }
@@ -2530,6 +2555,9 @@
   "oak_casket": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%A9%A1%E6%9C%A8%E5%8C%A3",
     "job": "reticle",
+    "evaluations": [
+      { "name": "在下老袜", "link": "https://www.bilibili.com/video/BV1nM4y1E73W" }
+    ],
     "tags": [
       "<strong>超強自我增傷能力</strong>",
       "<strong>大招可充能 3 層爆發</strong>",
@@ -3490,6 +3518,16 @@
       }
     ]
   },
+  "lamia": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%8B%89%E5%BC%A5%E4%BA%9A",
+    "job": "arcane",
+    "evaluations": [
+      { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV1Tg4y1A7Nf" },
+      { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV16a4y1c7Ry" },
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Zc411M7iK/?t=425" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV17k4y1u7df" }
+    ]
+  },
   "luvia_ray": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%9C%B2%E8%96%87%E5%A8%85%C2%B7%E8%95%BE",
     "job": "arcane",
@@ -4015,6 +4053,19 @@
         "third": "embrace_of_the_dead",
         "description": "長線方案"
       }
+    ]
+  },
+  "cabernet": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E9%97%A8%E5%A5%88%E7%89%B9",
+    "job": "catalyst",
+    "evaluations": [
+      { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV1yj411D7eg" },
+      { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV19s4y1C7N6" },
+      { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1PX4y1s7HH" },
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1eP411q7iA" },
+      { "name": "在下老袜", "link": "https://www.bilibili.com/video/BV1Ac411u7Ey" },
+      { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1eP411q7iA" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Hz4y1H7c2" }
     ]
   },
   "enfer": {

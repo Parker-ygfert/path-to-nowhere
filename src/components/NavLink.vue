@@ -142,6 +142,6 @@ const poolLink = () => {
     return current >= poolStart && current <= poolEnd
   })
 
-  return `#${currentPool.name}`
+  return `#${currentPool.genre}_${currentPool.name}`
 }
 </script>

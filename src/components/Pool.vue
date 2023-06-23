@@ -12,7 +12,7 @@
       <tbody>
         <tr
           v-for="pool in pools"
-          :id="`${pool.name}`"
+          :id="`${pool.genre}_${pool.name}`"
           align="center"
           valign="middle"
           :class="{ 'current-pool bg-orange-100': isCurrentArrest(pool) }"

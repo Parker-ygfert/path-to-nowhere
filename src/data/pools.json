@@ -191,13 +191,17 @@
   {
     "name": "true_colors",
     "genre": "routine",
+    "start": "2023-07-04 14:00",
+    "end": "2023-07-18 13:59",
     "ups": [
       { "name": "enfer", "job": "catalyst" }
     ]
   },
   {
-    "name": "穹界幽影",
+    "name": "celestial_shadows",
     "genre": "event",
+    "start": "2023-07-18 14:00",
+    "end": "2023-08-01 13:59",
     "ups": [
       { "name": "dreya", "job": "reticle" },
       { "name": "uni", "job": "endura" },
@@ -208,6 +212,8 @@
   {
     "name": "blissful_arcadia",
     "genre": "routine",
+    "start": "2023-08-01 14:00",
+    "end": "2023-08-15 13:59",
     "ups": [
       { "name": "serpent", "job": "umbra" }
     ]
@@ -215,6 +221,8 @@
   {
     "name": "幽緒裁奪",
     "genre": "event",
+    "start": "2023-08-15 14:00",
+    "end": "2023-08-29 13:59",
     "ups": [
       { "name": "adela", "job": "umbra" },
       { "name": "letta", "job": "catalyst" },
@@ -225,10 +233,43 @@
   {
     "name": "beast_of_fortune",
     "genre": "routine",
-    "start": "",
-    "end": "",
+    "start": "2023-08-29 14:00",
+    "end": "2023-09-12 13:59",
     "ups": [
       { "name": "owo", "job": "endura" }
+    ]
+  },
+  {
+    "name": "饕餮客",
+    "genre": "event",
+    "start": "2023-09-12 14:00",
+    "end": "2023-09-26 13:59",
+    "ups": [
+      { "name": "cabernet", "job": "catalyst" },
+      { "name": "lamia", "job": "arcane" },
+      { "name": "mess", "job": "fury" },
+      { "name": "ariel", "job": "catalyst" }
+    ]
+  },
+  {
+    "name": "aftersound_of_death",
+    "genre": "routine",
+    "start": "2023-09-26 14:00",
+    "end": "2023-10-10 13:59",
+    "ups": [
+      { "name": "oak_casket", "job": "reticle" }
+    ]
+  },
+  {
+    "name": "蔽日之鋒",
+    "genre": "event",
+    "start": "2023-10-10 14:00",
+    "end": "2023-10-24 13:59",
+    "ups": [
+      { "name": "rahu", "job": "endura" },
+      { "name": "carofano", "job": "umbra" },
+      { "name": "countess_chelsea", "job": "endura" },
+      { "name": "wendy", "job": "fury" }
     ]
   }
 ]

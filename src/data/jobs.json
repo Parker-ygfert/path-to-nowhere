@@ -1,6 +1,11 @@
 {
   "endura": [
     {
+      "name": "rahu",
+      "rank": "S",
+      "core": false
+    },
+    {
       "name": "owo",
       "rank": "S",
       "core": true
@@ -140,6 +145,11 @@
       "core": true
     },
     {
+      "name": "carofano",
+      "rank": "A",
+      "core": true
+    },
+    {
       "name": "lynn",
       "rank": "A",
       "core": true
@@ -244,6 +254,11 @@
       "core": true
     },
     {
+      "name": "lamia",
+      "rank": "A",
+      "core": false
+    },
+    {
       "name": "luvia_ray",
       "rank": "A",
       "core": false
@@ -280,6 +295,11 @@
     }
   ],
   "catalyst": [
+    {
+      "name": "cabernet",
+      "rank": "S",
+      "core": false
+    },
     {
       "name": "enfer",
       "rank": "S",
