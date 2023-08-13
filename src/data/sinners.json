@@ -939,6 +939,13 @@
       }
     ]
   },
+  "christina": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%A8%9C",
+    "job": "fury",
+    "evaluations": [
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Mh4y1F7sm/?t=752" }
+    ]
+  },
   "corso": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E6%96%AF%E6%B4%9B",
     "job": "fury",
@@ -1952,6 +1959,7 @@
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8A%A0%E6%B4%9B%E6%B3%95%E8%AF%BA",
     "job": "umbra",
     "evaluations": [
+      { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1YM4y1p7DV" },
       { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1Y94y1q7PU" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1a8411U7ST/?t=123" }
     ]
@@ -2504,6 +2512,19 @@
         "second": "providence",
         "third": "providence"
       }
+    ]
+  },
+  "shalom": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%91%9F%E7%90%B3",
+    "job": "reticle",
+    "evaluations": [
+      { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV16u411n7zd" },
+      { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1E94y1y7LB" },
+      { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1w44y1A7Cc" },
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Mh4y1F7sm" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1fu4y117ft" },
+      { "name": "HA4869", "link": "https://www.bilibili.com/video/BV1YV41137oS" },
+      { "name": "老洋蔥", "link": "https://www.bilibili.com/video/BV1u44y1c73P" }
     ]
   },
   "dreya": {
@@ -4053,6 +4074,18 @@
         "third": "embrace_of_the_dead",
         "description": "長線方案"
       }
+    ]
+  },
+  "coquelic": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8F%AF%E5%8F%AF%E8%8E%89%E5%85%8B",
+    "job": "catalyst",
+    "evaluations": [
+      { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV15z4y1g7ev" },
+      { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1gV4y1v75Q" },
+      { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1Fu4y1d7vt" },
+      { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Mh4y1F7sm/?t=428" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Cj411z7wm" },
+      { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1YP411x7RV" }
     ]
   },
   "cabernet": {

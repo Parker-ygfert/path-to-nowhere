@@ -73,6 +73,11 @@
       "core": false
     },
     {
+      "name": "christina",
+      "rank": "A",
+      "core": true
+    },
+    {
       "name": "corso",
       "rank": "A",
       "core": false
@@ -187,6 +192,11 @@
   ],
   "reticle": [
     {
+      "name": "shalom",
+      "rank": "S",
+      "core": true
+    },
+    {
       "name": "dreya",
       "rank": "S",
       "core": true
@@ -295,6 +305,11 @@
     }
   ],
   "catalyst": [
+    {
+      "name": "coquelic",
+      "rank": "S",
+      "core": false
+    },
     {
       "name": "cabernet",
       "rank": "S",
