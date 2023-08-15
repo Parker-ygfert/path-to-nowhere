@@ -117,6 +117,9 @@
               {{ $t('upgrade_order') }}
             </th>
             <th scope="col">
+              {{ $t('interim_grade') }}
+            </th>
+            <th scope="col">
               {{ $t('recommended_grade') }}
             </th>
           </tr>
@@ -129,6 +132,9 @@
               </th>
               <td>
                 {{ skill.order }}
+              </td>
+              <td :class="{ 'fw-bold text-danger' : skill.interim_threshold }">
+                {{ skill.interim }}
               </td>
               <td :class="{ 'fw-bold text-danger' : skill.threshold }">
                 {{ skill.level }}

@@ -10,6 +10,12 @@
       { "name": "在下老袜", "link": "https://www.bilibili.com/video/BV1ku4y1S79s" },
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1FP411r7kp" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1oN411Y79y" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 4, "interim": 7, "level": 7 },
+      { "skill": 2, "order": 3, "interim": 7, "level": 7 },
+      { "skill": 3, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ]
   },
   "owo": {
@@ -41,10 +47,10 @@
       { "map": "dis_shadows", "strength": "T0&#8673;" }
     ],
     "skills": [
-      { "skill": 1, "order": "3|4", "level": 3 },
-      { "skill": 2, "order": "2|1", "level": 9 },
-      { "skill": 3, "order": "4|3", "level": 3 },
-      { "skill": 4, "order": "1|2", "level": 9 }
+      { "skill": 1, "order": "3|4", "interim": 1, "level": 3 },
+      { "skill": 2, "order": "2|1", "interim": 7, "level": 9 },
+      { "skill": 3, "order": "4|3", "interim": 1, "level": 3 },
+      { "skill": 4, "order": "1|2", "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -105,10 +111,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": 4, "level": 3 },
-      { "skill": 4, "order": 2, "level": 9 }
+      { "skill": 1, "order": 3, "interim": 1, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -168,6 +174,12 @@
       { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1p14y1Z7KA" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1iX4y1m77a/?t=474" }
     ],
+    "skills": [
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 3, "level": 7 }
+    ],
     "crimebrands": [
       {
         "name": "formula_a",
@@ -205,10 +217,10 @@
       { "map": "dis_shadows", "strength": "T2&#8673;" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 3, "level": 7 },
-      { "skill": 3, "order": 2, "level": 9 },
-      { "skill": 4, "order": 1, "level": 9 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 7 },
+      { "skill": 2, "order": 3, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 2, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 1, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -269,10 +281,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 3 },
-      { "skill": 2, "order": 1, "level": 7 },
-      { "skill": 3, "order": 2, "level": 3 },
-      { "skill": 4, "order": 4, "level": 3 }
+      { "skill": 1, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 1, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 2, "interim": 1, "level": 3 },
+      { "skill": 4, "order": 4, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -345,10 +357,10 @@
       { "map": "dis_shadows", "strength": "T3" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 1, "level": 7 },
-      { "skill": 3, "order": 3, "level": 7 },
-      { "skill": 4, "order": 2, "level": 7 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -417,10 +429,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": 2, "level": 3 },
-      { "skill": 4, "order": 3, "level": 3 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 1 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 2, "interim": 1, "level": 3 },
+      { "skill": 4, "order": 3, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -497,10 +509,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": "1|2", "level": 7 },
-      { "skill": 3, "order": 3, "level": 7 },
-      { "skill": 4, "order": "2|1", "level": 7 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": "1|2", "interim": 3, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 4, "order": "2|1", "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -585,10 +597,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 3, "level": 3 },
-      { "skill": 3, "order": 2, "level": 3 },
-      { "skill": 4, "order": 1, "level": 3 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 3, "order": 2, "interim": 1, "level": 3 },
+      { "skill": 4, "order": 1, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -662,10 +674,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": 1, "level": 7 },
-      { "skill": 4, "order": 3, "level": 3 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 1, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -746,10 +758,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 10 },
-      { "skill": 2, "order": "2|3", "level": 10 },
-      { "skill": 3, "order": "3|1", "level": 10 },
-      { "skill": 4, "order": "1|2", "level": 10 }
+      { "skill": 1, "order": 4, "interim": 7, "level": 10 },
+      { "skill": 2, "order": "2|3", "interim": 7, "level": 10 },
+      { "skill": 3, "order": "3|1", "interim": 7, "level": 10 },
+      { "skill": 4, "order": "1|2", "interim": 7, "level": 10 }
     ],
     "crimebrands": [
       {
@@ -820,10 +832,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 4, "level": 3 },
-      { "skill": 4, "order": 2, "level": 10 }
+      { "skill": 1, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 10 }
     ],
     "crimebrands": [
       {
@@ -898,10 +910,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 2, "level": 9 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 3, "level": 3 },
-      { "skill": 4, "order": 4, "level": 8, "threshold": true }
+      { "skill": 1, "order": 2, "interim": 5, "level": 9 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 3 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 8, "threshold": true }
     ],
     "crimebrands": [
       {
@@ -944,6 +956,12 @@
     "job": "fury",
     "evaluations": [
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Mh4y1F7sm/?t=752" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 2, "interim": 5, "level": 9 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 5 }
     ]
   },
   "corso": {
@@ -959,10 +977,10 @@
     ],
     "qualitative_shackles": "2",
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": 4, "level": 7 },
-      { "skill": 3, "order": 1, "level": 7 },
-      { "skill": 4, "order": 2, "level": 7 }
+      { "skill": 1, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 2, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -1030,10 +1048,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": "1|2", "level": 10 },
-      { "skill": 2, "order": 3, "level": 7 },
-      { "skill": 3, "order": "2|1", "level": 7 },
-      { "skill": 4, "order": 4, "level": 7 }
+      { "skill": 1, "order": "1|2", "interim": 7, "level": 9 },
+      { "skill": 2, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 3, "order": "2|1", "interim": 3, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -1082,10 +1100,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": "3|4", "level": 7 },
-      { "skill": 3, "order": "4|3", "level": 3 },
-      { "skill": 4, "order": 2, "level": 9 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": "3|4", "interim": 5, "level": 7 },
+      { "skill": 3, "order": "4|3", "interim": 1, "level": 3 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -1168,10 +1186,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|1", "level": 7 },
-      { "skill": 2, "order": "1|2", "level": 9 },
-      { "skill": 3, "order": "3|4", "level": 3 },
-      { "skill": 4, "order": "4|3", "level": 3 }
+      { "skill": 1, "order": "2|1", "interim": 5, "level": 7 },
+      { "skill": 2, "order": "1|2", "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|4", "interim": 3, "level": 3 },
+      { "skill": 4, "order": "4|3", "interim": 3, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -1248,10 +1266,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 7 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": 3, "level": 7 },
-      { "skill": 4, "order": 4, "level": 7 }
+      { "skill": 1, "order": 1, "interim": 5, "level": 7 },
+      { "skill": 2, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 5, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -1325,10 +1343,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": 4, "level": 7 },
-      { "skill": 4, "order": 3, "level": 7 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 4, "interim": 5, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -1403,10 +1421,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": "4|3", "level": 7 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": "3|2", "level": 7 },
-      { "skill": 4, "order": "2|4", "level": 9 }
+      { "skill": 1, "order": "4|3", "interim": 5, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|2", "interim": 5, "level": 7 },
+      { "skill": 4, "order": "2|4", "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -1494,10 +1512,10 @@
       { "map": "dis_shadows", "strength": "T1&#8673;" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 3 },
-      { "skill": 2, "order": 4, "level": 3 },
-      { "skill": 3, "order": 1, "level": 9 },
-      { "skill": 4, "order": 2, "level": 3 }
+      { "skill": 1, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 3, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 2, "interim": 1, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -1561,10 +1579,10 @@
       { "map": "dis_shadows", "strength": "T3" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 3, "level": 7, "threshold": true },
-      { "skill": 3, "order": 1, "level": 9 },
-      { "skill": 4, "order": 2, "level": 7 }
+      { "skill": 1, "order": "1|2", "interim": 1, "level": "7|9" },
+      { "skill": 2, "order": 4, "interim": 1, "level": 7, "threshold": true },
+      { "skill": 3, "order": "2|1", "interim": 7, "level": "7|9" },
+      { "skill": 4, "order": 3, "interim": 1, "level": "3|7" }
     ],
     "skill_des": "流血隊僅需 1191 + 專三",
     "crimebrands": [
@@ -1640,10 +1658,10 @@
       { "map": "dis_shadows", "strength": "T3" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": 3, "level": 3 },
-      { "skill": 4, "order": 4, "level": 3 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 4, "order": 4, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -1718,6 +1736,12 @@
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1ST41147Et" },
       { "name": "老袜老袜", "link": "https://www.bilibili.com/video/BV1Nk4y1W7Mv" },
       { "name": "HA4869", "link": "https://www.bilibili.com/video/BV1vo4y137Ji" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 4, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 3, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ]
   },
   "serpent": {
@@ -1756,10 +1780,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|1", "level": 9 },
-      { "skill": 2, "order": 3, "level": 9 },
-      { "skill": 3, "order": 4, "level": 7 },
-      { "skill": 4, "order": "1|2", "level": 10 }
+      { "skill": 1, "order": "2|1", "interim": 7, "level": 9 },
+      { "skill": 2, "order": 3, "interim": 5, "level": 9 },
+      { "skill": 3, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 4, "order": "1|2", "interim": 7, "level": 10 }
     ],
     "crimebrands": [
       {
@@ -1835,10 +1859,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": 2, "level": 9 },
-      { "skill": 4, "order": 4, "level": 7 }
+      { "skill": 1, "order": 3, "interim": 5, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 2, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 4, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -1919,10 +1943,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": 4, "level": 7 },
-      { "skill": 3, "order": 3, "level": 7 },
-      { "skill": 4, "order": 2, "level": 9 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -1962,6 +1986,12 @@
       { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1YM4y1p7DV" },
       { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1Y94y1q7PU" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1a8411U7ST/?t=123" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ]
   },
   "lynn": {
@@ -1987,10 +2017,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": "3|2", "level": 9 },
-      { "skill": 4, "order": "2|3", "level": 9 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|2", "interim": 7, "level": 9 },
+      { "skill": 4, "order": "2|3", "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -2076,10 +2106,10 @@
       { "map": "dis_shadows", "strength": "T1&#8673;" }
     ],
     "skills": [
-      { "skill": 1, "order": "3|2", "level": 3 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 4, "level": 3 },
-      { "skill": 4, "order": "2|3", "level": 9 }
+      { "skill": 1, "order": "3|2", "interim": 1, "level": 3 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 4, "order": "2|3", "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -2134,10 +2164,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 2, "level": 7 },
-      { "skill": 2, "order": 3, "level": 7 },
-      { "skill": 3, "order": 1, "level": 9 },
-      { "skill": 4, "order": 4, "level": 7 }
+      { "skill": 1, "order": "1|2", "interim": 5, "level": 7 },
+      { "skill": 2, "order": 3, "interim": 5, "level": 7 },
+      { "skill": 3, "order": "2|1", "interim": 5, "level": "7|9" },
+      { "skill": 4, "order": 4, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -2226,10 +2256,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": 4, "level": 7 },
-      { "skill": 3, "order": 1, "level": 7 },
-      { "skill": 4, "order": 2, "level": 7 }
+      { "skill": 1, "order": 3, "interim": 5, "level": 7 },
+      { "skill": 2, "order": 4, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 1, "interim": 5, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -2304,10 +2334,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "3|2", "level": 7 },
-      { "skill": 2, "order": 4, "level": 9 },
-      { "skill": 3, "order": "2|3", "level": 7 },
-      { "skill": 4, "order": 1, "level": 7 }
+      { "skill": 1, "order": "3|2", "interim": 3, "level": 7 },
+      { "skill": 2, "order": 4, "interim": 7, "level": 9 },
+      { "skill": 3, "order": "2|3", "interim": 3, "level": 7 },
+      { "skill": 4, "order": 1, "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -2391,10 +2421,10 @@
       { "map": "dis_shadows", "strength": "T3" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|1", "level": 7 },
-      { "skill": 2, "order": "1|2", "level": 7 },
-      { "skill": 3, "order": 3, "level": 3 },
-      { "skill": 4, "order": 4, "level": 3 }
+      { "skill": 1, "order": "2|1", "interim": 7, "level": 7 },
+      { "skill": 2, "order": "1|2", "interim": 7, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 3 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -2465,10 +2495,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 4, "level": 7 },
-      { "skill": 4, "order": 2, "level": 9 }
+      { "skill": 1, "order": 3, "interim": 1, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 5, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -2525,6 +2555,12 @@
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1fu4y117ft" },
       { "name": "HA4869", "link": "https://www.bilibili.com/video/BV1YV41137oS" },
       { "name": "老洋蔥", "link": "https://www.bilibili.com/video/BV1u44y1c73P" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 2, "interim": 7, "level": 10 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 4, "interim": 7, "level": 10 },
+      { "skill": 4, "order": 3, "interim": 8, "level": 8 }
     ]
   },
   "dreya": {
@@ -2544,10 +2580,10 @@
       "level": "3"
     },
     "skills": [
-      { "skill": 1, "order": "", "level": 9 },
-      { "skill": 2, "order": "", "level": 10 },
-      { "skill": 3, "order": "", "level": 10 },
-      { "skill": 4, "order": "", "level": 10 }
+      { "skill": 1, "order": 4, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 2, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 3, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 1, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -2604,10 +2640,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": "3|4", "level": 7 },
-      { "skill": 2, "order": "1|2", "level": 9 },
-      { "skill": 3, "order": "2|1", "level": 9 },
-      { "skill": 4, "order": "4|3", "level": 8 }
+      { "skill": 1, "order": "3|4", "interim": 7, "level": 7 },
+      { "skill": 2, "order": "1|2", "interim": 7, "level": 9 },
+      { "skill": 3, "order": "2|1", "interim": 7, "level": 9 },
+      { "skill": 4, "order": "4|3", "interim": 7, "level": 8 }
     ],
     "crimebrands": [
       {
@@ -2656,10 +2692,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": 4, "level": 9, "threshold": true },
-      { "skill": 3, "order": 3, "level": 7 },
-      { "skill": 4, "order": 2, "level": 9 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 4, "interim": 1, "level": 9, "threshold": true },
+      { "skill": 3, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -2734,10 +2770,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": 3, "level": 9 },
-      { "skill": 3, "order": 2, "level": 9 },
-      { "skill": 4, "order": 4, "level": 9 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 3, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 2, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 4, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -2819,10 +2855,10 @@
       { "map": "dis_shadows", "strength": "T3-T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 2, "level": 7 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 3, "level": 3, "threshold": true },
-      { "skill": 4, "order": null, "level": null }
+      { "skill": 1, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": null, "interim": null, "level": null },
+      { "skill": 4, "order": 3, "interim": 1, "level": 3, "threshold": true }
     ],
     "crimebrands": [
       {
@@ -2917,10 +2953,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": "4|3", "level": 9 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": "3|4", "level": 9 },
-      { "skill": 4, "order": 2, "level": 10 }
+      { "skill": 1, "order": "4|3", "interim": 7, "level": 9 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|4", "interim": 7, "level": 9 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -3004,10 +3040,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 9 },
-      { "skill": 2, "order": 4, "level": 7 },
-      { "skill": 3, "order": 2, "level": 7 },
-      { "skill": 4, "order": 3, "level": 7 }
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 4, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3089,10 +3125,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "1|3", "level": 7 },
-      { "skill": 2, "order": "2|1", "level": 9 },
-      { "skill": 3, "order": "3|2", "level": 7 },
-      { "skill": 4, "order": 4, "level": 3 }
+      { "skill": 1, "order": "1|3", "interim": 3, "level": 7 },
+      { "skill": 2, "order": "2|1", "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|2", "interim": 3, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -3174,10 +3210,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|1", "level": 7 },
-      { "skill": 2, "order": "1|4", "level": 9 },
-      { "skill": 3, "order": "3|2", "level": 7 },
-      { "skill": 4, "order": "4|3", "level": 7 }
+      { "skill": 1, "order": "2|1", "interim": 7, "level": 7 },
+      { "skill": 2, "order": "1|4", "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|2", "interim": 3, "level": 7 },
+      { "skill": 4, "order": "4|3", "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3247,10 +3283,10 @@
       "emphasis": "fw-bold text-danger"
     },
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": "2|3", "level": 7 },
-      { "skill": 3, "order": "1|2", "level": 8 },
-      { "skill": 4, "order": "3|1", "level": 7 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 7 },
+      { "skill": 2, "order": "2|3", "interim": 7, "level": 9 },
+      { "skill": 3, "order": "1|2", "interim": 7, "level": 9 },
+      { "skill": 4, "order": "3|1", "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3360,10 +3396,10 @@
       { "map": "dis_shadows", "strength": "T1&#8673;" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|3", "level": 9 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": "3|2", "level": 9, "threshold": true },
-      { "skill": 4, "order": 4, "level": "?" }
+      { "skill": 1, "order": "2|3", "interim": 3, "level": 9 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": "3|2", "interim": 4, "level": 9, "threshold": true, "interim_threshold": true },
+      { "skill": 4, "order": 4, "interim": "?", "level": "?" }
     ],
     "skill_des": "被動二升不升級取決於有沒有四枷鎖",
     "crimebrands": [
@@ -3430,10 +3466,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 7 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": "3|2", "level": 9 },
-      { "skill": 4, "order": "2|3", "level": 9 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 1, "level": 9 },
+      { "skill": 3, "order": "3|2", "interim": 7, "level": 9 },
+      { "skill": 4, "order": "2|3", "interim": 1, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -3503,10 +3539,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 7 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 3, "level": 9 },
-      { "skill": 4, "order": 2, "level": 10 }
+      { "skill": 1, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 3, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 2, "interim": 7, "level": 10 }
     ],
     "crimebrands": [
       {
@@ -3547,6 +3583,12 @@
       { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV16a4y1c7Ry" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Zc411M7iK/?t=425" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV17k4y1u7df" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 7 }
     ]
   },
   "luvia_ray": {
@@ -3573,10 +3615,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 10 },
-      { "skill": 2, "order": 4, "level": 6, "threshold": true },
-      { "skill": 3, "order": 2, "level": 7 },
-      { "skill": 4, "order": 3, "level": 5, "threshold": true }
+      { "skill": 1, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 2, "order": 4, "interim": 1, "level": 6, "threshold": true },
+      { "skill": 3, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 1, "level": 5, "threshold": true }
     ],
     "crimebrands": [
       {
@@ -3638,10 +3680,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 7 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": 4, "level": 7 },
-      { "skill": 4, "order": 3, "level": 7 }
+      { "skill": 1, "order": 1, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 7, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3714,10 +3756,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|3", "level": 7 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": 4, "level": 3 },
-      { "skill": 4, "order": "3|2", "level": 7 }
+      { "skill": 1, "order": "2|3", "interim": 3, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 4, "interim": 3, "level": 3 },
+      { "skill": 4, "order": "3|2", "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3771,10 +3813,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|3", "level": 7 },
-      { "skill": 2, "order": 1, "level": 7 },
-      { "skill": 3, "order": "3|2", "level": 7 },
-      { "skill": 4, "order": 4, "level": 7 }
+      { "skill": 1, "order": "2|3", "interim": 5, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 5, "level": 7 },
+      { "skill": 3, "order": "3|2", "interim": 5, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3837,10 +3879,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 1, "level": 7 },
-      { "skill": 2, "order": 3, "level": 7 },
-      { "skill": 3, "order": 2, "level": 7 },
-      { "skill": 4, "order": 4, "level": 7 }
+      { "skill": 1, "order": 1, "interim": 5, "level": 7 },
+      { "skill": 2, "order": 3, "interim": 5, "level": 7 },
+      { "skill": 3, "order": 2, "interim": 5, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -3929,10 +3971,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": "2|1", "level": 3 },
-      { "skill": 3, "order": "1|2", "level": 7 },
-      { "skill": 4, "order": 3, "level": 7 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": "2|1", "interim": 1, "level": 3 },
+      { "skill": 3, "order": "1|2", "interim": 3, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -4014,10 +4056,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|1", "level": 7 },
-      { "skill": 2, "order": 4, "level": 6, "threshold": true },
-      { "skill": 3, "order": "1|3", "level": 9 },
-      { "skill": 4, "order": "3|2", "level": 7 }
+      { "skill": 1, "order": "2|1", "interim": 1, "level": 7 },
+      { "skill": 2, "order": 4, "interim": 1, "level": 6, "threshold": true },
+      { "skill": 3, "order": "1|3", "interim": 7, "level": 9 },
+      { "skill": 4, "order": "3|2", "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -4086,6 +4128,12 @@
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Mh4y1F7sm/?t=428" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Cj411z7wm" },
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1YP411x7RV" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 2, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 4, "order": 3, "interim": 5, "level": 9 }
     ]
   },
   "cabernet": {
@@ -4099,6 +4147,12 @@
       { "name": "在下老袜", "link": "https://www.bilibili.com/video/BV1Ac411u7Ey" },
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1eP411q7iA" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Hz4y1H7c2" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 3, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 4, "order": 2, "interim": 1, "level": 3 }
     ]
   },
   "enfer": {
@@ -4134,10 +4188,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 7 },
-      { "skill": 2, "order": 1, "level": 10 },
-      { "skill": 3, "order": 2, "level": 10 },
-      { "skill": 4, "order": 3, "level": 7 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": 2, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 3, "interim": 1, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -4204,10 +4258,10 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": "2|1", "level": 9 },
-      { "skill": 2, "order": "3|2", "level": 9 },
-      { "skill": 3, "order": 4, "level": 9 },
-      { "skill": 4, "order": "1|3", "level": 9 }
+      { "skill": 1, "order": "2|1", "interim": 5, "level": 9 },
+      { "skill": 2, "order": "3|2", "interim": 5, "level": 9 },
+      { "skill": 3, "order": 4, "interim": 5, "level": 9 },
+      { "skill": 4, "order": "1|3", "interim": 5, "level": 9 }
     ],
     "crimebrands": [
       {
@@ -4260,6 +4314,12 @@
       { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV1ms4y1e7CJ" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1qP411Q7mx/?t=439" },
       { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1XP411Q7Y5" }
+    ],
+    "skills": [
+      { "skill": 1, "order": 1, "interim": 7, "level": 7 },
+      { "skill": 2, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 7 }
     ]
   },
   "dudu": {
@@ -4288,10 +4348,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "3|2", "level": 3 },
-      { "skill": 2, "order": 4, "level": 3 },
-      { "skill": 3, "order": "1|3", "level": 7 },
-      { "skill": 4, "order": "2|1", "level": 7 }
+      { "skill": 1, "order": "3|2", "interim": 1, "level": 3 },
+      { "skill": 2, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 3, "order": "1|3", "interim": 5, "level": 7 },
+      { "skill": 4, "order": "2|1", "interim": 5, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -4359,10 +4419,10 @@
       { "map": "dis_shadows", "strength": "T3" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 7 },
-      { "skill": 2, "order": 1, "level": 9 },
-      { "skill": 3, "order": "3|2", "level": 7 },
-      { "skill": 4, "order": "2|3", "level": 7 }
+      { "skill": 1, "order": 4, "interim": 3, "level": 7 },
+      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 3, "order": "3|2", "interim": 3, "level": 7 },
+      { "skill": 4, "order": "2|3", "interim": 3, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -4423,10 +4483,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 3 },
-      { "skill": 2, "order": "1|2", "level": 7 },
-      { "skill": 3, "order": "2|1", "level": 7 },
-      { "skill": 4, "order": 4, "level": 3 }
+      { "skill": 1, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 2, "order": "1|2", "interim": 7, "level": 7 },
+      { "skill": 3, "order": "2|1", "interim": 5, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -4500,10 +4560,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 2, "level": 3 },
-      { "skill": 3, "order": 1, "level": 9 },
-      { "skill": 4, "order": 3, "level": 3 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 2, "interim": 1, "level": 3 },
+      { "skill": 3, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 4, "order": 3, "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -4578,10 +4638,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": 3, "level": 7 },
-      { "skill": 2, "order": "1|2", "level": 7 },
-      { "skill": 3, "order": "2|1", "level": 7 },
-      { "skill": 4, "order": 4, "level": 3 }
+      { "skill": 1, "order": 3, "interim": 3, "level": 7 },
+      { "skill": 2, "order": "1|2", "interim": 7, "level": 7 },
+      { "skill": 3, "order": "2|1", "interim": 3, "level": 7 },
+      { "skill": 4, "order": 4, "interim": 3, "level": 3 }
     ],
     "crimebrands": [
       {
@@ -4654,10 +4714,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": 4, "level": 3 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": 1, "level": 7 },
-      { "skill": 4, "order": 3, "level": 7 }
+      { "skill": 1, "order": 4, "interim": 1, "level": 3 },
+      { "skill": 2, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 3, "order": 1, "interim": 3, "level": 7 },
+      { "skill": 4, "order": 3, "interim": 1, "level": 7 }
     ],
     "crimebrands": [
       {
@@ -4739,10 +4799,10 @@
       { "map": "dis_shadows", "strength": "T2" }
     ],
     "skills": [
-      { "skill": 1, "order": "4|1", "level": 3 },
-      { "skill": 2, "order": 2, "level": 7 },
-      { "skill": 3, "order": "1|3", "level": 7 },
-      { "skill": 4, "order": "3|4", "level": 3 }
+      { "skill": 1, "order": "4|1", "interim": 1, "level": 3 },
+      { "skill": 2, "order": 2, "interim": 3, "level": 7 },
+      { "skill": 3, "order": "1|3", "interim": 3, "level": 7 },
+      { "skill": 4, "order": "3|4", "interim": 1, "level": 3 }
     ],
     "crimebrands": [
       {
