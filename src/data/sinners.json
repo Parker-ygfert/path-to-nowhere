@@ -11,6 +11,11 @@
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1FP411r7kp" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1oN411Y79y" }
     ],
+    "qualitative_shackles": 1,
+    "recommended_shackle": 0,
+    "supplement_shackles": [
+      { "shackle": "0-1" }
+    ],
     "skills": [
       { "skill": 1, "order": 4, "interim": 7, "level": 7 },
       { "skill": 2, "order": 3, "interim": 7, "level": 7 },
@@ -740,7 +745,8 @@
     "qualitative_shackles": "1、3、4",
     "recommended_shackle": 3,
     "supplement_shackles": [
-      { "shackle": "0-5", "emphasis": true }
+      { "shackle": "0-1", "emphasis": true },
+      { "shackle": "2-5" }
     ],
     "exclusive": {
       "text": "極為推薦、質變提升",
@@ -1737,6 +1743,12 @@
       { "name": "老袜老袜", "link": "https://www.bilibili.com/video/BV1Nk4y1W7Mv" },
       { "name": "HA4869", "link": "https://www.bilibili.com/video/BV1vo4y137Ji" }
     ],
+    "qualitative_shackles": "1、3",
+    "recommended_shackle": 1,
+    "supplement_shackles": [
+      { "shackle": "0-1" },
+      { "shackle": "2-3" }
+    ],
     "skills": [
       { "skill": 1, "order": 4, "interim": 7, "level": 9 },
       { "skill": 2, "order": 1, "interim": 7, "level": 9 },
@@ -2556,6 +2568,12 @@
       { "name": "HA4869", "link": "https://www.bilibili.com/video/BV1YV41137oS" },
       { "name": "老洋蔥", "link": "https://www.bilibili.com/video/BV1u44y1c73P" }
     ],
+    "qualitative_shackles": "1、3",
+    "recommended_shackle": 3,
+    "supplement_shackles": [
+      { "shackle": "0-1" },
+      { "shackle": "2-3" }
+    ],
     "skills": [
       { "skill": 1, "order": 2, "interim": 7, "level": 10 },
       { "skill": 2, "order": 1, "interim": 7, "level": 10 },
@@ -2575,6 +2593,11 @@
       { "name": "HA4869", "link": "https://www.bilibili.com/video/BV12L411h7xr" },
       { "name": "五毒巫毒", "link": "https://www.bilibili.com/video/BV1ba4y157xe" },
       { "name": "蕭蕭愁懷", "link": "https://www.bilibili.com/video/BV1nm4y117kA" }
+    ],
+    "qualitative_shackles": "1、4",
+    "recommended_shackle": 1,
+    "supplement_shackles": [
+      { "shackle": "0-1" }
     ],
     "exclusive_priority": {
       "level": "3"
@@ -3519,7 +3542,7 @@
       "<strong>3 枷鎖全隊輔助增傷</strong>"
     ],
     "qualitative_shackles": "1、3",
-    "recommended_shackle": 3,
+    "recommended_shackle": 1,
     "supplement_shackles": [
       { "shackle": "0-1", "emphasis": true },
       { "shackle": "2-3", "emphasis": true }
@@ -4129,6 +4152,11 @@
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Cj411z7wm" },
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1YP411x7RV" }
     ],
+    "qualitative_shackles": "1、3",
+    "recommended_shackle": 1,
+    "supplement_shackles": [
+      { "shackle": "0-1", "emphasis": true }
+    ],
     "skills": [
       { "skill": 1, "order": 2, "interim": 7, "level": 9 },
       { "skill": 2, "order": 4, "interim": 3, "level": 7 },
@@ -4147,6 +4175,12 @@
       { "name": "在下老袜", "link": "https://www.bilibili.com/video/BV1Ac411u7Ey" },
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1eP411q7iA" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Hz4y1H7c2" }
+    ],
+    "qualitative_shackles": "1、3",
+    "recommended_shackle": 0,
+    "supplement_shackles": [
+      { "shackle": "0-1" },
+      { "shackle": "2-3" }
     ],
     "skills": [
       { "skill": 1, "order": 3, "interim": 1, "level": 3 },
