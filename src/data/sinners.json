@@ -16,6 +16,10 @@
     "supplement_shackles": [
       { "shackle": "0-1" }
     ],
+    "exclusive_priority": {
+      "tier": "T3",
+      "level": "1"
+    },
     "skills": [
       { "skill": 1, "order": 4, "interim": 7, "level": 7 },
       { "skill": 2, "order": 3, "interim": 7, "level": 7 },
@@ -42,8 +46,8 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T1",
-      "level": "3"
+      "tier": "T3",
+      "level": "1|3"
     },
     "strength": [
       { "map": "main_stage", "strength": "T0" },
@@ -106,7 +110,7 @@
       "text": "一般推薦、較小提升"
     },
     "exclusive_priority": {
-      "tier": "T2",
+      "tier": "T3",
       "level": "1"
     },
     "strength": [
@@ -828,7 +832,7 @@
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
-      "tier": "T0",
+      "tier": "T2",
       "level": "1"
     },
     "strength": [
@@ -906,7 +910,7 @@
       "text": "一般推薦、較小提升"
     },
     "exclusive_priority": {
-      "tier": "T2",
+      "tier": "T4",
       "level": "1"
     },
     "strength": [
@@ -1749,6 +1753,10 @@
       { "shackle": "0-1" },
       { "shackle": "2-3" }
     ],
+    "exclusive_priority": {
+      "tier": "T1",
+      "level": "3"
+    },
     "skills": [
       { "skill": 1, "order": 4, "interim": 7, "level": 9 },
       { "skill": 2, "order": 1, "interim": 7, "level": 9 },
@@ -1861,7 +1869,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T1",
+      "tier": "T3",
       "level": "1"
     },
     "strength": [
@@ -1945,7 +1953,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T1",
+      "tier": "T3",
       "level": "3"
     },
     "strength": [
@@ -2600,7 +2608,8 @@
       { "shackle": "0-1" }
     ],
     "exclusive_priority": {
-      "level": "3"
+      "tier": "T1",
+      "level": "1|3"
     },
     "skills": [
       { "skill": 1, "order": 4, "interim": 7, "level": 9 },
@@ -2653,7 +2662,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T2",
+      "tier": "T3",
       "level": "3"
     },
     "strength": [
@@ -2705,8 +2714,8 @@
       "text": "不推薦、自找沒趣"
     },
     "exclusive_priority": {
-      "tier": "T3",
-      "level": "1"
+      "tier": "T4",
+      "level": "0|1"
     },
     "strength": [
       { "map": "main_stage", "strength": "T2" },
@@ -3305,6 +3314,10 @@
       "text": "極為推薦、質變提升",
       "emphasis": "fw-bold text-danger"
     },
+    "exclusive_priority": {
+      "tier": "T0",
+      "level": "1"
+    },
     "skills": [
       { "skill": 1, "order": 4, "interim": 1, "level": 7 },
       { "skill": 2, "order": "2|3", "interim": 7, "level": 9 },
@@ -3479,7 +3492,7 @@
       "text": "一般推薦、較小提升"
     },
     "exclusive_priority": {
-      "tier": "T2",
+      "tier": "T3",
       "level": "1"
     },
     "strength": [
@@ -3552,8 +3565,8 @@
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
-      "tier": "T0",
-      "level": "3"
+      "tier": "T3",
+      "level": "1|3"
     },
     "strength": [
       { "map": "main_stage", "strength": "T0" },
@@ -4182,6 +4195,10 @@
       { "shackle": "0-1" },
       { "shackle": "2-3" }
     ],
+    "exclusive_priority": {
+      "tier": "T0",
+      "level": "1"
+    },
     "skills": [
       { "skill": 1, "order": 3, "interim": 1, "level": 3 },
       { "skill": 2, "order": 1, "interim": 7, "level": 10 },
@@ -4282,7 +4299,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T1",
+      "tier": "T3",
       "level": "1"
     },
     "strength": [
