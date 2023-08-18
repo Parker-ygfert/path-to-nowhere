@@ -42,20 +42,6 @@
     "set_bonus": "套裝效果：<br>必殺傷害每秒增加 1%，最多疊加 30 層<br>使用必殺後，該效果重置"
   },
   {
-    "name": "fantasy_moon",
-    "rank": "s",
-    "position": "first",
-    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
-    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
-  },
-  {
-    "name": "fantasy_moon",
-    "rank": "s",
-    "position": "second",
-    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
-    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
-  },
-  {
     "name": "embrace_of_the_dead",
     "rank": "s",
     "position": "first",
@@ -91,14 +77,28 @@
     "set_bonus": "套裝效果：<br>自身每 3 秒增加 1% 攻擊，最多疊加 10 次<br>移動後該效果重置"
   },
   {
-    "name": "motto",
+    "name": "illusory_moon",
+    "rank": "s",
+    "position": "first",
+    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
+    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
+  },
+  {
+    "name": "illusory_moon",
+    "rank": "s",
+    "position": "second",
+    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
+    "set_bonus": "套裝效果：<br>技能傷害提高 20%，普攻傷害降低 30%"
+  },
+  {
+    "name": "maxim",
     "rank": "s",
     "position": "second",
     "attributes": "生命 + 5.0%（滿級 + 10.0%）",
     "set_bonus": "套裝效果：<br>普攻15次後，下次使用必殺時，技能傷害提高25%，持續5秒"
   },
   {
-    "name": "motto",
+    "name": "maxim",
     "rank": "s",
     "position": "third",
     "attributes": "攻擊速度 + 5.0%（滿級 + 10.0%）",
@@ -166,6 +166,13 @@
     "position": "third",
     "attributes": "法抗 + 5%（滿級 + 10%）",
     "set_bonus": "套裝效果：<br>不攻擊時，攻擊力每秒+1%，最多疊加20次<br>攻擊後重置"
+  },
+  {
+    "name": "sentinel",
+    "rank": "s",
+    "position": "second",
+    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
+    "set_bonus": "套裝效果：<br>友方禁閉者死亡時<br>自身攻擊增加 5%，受到傷害降低 5%<br>最多疊加 4 次"
   },
   {
     "name": "servant",
@@ -308,6 +315,41 @@
     "set_bonus": "套裝效果：<br>自身生命提高 20%，攻擊提高 15%<br>但是無法移動"
   },
   {
+    "name": "逆位之裁",
+    "rank": "s",
+    "position": "second",
+    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
+    "set_bonus": "套裝效果：<br>普攻後，下次普攻會快速攻擊 2 次<br>第二次攻擊會回復自身 3 點能量<br>每 5 秒最多觸發 1 次"
+  },
+  {
+    "name": "逆位之裁",
+    "rank": "s",
+    "position": "third",
+    "attributes": "暴擊傷害 + 10.0%（滿級 + 20.0%）",
+    "set_bonus": "套裝效果：<br>普攻後，下次普攻會快速攻擊 2 次<br>第二次攻擊會回復自身 3 點能量<br>每 5 秒最多觸發 1 次"
+  },
+  {
+    "name": "心像流逝",
+    "rank": "s",
+    "position": "first",
+    "attributes": "攻擊 + 3.0%（滿級 + 6.0%）",
+    "set_bonus": "套裝效果：<br>自身造成【生命流逝】傷害時，自身回复 3 點能量<br>每 4 秒最多觸發 1 次"
+  },
+  {
+    "name": "心像流逝",
+    "rank": "s",
+    "position": "second",
+    "attributes": "生命 + 5.0%（滿級 + 10.0%）",
+    "set_bonus": "套裝效果：<br>自身造成【生命流逝】傷害時，自身回复 3 點能量<br>每 4 秒最多觸發 1 次"
+  },
+  {
+    "name": "心像流逝",
+    "rank": "s",
+    "position": "third",
+    "attributes": "傷害提高 + 5.0%（滿級 + 10.0%）",
+    "set_bonus": "套裝效果：<br>自身造成【生命流逝】傷害時，自身回复 3 點能量<br>每 4 秒最多觸發 1 次"
+  },
+  {
     "name": "blue_rain",
     "rank": "a",
     "position": "first",
@@ -432,6 +474,27 @@
     "position": "third",
     "attributes": "攻擊速度 + 4.0%（滿級 + 8.0%）",
     "set_bonus": "套裝效果：<br>戰鬥開始時，攻擊 + 15%，持續 30 秒"
+  },
+  {
+    "name": "skyfall",
+    "rank": "a",
+    "position": "first",
+    "attributes": "攻擊 + 2.4％（滿級 + 4.8％）",
+    "set_bonus": "套裝效果：<br>戰鬥開始 10 秒鐘後，對自身周圍九宮格範圍造成 10000 點不分敵我的真實傷害，同時使其眩暈 4 秒"
+  },
+  {
+    "name": "skyfall",
+    "rank": "a",
+    "position": "second",
+    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
+    "set_bonus": "套裝效果：<br>戰鬥開始 10 秒鐘後，對自身周圍九宮格範圍造成 10000 點不分敵我的真實傷害，同時使其眩暈 4 秒"
+  },
+  {
+    "name": "skyfall",
+    "rank": "a",
+    "position": "third",
+    "attributes": "生命 + 4.0%（滿級 + 8.0%）",
+    "set_bonus": "套裝效果：<br>戰鬥開始 10 秒鐘後，對自身周圍九宮格範圍造成 10000 點不分敵我的真實傷害，同時使其眩暈 4 秒"
   },
   {
     "name": "turning_zero",

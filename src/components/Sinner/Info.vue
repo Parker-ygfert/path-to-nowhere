@@ -75,6 +75,12 @@
             </tr>
           </template>
         </tbody>
+        <caption
+          v-if="sinner.exclusive_priority.comment"
+          class="pt-0 font-14"
+        >
+          {{ sinner.exclusive_priority.comment }}
+        </caption>
       </table>
   
       <table

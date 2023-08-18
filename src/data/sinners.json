@@ -17,7 +17,7 @@
       { "shackle": "0-1" }
     ],
     "exclusive_priority": {
-      "tier": "T3",
+      "tier": "T2|T3",
       "level": "1"
     },
     "skills": [
@@ -46,7 +46,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T3",
+      "tier": "T2",
       "level": "1|3"
     },
     "strength": [
@@ -64,10 +64,10 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "in_hosts_name",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "短線方案<br>快速啟動，開啟必殺為團隊提供 BUFF"
       },
       {
         "name": "formula_b",
@@ -77,10 +77,10 @@
       },
       {
         "name": "formula_c",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案<br>快速啟動，開啟必殺為團隊提供 BUFF"
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
       },
       {
         "name": "formula_d",
@@ -138,7 +138,8 @@
         "name": "formula_b",
         "first": "in_hosts_name",
         "second": "obsession",
-        "third": "in_hosts_name"
+        "third": "in_hosts_name",
+        "description": "有 debuff 的關卡可以這麼帶"
       },
       {
         "name": "formula_c",
@@ -151,27 +152,28 @@
       {
         "name": "formula_d",
         "first": "turning_zero",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "疊盾條件更低了"
+      },
+      {
+        "name": "formula_e",
+        "first": "turning_zero",
         "second": "creed_of_bulwark",
         "third": "corridor_echo"
       },
       {
-        "name": "formula_e",
+        "name": "formula_f",
         "first": "year_one_perishing_star",
         "second": "year_one_perishing_star",
         "third": "year_one_perishing_star"
       },
       {
-        "name": "formula_f",
+        "name": "formula_g",
         "first": "nightmare_revelation",
         "second": "hope",
         "third": "nightmare_revelation",
         "description": "提升團隊開局輸出能力"
-      },
-      {
-        "name": "formula_g",
-        "first": "nightmare_revelation",
-        "second": "the_city_of_sins",
-        "third": "nightmare_revelation"
       }
     ]
   },
@@ -183,6 +185,7 @@
       { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1p14y1Z7KA" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1iX4y1m77a/?t=474" }
     ],
+    "exclusive_priority": {},
     "skills": [
       { "skill": 1, "order": 4, "interim": 1, "level": 3 },
       { "skill": 2, "order": 1, "interim": 7, "level": 9 },
@@ -192,13 +195,27 @@
     "crimebrands": [
       {
         "name": "formula_a",
+        "first": "illusory_moon",
+        "second": "illusory_moon",
+        "third": "corridor_echo",
+        "description": "增加傷害技能"
+      },
+      {
+        "name": "formula_b",
+        "first": "solo_dance",
+        "second": "solo_dance",
+        "third": "solo_dance",
+        "description": "增加傷害技能"
+      },
+      {
+        "name": "formula_c",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
         "third": "in_hosts_name",
         "description": "短線 & 替補方案"
       },
       {
-        "name": "formula_b",
+        "name": "formula_d",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
@@ -234,36 +251,44 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "turning_zero",
-        "second": "creed_of_bulwark",
-        "third": "scarlet_bewitchment",
-        "description": "短線方案"
+        "first": "心像流逝",
+        "second": "心像流逝",
+        "third": "心像流逝",
+        "description": "流血隊這套最適合給李維帶"
       },
       {
         "name": "formula_b",
+        "first": "turning_zero",
+        "second": "creed_of_bulwark",
+        "third": "scarlet_bewitchment",
+        "description": "短線方案<br>三號位法抗，套裝增加技能回轉"
+      },
+      {
+        "name": "formula_c",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "scarlet_bewitchment",
         "description": "長線方案"
       },
       {
-        "name": "formula_c",
+        "name": "formula_d",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "blue_rain"
       },
       {
-        "name": "formula_d",
+        "name": "formula_e",
         "first": "in_hosts_name",
         "second": "creed_of_bulwark",
         "third": "in_hosts_name",
         "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
       },
       {
-        "name": "formula_e",
+        "name": "formula_f",
         "first": "in_hosts_name",
         "second": "obsession",
-        "third": "in_hosts_name"
+        "third": "in_hosts_name",
+        "description": "有 debuff 的關卡可以這麼帶"
       }
     ]
   },
@@ -298,45 +323,33 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "in_hosts_name",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
-      },
-      {
-        "name": "formula_b",
-        "first": "turning_zero",
-        "second": "creed_of_bulwark",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_c",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_d",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained"
-      },
-      {
-        "name": "formula_e",
         "first": "final_prologue",
         "second": "final_prologue",
         "third": "final_prologue",
         "description": "治療套也適用於卡瓦卡瓦技能組"
       },
       {
-        "name": "formula_f",
+        "name": "formula_b",
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "短線 & 替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
+      },
+      {
+        "name": "formula_c",
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained"
+      },
+      {
+        "name": "formula_d",
         "first": "nightmare_revelation",
         "second": "hope",
         "third": "nightmare_revelation",
         "description": "提升團隊開局輸出能力"
       },
       {
-        "name": "formula_g",
+        "name": "formula_e",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
@@ -374,43 +387,43 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "in_hosts_name",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
-      },
-      {
-        "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
         "third": "corridor_echo",
         "description": "公會戰不需要阻擋，辰砂的盾可以幫助隊友吃不少傷害"
       },
       {
-        "name": "formula_c",
+        "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
         "third": "in_hosts_name"
       },
       {
-        "name": "formula_d",
+        "name": "formula_c",
         "first": "turning_zero",
         "second": "paradise_regained",
         "third": "paradise_regained"
       },
       {
-        "name": "formula_e",
+        "name": "formula_d",
         "first": "nightmare_revelation",
         "second": "hope",
         "third": "nightmare_revelation",
         "description": "提升團隊開局輸出能力"
       },
       {
-        "name": "formula_f",
+        "name": "formula_e",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
         "description": "長線方案"
+      },
+      {
+        "name": "formula_f",
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "短線 & 替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
       }
     ]
   },
@@ -453,17 +466,17 @@
       },
       {
         "name": "formula_b",
+        "first": "servant",
+        "second": "creed_of_bulwark",
+        "third": "creation",
+        "description": "可提升西迪屬性加速必殺回轉"
+      },
+      {
+        "name": "formula_c",
         "first": "turning_zero",
         "second": "hope",
         "third": "corridor_echo",
         "description": "快速召喚西迪"
-      },
-      {
-        "name": "formula_c",
-        "first": "in_hosts_name",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
       },
       {
         "name": "formula_d",
@@ -473,10 +486,10 @@
       },
       {
         "name": "formula_e",
-        "first": "servant",
+        "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "creation",
-        "description": "可提升西迪屬性加速必殺回轉"
+        "third": "in_hosts_name",
+        "description": "替補方案<br>在一般關卡以減傷阻擋為主可以無腦選"
       },
       {
         "name": "formula_f",
@@ -511,6 +524,7 @@
       "text": "比較推薦、大幅提升",
       "emphasis": "fw-bold"
     },
+    "exclusive_priority": {},
     "strength": [
       { "map": "main_stage", "strength": "T2&#8675;" },
       { "map": "broken_frontline", "strength": "T3" },
@@ -526,22 +540,24 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "in_hosts_name",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線 & 替補方案<br>老實當好肉盾"
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "creation",
+        "description": "昆門"
       },
       {
         "name": "formula_b",
-        "first": "in_hosts_name",
-        "second": "obsession",
-        "third": "in_hosts_name"
+        "first": "nightmare_revelation",
+        "second": "the_city_of_sins",
+        "third": "nightmare_revelation",
+        "description": "昆門次選"
       },
       {
         "name": "formula_c",
-        "first": "fury",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name"
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "corridor_echo",
+        "description": "長線方案"
       },
       {
         "name": "formula_d",
@@ -557,31 +573,17 @@
       },
       {
         "name": "formula_f",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出能力"
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "短線 & 替補方案<br>老實當好肉盾"
       },
       {
         "name": "formula_g",
-        "first": "nightmare_revelation",
-        "second": "the_city_of_sins",
-        "third": "nightmare_revelation",
-        "description": "昆門次選"
-      },
-      {
-        "name": "formula_h",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "昆門"
-      },
-      {
-        "name": "formula_i",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "first": "in_hosts_name",
+        "second": "obsession",
+        "third": "in_hosts_name",
+        "description": "有 debuff 的關卡可以這麼帶"
       }
     ]
   },
@@ -622,14 +624,16 @@
       {
         "name": "formula_b",
         "first": "in_hosts_name",
-        "second": "obsession",
-        "third": "in_hosts_name"
+        "second": "hope",
+        "third": "in_hosts_name",
+        "description": "新手期沒有鐵壁，盡量這麼湊出一套來扛"
       },
       {
         "name": "formula_c",
-        "first": "justice",
-        "second": "justice",
-        "third": "in_hosts_name"
+        "first": "in_hosts_name",
+        "second": "obsession",
+        "third": "in_hosts_name",
+        "description": "有 debuff 的關卡可以這麼帶"
       },
       {
         "name": "formula_d",
@@ -646,18 +650,17 @@
       },
       {
         "name": "formula_f",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "in_hosts_name"
-      },
-      {
-        "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
         "description": "長線方案"
+      },
+      {
+        "name": "formula_g",
+        "first": "justice",
+        "second": "justice",
+        "third": "in_hosts_name"
       }
-
     ]
   },
   "kk": {
@@ -699,14 +702,16 @@
       {
         "name": "formula_b",
         "first": "in_hosts_name",
-        "second": "obsession",
-        "third": "in_hosts_name"
+        "second": "hope",
+        "third": "in_hosts_name",
+        "description": "新手期沒有鐵壁，盡量這麼湊出一套來扛"
       },
       {
         "name": "formula_c",
-        "first": "justice",
-        "second": "justice",
-        "third": "in_hosts_name"
+        "first": "in_hosts_name",
+        "second": "obsession",
+        "third": "in_hosts_name",
+        "description": "有 debuff 的關卡可以這麼帶"
       },
       {
         "name": "formula_d",
@@ -723,16 +728,16 @@
       },
       {
         "name": "formula_f",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "in_hosts_name"
-      },
-      {
-        "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
         "description": "長線方案"
+      },
+      {
+        "name": "formula_g",
+        "first": "justice",
+        "second": "justice",
+        "third": "in_hosts_name"
       }
     ]
   },
@@ -776,38 +781,45 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "reunion_day",
-        "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "替補方案<br>長線依然是黛神"
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模爆擊套裝"
       },
       {
         "name": "formula_b",
+        "emphasis": true,
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
         "third": "pioneer",
-        "description": "短線方案<br>黛神不用多說"
+        "description": "短線方案<br>屬性拉滿套裝"
       },
       {
-        "name": "formula_b",
+        "name": "formula_c",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
         "third": "reunion_day",
         "description": "短線方案<br>低枷鎖推薦帶 重逢III"
       },
       {
-        "name": "formula_c",
+        "name": "formula_d",
         "first": "overthrown_tower",
         "second": "singularity",
         "third": "corridor_echo"
       },
       {
-        "name": "formula_d",
+        "name": "formula_e",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案<br>可以提升破核後的爆發輸出"
+      },
+      {
+        "name": "formula_f",
+        "first": "reunion_day",
+        "second": "reunion_day",
+        "third": "reunion_day",
+        "description": "替補方案<br>長線依然是黛神"
       }
     ]
   },
@@ -854,7 +866,7 @@
         "first": "turning_zero",
         "second": "the_city_of_sins",
         "third": "corridor_echo",
-        "description": "長短線皆可用<br>充能套件，狂欲之城可以提供不錯的屬性，泛用性高，123號位均可靈活變通"
+        "description": "長短線皆可用<br>散件套，狂欲之城可以提供不錯的屬性，泛用性高，123 號位均可靈活變通"
       },
       {
         "name": "formula_b",
@@ -865,30 +877,38 @@
       },
       {
         "name": "formula_c",
-        "first": "eastside_dream",
-        "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>可以大幅提高普攻傷害，大部分場景適用"
+        "first": "depth_of_restricted_area",
+        "second": "sentinel",
+        "third": "pioneer",
+        "description": "散件套，守望者可以和天降打一手配合，123 號位均可靈活變通"
       },
       {
         "name": "formula_d",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模套裝，必殺開啟增強普攻非常適用"
+      },
+      {
+        "name": "formula_e",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "可以提升破核後的爆發輸出"
       },
       {
-        "name": "formula_e",
+        "name": "formula_f",
+        "first": "eastside_dream",
+        "second": "eastside_dream",
+        "third": "eastside_dream",
+        "description": "替補方案<br>可以大幅提高普攻傷害，大部分場景適用"
+      },
+      {
+        "name": "formula_g",
         "first": "diverged_ends",
         "second": "the_city_of_sins",
         "third": "diverged_ends",
         "description": "怪海關卡可選"
-      },
-      {
-        "name": "formula_f",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo"
       }
     ]
   },
@@ -929,21 +949,23 @@
       {
         "name": "formula_a",
         "first": "turning_zero",
-        "second": "creed_of_bulwark",
-        "third": "corridor_echo"
+        "second": "the_city_of_sins",
+        "third": "corridor_echo",
+        "description": "散件套，狂欲之城可以提供不錯的屬性，泛用性高，123 號位均可靈活變通"
       },
       {
         "name": "formula_b",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
+        "first": "depth_of_restricted_area",
+        "second": "sentinel",
+        "third": "pioneer",
+        "description": "散件套，守望者可以和天降打一手配合，123 號位均可靈活變通"
       },
       {
         "name": "formula_c",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套件，狂欲之城可以提供不錯的屬性，泛用性高，123號位均可靈活變通"
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模套裝，必殺開啟增強普攻非常適用"
       },
       {
         "name": "formula_d",
@@ -954,6 +976,18 @@
       },
       {
         "name": "formula_e",
+        "first": "turning_zero",
+        "second": "creed_of_bulwark",
+        "third": "corridor_echo"
+      },
+      {
+        "name": "formula_f",
+        "first": "ground_zero",
+        "second": "the_city_of_sins",
+        "third": "ground_zero"
+      },
+      {
+        "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -967,6 +1001,7 @@
     "evaluations": [
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Mh4y1F7sm/?t=752" }
     ],
+    "exclusive_priority": {},
     "skills": [
       { "skill": 1, "order": 3, "interim": 3, "level": 7 },
       { "skill": 2, "order": 1, "interim": 7, "level": 9 },
@@ -986,6 +1021,7 @@
       { "name": "繁笺花pimpernel", "link": "https://www.bilibili.com/video/BV1Us4y1J73c" }
     ],
     "qualitative_shackles": "2",
+    "exclusive_priority": {},
     "skills": [
       { "skill": 1, "order": 3, "interim": 3, "level": 7 },
       { "skill": 2, "order": 4, "interim": 3, "level": 7 },
@@ -995,41 +1031,31 @@
     "crimebrands": [
       {
         "name": "formula_a",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead",
+        "description": "長短線皆可用<br>可以提升破核後的爆發輸出"
+      },
+      {
+        "name": "formula_b",
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "corridor_echo",
+        "description": "充能套件"
+      },
+      {
+        "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "the_city_of_sins",
+        "third": "pioneer",
+        "description": "屬性套件"
+      },
+      {
+        "name": "formula_d",
         "first": "blue_rain",
         "second": "blue_rain",
         "third": "blue_rain",
         "description": "替補方案"
-      },
-      {
-        "name": "formula_b",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長短線皆可用"
-      },
-      {
-        "name": "formula_c",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_d",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "pioneer"
-      },
-      {
-        "name": "formula_e",
-        "first": "overthrown_tower",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_f",
-        "first": "overthrown_tower",
-        "second": "the_city_of_sins",
-        "third": "pioneer"
       }
     ]
   },
@@ -1073,13 +1099,20 @@
       },
       {
         "name": "formula_b",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模套裝"
+      },
+      {
+        "name": "formula_c",
         "first": "turning_zero",
         "second": "the_pandora_cage",
         "third": "the_pandora_cage",
         "description": "彌補莓絲錘型態傷害，攻速屬性加速疊攻擊力"
       },
       {
-        "name": "formula_c",
+        "name": "formula_d",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -1118,50 +1151,49 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "overthrown_tower",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "短線方案"
-      },
-      {
-        "name": "formula_b",
-        "first": "fury",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_c",
-        "first": "depth_of_restricted_area",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_d",
-        "first": "turning_zero",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "高攻速適合潘多拉，角色有著較高的上限"
-      },
-      {
-        "name": "formula_e",
         "first": "turning_zero",
         "second": "the_city_of_sins",
         "third": "pioneer",
         "description": "身高符合要求，可選"
       },
       {
+        "name": "formula_b",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模套裝"
+      },
+      {
+        "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage",
+        "description": "短線方案<br>高攻速適合潘多拉，角色有著較高的上限"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage"
+      },
+      {
+        "name": "formula_e",
+        "first": "fury",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage"
+      },
+      {
         "name": "formula_f",
+        "first": "depth_of_restricted_area",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage"
+      },
+      {
+        "name": "formula_g",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案<br>可以提升破核後的爆發輸出"
-      },
-      {
-        "name": "formula_g",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
       },
       {
         "name": "formula_h",
@@ -1204,11 +1236,10 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "turning_zero",
+        "first": "in_hosts_name",
         "second": "creed_of_bulwark",
-        "third": "corridor_echo",
-        "description": "增加阻擋 + 快速啟動"
+        "third": "in_hosts_name",
+        "description": "短線方案<br>坦裝兼範圍破核，優秀的回復能力，適合拿來當坦克去打，有範圍破核能力"
       },
       {
         "name": "formula_b",
@@ -1219,33 +1250,27 @@
       },
       {
         "name": "formula_c",
-        "first": "in_hosts_name",
+        "first": "turning_zero",
         "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "短線方案<br>坦裝兼範圍破核"
+        "third": "corridor_echo",
+        "description": "增加阻擋 + 快速啟動"
       },
       {
         "name": "formula_d",
-        "first": "ground_zero",
-        "second": "creed_of_bulwark",
-        "third": "ground_zero",
-        "description": "優秀的回復能力，適合拿來當坦克去打，有範圍破核能力"
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "pioneer",
+        "description": "小矮子專屬"
       },
       {
         "name": "formula_e",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_f",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
         "description": "替補方案"
       },
       {
-        "name": "formula_g",
+        "name": "formula_f",
         "first": "turning_zero",
         "second": "providence",
         "third": "providence"
@@ -1285,15 +1310,15 @@
       {
         "name": "formula_a",
         "first": "depths_of_oblivion",
-        "second": "singularity",
-        "third": "depths_of_oblivion"
+        "second": "the_city_of_sins",
+        "third": "depths_of_oblivion",
+        "description": "長短線皆可用<br>忘卻契合角色疊傷機制，大招清怪"
       },
       {
         "name": "formula_b",
         "first": "depths_of_oblivion",
-        "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "長短線皆可用<br>忘卻契合角色疊傷機制，大招清怪"
+        "second": "singularity",
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_c",
@@ -1317,16 +1342,10 @@
       },
       {
         "name": "formula_f",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_g",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
-        "description": "純法傷輸出，辛迪加套收益較高"
+        "description": "純法傷輸出，辛迪加套收益較高，適用的下位選擇，新手期可選"
       }
     ]
   },
@@ -1361,24 +1380,23 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero",
-        "description": "大幅提升屬性，部分場景適用"
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead",
+        "description": "長線方案<br>可以提升破核後的爆發輸出"
       },
       {
         "name": "formula_b",
         "first": "overthrown_tower",
         "second": "the_pandora_cage",
         "third": "the_pandora_cage",
-        "description": "短線方案"
+        "description": "短線方案<br>疊攻速能力較為優秀，潘多拉收益也不錯"
       },
       {
         "name": "formula_c",
         "first": "turning_zero",
         "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "疊攻速能力較為優秀，潘多拉收益也不錯"
+        "third": "the_pandora_cage"
       },
       {
         "name": "formula_d",
@@ -1394,17 +1412,16 @@
       },
       {
         "name": "formula_f",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
+        "first": "ground_zero",
+        "second": "the_city_of_sins",
+        "third": "ground_zero",
+        "description": "大幅提升屬性，部分場景適用"
       },
       {
         "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案<br>可以提升破核後的爆發輸出"
+        "third": "eastside_dream"
       }
     ]
   },
@@ -1442,33 +1459,34 @@
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
-        "description": "短線方案"
+        "description": "短線方案<br>可以一用"
       },
       {
         "name": "formula_b",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套屬性適配"
-      },
-      {
-        "name": "formula_c",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
         "third": "depths_of_oblivion",
         "description": "長線方案<br>主要靠大招清怪，忘卻深處適用"
       },
       {
+        "name": "formula_c",
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "corridor_echo",
+        "description": "充能套屬性適配"
+      },
+      {
         "name": "formula_d",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead"
+        "first": "turning_zero",
+        "second": "maxim",
+        "third": "maxim",
+        "description": "依賴必殺打傷害，箴銘適用"
       },
       {
         "name": "formula_e",
-        "first": "turning_zero",
-        "second": "shattered_battlefront",
-        "third": "shattered_battlefront"
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_f",
@@ -1478,10 +1496,9 @@
       },
       {
         "name": "formula_g",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "提升團隊開局輸出"
+        "first": "turning_zero",
+        "second": "shattered_battlefront",
+        "third": "shattered_battlefront"
       },
       {
         "name": "formula_h",
@@ -1531,17 +1548,18 @@
       {
         "name": "formula_a",
         "emphasis": true,
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "短線方案<br>開局快速必殺破核"
+      },
+      {
+        "name": "formula_b",
+        "emphasis": true,
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
         "description": "長線方案<br>優秀的破核增傷工具人，BOSS 場景適用魂之裂痕的最佳人選"
-      },
-      {
-        "name": "formula_b",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "短線方案"
       },
       {
         "name": "formula_c",
@@ -1552,17 +1570,10 @@
       },
       {
         "name": "formula_d",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream"
       }
-
     ]
   },
   "pepper": {
@@ -1601,48 +1612,42 @@
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
-        "description": "短線方案<br>流血隊長線若無其他角色攜帶魂裂，也可作為長線方案使用"
+        "description": "短線方案<br>流血隊中適合戴這一套，長線若無其他角色攜帶魂裂，也可作為長線方案使用"
       },
       {
         "name": "formula_b",
-        "first": "turning_zero",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage",
-        "description": "技能加攻速，可以考慮潘多拉"
-      },
-      {
-        "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案"
       },
       {
-        "name": "formula_d",
-        "first": "ground_zero",
+        "name": "formula_c",
+        "first": "turning_zero",
         "second": "the_city_of_sins",
-        "third": "ground_zero"
+        "third": "pioneer",
+        "description": "流血隊中其他人帶魂裂可以用這一套"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage",
+        "description": "技能加攻速，可以考慮潘多拉"
       },
       {
         "name": "formula_e",
-        "first": "eastside_dream",
-        "second": "eastside_dream",
-        "third": "eastside_dream",
-        "description": "替補方案"
-      },
-      {
-        "name": "formula_f",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套屬性適配"
-      },
-      {
-        "name": "formula_g",
         "first": "nightmare_revelation",
         "second": "hope",
         "third": "nightmare_revelation",
         "description": "公會戰可以當作加攻速工具人上場，三枷鎖效果還不錯"
+      },
+      {
+        "name": "formula_f",
+        "first": "eastside_dream",
+        "second": "eastside_dream",
+        "third": "eastside_dream",
+        "description": "替補方案"
       }
     ]
   },
@@ -1676,62 +1681,37 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "fury",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_b",
-        "first": "turning_zero",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_c",
         "first": "turning_zero",
         "second": "the_city_of_sins",
         "third": "pioneer",
         "description": "身高符合要求，可選"
       },
       {
-        "name": "formula_d",
+        "name": "formula_b",
+        "first": "in_hosts_name",
+        "second": "creed_of_bulwark",
+        "third": "in_hosts_name",
+        "description": "優秀的回復能力，適合拿來當坦克去打"
+      },
+      {
+        "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長短線皆可用"
       },
       {
-        "name": "formula_e",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
-      },
-      {
-        "name": "formula_f",
+        "name": "formula_d",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
         "description": "替補方案<br>普攻增傷、初期使用時勉強打點輸出"
       },
       {
-        "name": "formula_g",
+        "name": "formula_e",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo"
-      },
-      {
-        "name": "formula_h",
-        "first": "in_hosts_name",
-        "second": "creed_of_bulwark",
-        "third": "in_hosts_name",
-        "description": "當坦用"
-      },
-      {
-        "name": "formula_i",
-        "first": "ground_zero",
-        "second": "creed_of_bulwark",
-        "third": "ground_zero",
-        "description": "優秀的回復能力，適合拿來當坦克去打"
       }
     ]
   },
@@ -1755,13 +1735,37 @@
     ],
     "exclusive_priority": {
       "tier": "T1",
-      "level": "3"
+      "level": "1|3",
+      "comment": "無黛倫且作為主 C 培養可上三專" 
     },
     "skills": [
       { "skill": 1, "order": 4, "interim": 7, "level": 9 },
-      { "skill": 2, "order": 1, "interim": 7, "level": 9 },
+      { "skill": 2, "order": 1, "interim": 7, "level": "9|10" },
       { "skill": 3, "order": 3, "interim": 7, "level": 9 },
       { "skill": 4, "order": 2, "interim": 7, "level": 9 }
+    ],
+    "crimebrands": [
+      {
+        "name": "formula_a",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "售後套件"
+      },
+      {
+        "name": "formula_b",
+        "first": "reunion_day",
+        "second": "reunion_day",
+        "third": "reunion_day",
+        "description": "低鎖適配"
+      },
+      {
+        "name": "formula_c",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead",
+        "description": "可以提升破核後的爆發輸出，3+ 以上適用"
+      }
     ]
   },
   "serpent": {
@@ -1808,42 +1812,47 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "充能套適用"
-      },
-      {
-        "name": "formula_b",
-        "emphasis": true,
-        "first": "turning_zero",
-        "second": "singularity",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案<br>可以提升破核後的爆發輸出"
       },
       {
-        "name": "formula_d",
+        "name": "formula_b",
         "first": "depths_of_oblivion",
         "second": "singularity",
         "third": "depths_of_oblivion",
         "description": "短線方案"
       },
       {
+        "name": "formula_c",
+        "first": "solo_dance",
+        "second": "solo_dance",
+        "third": "solo_dance",
+        "description": "不知道選什麼這一套都可以，不嫌操作麻煩可以帶"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "corridor_echo",
+        "description": "充能套適用"
+      },
+      {
         "name": "formula_e",
+        "first": "turning_zero",
+        "second": "singularity",
+        "third": "corridor_echo"
+      },
+      {
+        "name": "formula_f",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
         "description": "替補方案<br>普攻增傷，適用法傷套，大部分場合可用"
       },
       {
-        "name": "formula_f",
+        "name": "formula_g",
         "first": "turning_zero",
         "second": "shattered_battlefront",
         "third": "shattered_battlefront"
@@ -1887,42 +1896,43 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案<br>可以提升破核後的爆發輸出"
-      },
-      {
-        "name": "formula_b",
         "first": "premonition",
         "second": "the_city_of_sins",
         "third": "pioneer",
         "description": "短線方案<br>身高符合要求，屬性可觀"
       },
       {
+        "name": "formula_b",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead",
+        "description": "長線方案<br>可以提升破核後的爆發輸出"
+      },
+      {
         "name": "formula_c",
+        "first": "illusory_moon",
+        "second": "illusory_moon",
+        "third": "pioneer",
+        "description": "提供的屬性比較契合科希"
+      },
+      {
+        "name": "formula_d",
         "first": "turning_zero",
         "second": "shattered_battlefront",
         "third": "shattered_battlefront",
         "description": "30 秒內速攻解決 BOSS 可以帶這一套"
       },
       {
-        "name": "formula_d",
+        "name": "formula_e",
         "first": "premonition",
         "second": "shattered_battlefront",
         "third": "shattered_battlefront"
       },
       {
-        "name": "formula_e",
+        "name": "formula_f",
         "first": "scarlet_bewitchment",
         "second": "scarlet_bewitchment",
         "third": "scarlet_bewitchment"
-      },
-      {
-        "name": "formula_f",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
       },
       {
         "name": "formula_g",
@@ -1971,18 +1981,17 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "reunion_day",
-        "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "長短線皆可用<br>當前最適合白逸的套裝，兼顧破核輸出"
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模爆擊套裝，普攻回能也非常好用"
       },
       {
         "name": "formula_b",
-        "first": "shackles_of_life",
-        "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "觸發被動後刀刀爆擊，前期容易湊齊，增傷可選"
+        "first": "reunion_day",
+        "second": "reunion_day",
+        "third": "reunion_day",
+        "description": "長短線皆可用<br>兼顧破核輸出"
       },
       {
         "name": "formula_c",
@@ -1993,6 +2002,13 @@
       },
       {
         "name": "formula_d",
+        "first": "shackles_of_life",
+        "second": "shackles_of_life",
+        "third": "shackles_of_life",
+        "description": "觸發被動後刀刀爆擊，前期容易湊齊，增傷可選"
+      },
+      {
+        "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream"
@@ -2007,6 +2023,7 @@
       { "name": "碳酸冰红茶", "link": "https://www.bilibili.com/video/BV1Y94y1q7PU" },
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1a8411U7ST/?t=123" }
     ],
+    "exclusive_priority": {},
     "skills": [
       { "skill": 1, "order": 3, "interim": 3, "level": 7 },
       { "skill": 2, "order": 1, "interim": 7, "level": 9 },
@@ -2045,30 +2062,31 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模爆擊套裝"
+      },
+      {
+        "name": "formula_b",
+        "first": "turning_zero",
+        "second": "maxim",
+        "third": "maxim",
+        "description": "短線方案"
+      },
+      {
+        "name": "formula_c",
         "first": "reunion_day",
         "second": "reunion_day",
         "third": "reunion_day",
         "description": "長線方案<br>有爆擊機制，可加快充能，破核兼輸出"
       },
       {
-        "name": "formula_b",
+        "name": "formula_d",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
         "third": "pioneer",
         "description": "身高 155，可選的輸出套件"
-      },
-      {
-        "name": "formula_c",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "pioneer"
-      },
-      {
-        "name": "formula_d",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_e",
@@ -2079,10 +2097,9 @@
       },
       {
         "name": "formula_f",
-        "first": "turning_zero",
-        "second": "motto",
-        "third": "motto",
-        "description": "短線方案"
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead"
       },
       {
         "name": "formula_g",
@@ -2192,24 +2209,24 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "premonition",
-        "second": "singularity",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_b",
         "first": "turning_zero",
         "second": "the_city_of_sins",
         "third": "corridor_echo",
         "description": "短線方案"
       },
       {
-        "name": "formula_c",
+        "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案"
+      },
+      {
+        "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "流血隊中可以帶這套"
       },
       {
         "name": "formula_d",
@@ -2227,29 +2244,23 @@
       },
       {
         "name": "formula_f",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
-      },
-      {
-        "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo"
       },
       {
-        "name": "formula_h",
-        "first": "turning_zero",
-        "second": "creed_of_bulwark",
-        "third": "corridor_echo",
-        "description": "阻擋 + 快速啟動"
-      },
-      {
-        "name": "formula_i",
+        "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
         "description": "替補方案"
+      },
+      {
+        "name": "formula_h",
+        "first": "year_one_perishing_star",
+        "second": "year_one_perishing_star",
+        "third": "year_one_perishing_star",
+        "description": "長線可以考慮"
       }
     ]
   },
@@ -2284,23 +2295,24 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "premonition",
-        "second": "singularity",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_b",
-        "first": "premonition",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_c",
         "first": "turning_zero",
         "second": "the_city_of_sins",
         "third": "corridor_echo",
         "description": "短線方案<br>技能組有輸出能力，屬性套裝適用"
+      },
+      {
+        "name": "formula_b",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead",
+        "description": "長線方案"
+      },
+      {
+        "name": "formula_c",
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "corridor_echo",
+        "description": "可以考慮的工具人套件"
       },
       {
         "name": "formula_d",
@@ -2311,20 +2323,6 @@
       },
       {
         "name": "formula_e",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
-      },
-      {
-        "name": "formula_f",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "可以考慮的工具人套件"
-      },
-      {
-        "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -2362,10 +2360,10 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "premonition",
-        "second": "singularity",
-        "third": "corridor_echo"
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "超模爆擊套裝"
       },
       {
         "name": "formula_b",
@@ -2376,24 +2374,24 @@
       },
       {
         "name": "formula_c",
-        "first": "shackles_of_life",
-        "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案"
-      },
-      {
-        "name": "formula_d",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案"
       },
       {
-        "name": "formula_e",
-        "first": "overthrown_tower",
+        "name": "formula_d",
+        "first": "turning_zero",
         "second": "hope",
         "third": "corridor_echo",
         "description": "充能套可快速啟動"
+      },
+      {
+        "name": "formula_e",
+        "first": "shackles_of_life",
+        "second": "shackles_of_life",
+        "third": "shackles_of_life",
+        "description": "替補方案"
       },
       {
         "name": "formula_f",
@@ -2408,12 +2406,6 @@
         "second": "the_pandora_cage",
         "third": "the_pandora_cage",
         "description": "疊攻速"
-      },
-      {
-        "name": "formula_h",
-        "first": "turning_zero",
-        "second": "providence",
-        "third": "providence"
       }
     ]
   },
@@ -2464,9 +2456,10 @@
       },
       {
         "name": "formula_c",
-        "first": "premonition",
-        "second": "singularity",
-        "third": "corridor_echo"
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "替補方案<br>必殺可以頻繁使用，正義套可以頻繁觸發"
       },
       {
         "name": "formula_d",
@@ -2476,13 +2469,6 @@
       },
       {
         "name": "formula_e",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>必殺可以頻繁使用，正義套可以頻繁觸發"
-      },
-      {
-        "name": "formula_f",
         "first": "turning_zero",
         "second": "the_pandora_cage",
         "third": "the_pandora_cage",
@@ -2531,17 +2517,17 @@
       },
       {
         "name": "formula_b",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>必殺可以頻繁使用，正義套可以頻繁觸發"
-      },
-      {
-        "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案<br>可以提升破核後的爆發輸出"
+      },
+      {
+        "name": "formula_c",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "替補方案<br>必殺可以頻繁使用，正義套可以頻繁觸發"
       },
       {
         "name": "formula_d",
@@ -2582,11 +2568,41 @@
       { "shackle": "0-1" },
       { "shackle": "2-3" }
     ],
+    "exclusive_priority": {
+      "tier": "T2",
+      "level": "3"
+    },
+    "strength": [
+      { "map": "main_stage", "strength": "T0" },
+      { "map": "broken_frontline", "strength": "T0" },
+      { "map": "long_term", "strength": "T0" },
+      { "map": "dis_shadows", "strength": "T0" }
+    ],
     "skills": [
       { "skill": 1, "order": 2, "interim": 7, "level": 10 },
       { "skill": 2, "order": 1, "interim": 7, "level": 10 },
       { "skill": 3, "order": 4, "interim": 7, "level": 10 },
-      { "skill": 4, "order": 3, "interim": 8, "level": 8 }
+      { "skill": 4, "order": 3, "interim": 8, "level": 9 }
+    ],
+    "crimebrands": [
+      {
+        "name": "formula_a",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead"
+      },
+      {
+        "name": "formula_b",
+        "first": "solo_dance",
+        "second": "solo_dance",
+        "third": "solo_dance"
+      },
+      {
+        "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁"
+      }
     ]
   },
   "dreya": {
@@ -2630,10 +2646,37 @@
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "description": "長線方案<br>目前長線最好用的"
       },
       {
         "name": "formula_c",
+        "first": "心像流逝",
+        "second": "心像流逝",
+        "third": "心像流逝"
+      },
+      {
+        "name": "formula_d",
+        "first": "overthrown_tower",
+        "second": "the_city_of_sins",
+        "third": "pioneer",
+        "description": "攻擊力增幅"
+      },
+      {
+        "name": "formula_e",
+        "first": "depths_of_oblivion",
+        "second": "the_city_of_sins",
+        "third": "depths_of_oblivion",
+        "description": "部分場景適用"
+      },
+      {
+        "name": "formula_f",
+        "first": "ground_zero",
+        "second": "the_city_of_sins",
+        "third": "ground_zero",
+        "description": "部分場景適用"
+      },
+      {
+        "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -2672,10 +2715,10 @@
       { "map": "dis_shadows", "strength": "T1" }
     ],
     "skills": [
-      { "skill": 1, "order": "3|4", "interim": 7, "level": 7 },
+      { "skill": 1, "order": "3|4", "interim": 5, "level": 7 },
       { "skill": 2, "order": "1|2", "interim": 7, "level": 9 },
       { "skill": 3, "order": "2|1", "interim": 7, "level": 9 },
-      { "skill": 4, "order": "4|3", "interim": 7, "level": 8 }
+      { "skill": 4, "order": "4|3", "interim": 5, "level": 8 }
     ],
     "crimebrands": [
       {
@@ -2684,10 +2727,30 @@
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
-        "description": "長短線皆可用<br>完美適配"
+        "description": "長短線皆可用<br>完美適配，兩個屬性都能吃"
       },
       {
         "name": "formula_b",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead"
+      },
+      {
+        "name": "formula_c",
+        "first": "turning_zero",
+        "second": "maxim",
+        "third": "maxim",
+        "description": "可以選擇"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "the_city_of_sins",
+        "third": "pioneer",
+        "description": "可選"
+      },
+      {
+        "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -2736,37 +2799,31 @@
         "first": "servant",
         "second": "the_city_of_sins",
         "third": "creation",
-        "description": "短線方案<br>夏音目前最強套裝，所有屬性完美契合夏音"
+        "description": "短線方案<br>夏音目前最強套裝，所有屬性完美契合夏音，屬性極佳"
       },
       {
         "name": "formula_b",
-        "first": "overthrown_tower",
-        "second": "the_city_of_sins",
-        "third": "creation",
-        "description": "長線方案"
+        "first": "servant",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "長線方案<br>長線最優解，1 號位也可以用高塔"
       },
       {
         "name": "formula_c",
-        "first": "servant",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_d",
         "first": "servant",
         "second": "the_pandora_cage",
         "third": "the_pandora_cage",
         "description": "輸出效率尚可，可選"
       },
       {
-        "name": "formula_e",
+        "name": "formula_d",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
         "third": "shackles_of_life",
         "description": "爆擊套適用，下位替代"
       },
       {
-        "name": "formula_f",
+        "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream"
@@ -2792,7 +2849,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T1",
+      "tier": "T1|T2",
       "level": "1"
     },
     "strength": [
@@ -2818,44 +2875,50 @@
       },
       {
         "name": "formula_b",
-        "first": "overthrown_tower",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_c",
-        "first": "premonition",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_d",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套競速環境適用"
-      },
-      {
-        "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "長線方案<br>增傷較高，需要注意站位"
       },
       {
+        "name": "formula_c",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "充能套競速環境適用"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "maxim",
+        "third": "maxim"
+      },
+      {
+        "name": "formula_e",
+        "first": "overthrown_tower",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage"
+      },
+      {
         "name": "formula_f",
+        "first": "premonition",
+        "second": "the_pandora_cage",
+        "third": "the_pandora_cage"
+      },
+      {
+        "name": "formula_g",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead"
       },
       {
-        "name": "formula_g",
+        "name": "formula_h",
         "first": "depths_of_oblivion",
         "second": "singularity",
         "third": "depths_of_oblivion"
       },
       {
-        "name": "formula_h",
+        "name": "formula_i",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -2889,15 +2952,16 @@
     "skills": [
       { "skill": 1, "order": 2, "interim": 5, "level": 7 },
       { "skill": 2, "order": 1, "interim": 7, "level": 9 },
-      { "skill": 3, "order": null, "interim": null, "level": null },
-      { "skill": 4, "order": 3, "interim": 1, "level": 3, "threshold": true }
+      { "skill": 3, "order": 3, "interim": 1, "level": 3, "threshold": true },
+      { "skill": 4, "order": null, "interim": null, "level": null }
     ],
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "reunion_day",
-        "second": "reunion_day",
-        "third": "reunion_day"
+        "first": "solo_dance",
+        "second": "solo_dance",
+        "third": "solo_dance",
+        "description": "短線方案"
       },
       {
         "name": "formula_b",
@@ -2908,52 +2972,27 @@
       },
       {
         "name": "formula_c",
-        "first": "turning_zero",
-        "second": "the_city_of_sins",
-        "third": "pioneer"
-      },
-      {
-        "name": "formula_d",
         "first": "overthrown_tower",
         "second": "the_city_of_sins",
         "third": "pioneer",
         "description": "身高符合要求，屬性可觀"
       },
       {
-        "name": "formula_e",
-        "first": "solo_dance",
-        "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案"
-      },
-      {
-        "name": "formula_f",
+        "name": "formula_d",
         "first": "overthrown_tower",
-        "second": "the_city_of_sins",
-        "third": "corridor_echo",
-        "description": "阻擋 + 快速啟動"
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "爆擊屬性適配"
       },
       {
-        "name": "formula_g",
+        "name": "formula_e",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
         "third": "shackles_of_life",
         "description": "替補方案"
       },
       {
-        "name": "formula_h",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
-      },
-      {
-        "name": "formula_i",
-        "first": "year_one_perishing_star",
-        "second": "year_one_perishing_star",
-        "third": "year_one_perishing_star"
-      },
-      {
-        "name": "formula_j",
+        "name": "formula_f",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -3001,16 +3040,17 @@
       },
       {
         "name": "formula_b",
-        "first": "servant",
-        "second": "the_pandora_cage",
-        "third": "the_pandora_cage"
-      },
-      {
-        "name": "formula_c",
         "first": "turning_zero",
         "second": "the_pandora_cage",
         "third": "the_pandora_cage",
         "description": "短線方案"
+      },
+      {
+        "name": "formula_c",
+        "first": "servant",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "非常適配"
       },
       {
         "name": "formula_d",
@@ -3029,18 +3069,12 @@
       {
         "name": "formula_f",
         "first": "ground_zero",
-        "second": "hope",
-        "third": "ground_zero"
-      },
-      {
-        "name": "formula_g",
-        "first": "ground_zero",
         "second": "the_city_of_sins",
         "third": "pioneer",
         "description": "身高可選"
       },
       {
-        "name": "formula_h",
+        "name": "formula_g",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
@@ -3080,55 +3114,37 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "作為減防工具人快速開啟大招"
-      },
-      {
-        "name": "formula_b",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
         "description": "長短線皆可用<br>跨隊執法懂的都懂"
       },
       {
-        "name": "formula_c",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained"
-      },
-      {
-        "name": "formula_d",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
-      },
-      {
-        "name": "formula_e",
+        "name": "formula_b",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "增傷較高，需要注意站位"
       },
       {
-        "name": "formula_f",
+        "name": "formula_c",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "作為減防工具人快速開啟大招"
+      },
+      {
+        "name": "formula_e",
         "first": "eastside_dream",
         "second": "eastside_dream",
         "third": "eastside_dream",
         "description": "替補方案<br>可以大幅提高普攻傷害，大部分場景適用"
-      },
-      {
-        "name": "formula_g",
-        "first": "year_one_perishing_star",
-        "second": "year_one_perishing_star",
-        "third": "year_one_perishing_star"
-      },
-      {
-        "name": "formula_h",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead"
       }
     ]
   },
@@ -3165,53 +3181,46 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "overthrown_tower",
-        "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，屬性可觀"
-      },
-      {
-        "name": "formula_b",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高可選"
-      },
-      {
-        "name": "formula_c",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
         "third": "shackles_of_life",
         "description": "短線方案<br>常規關卡中，擊殺後必爆讓 EMP 大招可以吃到爆擊傷害加成"
       },
       {
-        "name": "formula_d",
+        "name": "formula_b",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "長線方案<br>增傷較高，需要注意站位"
       },
       {
-        "name": "formula_e",
-        "first": "year_one_perishing_star",
-        "second": "year_one_perishing_star",
-        "third": "year_one_perishing_star",
-        "description": "替補方案"
+        "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "弓箭死神！"
       },
       {
-        "name": "formula_f",
+        "name": "formula_d",
+        "first": "overthrown_tower",
+        "second": "the_city_of_sins",
+        "third": "pioneer",
+        "description": "身高符合要求，屬性可觀"
+      },
+      {
+        "name": "formula_e",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead"
       },
       {
-        "name": "formula_g",
+        "name": "formula_f",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo"
       },
       {
-        "name": "formula_h",
+        "name": "formula_g",
         "first": "turning_zero",
         "second": "providence",
         "third": "providence"
@@ -3250,37 +3259,44 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "reunion_day",
-        "second": "reunion_day",
-        "third": "reunion_day",
-        "description": "常駐爆擊高，攻速快，可頻繁觸發，加快大招刷新"
-      },
-      {
-        "name": "formula_b",
-        "first": "shackles_of_life",
-        "second": "shackles_of_life",
-        "third": "shackles_of_life",
-        "description": "替補方案<br>常駐爆擊高，爆擊套適用"
-      },
-      {
-        "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案<br>可以提升破核後的爆發輸出"
       },
       {
-        "name": "formula_d",
-        "first": "eastside_dream",
-        "second": "eastside_dream",
-        "third": "eastside_dream"
-      },
-      {
-        "name": "formula_e",
+        "name": "formula_b",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "短線方案"
+      },
+      {
+        "name": "formula_c",
+        "first": "overthrown_tower",
+        "second": "逆位之裁",
+        "third": "逆位之裁",
+        "description": "非常適配"
+      },
+      {
+        "name": "formula_d",
+        "first": "shackles_of_life",
+        "second": "shackles_of_life",
+        "third": "shackles_of_life",
+        "description": "替補方案<br>常駐爆擊高，爆擊套適用"
+      },
+      {
+        "name": "formula_e",
+        "first": "reunion_day",
+        "second": "reunion_day",
+        "third": "reunion_day",
+        "description": "常駐爆擊高，攻速快，可頻繁觸發，加快大招刷新"
+      },
+      {
+        "name": "formula_f",
+        "first": "eastside_dream",
+        "second": "eastside_dream",
+        "third": "eastside_dream"
       }
     ]
   },
@@ -3327,15 +3343,16 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "fantasy_moon",
-        "second": "fantasy_moon",
+        "emphasis": true,
+        "first": "illusory_moon",
+        "second": "illusory_moon",
         "third": "pioneer",
         "description": "長線方案<br>短線爆發"
       },
       {
         "name": "formula_b",
-        "first": "fantasy_moon",
-        "second": "fantasy_moon",
+        "first": "illusory_moon",
+        "second": "illusory_moon",
         "third": "corridor_echo",
         "description": "短線方案"
       },
@@ -3349,48 +3366,30 @@
       {
         "name": "formula_d",
         "first": "premonition",
-        "second": "motto",
-        "third": "motto",
+        "second": "maxim",
+        "third": "maxim",
         "description": "必殺和羽毛各破 1 核可觸發預知夢 2 次"
       },
       {
         "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
-        "third": "solo_dance"
+        "third": "solo_dance",
+        "description": "提升必殺技能傷害"
       },
       {
         "name": "formula_f",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead"
+        "third": "embrace_of_the_dead",
+        "description": "破核後爆發傷害"
       },
       {
         "name": "formula_g",
         "first": "turning_zero",
         "second": "hope",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_h",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation",
-        "description": "短線輔助可選"
-      },
-      {
-        "name": "formula_i",
-        "first": "justice",
-        "second": "justice",
         "third": "corridor_echo",
-        "description": "長線輔助可選"
-      },
-      {
-        "name": "formula_j",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "長線輔助可選"
+        "description": "充能套件適用於輔助場景"
       },
       {
         "name": "formula_k",
@@ -3404,6 +3403,10 @@
   "etti": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E7%88%B1%E7%BC%87",
     "job": "arcane",
+    "evaluations": [
+      { "name": "老袜不是老袜", "link": "https://www.bilibili.com/video/BV1K94y1z7U5" },
+      { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1hF411C76D" }
+    ],
     "tags": [
       "<strong>超強大招單體爆發</strong>",
       "<strong>看臉寶石輔助</strong>",
@@ -3421,7 +3424,7 @@
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
-      "tier": "T0",
+      "tier": "T0|T1",
       "level": "3",
       "emphasis": "fw-bold text-danger"
     },
@@ -3441,30 +3444,30 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "turning_zero",
-        "second": "singularity",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
-        "description": "長線方案"
+        "description": "長線方案<br>破碎戰線競速爆發傷害"
       },
       {
-        "name": "formula_c",
-        "first": "depths_of_oblivion",
-        "second": "singularity",
-        "third": "depths_of_oblivion"
-      },
-      {
-        "name": "formula_d",
+        "name": "formula_b",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
-        "description": "短線方案"
+        "description": "短線方案<br>提升必殺技能傷害"
+      },
+      {
+        "name": "formula_c",
+        "first": "illusory_moon",
+        "second": "illusory_moon",
+        "third": "corridor_echo",
+        "description": "這套愛緹用起來還行"
+      },
+      {
+        "name": "formula_d",
+        "first": "depths_of_oblivion",
+        "second": "singularity",
+        "third": "depths_of_oblivion"
       },
       {
         "name": "formula_e",
@@ -3514,7 +3517,7 @@
         "first": "servant",
         "second": "the_city_of_sins",
         "third": "creation",
-        "description": "長短線皆可用<br>新烙印受益者之一，當前最優套裝"
+        "description": "長短線皆可用<br>當前最優套裝"
       },
       {
         "name": "formula_b",
@@ -3524,16 +3527,23 @@
         "description": "充能套件適用，加速必殺啟動"
       },
       {
-        "name": "formula_c",
-        "first": "justice",
-        "second": "justice",
-        "third": "creation"
+        "name": "formula_b",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "充能套"
       },
       {
-        "name": "formula_d",
+        "name": "formula_c",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead"
+      },
+      {
+        "name": "formula_d",
+        "first": "justice",
+        "second": "justice",
+        "third": "creation"
       },
       {
         "name": "formula_e",
@@ -3565,7 +3575,7 @@
       "emphasis": "fw-bold text-danger"
     },
     "exclusive_priority": {
-      "tier": "T3",
+      "tier": "T2",
       "level": "1|3"
     },
     "strength": [
@@ -3592,22 +3602,16 @@
       {
         "name": "formula_b",
         "first": "depths_of_oblivion",
-        "second": "hope",
+        "second": "the_city_of_sins",
         "third": "depths_of_oblivion",
         "description": "使用背水打法時可選"
       },
       {
         "name": "formula_c",
-        "first": "depths_of_oblivion",
-        "second": "the_city_of_sins",
-        "third": "depths_of_oblivion"
-      },
-      {
-        "name": "formula_d",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
-        "description": "替補方案<br>適用於大部分場景，增傷穩定"
+        "description": "替補方案<br>新手期很好用，增傷穩定"
       }
     ]
   },
@@ -3620,11 +3624,35 @@
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1Zc411M7iK/?t=425" },
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV17k4y1u7df" }
     ],
+    "exclusive_priority": {},
     "skills": [
       { "skill": 1, "order": 1, "interim": 7, "level": 9 },
       { "skill": 2, "order": 2, "interim": 3, "level": 7 },
       { "skill": 3, "order": 3, "interim": 3, "level": 7 },
       { "skill": 4, "order": 4, "interim": 3, "level": 7 }
+    ],
+    "crimebrands": [
+      {
+        "name": "formula_a",
+        "first": "overthrown_tower",
+        "second": "the_city_of_sins",
+        "third": "pioneer",
+        "description": "攻擊力增傷拉滿"
+      },
+      {
+        "name": "formula_b",
+        "first": "syndicate_glory",
+        "second": "syndicate_glory",
+        "third": "syndicate_glory",
+        "description": "不被稀釋的首選增傷"
+      },
+      {
+        "name": "formula_c",
+        "first": "diverged_ends",
+        "second": "the_city_of_sins",
+        "third": "diverged_ends",
+        "description": "主線關卡可選"
+      }
     ]
   },
   "luvia_ray": {
@@ -3659,24 +3687,24 @@
     "crimebrands": [
       {
         "name": "formula_a",
+        "first": "solo_dance",
+        "second": "solo_dance",
+        "third": "solo_dance",
+        "description": "短線方案<br>增傷較高，需要注意站位"
+      },
+      {
+        "name": "formula_b",
         "first": "embrace_of_the_dead",
         "second": "embrace_of_the_dead",
         "third": "embrace_of_the_dead",
         "description": "長線方案<br>破碎防線拿到 Buff 作為主 C 配合專屬可以在破核後打出高額傷害"
       },
       {
-        "name": "formula_b",
+        "name": "formula_c",
         "first": "shackles_of_life",
         "second": "shackles_of_life",
         "third": "shackles_of_life",
         "description": "替補方案<br>主要靠平 A 打輸出，有著穩定的爆擊，適用大部分場景"
-      },
-      {
-        "name": "formula_c",
-        "first": "solo_dance",
-        "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案<br>增傷較高，需要注意站位"
       },
       {
         "name": "formula_d",
@@ -3731,42 +3759,36 @@
       },
       {
         "name": "formula_b",
-        "first": "premonition",
-        "second": "paradise_regained",
-        "third": "paradise_regained"
+        "first": "servant",
+        "second": "the_city_of_sins",
+        "third": "creation"
       },
       {
         "name": "formula_c",
         "first": "servant",
-        "second": "the_city_of_sins",
-        "third": "creation",
+        "second": "hope",
+        "third": "corridor_echo",
         "description": "長線方案<br>開專屬烙印後這一套在法傷隊也能用"
       },
       {
         "name": "formula_d",
-        "first": "syndicate_glory",
-        "second": "syndicate_glory",
-        "third": "syndicate_glory",
-        "description": "替補方案"
-      },
-      {
-        "name": "formula_e",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "增傷較高，需要注意站位"
       },
       {
-        "name": "formula_f",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
+        "name": "formula_e",
+        "first": "syndicate_glory",
+        "second": "syndicate_glory",
+        "third": "syndicate_glory",
+        "description": "替補方案"
       },
       {
-        "name": "formula_g",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain"
+        "name": "formula_f",
+        "first": "premonition",
+        "second": "paradise_regained",
+        "third": "paradise_regained"
       }
     ]
   },
@@ -3817,7 +3839,7 @@
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
-        "description": "替補方案<br>適用於大部分場景，增傷穩定"
+        "description": "替補方案<br>下位選擇，增傷穩定"
       },
       {
         "name": "formula_d",
@@ -3864,23 +3886,23 @@
       },
       {
         "name": "formula_b",
+        "first": "solo_dance",
+        "second": "solo_dance",
+        "third": "solo_dance",
+        "description": "短線方案<br>增傷較高，需要注意站位"
+      },
+      {
+        "name": "formula_c",
         "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
         "third": "depths_of_oblivion",
         "description": "可利用忘卻深處的取消後搖機制"
       },
       {
-        "name": "formula_c",
+        "name": "formula_d",
         "first": "depths_of_oblivion",
         "second": "singularity",
         "third": "depths_of_oblivion"
-      },
-      {
-        "name": "formula_d",
-        "first": "solo_dance",
-        "second": "solo_dance",
-        "third": "solo_dance",
-        "description": "短線方案<br>增傷較高，需要注意站位"
       },
       {
         "name": "formula_e",
@@ -3923,65 +3945,32 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "turning_zero",
+        "first": "depths_of_oblivion",
         "second": "the_city_of_sins",
-        "third": "pioneer",
-        "description": "身高符合要求，屬性可觀"
+        "third": "depths_of_oblivion",
+        "description": "短線方案<br>忘卻契合角色必殺充能，可選"
       },
       {
         "name": "formula_b",
-        "first": "depths_of_oblivion",
-        "second": "hope",
-        "third": "depths_of_oblivion",
-        "description": "忘卻契合角色必殺充能，可選"
-      },
-      {
-        "name": "formula_c",
-        "first": "depths_of_oblivion",
-        "second": "the_city_of_sins",
-        "third": "depths_of_oblivion",
-        "description": "短線方案"
-      },
-      {
-        "name": "formula_d",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "增傷較高，需要注意站位"
       },
       {
-        "name": "formula_e",
+        "name": "formula_c",
+        "first": "illusory_moon",
+        "second": "illusory_moon",
+        "third": "pioneer",
+        "description": "身高符合要求，屬性可觀"
+      },
+      {
+        "name": "formula_d",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
         "description": "替補方案"
-      },
-      {
-        "name": "formula_f",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_g",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_h",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain"
-      },
-      {
-        "name": "formula_i",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "長線方案"
       }
-
     ]
   },
   "kelvin": {
@@ -4015,56 +4004,43 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_b",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo",
-        "description": "工具人套件可以考慮"
-      },
-      {
-        "name": "formula_c",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_d",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain",
-        "description": "替補方案"
-      },
-      {
-        "name": "formula_e",
-        "first": "white_sands_apostle",
-        "second": "white_sands_apostle",
-        "third": "white_sands_apostle"
-      },
-      {
-        "name": "formula_f",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "長線方案"
-      },
-      {
-        "name": "formula_g",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "短線方案<br>增傷較高，需要注意站位"
       },
       {
-        "name": "formula_h",
+        "name": "formula_b",
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained",
+        "description": "長線方案"
+      },
+      {
+        "name": "formula_c",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo"
+      },
+      {
+        "name": "formula_d",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "工具人套件可以考慮"
+      },
+      {
+        "name": "formula_e",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
         "description": "適用於大部分場景，增傷穩定"
+      },
+      {
+        "name": "formula_f",
+        "first": "white_sands_apostle",
+        "second": "white_sands_apostle",
+        "third": "white_sands_apostle"
       }
     ]
   },
@@ -4100,57 +4076,38 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "一般作為減法抗工具人上場，考慮充能套最優"
-      },
-      {
-        "name": "formula_b",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo",
-        "description": "工具人套件可以考慮"
-      },
-      {
-        "name": "formula_c",
         "first": "solo_dance",
         "second": "solo_dance",
         "third": "solo_dance",
         "description": "短線方案<br>增傷較高，需要注意站位"
       },
       {
-        "name": "formula_d",
-        "first": "nightmare_revelation",
+        "name": "formula_b",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead",
+        "description": "長線方案<br>瓊神，C"
+      },
+      {
+        "name": "formula_c",
+        "first": "turning_zero",
         "second": "hope",
-        "third": "nightmare_revelation"
+        "third": "corridor_echo",
+        "description": "一般作為減法抗工具人上場，考慮充能套最優"
+      },
+      {
+        "name": "formula_d",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "工具人套件可以考慮"
       },
       {
         "name": "formula_e",
-        "first": "ground_zero",
-        "second": "the_city_of_sins",
-        "third": "ground_zero"
-      },
-      {
-        "name": "formula_f",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain"
-      },
-      {
-        "name": "formula_g",
         "first": "syndicate_glory",
         "second": "syndicate_glory",
         "third": "syndicate_glory",
         "description": "替補方案"
-      },
-      {
-        "name": "formula_h",
-        "first": "embrace_of_the_dead",
-        "second": "embrace_of_the_dead",
-        "third": "embrace_of_the_dead",
-        "description": "長線方案"
       }
     ]
   },
@@ -4165,21 +4122,46 @@
       { "name": "池川绝不咕咕咕", "link": "https://www.bilibili.com/video/BV1Cj411z7wm" },
       { "name": "竹半含箨", "link": "https://www.bilibili.com/video/BV1YP411x7RV" }
     ],
+    "tags": [
+      "<strong>群體治療、全屏治療</strong>",
+      "<strong>真實傷害單體輸出</strong>"
+    ],
     "qualitative_shackles": "1、3",
     "recommended_shackle": 1,
     "supplement_shackles": [
       { "shackle": "0-1", "emphasis": true }
     ],
+    "exclusive": {
+      "text": "極為推薦、質變提升",
+      "emphasis": "fw-bold text-danger"
+    },
+    "exclusive_priority": {
+      "tier": "T2",
+      "level": "3"
+    },
     "skills": [
       { "skill": 1, "order": 2, "interim": 7, "level": 9 },
-      { "skill": 2, "order": 4, "interim": 3, "level": 7 },
-      { "skill": 3, "order": 1, "interim": 7, "level": 10 },
+      { "skill": 2, "order": 4, "interim": 3, "level": "7|9" },
+      { "skill": 3, "order": 1, "interim": 7, "level": "9|10" },
       { "skill": 4, "order": 3, "interim": 5, "level": 9 }
+    ],
+    "crimebrands": [
+      {
+        "name": "formula_a",
+        "first": "embrace_of_the_dead",
+        "second": "embrace_of_the_dead",
+        "third": "embrace_of_the_dead"
+      }
     ]
   },
   "cabernet": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E9%97%A8%E5%A5%88%E7%89%B9",
     "job": "catalyst",
+    "tags": [
+      "<strong style='color: #f1aeb5;'>高貴的攻擊力乘區拐</strong>",
+      "<strong>暗域最優輔助</strong>",
+      "<strong>對站位略有要求</strong>"
+    ],
     "evaluations": [
       { "name": "MBCC战略分析组", "link": "https://www.bilibili.com/video/BV1yj411D7eg" },
       { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV19s4y1C7N6" },
@@ -4200,10 +4182,32 @@
       "level": "1"
     },
     "skills": [
-      { "skill": 1, "order": 3, "interim": 1, "level": 3 },
+      { "skill": 1, "order": 3, "interim": 1, "level": "3|7" },
       { "skill": 2, "order": 1, "interim": 7, "level": 10 },
-      { "skill": 3, "order": 4, "interim": 1, "level": 3 },
-      { "skill": 4, "order": 2, "interim": 1, "level": 3 }
+      { "skill": 3, "order": 4, "interim": 1, "level": "3|7" },
+      { "skill": 4, "order": 2, "interim": 1, "level": "3|7" }
+    ],
+    "crimebrands": [
+      {
+        "name": "formula_a",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "充能套，快速啟動"
+      },
+      {
+        "name": "formula_b",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "更多的攻擊力提升"
+      },
+      {
+        "name": "formula_c",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
+      }
     ]
   },
   "enfer": {
@@ -4247,37 +4251,37 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>為隊伍增加攻擊，增傷工具人"
-      },
-      {
-        "name": "formula_b",
         "first": "turning_zero",
         "second": "hope",
         "third": "corridor_echo",
         "description": "短線方案<br>充能套快速啟動適用"
       },
       {
+        "name": "formula_b",
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "corridor_echo",
+        "description": "長線方案"
+      },
+      {
         "name": "formula_c",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "替補方案<br>為隊伍增加攻擊，增傷工具人"
+      },
+      {
+        "name": "formula_d",
         "first": "nightmare_revelation",
         "second": "hope",
         "third": "nightmare_revelation"
       },
       {
-        "name": "formula_d",
+        "name": "formula_e",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained"
-      },
-      {
-        "name": "formula_e",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "third": "paradise_regained",
+        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
       }
     ]
   },
@@ -4299,7 +4303,7 @@
       "emphasis": "fw-bold"
     },
     "exclusive_priority": {
-      "tier": "T3",
+      "tier": "T2",
       "level": "1"
     },
     "strength": [
@@ -4318,40 +4322,33 @@
       {
         "name": "formula_a",
         "emphasis": true,
-        "first": "final_prologue",
-        "second": "final_prologue",
-        "third": "final_prologue",
-        "description": "治療團隊為主，適用大部分場景"
-      },
-      {
-        "name": "formula_b",
-        "emphasis": true,
-        "first": "justice",
-        "second": "justice",
-        "third": "final_prologue"
-      },
-      {
-        "name": "formula_c",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_d",
         "first": "scarlet_bewitchment",
         "second": "scarlet_bewitchment",
         "third": "scarlet_bewitchment",
         "description": "長線方案<br>兼顧治療和輸出"
       },
       {
-        "name": "formula_e",
+        "name": "formula_b",
         "first": "justice",
         "second": "justice",
         "third": "corridor_echo",
         "description": "短線方案<br>競速工具人套件適用"
       },
       {
-        "name": "formula_f",
+        "name": "formula_c",
+        "first": "justice",
+        "second": "justice",
+        "third": "final_prologue"
+      },
+      {
+        "name": "formula_d",
+        "first": "final_prologue",
+        "second": "final_prologue",
+        "third": "final_prologue",
+        "description": "治療團隊為主，適用大部分場景"
+      },
+      {
+        "name": "formula_e",
         "first": "turning_zero",
         "second": "paradise_regained",
         "third": "paradise_regained"
@@ -4366,11 +4363,35 @@
       { "name": "叫我棉被", "link": "https://www.bilibili.com/video/BV1qP411Q7mx/?t=439" },
       { "name": "啊颓Yyan", "link": "https://www.bilibili.com/video/BV1XP411Q7Y5" }
     ],
+    "exclusive_priority": {},
     "skills": [
       { "skill": 1, "order": 1, "interim": 7, "level": 7 },
       { "skill": 2, "order": 2, "interim": 3, "level": 7 },
       { "skill": 3, "order": 3, "interim": 3, "level": 7 },
       { "skill": 4, "order": 4, "interim": 3, "level": 7 }
+    ],
+    "crimebrands": [
+      {
+        "name": "formula_a",
+        "first": "scarlet_bewitchment",
+        "second": "scarlet_bewitchment",
+        "third": "scarlet_bewitchment",
+        "description": "兼顧治療和護盾"
+      },
+      {
+        "name": "formula_b",
+        "first": "final_prologue",
+        "second": "final_prologue",
+        "third": "final_prologue",
+        "description": "治療團隊為主，適用大部分場景"
+      },
+      {
+        "name": "formula_c",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation",
+        "description": "工具人套件"
+      }
     ]
   },
   "dudu": {
@@ -4424,27 +4445,22 @@
       {
         "name": "formula_c",
         "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_d",
-        "first": "nightmare_revelation",
         "second": "obsession",
         "third": "nightmare_revelation",
         "description": "競速工具人套件適用"
       },
       {
-        "name": "formula_e",
-        "first": "scarlet_bewitchment",
-        "second": "scarlet_bewitchment",
-        "third": "scarlet_bewitchment"
+        "name": "formula_d",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
       },
       {
-        "name": "formula_f",
+        "name": "formula_e",
         "first": "turning_zero",
         "second": "paradise_regained",
-        "third": "paradise_regained"
+        "third": "paradise_regained",
+        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
       }
     ]
   },
@@ -4486,10 +4502,10 @@
       },
       {
         "name": "formula_b",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "corridor_echo",
+        "description": "長線方案"
       },
       {
         "name": "formula_c",
@@ -4500,16 +4516,16 @@
       },
       {
         "name": "formula_d",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained",
+        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
       },
       {
         "name": "formula_e",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
       }
     ]
   },
@@ -4550,41 +4566,36 @@
       },
       {
         "name": "formula_b",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "final_prologue",
+        "description": "長線方案"
       },
       {
         "name": "formula_c",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained"
-      },
-      {
-        "name": "formula_d",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_e",
         "first": "turning_zero",
         "second": "hope",
         "third": "corridor_echo",
         "description": "充能套，部分環境適用"
       },
       {
-        "name": "formula_f",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain"
+        "name": "formula_d",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "為隊伍增加攻擊，增傷工具人"
       },
       {
-        "name": "formula_g",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "name": "formula_e",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
+      },
+      {
+        "name": "formula_f",
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained"
       }
     ]
   },
@@ -4619,24 +4630,24 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
+        "first": "blue_rain",
+        "second": "blue_rain",
+        "third": "blue_rain",
+        "description": "短線方案"
+      },
+      {
+        "name": "formula_b",
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "corridor_echo",
+        "description": "長線方案"
+      },
+      {
+        "name": "formula_c",
         "first": "justice",
         "second": "justice",
         "third": "corridor_echo",
         "description": "替補方案<br>大招 CD 快，可以頻繁觸發正義套裝效果"
-      },
-      {
-        "name": "formula_b",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained",
-        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
-      },
-      {
-        "name": "formula_c",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo"
       },
       {
         "name": "formula_d",
@@ -4647,23 +4658,16 @@
       },
       {
         "name": "formula_e",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain",
-        "description": "短線方案"
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained",
+        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
       },
       {
         "name": "formula_f",
-        "first": "white_sands_apostle",
-        "second": "white_sands_apostle",
-        "third": "white_sands_apostle"
-      },
-      {
-        "name": "formula_g",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "corridor_echo",
-        "description": "長線方案"
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo"
       }
     ]
   },
@@ -4705,41 +4709,36 @@
       },
       {
         "name": "formula_b",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
+        "first": "soul_rift",
+        "second": "soul_rift",
+        "third": "final_prologue",
+        "description": "長線方案"
       },
       {
         "name": "formula_c",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained"
-      },
-      {
-        "name": "formula_d",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_e",
         "first": "turning_zero",
         "second": "hope",
         "third": "corridor_echo",
         "description": "充能套，部分環境適用"
       },
       {
-        "name": "formula_f",
-        "first": "blue_rain",
-        "second": "blue_rain",
-        "third": "blue_rain"
+        "name": "formula_d",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "為隊伍增加攻擊，增傷工具人"
       },
       {
-        "name": "formula_g",
-        "first": "soul_rift",
-        "second": "soul_rift",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "name": "formula_e",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
+      },
+      {
+        "name": "formula_f",
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained"
       }
     ]
   },
@@ -4781,49 +4780,43 @@
       },
       {
         "name": "formula_b",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_c",
-        "first": "turning_zero",
-        "second": "paradise_regained",
-        "third": "paradise_regained"
-      },
-      {
-        "name": "formula_d",
-        "first": "justice",
-        "second": "justice",
-        "third": "final_prologue",
-        "description": "長線方案"
-      },
-      {
-        "name": "formula_d",
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo"
-      },
-      {
-        "name": "formula_e",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "充能套，部分環境適用"
-      },
-      {
-        "name": "formula_f",
         "first": "blue_rain",
         "second": "blue_rain",
         "third": "blue_rain",
         "description": "短線方案"
       },
       {
+        "name": "formula_c",
+        "first": "justice",
+        "second": "justice",
+        "third": "final_prologue",
+        "description": "長線方案"
+      },
+      {
+        "name": "formula_d",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "充能套，部分環境適用"
+      },
+      {
+        "name": "formula_e",
+        "first": "turning_zero",
+        "second": "paradise_regained",
+        "third": "paradise_regained",
+        "description": "作為增傷輔助可以攜帶復樂園減少破核壓力，工具人套件之一"
+      },
+      {
+        "name": "formula_f",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation"
+      },
+      {
         "name": "formula_g",
         "first": "soul_rift",
         "second": "soul_rift",
-        "third": "final_prologue",
-        "description": "長線方案"
+        "third": "final_prologue"
       }
     ]
   },
@@ -4858,38 +4851,38 @@
     "crimebrands": [
       {
         "name": "formula_a",
-        "emphasis": true,
-        "first": "justice",
-        "second": "justice",
-        "third": "corridor_echo",
-        "description": "替補方案<br>大招 CD 較快，作為減速工具人可以頻繁觸發正義套裝效果"
-      },
-      {
-        "name": "formula_b",
-        "first": "nightmare_revelation",
-        "second": "hope",
-        "third": "nightmare_revelation"
-      },
-      {
-        "name": "formula_c",
         "first": "turning_zero",
         "second": "paradise_regained",
         "third": "paradise_regained",
         "description": "短線方案"
       },
       {
-        "name": "formula_d",
-        "first": "turning_zero",
-        "second": "hope",
-        "third": "corridor_echo",
-        "description": "競速工具人套件適用"
-      },
-      {
-        "name": "formula_e",
+        "name": "formula_b",
         "first": "soul_rift",
         "second": "soul_rift",
         "third": "corridor_echo",
         "description": "長線方案"
+      },
+      {
+        "name": "formula_c",
+        "first": "justice",
+        "second": "justice",
+        "third": "corridor_echo",
+        "description": "替補方案<br>大招 CD 較快，作為減速工具人可以頻繁觸發正義套裝效果"
+      },
+      {
+        "name": "formula_d",
+        "first": "nightmare_revelation",
+        "second": "hope",
+        "third": "nightmare_revelation",
+        "description": "競速工具人套件適用"
+      },
+      {
+        "name": "formula_e",
+        "first": "turning_zero",
+        "second": "hope",
+        "third": "corridor_echo",
+        "description": "充能套，部分環境適用"
       }
     ]
   }

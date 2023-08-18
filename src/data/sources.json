@@ -1,17 +1,8 @@
 [
   {
-    "name": "綜合攻略",
-    "author": "何二维一",
-    "link": "https://b23.tv/Xq5RUSV",
-    "complementary": {
-      "name": "(巴哈版)",
-      "link": "https://forum.gamer.com.tw/C.php?bsn=75802&snA=1367&tnum=1&subbsn=12"
-    }
-  },
-  {
-    "name": "烙印推薦",
+    "name": "全角色烙印推荐 V5.0",
     "author": "MBCC战略分析组",
-    "link": "https://b23.tv/Ga7DqKJ"
+    "link": "https://t.bilibili.com/814843403012407337"
   },
   {
     "name": "全角色烙印推薦 2.0",
@@ -19,19 +10,14 @@
     "link": "https://b23.tv/EQqzoVm"
   },
   {
-    "name": "全角色烙印推薦",
+    "name": "狂级角色专烙开启推荐 1.0",
     "author": "啊颓Yyan",
-    "link": "https://b23.tv/Mv7iyj4"
+    "link": "https://t.bilibili.com/823731507121094691"
   },
   {
-    "name": "技能升級推薦 4.0",
-    "author": "啊颓Yyan",
-    "link": "https://t.bilibili.com/827756458421518449"
-  },
-  {
-    "name": "狂级角色的枷锁推荐",
-    "author": "啊颓Yyan",
-    "link": "https://t.bilibili.com/831195464514666521"
+    "name": "狂级角色专烙开启优先级推荐",
+    "author": "老袜不是老袜",
+    "link": "https://t.bilibili.com/831340840813068304"
   },
   {
     "name": "專烙開啟推薦 2.0",
@@ -39,8 +25,22 @@
     "link": "https://b23.tv/HdcDRAE"
   },
   {
-    "name": "狂级角色专烙开启推荐 1.0",
+    "name": "技能升級推薦 4.0",
     "author": "啊颓Yyan",
-    "link": "https://t.bilibili.com/823731507121094691"
+    "link": "https://t.bilibili.com/827756458421518449"
+  },
+  {
+    "name": "狂级枷锁推荐 2.0",
+    "author": "啊颓Yyan",
+    "link": "https://t.bilibili.com/831195464514666521"
+  },
+  {
+    "name": "綜合攻略",
+    "author": "何二维一",
+    "link": "https://b23.tv/Xq5RUSV",
+    "complementary": {
+      "name": "(巴哈版)",
+      "link": "https://forum.gamer.com.tw/C.php?bsn=75802&snA=1367&tnum=1&subbsn=12"
+    }
   }
 ]
