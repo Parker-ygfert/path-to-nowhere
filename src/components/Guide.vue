@@ -127,6 +127,8 @@
     <div class="detail font-18">
       到
       <a href="https://b23.tv/DvDVmbc" target="_blank">https://b23.tv/DvDVmbc</a>
+      或
+      <a href="https://docs.qq.com/sheet/DUmprRlBnRlhJallM?tab=BB08J2" target="_blank">https://docs.qq.com/sheet/DUmprRlBnRlhJallM?tab=BB08J2</a>
       看選項
     </div>
   </div>

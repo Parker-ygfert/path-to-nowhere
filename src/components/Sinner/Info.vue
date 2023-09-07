@@ -46,7 +46,7 @@
             </td>
           </tr>
 
-          <template v-if="isPresent(sinner.exclusive_priority)">
+          <template v-if="!isEmptyObject(sinner.exclusive_priority)">
             <tr>
               <th scope="row" valign="middle" class="text-nowrap">
                 {{ $t('exclusive_priority') }}
@@ -195,5 +195,9 @@ const decode = html => {
 
 const isPresent = text => {
   return text !== undefined && text !== null
+}
+
+const isEmptyObject = obj => {
+  return Object.keys(obj).length === 0
 }
 </script>

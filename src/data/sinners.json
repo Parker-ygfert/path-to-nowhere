@@ -1715,6 +1715,11 @@
       }
     ]
   },
+  "mantis": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E6%9B%BC%E7%BC%87%E6%96%AF",
+    "job": "umbra",
+    "exclusive_priority": {}
+  },
   "adela": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E9%98%BF%E9%BB%9B%E6%8B%89",
     "job": "umbra",
@@ -2579,9 +2584,9 @@
       { "map": "dis_shadows", "strength": "T0" }
     ],
     "skills": [
-      { "skill": 1, "order": 2, "interim": 7, "level": 10 },
-      { "skill": 2, "order": 1, "interim": 7, "level": 10 },
-      { "skill": 3, "order": 4, "interim": 7, "level": 10 },
+      { "skill": 1, "order": 2, "interim": "7|8", "level": 10 },
+      { "skill": 2, "order": 1, "interim": "7|8", "level": 10 },
+      { "skill": 3, "order": 4, "interim": 7, "level": "9|10" },
       { "skill": 4, "order": 3, "interim": 8, "level": 9 }
     ],
     "crimebrands": [
@@ -2618,6 +2623,10 @@
       { "name": "五毒巫毒", "link": "https://www.bilibili.com/video/BV1ba4y157xe" },
       { "name": "蕭蕭愁懷", "link": "https://www.bilibili.com/video/BV1nm4y117kA" }
     ],
+    "tags": [
+      "<strong style='color: #f1aeb5;'>流血體系的最終兵器</strong>",
+      "<strong>九宮格遠程破核手</strong>"
+    ],
     "qualitative_shackles": "1、4",
     "recommended_shackle": 1,
     "supplement_shackles": [
@@ -2628,8 +2637,8 @@
       "level": "1|3"
     },
     "skills": [
-      { "skill": 1, "order": 4, "interim": 7, "level": 9 },
-      { "skill": 2, "order": 2, "interim": 7, "level": 10 },
+      { "skill": 1, "order": 4, "interim": "5|7", "level": "7|9" },
+      { "skill": 2, "order": 2, "interim": "7|8", "level": 10 },
       { "skill": 3, "order": 3, "interim": 7, "level": 9 },
       { "skill": 4, "order": 1, "interim": 7, "level": 9 }
     ],
@@ -4354,6 +4363,11 @@
         "third": "paradise_regained"
       }
     ]
+  },
+  "cassia": {
+    "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E5%8D%A1%E8%A5%BF%E5%A8%85",
+    "job": "catalyst",
+    "exclusive_priority": {}
   },
   "letta": {
     "wiki": "https://wiki.biligame.com/wqmt/%E7%A6%81%E9%97%AD%E8%80%85:%E8%8E%B1%E5%A1%94",

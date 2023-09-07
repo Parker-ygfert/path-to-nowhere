@@ -130,6 +130,11 @@
   ],
   "umbra": [
     {
+      "name": "mantis",
+      "rank": "S",
+      "core": true
+    },
+    {
       "name": "adela",
       "rank": "S",
       "core": true
@@ -323,6 +328,11 @@
     {
       "name": "hamel",
       "rank": "S",
+      "core": false
+    },
+    {
+      "name": "cassia",
+      "rank": "A",
       "core": false
     },
     {
